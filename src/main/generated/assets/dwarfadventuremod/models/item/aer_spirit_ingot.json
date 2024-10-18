@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dwarfadventuremod:item/aer_spirit_ingot"
+  }
+}

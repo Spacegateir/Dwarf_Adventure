@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:dwarf_anvil_ground"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "R": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "pattern": [
+    " A ",
+    "RRR",
+    "RLR"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_anvil"
+  },
+  "show_notification": true
+}

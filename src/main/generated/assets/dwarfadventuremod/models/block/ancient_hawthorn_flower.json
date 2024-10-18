@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dwarfadventuremod:block/ancient_hawthorn_flower"
+  }
+}

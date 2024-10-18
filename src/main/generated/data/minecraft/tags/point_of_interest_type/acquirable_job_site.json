@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "dwarfadventuremod:benchpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:potpoi",
+      "required": false
+    }
+  ]
+}

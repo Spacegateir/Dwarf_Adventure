@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "dwarfadventuremod:dwarf_steel_pickaxe_head"
+    },
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:hot_ingot"
+    }
+  },
+  "pattern": [
+    "DID",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:lvl1_dwarf_pickaxe"
+  },
+  "show_notification": true
+}

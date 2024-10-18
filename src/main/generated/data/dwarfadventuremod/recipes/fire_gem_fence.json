@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:ancient_branch"
+    },
+    "F": {
+      "item": "dwarfadventuremod:fire_gem_block"
+    }
+  },
+  "pattern": [
+    "FBF",
+    "FBF"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:fire_gem_fence"
+  },
+  "show_notification": true
+}

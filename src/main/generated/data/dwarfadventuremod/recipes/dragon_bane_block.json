@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "dwarfadventuremod:dragon_bane_ingot"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dragon_bane_block"
+  },
+  "show_notification": true
+}

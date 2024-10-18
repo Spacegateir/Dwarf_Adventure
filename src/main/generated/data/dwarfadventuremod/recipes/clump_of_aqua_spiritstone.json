@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:arcane_powder"
+    },
+    "G": {
+      "item": "dwarfadventuremod:raw_dwarf_gold"
+    },
+    "R": {
+      "item": "dwarfadventuremod:water_gem"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "RGR",
+    "AAA"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:clump_of_aqua_spiritstone"
+  },
+  "show_notification": true
+}

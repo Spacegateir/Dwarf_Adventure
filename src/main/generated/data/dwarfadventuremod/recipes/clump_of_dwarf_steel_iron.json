@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:arcane_powder"
+    },
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CIC",
+    "ACA"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:clump_of_dwarf_steel"
+  },
+  "show_notification": true
+}

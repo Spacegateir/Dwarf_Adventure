@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:decorated_pot"
+    },
+    "G": {
+      "item": "dwarfadventuremod:garden_pot"
+    },
+    "P": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PDP",
+    " G "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:garden_potted_pot"
+  },
+  "show_notification": true
+}

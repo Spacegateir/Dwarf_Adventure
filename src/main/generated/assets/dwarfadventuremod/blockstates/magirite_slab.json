@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/magirite_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/magirite_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/magirite_slab_top"
+    }
+  }
+}

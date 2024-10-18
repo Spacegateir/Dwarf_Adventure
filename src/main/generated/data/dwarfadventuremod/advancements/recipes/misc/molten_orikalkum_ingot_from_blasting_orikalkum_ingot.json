@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_orikalkum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:orikalkum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:molten_orikalkum_ingot_from_blasting_orikalkum_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_orikalkum_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:molten_orikalkum_ingot_from_blasting_orikalkum_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:ancient_branch"
+    },
+    "W": {
+      "item": "dwarfadventuremod:wind_gem_block"
+    }
+  },
+  "pattern": [
+    "WBW",
+    "WBW"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:wind_gem_fence"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.75,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:clump_of_magirite"
+  },
+  "result": "dwarfadventuremod:molten_magirite_ingot"
+}

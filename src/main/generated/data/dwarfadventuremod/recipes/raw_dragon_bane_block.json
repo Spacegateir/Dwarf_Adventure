@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "dwarfadventuremod:raw_dragon_bane"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "EEE",
+    "EEE"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:raw_dragon_bane_block"
+  },
+  "show_notification": true
+}

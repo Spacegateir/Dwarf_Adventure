@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye_recipes",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:ancient_dahlia_flower"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:brown_dye"
+  }
+}

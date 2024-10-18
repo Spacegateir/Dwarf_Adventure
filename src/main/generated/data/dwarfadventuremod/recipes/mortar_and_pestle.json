@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "  D",
+    "DDD",
+    " D "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:mortar_and_pestle"
+  },
+  "show_notification": true
+}

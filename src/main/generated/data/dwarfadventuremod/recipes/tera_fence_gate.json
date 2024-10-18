@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:tera_spirit_nugget"
+    },
+    "W": {
+      "item": "dwarfadventuremod:tera_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "BWB",
+    "BWB"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:tera_fence_gate"
+  },
+  "show_notification": true
+}

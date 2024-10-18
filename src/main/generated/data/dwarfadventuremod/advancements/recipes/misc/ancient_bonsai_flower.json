@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_corrupt_bonsai_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:corrupt_bonsai_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_glimmer_root": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:glimmer_root"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:ancient_bonsai_flower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_corrupt_bonsai_flower",
+      "has_glimmer_root",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:ancient_bonsai_flower"
+    ]
+  },
+  "sends_telemetry_event": false
+}

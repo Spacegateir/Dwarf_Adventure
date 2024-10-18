@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:ancient_branch"
+    },
+    "E": {
+      "item": "dwarfadventuremod:earth_gem_block"
+    }
+  },
+  "pattern": [
+    "EBE",
+    "EBE"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:earth_gem_fence"
+  },
+  "show_notification": true
+}

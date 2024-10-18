@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "dwarfadventuremod:aqua_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "count": 6,
+    "item": "dwarfadventuremod:aqua_wall"
+  },
+  "show_notification": true
+}

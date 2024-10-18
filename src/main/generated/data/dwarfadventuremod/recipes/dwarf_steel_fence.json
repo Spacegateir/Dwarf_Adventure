@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:dwarf_steel_ingot"
+    },
+    "N": {
+      "item": "dwarfadventuremod:dwarf_steel_nugget"
+    }
+  },
+  "pattern": [
+    "INI",
+    "INI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:dwarf_steel_fence"
+  },
+  "show_notification": true
+}

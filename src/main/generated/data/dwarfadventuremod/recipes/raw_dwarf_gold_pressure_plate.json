@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:raw_dwarf_gold"
+    }
+  },
+  "pattern": [
+    "II"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:raw_dwarf_gold_pressure_plate"
+  },
+  "show_notification": true
+}

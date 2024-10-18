@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dwarfadventuremod:block/corrupt_primrose_flower"
+  }
+}

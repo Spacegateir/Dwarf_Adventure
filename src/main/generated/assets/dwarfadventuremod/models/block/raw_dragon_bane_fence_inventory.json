@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "dwarfadventuremod:block/raw_dragon_bane_block"
+  }
+}

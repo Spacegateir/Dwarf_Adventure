@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "dwarfadventuremod:earth_gem_block"
+    }
+  },
+  "pattern": [
+    "EEE"
+  ],
+  "result": {
+    "count": 6,
+    "item": "dwarfadventuremod:earth_gem_slab"
+  },
+  "show_notification": true
+}

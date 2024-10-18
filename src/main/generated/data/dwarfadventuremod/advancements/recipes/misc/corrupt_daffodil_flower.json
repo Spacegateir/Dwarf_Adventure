@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_corrupt_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:corrupt_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_daffodil_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:daffodil_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:corrupt_daffodil_flower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_daffodil_flower",
+      "has_corrupt_gem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:corrupt_daffodil_flower"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "dwarfadventuremod:block/large_mythril_bud"
+  }
+}

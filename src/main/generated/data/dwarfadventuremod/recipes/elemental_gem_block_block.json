@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "dwarfadventuremod:earth_gem_block"
+    },
+    "F": {
+      "item": "dwarfadventuremod:fire_gem_block"
+    },
+    "O": {
+      "item": "dwarfadventuremod:water_gem_block"
+    },
+    "W": {
+      "item": "dwarfadventuremod:wind_gem_block"
+    }
+  },
+  "pattern": [
+    " F ",
+    "WDO",
+    " E "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:elemental_gem_block"
+  },
+  "show_notification": true
+}

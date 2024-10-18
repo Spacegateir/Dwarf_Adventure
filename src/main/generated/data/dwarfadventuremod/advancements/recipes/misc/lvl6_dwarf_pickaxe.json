@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_enhanced_golem_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:enhanced_golem_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:elemental_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:molten_orikalkum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:lvl5_dwarf_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lvl6_dwarf_pickaxe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pickaxe",
+      "has_gem",
+      "has_ingot",
+      "has_enhanced_golem_core",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lvl6_dwarf_pickaxe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

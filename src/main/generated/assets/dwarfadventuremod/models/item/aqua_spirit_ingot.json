@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dwarfadventuremod:item/aqua_spirit_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:raw_dragon_bane"
+    },
+    "N": {
+      "item": "dwarfadventuremod:ancient_branch"
+    }
+  },
+  "pattern": [
+    "INI",
+    "INI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:raw_dragon_bane_fence"
+  },
+  "show_notification": true
+}

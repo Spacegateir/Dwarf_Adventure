@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:arcane_powder"
+    },
+    "C": {
+      "item": "dwarfadventuremod:ancestral_forge_coal"
+    },
+    "R": {
+      "item": "dwarfadventuremod:raw_adamantite"
+    }
+  },
+  "pattern": [
+    "ACA",
+    "CRC",
+    "ACA"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:clump_of_adamantite"
+  },
+  "show_notification": true
+}

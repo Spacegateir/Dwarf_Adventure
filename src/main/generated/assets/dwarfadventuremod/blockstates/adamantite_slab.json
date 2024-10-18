@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/adamantite_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/adamantite_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/adamantite_slab_top"
+    }
+  }
+}

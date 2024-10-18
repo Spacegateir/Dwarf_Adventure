@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.75,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:dragon_bane_ingot"
+  },
+  "result": "dwarfadventuremod:molten_dragon_bane_ingot"
+}

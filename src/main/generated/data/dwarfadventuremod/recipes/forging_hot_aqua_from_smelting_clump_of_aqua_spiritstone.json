@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:clump_of_aqua_spiritstone"
+  },
+  "result": "dwarfadventuremod:forging_hot_aqua"
+}

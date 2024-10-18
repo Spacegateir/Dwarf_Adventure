@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "dwarfadventuremod:block/wind_gem_block"
+  }
+}

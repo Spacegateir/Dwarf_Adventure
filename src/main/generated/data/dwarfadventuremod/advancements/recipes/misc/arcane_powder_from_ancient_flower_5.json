@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ancient_flower": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "dwarfadventuremod:ancient_flower"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_mortar_and_pestle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:mortar_and_pestle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "dwarfadventuremod:arcane_powder_from_ancient_flower_5"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mortar_and_pestle",
+      "has_ancient_flower",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dwarfadventuremod:arcane_powder_from_ancient_flower_5"
+    ]
+  },
+  "sends_telemetry_event": false
+}

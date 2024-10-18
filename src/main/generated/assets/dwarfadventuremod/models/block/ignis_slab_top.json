@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/ignis_block",
+    "side": "dwarfadventuremod:block/ignis_block",
+    "top": "dwarfadventuremod:block/ignis_block"
+  }
+}

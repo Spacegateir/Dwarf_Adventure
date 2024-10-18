@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "dwarfadventuremod:elemental_gem"
+    }
+  },
+  "pattern": [
+    "EE",
+    "EE"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:elemental_gem_block"
+  },
+  "show_notification": true
+}

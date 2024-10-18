@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_post",
+  "textures": {
+    "wall": "dwarfadventuremod:block/water_gem_block"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aer_spirit_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:aer_spirit_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:forging_hot_aer_from_blasting_aer_spirit_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_aer_spirit_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:forging_hot_aer_from_blasting_aer_spirit_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

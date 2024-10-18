@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:aqua_spirit_ingot"
+  },
+  "result": "dwarfadventuremod:forging_hot_aer"
+}

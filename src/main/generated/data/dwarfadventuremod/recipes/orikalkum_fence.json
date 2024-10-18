@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:orikalkum_ingot"
+    },
+    "N": {
+      "item": "dwarfadventuremod:orikalkum_nugget"
+    }
+  },
+  "pattern": [
+    "INI",
+    "INI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:orikalkum_fence"
+  },
+  "show_notification": true
+}

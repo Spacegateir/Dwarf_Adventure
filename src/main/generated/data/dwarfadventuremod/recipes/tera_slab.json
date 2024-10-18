@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "dwarfadventuremod:tera_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "WWW"
+  ],
+  "result": {
+    "count": 6,
+    "item": "dwarfadventuremod:tera_slab"
+  },
+  "show_notification": true
+}

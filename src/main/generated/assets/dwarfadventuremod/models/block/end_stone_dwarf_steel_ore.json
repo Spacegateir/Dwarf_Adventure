@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dwarfadventuremod:block/end_stone_dwarf_steel_ore"
+  }
+}

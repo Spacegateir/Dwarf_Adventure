@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_decorated_pot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:decorated_pot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flower_pot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:flower_pot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_garden_pot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:garden_pot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:garden_potted_pot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_garden_pot",
+      "has_decorated_pot",
+      "has_flower_pot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:garden_potted_pot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

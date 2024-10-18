@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dye_recipes",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:ancient_hawthorn_flower"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:light_gray_dye"
+  }
+}

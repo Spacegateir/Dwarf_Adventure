@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mythril": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:mythril"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pureficated_mythril_from_blasting_mythril"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_mythril",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pureficated_mythril_from_blasting_mythril"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "dwarfadventuremod:ignis_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "WW",
+    "WW"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:ignis_block"
+  },
+  "show_notification": true
+}

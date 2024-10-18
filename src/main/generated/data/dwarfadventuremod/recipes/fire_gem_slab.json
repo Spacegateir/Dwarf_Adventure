@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "dwarfadventuremod:fire_gem_block"
+    }
+  },
+  "pattern": [
+    "FFF"
+  ],
+  "result": {
+    "count": 6,
+    "item": "dwarfadventuremod:fire_gem_slab"
+  },
+  "show_notification": true
+}

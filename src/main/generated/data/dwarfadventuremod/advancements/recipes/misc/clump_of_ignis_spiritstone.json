@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_arcane_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:arcane_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ignis_spiritstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:fire_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:clump_of_ignis_spiritstone"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_coal",
+      "has_ignis_spiritstone",
+      "has_arcane_powder",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:clump_of_ignis_spiritstone"
+    ]
+  },
+  "sends_telemetry_event": false
+}

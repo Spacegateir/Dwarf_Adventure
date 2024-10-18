@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_corrupt_iris_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:corrupt_iris_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:pink_dye_from_corrupt_iris_flower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_corrupt_iris_flower",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:pink_dye_from_corrupt_iris_flower"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dwarf_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:dwarf_gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:dwarf_gold_nugget_from_dwarf_gold_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dwarf_gold_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dwarf_gold_nugget_from_dwarf_gold_ingot"
+    ]
+  },
+  "sends_telemetry_event": false
+}

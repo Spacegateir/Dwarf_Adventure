@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/raw_orikalkum_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/raw_orikalkum_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/raw_orikalkum_slab_top"
+    }
+  }
+}

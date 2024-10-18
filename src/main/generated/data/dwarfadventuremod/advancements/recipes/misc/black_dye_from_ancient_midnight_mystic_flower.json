@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ancient_midnight_mystic_flower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:ancient_midnight_mystic_flower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:black_dye_from_ancient_midnight_mystic_flower"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_ancient_midnight_mystic_flower",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:black_dye_from_ancient_midnight_mystic_flower"
+    ]
+  },
+  "sends_telemetry_event": false
+}

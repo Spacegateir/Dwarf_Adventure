@@ -1,0 +1,61 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_arcane_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:arcane_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_coal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:coal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_dwarf_gold": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:raw_dwarf_gold"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:clump_of_dwarf_gold_dwarf"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_coal",
+      "has_dwarf_gold",
+      "has_arcane_powder",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:clump_of_dwarf_gold_dwarf"
+    ]
+  },
+  "sends_telemetry_event": false
+}

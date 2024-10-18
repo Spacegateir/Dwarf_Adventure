@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "M": {
+      "item": "dwarfadventuremod:mythril"
+    }
+  },
+  "pattern": [
+    " M ",
+    "MGM",
+    " M "
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:tinted_glass"
+  },
+  "show_notification": true
+}

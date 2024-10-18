@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/aer_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/aer_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/aer_slab_top"
+    }
+  }
+}

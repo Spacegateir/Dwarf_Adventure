@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "dwarfadventuremod:earth_gem"
+    }
+  },
+  "pattern": [
+    "EE"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:earth_gem_pressure_plate"
+  },
+  "show_notification": true
+}

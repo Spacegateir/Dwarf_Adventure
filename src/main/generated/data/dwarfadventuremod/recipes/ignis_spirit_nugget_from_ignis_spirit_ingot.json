@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dwarf_adventure",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:ignis_spirit_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "dwarfadventuremod:ignis_spirit_nugget"
+  }
+}

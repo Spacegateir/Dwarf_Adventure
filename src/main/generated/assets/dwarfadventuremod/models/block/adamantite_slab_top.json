@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/adamantite_block",
+    "side": "dwarfadventuremod:block/adamantite_block",
+    "top": "dwarfadventuremod:block/adamantite_block"
+  }
+}

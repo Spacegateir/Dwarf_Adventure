@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:dwarf_steel_wall",
+    "dwarfadventuremod:raw_dwarf_steel_wall",
+    "dwarfadventuremod:wind_gem_wall",
+    "dwarfadventuremod:aer_wall",
+    "dwarfadventuremod:fire_gem_wall",
+    "dwarfadventuremod:ignis_wall",
+    "dwarfadventuremod:water_gem_wall",
+    "dwarfadventuremod:aqua_wall",
+    "dwarfadventuremod:earth_gem_wall",
+    "dwarfadventuremod:tera_wall",
+    "dwarfadventuremod:elemental_gem_wall",
+    "dwarfadventuremod:magirite_wall",
+    "dwarfadventuremod:raw_magirite_wall",
+    "dwarfadventuremod:mythril_wall",
+    "dwarfadventuremod:adamantite_wall",
+    "dwarfadventuremod:raw_adamantite_wall",
+    "dwarfadventuremod:orikalkum_wall",
+    "dwarfadventuremod:raw_orikalkum_wall",
+    "dwarfadventuremod:dragon_bane_wall",
+    "dwarfadventuremod:raw_dragon_bane_wall",
+    "dwarfadventuremod:dwarf_gold_wall",
+    "dwarfadventuremod:raw_dwarf_gold_wall"
+  ]
+}

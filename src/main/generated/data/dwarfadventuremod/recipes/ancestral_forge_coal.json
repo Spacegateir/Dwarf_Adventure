@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "F": {
+      "item": "dwarfadventuremod:fire_gem"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CFC",
+    "CCC"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:ancestral_forge_coal"
+  },
+  "show_notification": true
+}

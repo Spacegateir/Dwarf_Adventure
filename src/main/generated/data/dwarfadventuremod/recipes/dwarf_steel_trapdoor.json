@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:dwarf_steel_ingot"
+    }
+  },
+  "pattern": [
+    "II",
+    "II"
+  ],
+  "result": {
+    "count": 3,
+    "item": "dwarfadventuremod:dwarf_steel_trapdoor"
+  },
+  "show_notification": true
+}

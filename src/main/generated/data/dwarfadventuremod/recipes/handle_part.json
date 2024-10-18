@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:ancient_branch"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "  B",
+    " B ",
+    "L  "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:handle_part"
+  },
+  "show_notification": true
+}

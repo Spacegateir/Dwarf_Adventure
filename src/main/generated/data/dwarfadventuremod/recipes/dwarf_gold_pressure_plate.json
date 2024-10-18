@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:dwarf_gold_ingot"
+    }
+  },
+  "pattern": [
+    "II"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_gold_pressure_plate"
+  },
+  "show_notification": true
+}

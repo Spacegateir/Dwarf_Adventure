@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:blue_wool"
+    },
+    "P": {
+      "item": "minecraft:flower_pot"
+    },
+    "R": {
+      "item": "minecraft:red_wool"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "BBR",
+    "S S"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:garden_bench"
+  },
+  "show_notification": true
+}

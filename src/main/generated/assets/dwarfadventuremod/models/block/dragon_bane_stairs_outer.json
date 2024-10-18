@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/dragon_bane_block",
+    "side": "dwarfadventuremod:block/dragon_bane_block",
+    "top": "dwarfadventuremod:block/dragon_bane_block"
+  }
+}

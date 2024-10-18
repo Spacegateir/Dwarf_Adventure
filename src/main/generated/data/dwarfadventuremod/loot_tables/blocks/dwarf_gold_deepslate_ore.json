@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "dwarfadventuremod:dwarf_gold_deepslate_ore"
+            },
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": [
+                      "dwarfadventuremod:lvl1_dwarf_pickaxe",
+                      "dwarfadventuremod:lvl2_dwarf_pickaxe",
+                      "dwarfadventuremod:lvl3_dwarf_pickaxe",
+                      "dwarfadventuremod:lvl4_dwarf_pickaxe",
+                      "dwarfadventuremod:lvl5_dwarf_pickaxe",
+                      "dwarfadventuremod:lvl6_dwarf_pickaxe"
+                    ]
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "add": false,
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "max": 4.0,
+                    "min": 1.0
+                  },
+                  "function": "minecraft:set_count"
+                },
+                {
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops",
+                  "function": "minecraft:apply_bonus"
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ],
+              "name": "dwarfadventuremod:raw_dwarf_gold"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

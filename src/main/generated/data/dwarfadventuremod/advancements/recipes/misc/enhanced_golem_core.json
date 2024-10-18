@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_golem_core": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:golem_core"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_molten_dwarf_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:molten_dwarf_gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_molten_orikalkum_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:molten_orikalkum_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pureficated_mythril": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:pureficated_mythril"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:enhanced_golem_core"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pureficated_mythril",
+      "has_molten_dwarf_gold_ingot",
+      "has_golem_core",
+      "has_molten_orikalkum_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:enhanced_golem_core"
+    ]
+  },
+  "sends_telemetry_event": false
+}

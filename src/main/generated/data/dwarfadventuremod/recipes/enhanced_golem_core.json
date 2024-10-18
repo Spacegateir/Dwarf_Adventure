@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "dwarfadventuremod:golem_core"
+    },
+    "G": {
+      "item": "dwarfadventuremod:molten_dwarf_gold_ingot"
+    },
+    "M": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    },
+    "O": {
+      "item": "dwarfadventuremod:molten_orikalkum_ingot"
+    }
+  },
+  "pattern": [
+    " M ",
+    "GCG",
+    "OGO"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:enhanced_golem_core"
+  },
+  "show_notification": true
+}

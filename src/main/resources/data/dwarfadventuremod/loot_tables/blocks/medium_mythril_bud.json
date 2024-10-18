@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "enchantments": [
+              {
+                "enchantment": "minecraft:silk_touch",
+                "levels": {
+                  "min": 1
+                }
+              }
+            ],
+            "items": [
+              "dwarfadventuremod:lvl4_dwarf_pickaxe",
+              "dwarfadventuremod:lvl5_dwarf_pickaxe",
+              "dwarfadventuremod:lvl6_dwarf_pickaxe"
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "dwarfadventuremod:medium_mythril_bud"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:clump_of_tera_spiritstone"
+  },
+  "result": "dwarfadventuremod:forging_hot_tera"
+}

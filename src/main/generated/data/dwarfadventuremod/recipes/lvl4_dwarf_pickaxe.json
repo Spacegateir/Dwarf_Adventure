@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    },
+    "P": {
+      "item": "dwarfadventuremod:lvl3_dwarf_pickaxe"
+    },
+    "W": {
+      "item": "dwarfadventuremod:warden_hide"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " P ",
+    " W "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:lvl4_dwarf_pickaxe"
+  },
+  "show_notification": true
+}

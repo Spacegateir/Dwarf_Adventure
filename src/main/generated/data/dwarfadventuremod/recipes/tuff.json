@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:cobbled_deepslate"
+    },
+    "G": {
+      "item": "minecraft:gravel"
+    }
+  },
+  "pattern": [
+    "CG",
+    "GC"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:tuff"
+  },
+  "show_notification": true
+}

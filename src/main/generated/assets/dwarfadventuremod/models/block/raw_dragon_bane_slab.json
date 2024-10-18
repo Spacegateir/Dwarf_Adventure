@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/raw_dragon_bane_block",
+    "side": "dwarfadventuremod:block/raw_dragon_bane_block",
+    "top": "dwarfadventuremod:block/raw_dragon_bane_block"
+  }
+}

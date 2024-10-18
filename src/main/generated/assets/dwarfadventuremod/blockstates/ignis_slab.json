@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/ignis_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/ignis_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/ignis_slab_top"
+    }
+  }
+}

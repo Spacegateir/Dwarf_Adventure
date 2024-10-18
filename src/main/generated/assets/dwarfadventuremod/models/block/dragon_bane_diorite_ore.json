@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dwarfadventuremod:block/dragon_bane_diorite_ore"
+  }
+}

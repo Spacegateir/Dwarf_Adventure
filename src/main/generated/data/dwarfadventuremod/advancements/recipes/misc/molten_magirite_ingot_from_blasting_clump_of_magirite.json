@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_clump_of_magirite": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:clump_of_magirite"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:molten_magirite_ingot_from_blasting_clump_of_magirite"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_clump_of_magirite",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:molten_magirite_ingot_from_blasting_clump_of_magirite"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "dwarfadventuremod:block/small_mythril_bud",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "dwarfadventuremod:block/small_mythril_bud",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dwarfadventuremod:block/small_mythril_bud",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "dwarfadventuremod:block/small_mythril_bud",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "dwarfadventuremod:block/small_mythril_bud"
+    },
+    "facing=west": {
+      "model": "dwarfadventuremod:block/small_mythril_bud",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

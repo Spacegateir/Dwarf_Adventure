@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.25,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:clump_of_adamantite"
+  },
+  "result": "dwarfadventuremod:molten_adamantite_ingot"
+}

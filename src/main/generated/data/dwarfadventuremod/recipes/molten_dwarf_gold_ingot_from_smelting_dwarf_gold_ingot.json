@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:dwarf_gold_ingot"
+  },
+  "result": "dwarfadventuremod:molten_dwarf_gold_ingot"
+}

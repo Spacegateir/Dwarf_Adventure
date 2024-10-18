@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "dwarfadventuremod:molten_adamantite_ingot"
+    },
+    "P": {
+      "item": "dwarfadventuremod:lvl4_dwarf_pickaxe"
+    },
+    "W": {
+      "item": "dwarfadventuremod:thaloruns_soulstone"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " P ",
+    " W "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:lvl5_dwarf_pickaxe"
+  },
+  "show_notification": true
+}

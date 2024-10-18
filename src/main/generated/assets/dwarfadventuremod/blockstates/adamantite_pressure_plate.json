@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "dwarfadventuremod:block/adamantite_pressure_plate"
+    },
+    "powered=true": {
+      "model": "dwarfadventuremod:block/adamantite_pressure_plate_down"
+    }
+  }
+}

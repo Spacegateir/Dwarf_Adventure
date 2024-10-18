@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aer_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:aer_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aer_spirit_ingot_from_aer_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_aer_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aer_spirit_ingot_from_aer_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

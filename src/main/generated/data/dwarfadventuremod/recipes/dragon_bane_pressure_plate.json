@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:dragon_bane_ingot"
+    }
+  },
+  "pattern": [
+    "II"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dragon_bane_pressure_plate"
+  },
+  "show_notification": true
+}

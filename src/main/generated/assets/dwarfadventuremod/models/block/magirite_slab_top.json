@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/magirite_block",
+    "side": "dwarfadventuremod:block/magirite_block",
+    "top": "dwarfadventuremod:block/magirite_block"
+  }
+}

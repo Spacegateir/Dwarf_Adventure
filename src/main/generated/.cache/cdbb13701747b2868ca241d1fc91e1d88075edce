@@ -1,0 +1,15 @@
+// 1.20.1	2024-10-18T00:22:50.1060824	Dwarf Adventure Mod/Tags for minecraft:block
+0ca760f3738cec1f40faeb812be34930b0f3de4f data\minecraft\tags\blocks\fence_gates.json
+660536b05b143f7e116966aa10cf4b63ac330562 data\fabric\tags\blocks\needs_tool_level_3.json
+1724286a853033419cb37692f28cb8383f77dbcb data\fabric\tags\blocks\needs_tool_level_5.json
+5b86933d59907c18dca81e87056bd2f0fd326a2c data\fabric\tags\blocks\needs_tool_level_2.json
+e2965c374107b633f4bb680883dfd47616d0ea68 data\minecraft\tags\blocks\walls.json
+44bbb1499559559ee5363a3868d813358a574be5 data\minecraft\tags\blocks\mineable\pickaxe.json
+6c8eabaaa73e49ccad565f82f25d06758ede2a85 data\fabric\tags\blocks\needs_tool_level_7.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\shovel.json
+ae94298dd9d57861b5df4a8207b97b849387cdf6 data\fabric\tags\blocks\needs_tool_level_4.json
+407fc35525c56e46157ec0f39e02b9293d418782 data\fabric\tags\blocks\needs_tool_level_8.json
+c248cbfc99084dec29eb09fc845b279cc93bf19a data\minecraft\tags\blocks\fences.json
+4b549ca7a725fa01bd4f30a37b9a8f99927e3c64 data\minecraft\tags\blocks\mineable\axe.json
+8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\hoe.json
+d44d8e544749334f409c638d414367fb5933ee02 data\fabric\tags\blocks\needs_tool_level_6.json

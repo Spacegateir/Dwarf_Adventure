@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dwarfadventuremod:block/large_mythril_bud"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dwarf_adventure",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:dwarf_steel_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "dwarfadventuremod:dwarf_steel_nugget"
+  }
+}

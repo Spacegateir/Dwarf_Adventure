@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "textures": {
+    "plant": "dwarfadventuremod:block/midnight_mystic_flower"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "dwarfadventuremod:tera_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "WW"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:tera_pressure_plate"
+  },
+  "show_notification": true
+}

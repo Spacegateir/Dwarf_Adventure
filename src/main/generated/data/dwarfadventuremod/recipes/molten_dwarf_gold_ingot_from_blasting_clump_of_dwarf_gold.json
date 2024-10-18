@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2.0,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:clump_of_dwarf_gold"
+  },
+  "result": "dwarfadventuremod:molten_dwarf_gold_ingot"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:magirite_ingot"
+    },
+    "N": {
+      "item": "dwarfadventuremod:magirite_nugget"
+    }
+  },
+  "pattern": [
+    "NIN",
+    "NIN"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:magirite_fence_gate"
+  },
+  "show_notification": true
+}

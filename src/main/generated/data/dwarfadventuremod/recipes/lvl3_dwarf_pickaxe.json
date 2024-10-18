@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "dwarfadventuremod:molten_magirite_ingot"
+    },
+    "P": {
+      "item": "dwarfadventuremod:lvl2_dwarf_pickaxe"
+    },
+    "W": {
+      "item": "dwarfadventuremod:wither_bone"
+    }
+  },
+  "pattern": [
+    "MMM",
+    " P ",
+    " W "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:lvl3_dwarf_pickaxe"
+  },
+  "show_notification": true
+}

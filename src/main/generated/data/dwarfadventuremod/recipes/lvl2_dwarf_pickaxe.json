@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:aer_spirit_ingot"
+    },
+    "E": {
+      "item": "dwarfadventuremod:tera_spirit_ingot"
+    },
+    "F": {
+      "item": "dwarfadventuremod:ignis_spirit_ingot"
+    },
+    "G": {
+      "item": "dwarfadventuremod:molten_dwarf_gold_ingot"
+    },
+    "H": {
+      "item": "dwarfadventuremod:hearthstone_of_borrum"
+    },
+    "P": {
+      "item": "dwarfadventuremod:lvl1_dwarf_pickaxe"
+    },
+    "W": {
+      "item": "dwarfadventuremod:aqua_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "AGW",
+    "FPE",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:lvl2_dwarf_pickaxe"
+  },
+  "show_notification": true
+}

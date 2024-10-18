@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "dwarfadventuremod:block/mythril_cluster",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "dwarfadventuremod:block/mythril_cluster",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "dwarfadventuremod:block/mythril_cluster",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "dwarfadventuremod:block/mythril_cluster",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "dwarfadventuremod:block/mythril_cluster"
+    },
+    "facing=west": {
+      "model": "dwarfadventuremod:block/mythril_cluster",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

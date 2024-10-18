@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/aqua_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/aqua_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/aqua_slab_top"
+    }
+  }
+}

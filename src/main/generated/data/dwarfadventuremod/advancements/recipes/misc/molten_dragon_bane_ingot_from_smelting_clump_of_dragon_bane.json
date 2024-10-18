@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_clump_of_dragon_bane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:clump_of_dragon_bane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:molten_dragon_bane_ingot_from_smelting_clump_of_dragon_bane"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_clump_of_dragon_bane",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:molten_dragon_bane_ingot_from_smelting_clump_of_dragon_bane"
+    ]
+  },
+  "sends_telemetry_event": false
+}

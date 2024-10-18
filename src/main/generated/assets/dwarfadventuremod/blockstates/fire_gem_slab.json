@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/fire_gem_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/fire_gem_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/fire_gem_slab_top"
+    }
+  }
+}

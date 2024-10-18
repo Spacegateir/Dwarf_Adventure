@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/tera_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/tera_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/tera_slab_top"
+    }
+  }
+}

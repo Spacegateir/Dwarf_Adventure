@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "dwarfadventuremod:mythril"
+    },
+    "M": {
+      "item": "dwarfadventuremod:mythril_block"
+    }
+  },
+  "pattern": [
+    "MGM",
+    "MGM"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:mythril_fence"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "W": {
+      "item": "dwarfadventuremod:aqua_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "WW"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:aqua_pressure_plate"
+  },
+  "show_notification": true
+}

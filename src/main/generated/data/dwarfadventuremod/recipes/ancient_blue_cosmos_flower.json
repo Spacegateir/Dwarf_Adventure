@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "dwarfadventuremod:corrupt_blue_cosmos_flower"
+    },
+    "G": {
+      "item": "dwarfadventuremod:glimmer_root"
+    }
+  },
+  "pattern": [
+    " F ",
+    "FGF",
+    " F "
+  ],
+  "result": {
+    "count": 2,
+    "item": "dwarfadventuremod:ancient_blue_cosmos_flower"
+  },
+  "show_notification": true
+}

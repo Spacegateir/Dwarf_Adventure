@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:mythril_block",
+    "dwarfadventuremod:mythril_stairs",
+    "dwarfadventuremod:mythril_slab",
+    "dwarfadventuremod:mythril_button",
+    "dwarfadventuremod:mythril_pressure_plate",
+    "dwarfadventuremod:mythril_fence",
+    "dwarfadventuremod:mythril_fence_gate",
+    "dwarfadventuremod:mythril_wall",
+    "dwarfadventuremod:mythril_door",
+    "dwarfadventuremod:mythril_trapdoor",
+    "dwarfadventuremod:adamantite_stone_ore",
+    "dwarfadventuremod:adamantite_deepslate_ore",
+    "dwarfadventuremod:adamantite_netherrack_ore",
+    "dwarfadventuremod:adamantite_end_stone_ore",
+    "dwarfadventuremod:adamantite_andesite_ore",
+    "dwarfadventuremod:adamantite_diorite_ore",
+    "dwarfadventuremod:adamantite_granite_ore"
+  ]
+}

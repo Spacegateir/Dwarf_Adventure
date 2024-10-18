@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "dwarfadventuremod:mythril"
+    },
+    "M": {
+      "item": "dwarfadventuremod:mythril_block"
+    }
+  },
+  "pattern": [
+    "GMG",
+    "GMG"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:mythril_fence_gate"
+  },
+  "show_notification": true
+}

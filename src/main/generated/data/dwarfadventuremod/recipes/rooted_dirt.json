@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "R": {
+      "item": "dwarfadventuremod:glimmer_root"
+    }
+  },
+  "pattern": [
+    "DR",
+    "RD"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:rooted_dirt"
+  },
+  "show_notification": true
+}

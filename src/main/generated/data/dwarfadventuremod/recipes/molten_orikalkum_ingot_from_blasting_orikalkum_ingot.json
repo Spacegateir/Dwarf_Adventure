@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.5,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:orikalkum_ingot"
+  },
+  "result": "dwarfadventuremod:molten_orikalkum_ingot"
+}

@@ -1,0 +1,100 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aer_Spirit_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:aer_spirit_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_aqua_Spirit_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:aqua_spirit_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_elemental_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:elemental_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ignis_Spirit_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:ignis_spirit_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_molten_dwarf_gold_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:molten_dwarf_gold_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_tera_Spirit_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:tera_spirit_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:hearthstone_of_borrum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_molten_dwarf_gold_ingot",
+      "has_elemental_gem",
+      "has_aer_Spirit_ingot",
+      "has_aqua_Spirit_ingot",
+      "has_ignis_Spirit_ingot",
+      "has_tera_Spirit_ingot",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:hearthstone_of_borrum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

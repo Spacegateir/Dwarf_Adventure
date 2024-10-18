@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "dwarf_adventure",
+  "ingredient": {
+    "item": "dwarfadventuremod:aer_spirit_ingot"
+  },
+  "result": "dwarfadventuremod:forging_hot_aer"
+}

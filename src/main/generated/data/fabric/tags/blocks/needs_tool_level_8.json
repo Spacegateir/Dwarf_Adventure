@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:raw_dragon_bane_block",
+    "dwarfadventuremod:raw_dragon_bane_stairs",
+    "dwarfadventuremod:raw_dragon_bane_slab",
+    "dwarfadventuremod:raw_dragon_bane_button",
+    "dwarfadventuremod:raw_dragon_bane_pressure_plate",
+    "dwarfadventuremod:raw_dragon_bane_fence",
+    "dwarfadventuremod:raw_dragon_bane_fence_gate",
+    "dwarfadventuremod:raw_dragon_bane_wall",
+    "dwarfadventuremod:dragon_bane_block",
+    "dwarfadventuremod:dragon_bane_stairs",
+    "dwarfadventuremod:dragon_bane_slab",
+    "dwarfadventuremod:dragon_bane_button",
+    "dwarfadventuremod:dragon_bane_pressure_plate",
+    "dwarfadventuremod:dragon_bane_fence",
+    "dwarfadventuremod:dragon_bane_fence_gate",
+    "dwarfadventuremod:dragon_bane_wall"
+  ]
+}

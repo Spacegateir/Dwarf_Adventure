@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:mortar_and_pestle"
+    },
+    {
+      "tag": "dwarfadventuremod:ancient_flower"
+    }
+  ],
+  "result": {
+    "item": "dwarfadventuremod:arcane_powder"
+  }
+}

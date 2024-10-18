@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/wind_gem_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/wind_gem_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/wind_gem_slab_top"
+    }
+  }
+}

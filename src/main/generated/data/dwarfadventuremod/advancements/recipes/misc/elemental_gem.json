@@ -1,0 +1,87 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_earth": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:earth_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_fire": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:fire_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:elemental_gem"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_water": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:water_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_wind": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:wind_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wind",
+      "has_fire",
+      "has_water",
+      "has_earth",
+      "has_gem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:elemental_gem"
+    ]
+  },
+  "sends_telemetry_event": false
+}

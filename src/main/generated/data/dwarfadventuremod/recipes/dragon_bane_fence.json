@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:dragon_bane_ingot"
+    },
+    "N": {
+      "item": "dwarfadventuremod:dragon_bane_nugget"
+    }
+  },
+  "pattern": [
+    "INI",
+    "INI"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:dragon_bane_fence"
+  },
+  "show_notification": true
+}

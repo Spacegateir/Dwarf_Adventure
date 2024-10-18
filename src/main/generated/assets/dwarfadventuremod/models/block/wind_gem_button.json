@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "dwarfadventuremod:block/wind_gem_block"
+  }
+}

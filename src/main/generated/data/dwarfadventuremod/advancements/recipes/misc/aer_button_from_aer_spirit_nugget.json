@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_aer_spirit_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:aer_spirit_nugget"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:aer_button_from_aer_spirit_nugget"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_aer_spirit_nugget",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:aer_button_from_aer_spirit_nugget"
+    ]
+  },
+  "sends_telemetry_event": false
+}

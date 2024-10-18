@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:aer_spirit_nugget"
+    },
+    "W": {
+      "item": "dwarfadventuremod:aer_spirit_ingot"
+    }
+  },
+  "pattern": [
+    "WBW",
+    "WBW"
+  ],
+  "result": {
+    "count": 4,
+    "item": "dwarfadventuremod:aer_fence"
+  },
+  "show_notification": true
+}

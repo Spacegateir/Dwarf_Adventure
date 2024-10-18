@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "dwarfadventuremod:mythril_block"
+    }
+  },
+  "pattern": [
+    "MM",
+    "MM",
+    "MM"
+  ],
+  "result": {
+    "count": 3,
+    "item": "dwarfadventuremod:mythril_door"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:raw_magirite_block",
+    "dwarfadventuremod:raw_magirite_stairs",
+    "dwarfadventuremod:raw_magirite_slab",
+    "dwarfadventuremod:raw_magirite_button",
+    "dwarfadventuremod:raw_magirite_pressure_plate",
+    "dwarfadventuremod:raw_magirite_fence",
+    "dwarfadventuremod:raw_magirite_fence_gate",
+    "dwarfadventuremod:raw_magirite_wall",
+    "dwarfadventuremod:magirite_block",
+    "dwarfadventuremod:magirite_stairs",
+    "dwarfadventuremod:magirite_slab",
+    "dwarfadventuremod:magirite_button",
+    "dwarfadventuremod:magirite_pressure_plate",
+    "dwarfadventuremod:magirite_fence",
+    "dwarfadventuremod:magirite_fence_gate",
+    "dwarfadventuremod:magirite_wall",
+    "dwarfadventuremod:small_mythril_bud",
+    "dwarfadventuremod:medium_mythril_bud",
+    "dwarfadventuremod:large_mythril_bud",
+    "dwarfadventuremod:mythril_cluster"
+  ]
+}

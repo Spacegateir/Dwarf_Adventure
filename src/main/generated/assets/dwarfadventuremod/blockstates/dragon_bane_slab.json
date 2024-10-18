@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/dragon_bane_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/dragon_bane_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/dragon_bane_slab_top"
+    }
+  }
+}

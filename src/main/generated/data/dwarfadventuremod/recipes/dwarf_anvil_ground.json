@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:dwarf_steel_ingot"
+    },
+    "S": {
+      "item": "dwarfadventuremod:dwarf_steel_block"
+    }
+  },
+  "pattern": [
+    "SSS",
+    " I ",
+    "III"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_anvil_ground"
+  },
+  "show_notification": true
+}

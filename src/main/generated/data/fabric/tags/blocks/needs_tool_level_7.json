@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:raw_orikalkum_block",
+    "dwarfadventuremod:raw_orikalkum_stairs",
+    "dwarfadventuremod:raw_orikalkum_slab",
+    "dwarfadventuremod:raw_orikalkum_button",
+    "dwarfadventuremod:raw_orikalkum_pressure_plate",
+    "dwarfadventuremod:raw_orikalkum_fence",
+    "dwarfadventuremod:raw_orikalkum_fence_gate",
+    "dwarfadventuremod:raw_orikalkum_wall",
+    "dwarfadventuremod:orikalkum_block",
+    "dwarfadventuremod:orikalkum_stairs",
+    "dwarfadventuremod:orikalkum_slab",
+    "dwarfadventuremod:orikalkum_button",
+    "dwarfadventuremod:orikalkum_pressure_plate",
+    "dwarfadventuremod:orikalkum_fence",
+    "dwarfadventuremod:orikalkum_fence_gate",
+    "dwarfadventuremod:orikalkum_wall",
+    "dwarfadventuremod:dragon_bane_stone_ore",
+    "dwarfadventuremod:dragon_bane_deepslate_ore",
+    "dwarfadventuremod:dragon_bane_netherrack_ore",
+    "dwarfadventuremod:dragon_bane_end_stone_ore",
+    "dwarfadventuremod:dragon_bane_andesite_ore",
+    "dwarfadventuremod:dragon_bane_diorite_ore",
+    "dwarfadventuremod:dragon_bane_granite_ore"
+  ]
+}

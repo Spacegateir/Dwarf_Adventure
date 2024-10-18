@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:dwarf_steel_fence",
+    "dwarfadventuremod:raw_dwarf_steel_fence",
+    "dwarfadventuremod:wind_gem_fence",
+    "dwarfadventuremod:aer_fence",
+    "dwarfadventuremod:fire_gem_fence",
+    "dwarfadventuremod:ignis_fence",
+    "dwarfadventuremod:water_gem_fence",
+    "dwarfadventuremod:aqua_fence",
+    "dwarfadventuremod:earth_gem_fence",
+    "dwarfadventuremod:tera_fence",
+    "dwarfadventuremod:elemental_gem_fence",
+    "dwarfadventuremod:magirite_fence",
+    "dwarfadventuremod:raw_magirite_fence",
+    "dwarfadventuremod:mythril_fence",
+    "dwarfadventuremod:adamantite_fence",
+    "dwarfadventuremod:raw_adamantite_fence",
+    "dwarfadventuremod:orikalkum_fence",
+    "dwarfadventuremod:raw_orikalkum_fence",
+    "dwarfadventuremod:dragon_bane_fence",
+    "dwarfadventuremod:raw_dragon_bane_fence",
+    "dwarfadventuremod:dwarf_gold_fence",
+    "dwarfadventuremod:raw_dwarf_gold_fence"
+  ]
+}

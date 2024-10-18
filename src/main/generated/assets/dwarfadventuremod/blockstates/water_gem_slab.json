@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/water_gem_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/water_gem_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/water_gem_slab_top"
+    }
+  }
+}
