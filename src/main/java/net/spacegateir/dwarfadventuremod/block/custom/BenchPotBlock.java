@@ -171,4 +171,4 @@ public class BenchPotBlock extends Block {
                 return VoxelShapes.fullCube();
         }
     }
-}}
+}
