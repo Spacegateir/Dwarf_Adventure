@@ -91,11 +91,6 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER, ModBlocks.POTTED_CORRUPT_BLUE_COSMOS_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER, ModBlocks.POTTED_ANCIENT_BLUE_COSMOS_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
 
-        blockStateModelGenerator.registerSimpleState(ModBlocks.GARDEN_BENCH);
-        blockStateModelGenerator.registerSimpleState(ModBlocks.GARDEN_POT);
-        blockStateModelGenerator.registerSimpleState(ModBlocks.GARDEN_POTTED_POT);
-        blockStateModelGenerator.registerSimpleState(ModBlocks.DWARF_ANVIL);
-        blockStateModelGenerator.registerSimpleState(ModBlocks.DWARF_ANVIL_GROUND);
 
         blockStateModelGenerator.registerCrop(ModBlocks.ANCIENT_FLOWER_CROP, AncientCropBlock.AGE,0, 1, 2, 3, 4, 5, 6, 7);
 

@@ -21,18 +21,18 @@ import net.spacegateir.dwarfadventuremod.block.custom.*;
 public class ModBlocks {
 
     public static final Block BENCH_POT = registerBlock("bench_pot",
-            new BenchPotBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE).nonOpaque()));
+            new BenchPotBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block GARDEN_BENCH = registerBlock("garden_bench",
-            new GardenBenchBlock(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).nonOpaque()));
+            new GardenBenchBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block GARDEN_POT = registerBlock("garden_pot",
             new GardenPotBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block GARDEN_POTTED_POT = registerBlock("garden_potted_pot",
             new GardenPottedPotBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block DWARF_ANVIL = registerBlock("dwarf_anvil",
-            new DwarfAnvilBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+            new DwarfAnvilBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
     public static final Block DWARF_ANVIL_GROUND = registerBlock("dwarf_anvil_ground",
-            new DwarfAnvilGroundBlock(FabricBlockSettings.copyOf(Blocks.ANVIL).nonOpaque()));
+            new DwarfAnvilGroundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
 
 //Dwarf Steel
     public static final Block RAW_DWARF_STEEL_BLOCK = registerBlock("raw_dwarf_steel_block",
