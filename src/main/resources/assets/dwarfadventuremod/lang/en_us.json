@@ -32,6 +32,8 @@
   "entity.minecraft.villager.horticulturist": "Horticulturist",
   "entity.minecraft.villager.floraculturist": "Floraculturist",
 
+  "block.dwarfadventuremod.bench_pot": "Bench Pot",
+
   "block.dwarfadventuremod.garden_bench": "Garden Bench",
   "block.dwarfadventuremod.garden_pot": "Garden Pot",
   "block.dwarfadventuremod.garden_potted_pot": "Garden Potted Pot",

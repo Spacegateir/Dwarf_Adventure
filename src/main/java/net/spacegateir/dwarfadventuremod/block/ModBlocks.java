@@ -21,7 +21,7 @@ import net.spacegateir.dwarfadventuremod.block.custom.*;
 public class ModBlocks {
 
     public static final Block BENCH_POT = registerBlock("bench_pot",
-            new BenchPotBlock(FabricBlockSettings.copyOf(Blocks.OAK_LOG).nonOpaque()));
+            new BenchPotBlock(FabricBlockSettings.copyOf(Blocks.BLACK_CONCRETE).nonOpaque()));
 
     public static final Block GARDEN_BENCH = registerBlock("garden_bench",
             new GardenBenchBlock(FabricBlockSettings.copyOf(Blocks.CRAFTING_TABLE).nonOpaque()));
