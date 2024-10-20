@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "dwarfadventuremod:block/bench_pot" },
-    "facing=east": { "model": "dwarfadventuremod:block/bench_pot", "y": 90  },
-    "facing=south": { "model": "dwarfadventuremod:block/bench_pot", "y": 180 },
-    "facing=west": { "model": "dwarfadventuremod:block/bench_pot", "y": 270 }
-  }
-}

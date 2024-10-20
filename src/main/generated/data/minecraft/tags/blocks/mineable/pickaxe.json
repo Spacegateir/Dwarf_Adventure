@@ -3,6 +3,11 @@
   "values": [
     "dwarfadventuremod:dwarf_anvil",
     "dwarfadventuremod:dwarf_anvil_ground",
+    "dwarfadventuremod:dwarf_anvil_stack",
+    "dwarfadventuremod:dwarf_anvil_turn",
+    "dwarfadventuremod:dwarf_anvil_over",
+    "dwarfadventuremod:dwarf_forge",
+    "dwarfadventuremod:dwarf_bellows",
     "dwarfadventuremod:raw_dwarf_steel_block",
     "dwarfadventuremod:raw_dwarf_steel_stairs",
     "dwarfadventuremod:raw_dwarf_steel_slab",

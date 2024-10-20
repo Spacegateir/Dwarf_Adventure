@@ -32,13 +32,18 @@
   "entity.minecraft.villager.horticulturist": "Horticulturist",
   "entity.minecraft.villager.floraculturist": "Floraculturist",
 
-  "block.dwarfadventuremod.bench_pot": "Bench Pot",
+  "block.dwarfadventuremod.weapon_rack": "Weapons Rack",
 
+  "block.dwarfadventuremod.dwarf_forge": "Dwarf Forge",
+  "block.dwarfadventuremod.dwarf_bellows": "Dwarf Bellows",
   "block.dwarfadventuremod.garden_bench": "Garden Bench",
   "block.dwarfadventuremod.garden_pot": "Garden Pot",
   "block.dwarfadventuremod.garden_potted_pot": "Garden Potted Pot",
   "block.dwarfadventuremod.dwarf_anvil": "Dwarf Anvil",
   "block.dwarfadventuremod.dwarf_anvil_ground": "Dwarf Anvil",
+  "block.dwarfadventuremod.dwarf_anvil_stack": "Dwarf Anvil",
+  "block.dwarfadventuremod.dwarf_anvil_turn": "Dwarf Anvil",
+  "block.dwarfadventuremod.dwarf_anvil_over": "Dwarf Anvil",
 
   "item.dwarfadventuremod.war_hammer": "War Hammer",
   "item.dwarfadventuremod.dwarf_hammer": "Dwarf Hammer",

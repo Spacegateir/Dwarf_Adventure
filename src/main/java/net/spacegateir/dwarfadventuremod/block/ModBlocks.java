@@ -17,11 +17,12 @@ import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.BuddingMyth
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilBlock;
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilClusterBlock;
 import net.spacegateir.dwarfadventuremod.block.custom.*;
+import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
 
-    public static final Block BENCH_POT = registerBlock("bench_pot",
-            new BenchPotBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block WEAPON_RACK = registerBlock("weapon_rack",
+            new WeaponRackBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
     public static final Block GARDEN_BENCH = registerBlock("garden_bench",
             new GardenBenchBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
@@ -33,6 +34,16 @@ public class ModBlocks {
             new DwarfAnvilBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
     public static final Block DWARF_ANVIL_GROUND = registerBlock("dwarf_anvil_ground",
             new DwarfAnvilGroundBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
+    public static final Block DWARF_ANVIL_TURN = registerBlock("dwarf_anvil_turn",
+            new DwarfAnvilTurnBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
+    public static final Block DWARF_ANVIL_STACK = registerBlock("dwarf_anvil_stack",
+            new DwarfAnvilStackBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
+    public static final Block DWARF_ANVIL_OVER = registerBlock("dwarf_anvil_over",
+            new DwarfAnvilOverBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.ANVIL).nonOpaque()));
+    public static final Block DWARF_FORGE = registerBlock("dwarf_forge",
+            new DwarfForgeBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).nonOpaque()));
+    public static final Block DWARF_BELLOWS = registerBlock("dwarf_bellows",
+            new DwarfBellowsBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
 
 //Dwarf Steel
     public static final Block RAW_DWARF_STEEL_BLOCK = registerBlock("raw_dwarf_steel_block",

@@ -25,6 +25,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.DWARF_ANVIL)
                 .add(ModBlocks.DWARF_ANVIL_GROUND)
+                .add(ModBlocks.DWARF_ANVIL_STACK)
+                .add(ModBlocks.DWARF_ANVIL_TURN)
+                .add(ModBlocks.DWARF_ANVIL_OVER)
+                .add(ModBlocks.DWARF_FORGE)
+                .add(ModBlocks.DWARF_BELLOWS)
 
                 .add(ModBlocks.RAW_DWARF_STEEL_BLOCK)
                 .add(ModBlocks.RAW_DWARF_STEEL_STAIRS)
@@ -295,7 +300,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
                 .add(ModBlocks.GARDEN_BENCH)
                 .add(ModBlocks.GARDEN_POT)
-                .add(ModBlocks.GARDEN_POTTED_POT);
+                .add(ModBlocks.GARDEN_POTTED_POT)
+                .add(ModBlocks.WEAPON_RACK);
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE);
 

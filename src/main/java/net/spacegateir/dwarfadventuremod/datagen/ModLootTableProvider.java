@@ -171,6 +171,12 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.GARDEN_POTTED_POT);
         addDrop(ModBlocks.DWARF_ANVIL);
         addDrop(ModBlocks.DWARF_ANVIL_GROUND);
+        addDrop(ModBlocks.DWARF_ANVIL_STACK);
+        addDrop(ModBlocks.DWARF_ANVIL_OVER);
+        addDrop(ModBlocks.DWARF_ANVIL_TURN);
+        addDrop(ModBlocks.DWARF_FORGE);
+        addDrop(ModBlocks.DWARF_BELLOWS);
+        addDrop(ModBlocks.WEAPON_RACK);
 
 
         addDrop(ModBlocks.RAW_DWARF_STEEL_BLOCK);

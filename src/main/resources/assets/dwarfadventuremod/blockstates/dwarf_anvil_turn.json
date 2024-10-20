@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dwarfadventuremod:block/dwarf_anvil_turn" },
+    "facing=east": { "model": "dwarfadventuremod:block/dwarf_anvil_turn", "y": 90  },
+    "facing=south": { "model": "dwarfadventuremod:block/dwarf_anvil_turn", "y": 180 },
+    "facing=west": { "model": "dwarfadventuremod:block/dwarf_anvil_turn", "y": 270 }
+  }
+}

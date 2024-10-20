@@ -1,4 +1,4 @@
-package net.spacegateir.dwarfadventuremod.block.custom;
+package net.spacegateir.dwarfadventuremod.block.workstations;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -19,26 +19,26 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.stream.Stream;
 
-public class BenchPotBlock extends Block {
+public class DwarfForgeBlock extends Block {
     public static final DirectionProperty FACING = Properties.HORIZONTAL_FACING;
 
     public static final VoxelShape NORTH_SHAPE = Stream.of(
-            Block.createCuboidShape(0, 0, 0, 16, 9, 16)
+            Block.createCuboidShape(0, 0, 0, 16, 12, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     public static final VoxelShape EAST_SHAPE = Stream.of(
-            Block.createCuboidShape(0, 0, 0, 16, 9, 16)
+            Block.createCuboidShape(0, 0, 0, 16, 12, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     public static final VoxelShape SOUTH_SHAPE = Stream.of(
-            Block.createCuboidShape(0, 0, 0, 16, 9, 16)
+            Block.createCuboidShape(0, 0, 0, 16, 12, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
     public static final VoxelShape WEST_SHAPE = Stream.of(
-            Block.createCuboidShape(0, 0, 0, 16, 9, 16)
+            Block.createCuboidShape(0, 0, 0, 16, 12, 16)
     ).reduce((v1, v2) -> VoxelShapes.combineAndSimplify(v1, v2, BooleanBiFunction.OR)).get();
 
-    public BenchPotBlock(Settings settings) {
+    public DwarfForgeBlock(Settings settings) {
         super(settings);
         this.setDefaultState(this.stateManager.getDefaultState().with(FACING, Direction.NORTH));
     }

@@ -70,13 +70,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER);
 
 
-                        entries.add(ModBlocks.BENCH_POT);
-
+                        entries.add(ModBlocks.WEAPON_RACK);
                         entries.add(ModBlocks.GARDEN_BENCH);
                         entries.add(ModBlocks.GARDEN_POT);
                         entries.add(ModBlocks.GARDEN_POTTED_POT);
                         entries.add(ModBlocks.DWARF_ANVIL);
                         entries.add(ModBlocks.DWARF_ANVIL_GROUND);
+                        entries.add(ModBlocks.DWARF_ANVIL_STACK);
+                        entries.add(ModBlocks.DWARF_ANVIL_TURN);
+                        entries.add(ModBlocks.DWARF_ANVIL_OVER);
+                        entries.add(ModBlocks.DWARF_FORGE);
+                        entries.add(ModBlocks.DWARF_BELLOWS);
 
                         entries.add(ModItems.WAR_HAMMER);
                         entries.add(ModItems.DWARF_HAMMER);
