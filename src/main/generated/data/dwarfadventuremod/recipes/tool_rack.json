@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_axe"
+    },
+    "O": {
+      "tag": "minecraft:planks"
+    },
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:iron_shovel"
+    }
+  },
+  "pattern": [
+    "OPO",
+    "OAO",
+    "OSO"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:tool_rack"
+  },
+  "show_notification": true
+}
