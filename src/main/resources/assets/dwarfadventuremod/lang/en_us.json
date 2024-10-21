@@ -33,7 +33,7 @@
   "entity.minecraft.villager.floraculturist": "Floraculturist",
 
   "block.dwarfadventuremod.weapon_rack": "Weapons Rack",
-
+  "block.dwarfadventuremod.tool_rack": "Equipment Rack",
   "block.dwarfadventuremod.dwarf_forge": "Dwarf Forge",
   "block.dwarfadventuremod.dwarf_bellows": "Dwarf Bellows",
   "block.dwarfadventuremod.garden_bench": "Garden Bench",
@@ -44,6 +44,10 @@
   "block.dwarfadventuremod.dwarf_anvil_stack": "Dwarf Anvil",
   "block.dwarfadventuremod.dwarf_anvil_turn": "Dwarf Anvil",
   "block.dwarfadventuremod.dwarf_anvil_over": "Dwarf Anvil",
+  "block.dwarfadventuremod.storage_create": "Storage Create",
+  "block.dwarfadventuremod.storage_create_small": "Storage Create Small",
+  "block.dwarfadventuremod.storage_create_large": "Storage Create Large",
+  "block.dwarfadventuremod.storage_create_double": "Storage Create Double",
 
   "item.dwarfadventuremod.war_hammer": "War Hammer",
   "item.dwarfadventuremod.dwarf_hammer": "Dwarf Hammer",

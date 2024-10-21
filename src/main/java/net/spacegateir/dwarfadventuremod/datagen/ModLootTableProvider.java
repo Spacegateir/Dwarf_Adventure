@@ -177,6 +177,11 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DWARF_FORGE);
         addDrop(ModBlocks.DWARF_BELLOWS);
         addDrop(ModBlocks.WEAPON_RACK);
+        addDrop(ModBlocks.TOOL_RACK);
+        addDrop(ModBlocks.STORAGE_CREATE);
+        addDrop(ModBlocks.STORAGE_CREATE_SMALL);
+        addDrop(ModBlocks.STORAGE_CREATE_LARGE);
+        addDrop(ModBlocks.STORAGE_CREATE_DOUBLE);
 
 
         addDrop(ModBlocks.RAW_DWARF_STEEL_BLOCK);

@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_iron_swrod": {
+    "has_iron_sword": {
       "conditions": {
         "items": [
           {
@@ -33,7 +33,7 @@
   "requirements": [
     [
       "has_planks",
-      "has_iron_swrod",
+      "has_iron_sword",
       "has_the_recipe"
     ]
   ],

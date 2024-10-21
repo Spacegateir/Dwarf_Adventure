@@ -1017,8 +1017,65 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ItemTags.PLANKS)
                 .input('S', Items.IRON_SWORD)
                 .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
-                .criterion("has_iron_swrod", conditionsFromItem(Items.IRON_SWORD))
+                .criterion("has_iron_sword", conditionsFromItem(Items.IRON_SWORD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WEAPON_RACK)));
+
+// Tool Rack
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TOOL_RACK, 1)
+                .pattern("OPO")
+                .pattern("OAO")
+                .pattern("OSO")
+                .input('O', ItemTags.PLANKS)
+                .input('P', Items.IRON_PICKAXE)
+                .input('A', Items.IRON_AXE)
+                .input('S', Items.IRON_SHOVEL)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion("has_iron_pickaxe", conditionsFromItem(Items.IRON_PICKAXE))
+                .criterion("has_iron_axe", conditionsFromItem(Items.IRON_AXE))
+                .criterion("has_iron_shovel", conditionsFromItem(Items.IRON_SHOVEL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TOOL_RACK)));
+
+// Storage Create
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.STORAGE_CREATE, 1)
+                .pattern("OOO")
+                .pattern("OSO")
+                .pattern("OLO")
+                .input('O', ItemTags.PLANKS)
+                .input('S', ModBlocks.STORAGE_CREATE_SMALL)
+                .input('L', ModBlocks.STORAGE_CREATE_LARGE)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion("has_storage_create_small", conditionsFromItem(ModBlocks.STORAGE_CREATE_SMALL))
+                .criterion("has_storage_create_large", conditionsFromItem(ModBlocks.STORAGE_CREATE_LARGE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STORAGE_CREATE)));
+
+// Storage Create Small
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.STORAGE_CREATE_SMALL, 1)
+                .pattern("OCO")
+                .pattern("OOO")
+                .input('O', ItemTags.PLANKS)
+                .input('C', Items.CHEST)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion("has_chest", conditionsFromItem(Items.CHEST))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STORAGE_CREATE_SMALL)));
+
+// Storage Create Large
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.STORAGE_CREATE_LARGE, 1)
+                .pattern("OOO")
+                .pattern("OCO")
+                .pattern("OOO")
+                .input('O', ItemTags.PLANKS)
+                .input('C', Items.CHEST)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion("has_chest", conditionsFromItem(Items.CHEST))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STORAGE_CREATE_LARGE)));
+
+// Storage Create Double
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.STORAGE_CREATE_DOUBLE, 1)
+                .pattern("S")
+                .pattern("S")
+                .input('S', ModBlocks.STORAGE_CREATE_LARGE)
+                .criterion("has_storage_create_large", conditionsFromItem(ModBlocks.STORAGE_CREATE_LARGE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.STORAGE_CREATE_DOUBLE)));
 
 // Dwarf Anvil
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_ANVIL, 1)

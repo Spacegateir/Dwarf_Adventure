@@ -24,7 +24,8 @@ public class ModBlocks {
 
     public static final Block WEAPON_RACK = registerBlock("weapon_rack",
             new WeaponRackBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
-
+    public static final Block TOOL_RACK = registerBlock("tool_rack",
+            new ToolRackBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block GARDEN_BENCH = registerBlock("garden_bench",
             new GardenBenchBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block GARDEN_POT = registerBlock("garden_pot",
@@ -45,6 +46,14 @@ public class ModBlocks {
             new DwarfForgeBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).nonOpaque()));
     public static final Block DWARF_BELLOWS = registerBlock("dwarf_bellows",
             new DwarfBellowsBlock(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL).nonOpaque()));
+    public static final Block STORAGE_CREATE = registerBlock("storage_create",
+            new StorageCreateBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block STORAGE_CREATE_SMALL = registerBlock("storage_create_small",
+            new StorageCreateSmallBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block STORAGE_CREATE_LARGE = registerBlock("storage_create_large",
+            new StorageCreateLargeBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block STORAGE_CREATE_DOUBLE = registerBlock("storage_create_double",
+            new StorageCreateDoubleBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
 //Dwarf Steel
     public static final Block RAW_DWARF_STEEL_BLOCK = registerBlock("raw_dwarf_steel_block",

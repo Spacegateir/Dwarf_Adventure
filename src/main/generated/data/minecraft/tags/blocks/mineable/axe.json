@@ -4,6 +4,11 @@
     "dwarfadventuremod:garden_bench",
     "dwarfadventuremod:garden_pot",
     "dwarfadventuremod:garden_potted_pot",
-    "dwarfadventuremod:weapon_rack"
+    "dwarfadventuremod:weapon_rack",
+    "dwarfadventuremod:tool_rack",
+    "dwarfadventuremod:storage_create",
+    "dwarfadventuremod:storage_create_small",
+    "dwarfadventuremod:storage_create_large",
+    "dwarfadventuremod:storage_create_double"
   ]
 }

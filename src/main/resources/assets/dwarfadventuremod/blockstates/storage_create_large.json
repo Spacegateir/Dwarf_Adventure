@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dwarfadventuremod:block/storage_create_large" },
+    "facing=east": { "model": "dwarfadventuremod:block/storage_create_large", "y": 90  },
+    "facing=south": { "model": "dwarfadventuremod:block/storage_create_large", "y": 180 },
+    "facing=west": { "model": "dwarfadventuremod:block/storage_create_large", "y": 270 }
+  }
+}

@@ -71,6 +71,7 @@ public class ModItemGroups {
 
 
                         entries.add(ModBlocks.WEAPON_RACK);
+                        entries.add(ModBlocks.TOOL_RACK);
                         entries.add(ModBlocks.GARDEN_BENCH);
                         entries.add(ModBlocks.GARDEN_POT);
                         entries.add(ModBlocks.GARDEN_POTTED_POT);
@@ -81,6 +82,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DWARF_ANVIL_OVER);
                         entries.add(ModBlocks.DWARF_FORGE);
                         entries.add(ModBlocks.DWARF_BELLOWS);
+                        entries.add(ModBlocks.STORAGE_CREATE);
+                        entries.add(ModBlocks.STORAGE_CREATE_SMALL);
+                        entries.add(ModBlocks.STORAGE_CREATE_LARGE);
+                        entries.add(ModBlocks.STORAGE_CREATE_DOUBLE);
 
                         entries.add(ModItems.WAR_HAMMER);
                         entries.add(ModItems.DWARF_HAMMER);

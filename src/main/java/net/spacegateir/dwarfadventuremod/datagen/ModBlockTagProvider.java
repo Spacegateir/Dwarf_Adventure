@@ -312,7 +312,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GARDEN_BENCH)
                 .add(ModBlocks.GARDEN_POT)
                 .add(ModBlocks.GARDEN_POTTED_POT)
-                .add(ModBlocks.WEAPON_RACK);
+                .add(ModBlocks.WEAPON_RACK)
+                .add(ModBlocks.TOOL_RACK)
+                .add(ModBlocks.STORAGE_CREATE)
+                .add(ModBlocks.STORAGE_CREATE_SMALL)
+                .add(ModBlocks.STORAGE_CREATE_LARGE)
+                .add(ModBlocks.STORAGE_CREATE_DOUBLE);
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE);
 
