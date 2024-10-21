@@ -16,6 +16,7 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
@@ -982,6 +983,43 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_flower_pot", conditionsFromItem(Items.FLOWER_POT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.GARDEN_POTTED_POT)));
 
+// Dwarf Forge
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_FORGE, 1)
+                .pattern("OOO")
+                .pattern("OFO")
+                .pattern("OOO")
+                .input('O', Blocks.OBSIDIAN)
+                .input('F', ModItems.ANCESTRAL_FORGE_COAL)
+                .criterion("has_obsidian", conditionsFromItem(Blocks.OBSIDIAN))
+                .criterion("has_ancestral_forge_coal", conditionsFromItem(ModItems.ANCESTRAL_FORGE_COAL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_FORGE)));
+
+// Dwarf Bellows
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_BELLOWS, 1)
+                .pattern("OIO")
+                .pattern("OSO")
+                .pattern("OWO")
+                .input('O', ItemTags.LOGS)
+                .input('S', Items.STRING)
+                .input('W', ItemTags.WOOL)
+                .input('I', ModItems.DWARF_STEEL_INGOT)
+                .criterion("has_log", conditionsFromTag(ItemTags.LOGS))
+                .criterion("has_wool", conditionsFromTag(ItemTags.WOOL))
+                .criterion("has_string", conditionsFromItem(Items.STRING))
+                .criterion("has_dwarf_steel_ingot", conditionsFromItem(ModItems.DWARF_STEEL_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_BELLOWS)));
+
+// Weapons Rack
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.WEAPON_RACK, 1)
+                .pattern("SSS")
+                .pattern("P P")
+                .pattern("PPP")
+                .input('P', ItemTags.PLANKS)
+                .input('S', Items.IRON_SWORD)
+                .criterion("has_planks", conditionsFromTag(ItemTags.PLANKS))
+                .criterion("has_iron_swrod", conditionsFromItem(Items.IRON_SWORD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.WEAPON_RACK)));
+
 // Dwarf Anvil
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_ANVIL, 1)
                 .pattern(" A ")
@@ -1005,6 +1043,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_block", conditionsFromItem(ModBlocks.DWARF_STEEL_BLOCK))
                 .criterion("has_ingot", conditionsFromItem(ModItems.DWARF_STEEL_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_ANVIL_GROUND)));
+
+// Dwarf Anvil Over
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_ANVIL_OVER, 1)
+                .pattern(" A ")
+                .input('A', ModBlocks.DWARF_ANVIL_GROUND)
+                .criterion("has_block", conditionsFromItem(ModBlocks.DWARF_ANVIL_GROUND))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_ANVIL_OVER)));
+
+// Dwarf Anvil Over Get Back
+        offerShapelessRecipe(
+                exporter,
+                ModBlocks.DWARF_ANVIL_GROUND,
+                ModBlocks.DWARF_ANVIL_OVER,
+                "dwarf_recipe",
+                1
+        );
+
+// Dwarf Anvil Stack
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_ANVIL_STACK, 1)
+                .pattern(" I ")
+                .pattern(" I ")
+                .input('I', ModBlocks.DWARF_ANVIL_GROUND)
+                .criterion("has_block", conditionsFromItem(ModBlocks.DWARF_ANVIL_GROUND))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_ANVIL_STACK)));
+
+// Dwarf Anvil Stack Get Back
+        offerShapelessRecipe(
+                exporter,
+                ModBlocks.DWARF_ANVIL_GROUND,
+                ModBlocks.DWARF_ANVIL_STACK,
+                "dwarf_recipe",
+                2
+        );
+
+// Dwarf Anvil Turn
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_ANVIL_TURN, 1)
+                .pattern("A  ")
+                .input('A', ModBlocks.DWARF_ANVIL_GROUND)
+                .criterion("has_block", conditionsFromItem(ModBlocks.DWARF_ANVIL_GROUND))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_ANVIL_TURN)));
+
+// Dwarf Anvil Turn Get Back
+        offerShapelessRecipe(
+                exporter,
+                ModBlocks.DWARF_ANVIL_GROUND,
+                ModBlocks.DWARF_ANVIL_TURN,
+                "dwarf_recipe",
+                1
+        );
 
 // Mortar and Pestle
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MORTAR_AND_PESTLE, 1)
@@ -1481,19 +1568,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
         // Mythril to Mythril Block Recipe
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MYTHRIL_BLOCK, 1)
-                .pattern("MM")
-                .pattern("MM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
                 .input('M', ModItems.MYTHRIL) // Use Dwarf Steel Ingot as input
                 .criterion("has_ingot", conditionsFromItem(ModItems.MYTHRIL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_BLOCK)));
 
-//        // Purificated Mythril to Purificated Mythril Block Recipe
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURIFICATED_MYTHRIL_BLOCK, 1)
-//                .pattern("MM")
-//                .pattern("MM")
-//                .input('M', ModItems.PUREFICATED_MYTHRIL) // Use Dwarf Steel Ingot as input
-//                .criterion("has_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_BLOCK)));
+        // Pureficated Mythril to Pureficated Mythril Block Recipe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_BLOCK, 1)
+                .pattern("MMM")
+                .pattern("MMM")
+                .pattern("MMM")
+                .input('M', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_BLOCK)));
 
         // Raw Adamantite to Raw Adamantite Block Recipe
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_BLOCK, 1)
@@ -1680,15 +1769,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 ModItems.MYTHRIL,
                 ModBlocks.MYTHRIL_BLOCK,
                 "Dwarf_Adventure",
-                4);
+                9);
 
         // Purificated Mythril Block to Purificated Mythril
-//        offerShapelessRecipe(
-//                exporter,
-//                ModItems.PUREFICATED_MYTHRIL,
-//                ModBlocks.PUREFICATED_MYTHRIL_BLOCK,
-//                "Dwarf_Adventure",
-//                4);
+        offerShapelessRecipe(
+                exporter,
+                ModItems.PUREFICATED_MYTHRIL,
+                ModBlocks.PUREFICATED_MYTHRIL_BLOCK,
+                "Dwarf_Adventure",
+                9);
 
         // Raw Adamanitie Block to Raw Adamantite
         offerShapelessRecipe(
@@ -2060,14 +2149,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_ingot", conditionsFromItem(ModBlocks.MYTHRIL_BLOCK))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_STAIRS)));
 
-        // Purificated Mythril Stairs
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURIFICATED_MYTHRIL_STAIRS, 4)
-//                .pattern("M  ")
-//                .pattern("MM ")
-//                .pattern("MMM")
-//                .input('M', ModBlocks.PURIFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
-//                .criterion("has_ingot", conditionsFromItem(ModBlocks.PURIFICATED_MYTHRIL_BLOCK))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_STAIRS)));
+        // Pureficated Mythril Stairs
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_STAIRS, 4)
+                .pattern("M  ")
+                .pattern("MM ")
+                .pattern("MMM")
+                .input('M', ModBlocks.PUREFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.PUREFICATED_MYTHRIL_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_STAIRS)));
 
         // Raw Adamanitie Stairs
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_STAIRS, 4)
@@ -2242,11 +2331,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_SLAB)));
 
         // Purificated Mythril Slab
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_SLAB, 6)
-//                .pattern("MMM")
-//                .input('M', ModBlocks.PURFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
-//                .criterion("has_ingot", conditionsFromItem(ModBlocks.PURIFICATED_MYTHRIL_BLOCK))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_SLAB)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_SLAB, 6)
+                .pattern("MMM")
+                .input('M', ModBlocks.PUREFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.PUREFICATED_MYTHRIL_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_SLAB)));
 
         // Raw Adamantite Slab
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_SLAB, 6)
@@ -2445,14 +2534,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_FENCE)));
 
         // Purificated Mythril Fence
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURIFICATED_MYTHRIL_FENCE, 4)
-//                .pattern("MGM")
-//                .pattern("MGM")
-//                .input('M', ModBlocks.PURIFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
-//                .input('G', ModItems.PURIFICATED_MYTHRIL) // Use Mythril as input
-//                .criterion("has_ingot", conditionsFromItem(ModBlocks.PURIFICATED_MYTHRIL_BLOCK))
-//                .criterion("has_nugget", conditionsFromItem(ModItems.PURIFICATED_MYTHRIL))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_FENCE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_FENCE, 4)
+                .pattern("MGM")
+                .pattern("MGM")
+                .input('M', ModBlocks.PUREFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
+                .input('G', ModItems.PUREFICATED_MYTHRIL) // Use Mythril as input
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.PUREFICATED_MYTHRIL_BLOCK))
+                .criterion("has_nugget", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_FENCE)));
 
         // Raw Adamantite Fence
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_FENCE, 4)
@@ -2674,15 +2763,15 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_nugget", conditionsFromItem(ModItems.MYTHRIL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_FENCE_GATE)));
 
-       // Purificated Mythril Fence Gate
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURIFICATED_MYTHRIL_FENCE_GATE, 1)
-//                .pattern("GMG")
-//                .pattern("GMG")
-//                .input('M', ModBlocks.PURIFICATED_MYTHRIL_BLOCK) // Use Mythril Block Ingot as input
-//                .input('G', ModItems.PURIFICATED_MYTHRIL) // Use Mythril as input
-//                .criterion("has_ingot", conditionsFromItem(ModBlocks.PURIFICATED_MYTHRIL_BLOCK))
-//                .criterion("has_nugget", conditionsFromItem(ModItems.PURIFICATED_MYTHRIL))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_FENCE_GATE)));
+       // Pureficated Mythril Fence Gate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE, 1)
+                .pattern("GMG")
+                .pattern("GMG")
+                .input('M', ModBlocks.PUREFICATED_MYTHRIL_BLOCK) // Use Mythril Block Ingot as input
+                .input('G', ModItems.PUREFICATED_MYTHRIL) // Use Mythril as input
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.PUREFICATED_MYTHRIL_BLOCK))
+                .criterion("has_nugget", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE)));
 
         // Raw Adamantite Fence Gate
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_FENCE_GATE, 1)
@@ -2891,13 +2980,13 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         );
 
         // Purificated Mythril Button
-//        offerShapelessRecipe(
-//                exporter,
-//                ModBlocks.PURIFICATED_MYTHRIL_BUTTON,
-//                ModItems.PURIFICATED_MYTHRIL,
-//                "Dwarf_Adventure",
-//                1
-//        );
+        offerShapelessRecipe(
+                exporter,
+                ModBlocks.PUREFICATED_MYTHRIL_BUTTON,
+                ModItems.PUREFICATED_MYTHRIL,
+                "Dwarf_Adventure",
+                1
+        );
 
         // Adamantite Button
         offerShapelessRecipe(
@@ -3069,12 +3158,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_ingot", conditionsFromItem(ModItems.MYTHRIL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_PRESSURE_PLATE)));
 
-        // Purificated Mythril Pressure Plate
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURIFICATED_MYTHRIL_PRESSURE_PLATE, 1)
-//                .pattern("GG")
-//                .input('G', ModItems.PURIFICATED_MYTHRIL) // Use Mythril Ingot as input
-//                .criterion("has_ingot", conditionsFromItem(ModItems.PURIFICATED_MYTHRIL))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_PRESSURE_PLATE)));
+        // Pureficated Mythril Pressure Plate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE, 1)
+                .pattern("GG")
+                .input('G', ModItems.PUREFICATED_MYTHRIL) // Use Mythril Ingot as input
+                .criterion("has_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE)));
 
         // Raw Adamantite Pressure Plate
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, RAW_ADAMANTITE_PRESSURE_PLATE, 1)
@@ -3245,12 +3334,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_WALL)));
 
         // Purificated Mythril Wall
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PURIFICATED_MYTHRIL_WALL, 6)
-//                .pattern("MMM")
-//                .pattern("MMM")
-//                .input('M', ModBlocks.PURIFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
-//                .criterion("has_ingot", conditionsFromItem(ModBlocks.PURIFICATED_MYTHRIL_BLOCK))
-//                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PURIFICATED_MYTHRIL_WALL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_WALL, 6)
+                .pattern("MMM")
+                .pattern("MMM")
+                .input('M', ModBlocks.PUREFICATED_MYTHRIL_BLOCK) // Use Mythril Block as input
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.PUREFICATED_MYTHRIL_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_WALL)));
 
         // Raw Adamantite Wall
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_WALL, 6)

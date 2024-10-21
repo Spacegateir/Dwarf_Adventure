@@ -17,6 +17,7 @@ import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.BuddingMyth
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilBlock;
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilClusterBlock;
 import net.spacegateir.dwarfadventuremod.block.custom.*;
+import net.spacegateir.dwarfadventuremod.block.custom.GlassLikeBlock;
 import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
@@ -358,6 +359,36 @@ public class ModBlocks {
     public static final Block MYTHRIL_DOOR = registerBlock("mythril_door",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.OAK));
     public static final Block MYTHRIL_TRAPDOOR = registerBlock("mythril_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.OAK));
+
+    //Pureficated Mythril
+
+    public static final Block PUREFICATED_MYTHRIL_BLOCK = registerBlock("pureficated_mythril_block",
+            new GlassLikeBlock(AbstractBlock.Settings.create().mapColor(MapColor.CYAN).strength(1.5F).sounds(BlockSoundGroup.AMETHYST_BLOCK)
+                    .requiresTool().allowsSpawning(Blocks::never).nonOpaque()
+                    .solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never)));
+    public static final Block PUREFICATED_MYTHRIL_STAIRS = registerBlock("pureficated_mythril_stairs",
+            new StairsBlock(ModBlocks.PUREFICATED_MYTHRIL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+                    .allowsSpawning(Blocks::never).nonOpaque().solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never)));
+    public static final Block PUREFICATED_MYTHRIL_SLAB = registerBlock("pureficated_mythril_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)
+                    .nonOpaque().solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never)));
+    public static final Block PUREFICATED_MYTHRIL_BUTTON = registerBlock("pureficated_mythril_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
+    public static final Block PUREFICATED_MYTHRIL_PRESSURE_PLATE = registerBlock("pureficated_mythril_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
+    public static final Block PUREFICATED_MYTHRIL_FENCE = registerBlock("pureficated_mythril_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)
+                    .nonOpaque().solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never)));
+    public static final Block PUREFICATED_MYTHRIL_FENCE_GATE = registerBlock("pureficated_mythril_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
+    public static final Block PUREFICATED_MYTHRIL_WALL = registerBlock("pureficated_mythril_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque().solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never)));
+
+    public static final Block PUREFICATED_MYTHRIL_DOOR = registerBlock("pureficated_mythril_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.OAK));
+    public static final Block PUREFICATED_MYTHRIL_TRAPDOOR = registerBlock("pureficated_mythril_trapdoor",
             new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.OAK));
 
 
@@ -1149,5 +1180,7 @@ public class ModBlocks {
     public static void registerModBlocks() {
         DwarfAdventureMod.LOGGER.info("Registering ModBlocks for " + DwarfAdventureMod.MOD_ID);
     }
+
+
 
 }

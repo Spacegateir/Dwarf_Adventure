@@ -240,6 +240,17 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerDoor(ModBlocks.MYTHRIL_DOOR);
         blockStateModelGenerator.registerTrapdoor(ModBlocks.MYTHRIL_TRAPDOOR);
 
+        BlockStateModelGenerator.BlockTexturePool pureficatedmythrilPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.PUREFICATED_MYTHRIL_BLOCK);
+        pureficatedmythrilPool.stairs(ModBlocks.PUREFICATED_MYTHRIL_STAIRS);
+        pureficatedmythrilPool.slab(ModBlocks.PUREFICATED_MYTHRIL_SLAB);
+        pureficatedmythrilPool.button(ModBlocks.PUREFICATED_MYTHRIL_BUTTON);
+        pureficatedmythrilPool.pressurePlate(ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE);
+        pureficatedmythrilPool.fence(ModBlocks.PUREFICATED_MYTHRIL_FENCE);
+        pureficatedmythrilPool.fenceGate(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE);
+        pureficatedmythrilPool.wall(ModBlocks.PUREFICATED_MYTHRIL_WALL);
+//        blockStateModelGenerator.registerDoor(ModBlocks.MYTHRIL_DOOR);
+//        blockStateModelGenerator.registerTrapdoor(ModBlocks.MYTHRIL_TRAPDOOR);
+
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BUDDING_MYTHRIL);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BUDDING_MYTHRIL_STONE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BUDDING_MYTHRIL_DEELSLATE);

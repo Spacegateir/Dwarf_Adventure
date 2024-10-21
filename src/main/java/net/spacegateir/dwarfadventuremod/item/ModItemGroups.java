@@ -162,6 +162,13 @@ public class ModItemGroups {
                         entries.add(ModItems.MOLTEN_DRAGON_BANE_INGOT);
                         entries.add(ModItems.MOLTEN_DWARF_GOLD_INGOT);
 
+                        entries.add(ModBlocks.SMALL_MYTHRIL_BUD);
+                        entries.add(ModBlocks.MEDIUM_MYTHRIL_BUD);
+                        entries.add(ModBlocks.LARGE_MYTHRIL_BUD);
+                        entries.add(ModBlocks.MYTHRIL_CLUSTER);
+                        entries.add(ModItems.MYTHRIL);
+                        entries.add(ModItems.PUREFICATED_MYTHRIL);
+
                         entries.add(ModBlocks.STONE_DWARF_STEEL_ORE);
                         entries.add(ModBlocks.DEEPSLATE_DWARF_STEEL_ORE);
                         entries.add(ModBlocks.NETHERRACK_DWARF_STEEL_ORE);
@@ -345,13 +352,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGIRITE_PRESSURE_PLATE);
 
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
-                        entries.add(ModBlocks.SMALL_MYTHRIL_BUD);
-                        entries.add(ModBlocks.MEDIUM_MYTHRIL_BUD);
-                        entries.add(ModBlocks.LARGE_MYTHRIL_BUD);
-                        entries.add(ModBlocks.MYTHRIL_CLUSTER);
-                        entries.add(ModItems.MYTHRIL);
-                        entries.add(ModItems.PUREFICATED_MYTHRIL);
-
                         entries.add(ModBlocks.MYTHRIL_SLAB);
                         entries.add(ModBlocks.MYTHRIL_STAIRS);
                         entries.add(ModBlocks.MYTHRIL_FENCE_GATE);
@@ -361,6 +361,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MYTHRIL_PRESSURE_PLATE);
                         entries.add(ModBlocks.MYTHRIL_DOOR);
                         entries.add(ModBlocks.MYTHRIL_TRAPDOOR);
+
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_BLOCK);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_SLAB);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_STAIRS);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_FENCE);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_WALL);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_BUTTON);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE);
+//                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_DOOR);
+//                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
 
                         entries.add(ModBlocks.RAW_ADAMANTITE_BLOCK);
                         entries.add(ModBlocks.RAW_ADAMANTITE_SLAB);

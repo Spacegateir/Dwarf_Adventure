@@ -407,16 +407,16 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MYTHRIL_DOOR, doorDrops(ModBlocks.MYTHRIL_DOOR));
         addDrop(ModBlocks.MYTHRIL_SLAB, slabDrops(ModBlocks.MYTHRIL_SLAB));
 
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_BLOCK);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_STAIRS);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_TRAPDOOR);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_WALL);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_FENCE);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_FENCE_GATE);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_BUTTON);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_PRESSURE_PLATE);
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_DOOR, doorDrops(ModBlocks.PURIFICATED_MYTHRIL_DOOR));
-//        addDrop(ModBlocks.PURIFICATED_MYTHRIL_SLAB, slabDrops(ModBlocks.PURIFICATED_MYTHRIL_SLAB));
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_BLOCK);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_STAIRS);
+//        addDrop(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_WALL);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_FENCE);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_BUTTON);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE);
+//        addDrop(ModBlocks.PUREFICATED_MYTHRIL_DOOR, doorDrops(ModBlocks.PUREFICATED_MYTHRIL_DOOR));
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_SLAB, slabDrops(ModBlocks.PUREFICATED_MYTHRIL_SLAB));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_STONE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_STONE,

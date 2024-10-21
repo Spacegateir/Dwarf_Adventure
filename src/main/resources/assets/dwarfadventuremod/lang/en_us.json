@@ -309,6 +309,17 @@
   "block.dwarfadventuremod.mythril_door": "Mythril Door",
   "block.dwarfadventuremod.mythril_trapdoor": "Mythril Trapdoor",
 
+  "block.dwarfadventuremod.pureficated_mythril_block": "Pure Mythril Block",
+  "block.dwarfadventuremod.pureficated_mythril_stairs": "Pure Mythril Stair",
+  "block.dwarfadventuremod.pureficated_mythril_slab": "Pure Mythril Slab",
+  "block.dwarfadventuremod.pureficated_mythril_button": "Pure Mythril Button",
+  "block.dwarfadventuremod.pureficated_mythril_pressure_plate": "Pure Mythril Pressure Plate",
+  "block.dwarfadventuremod.pureficated_mythril_fence": "Pure Mythril Fence",
+  "block.dwarfadventuremod.pureficated_mythril_fence_gate": "Pure Mythril Fence Gate",
+  "block.dwarfadventuremod.pureficated_mythril_wall": "Pure Mythril Wall",
+//  "block.dwarfadventuremod.pureficated_mythril_door": "Pure Mythril Door",
+//  "block.dwarfadventuremod.pureficated_mythril_trapdoor": "Pure Mythril Trapdoor",
+
   "item.dwarfadventuremod.raw_adamantite": "Raw Adamantite",
   "block.dwarfadventuremod.raw_adamantite_block": "Raw Adamantite Block",
   "item.dwarfadventuremod.adamantite_nugget": "Adamantite Nugget",

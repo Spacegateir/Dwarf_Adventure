@@ -7,8 +7,9 @@
     }
   },
   "pattern": [
-    "MM",
-    "MM"
+    "MMM",
+    "MMM",
+    "MMM"
   ],
   "result": {
     "item": "dwarfadventuremod:mythril_block"
