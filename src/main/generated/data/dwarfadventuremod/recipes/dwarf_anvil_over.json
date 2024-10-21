@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:dwarf_anvil_ground"
+    }
+  },
+  "pattern": [
+    " A "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_anvil_over"
+  },
+  "show_notification": true
+}

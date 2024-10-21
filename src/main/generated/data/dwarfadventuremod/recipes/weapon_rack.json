@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "pattern": [
+    "SSS",
+    "P P",
+    "PPP"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:weapon_rack"
+  },
+  "show_notification": true
+}

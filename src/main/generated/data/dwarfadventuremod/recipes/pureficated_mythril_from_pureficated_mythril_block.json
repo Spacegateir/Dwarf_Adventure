@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "Dwarf_Adventure",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:pureficated_mythril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "dwarfadventuremod:pureficated_mythril"
+  }
+}

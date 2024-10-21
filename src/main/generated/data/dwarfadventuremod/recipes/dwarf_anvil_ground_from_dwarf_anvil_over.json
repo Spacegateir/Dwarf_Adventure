@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dwarf_recipe",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:dwarf_anvil_over"
+    }
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_anvil_ground"
+  }
+}

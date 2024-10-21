@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "dwarfadventuremod:block/pureficated_mythril_slab"
+    },
+    "type=double": {
+      "model": "dwarfadventuremod:block/pureficated_mythril_block"
+    },
+    "type=top": {
+      "model": "dwarfadventuremod:block/pureficated_mythril_slab_top"
+    }
+  }
+}

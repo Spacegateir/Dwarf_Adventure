@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dwarfadventuremod:block/pureficated_mythril_block"
+  }
+}

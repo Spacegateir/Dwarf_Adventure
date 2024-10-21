@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    }
+  },
+  "pattern": [
+    "GG"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:pureficated_mythril_pressure_plate"
+  },
+  "show_notification": true
+}

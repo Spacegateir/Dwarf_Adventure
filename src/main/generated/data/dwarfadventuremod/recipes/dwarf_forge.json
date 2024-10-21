@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "dwarfadventuremod:ancestral_forge_coal"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "pattern": [
+    "OOO",
+    "OFO",
+    "OOO"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_forge"
+  },
+  "show_notification": true
+}
