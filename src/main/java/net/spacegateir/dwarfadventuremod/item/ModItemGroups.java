@@ -239,6 +239,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_DWARF_STEEL_WALL);
                         entries.add(ModBlocks.RAW_DWARF_STEEL_BUTTON);
                         entries.add(ModBlocks.RAW_DWARF_STEEL_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_DWARF_STEEL_DOOR);
+                        entries.add(ModBlocks.RAW_DWARF_STEEL_TRAPDOOR);
 
                         entries.add(ModBlocks.DWARF_STEEL_BLOCK);
                         entries.add(ModBlocks.DWARF_STEEL_SLAB);
@@ -265,6 +267,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WIND_GEM_WALL);
                         entries.add(ModBlocks.WIND_GEM_BUTTON);
                         entries.add(ModBlocks.WIND_GEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AER_SPIRITSTONE_DOOR);
+                        entries.add(ModBlocks.AER_SPIRITSTONE_TRAPDOOR);
 
                         entries.add(ModBlocks.AER_BLOCK);
                         entries.add(ModBlocks.AER_SLAB);
@@ -274,6 +278,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AER_WALL);
                         entries.add(ModBlocks.AER_BUTTON);
                         entries.add(ModBlocks.AER_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AER_DOOR);
+                        entries.add(ModBlocks.AER_TRAPDOOR);
 
                         entries.add(ModBlocks.FIRE_GEM_BLOCK);
                         entries.add(ModBlocks.FIRE_GEM_SLAB);
@@ -283,6 +289,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FIRE_GEM_WALL);
                         entries.add(ModBlocks.FIRE_GEM_BUTTON);
                         entries.add(ModBlocks.FIRE_GEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.IGNIS_SPIRITSTONE_DOOR);
+                        entries.add(ModBlocks.IGNIS_SPIRITSTONE_TRAPDOOR);
 
                         entries.add(ModBlocks.IGNIS_BLOCK);
                         entries.add(ModBlocks.IGNIS_SLAB);
@@ -292,6 +300,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.IGNIS_WALL);
                         entries.add(ModBlocks.IGNIS_BUTTON);
                         entries.add(ModBlocks.IGNIS_PRESSURE_PLATE);
+                        entries.add(ModBlocks.IGNIS_DOOR);
+                        entries.add(ModBlocks.IGNIS_TRAPDOOR);
 
                         entries.add(ModBlocks.WATER_GEM_BLOCK);
                         entries.add(ModBlocks.WATER_GEM_SLAB);
@@ -301,6 +311,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WATER_GEM_WALL);
                         entries.add(ModBlocks.WATER_GEM_BUTTON);
                         entries.add(ModBlocks.WATER_GEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AQUA_SPITIRSTONE_DOOR);
+                        entries.add(ModBlocks.AQUA_SPIRITSTONE_TRAPDOOR);
 
                         entries.add(ModBlocks.AQUA_BLOCK);
                         entries.add(ModBlocks.AQUA_SLAB);
@@ -310,6 +322,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.AQUA_WALL);
                         entries.add(ModBlocks.AQUA_BUTTON);
                         entries.add(ModBlocks.AQUA_PRESSURE_PLATE);
+                        entries.add(ModBlocks.AQUA_DOOR);
+                        entries.add(ModBlocks.AQUA_TRAPDOOR);
 
                         entries.add(ModBlocks.EARTH_GEM_BLOCK);
                         entries.add(ModBlocks.EARTH_GEM_SLAB);
@@ -319,6 +333,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EARTH_GEM_WALL);
                         entries.add(ModBlocks.EARTH_GEM_BUTTON);
                         entries.add(ModBlocks.EARTH_GEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.TERA_SPIRITSTONE_DOOR);
+                        entries.add(ModBlocks.TERA_SPIRITSTONE_TRAPDOOR);
 
                         entries.add(ModBlocks.TERA_BLOCK);
                         entries.add(ModBlocks.TERA_SLAB);
@@ -328,6 +344,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TERA_WALL);
                         entries.add(ModBlocks.TERA_BUTTON);
                         entries.add(ModBlocks.TERA_PRESSURE_PLATE);
+                        entries.add(ModBlocks.TERA_DOOR);
+                        entries.add(ModBlocks.TERA_TRAPDOOR);
 
                         entries.add(ModBlocks.ELEMENTAL_GEM_BLOCK);
                         entries.add(ModBlocks.ELEMENTAL_GEM_SLAB);
@@ -337,6 +355,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ELEMENTAL_GEM_WALL);
                         entries.add(ModBlocks.ELEMENTAL_GEM_BUTTON);
                         entries.add(ModBlocks.ELEMENTAL_GEM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.QUINTESSENCE_DOOR);
+                        entries.add(ModBlocks.QUINTESSENCE_TRAPDOOR);
 
                         entries.add(ModBlocks.RAW_MAGIRITE_BLOCK);
                         entries.add(ModBlocks.RAW_MAGIRITE_SLAB);
@@ -346,6 +366,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_MAGIRITE_WALL);
                         entries.add(ModBlocks.RAW_MAGIRITE_BUTTON);
                         entries.add(ModBlocks.RAW_MAGIRITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_MAGIRITE_DOOR);
+                        entries.add(ModBlocks.RAW_MAGIRITE_TRAPDOOR);
 
                         entries.add(ModBlocks.MAGIRITE_BLOCK);
                         entries.add(ModBlocks.MAGIRITE_SLAB);
@@ -355,6 +377,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGIRITE_WALL);
                         entries.add(ModBlocks.MAGIRITE_BUTTON);
                         entries.add(ModBlocks.MAGIRITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.MAGIRITE_DOOR);
+                        entries.add(ModBlocks.MAGIRITE_TRAPDOOR);
 
                         entries.add(ModBlocks.MYTHRIL_BLOCK);
                         entries.add(ModBlocks.MYTHRIL_SLAB);
@@ -375,8 +399,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PUREFICATED_MYTHRIL_WALL);
                         entries.add(ModBlocks.PUREFICATED_MYTHRIL_BUTTON);
                         entries.add(ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE);
-//                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_DOOR);
-//                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_DOOR);
+                        entries.add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
 
                         entries.add(ModBlocks.RAW_ADAMANTITE_BLOCK);
                         entries.add(ModBlocks.RAW_ADAMANTITE_SLAB);
@@ -386,6 +410,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_ADAMANTITE_WALL);
                         entries.add(ModBlocks.RAW_ADAMANTITE_BUTTON);
                         entries.add(ModBlocks.RAW_ADAMANTITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_ADAMANTITE_DOOR);
+                        entries.add(ModBlocks.RAW_ADAMANTITE_TRAPDOOR);
 
                         entries.add(ModBlocks.ADAMANTITE_BLOCK);
                         entries.add(ModBlocks.ADAMANTITE_SLAB);
@@ -395,6 +421,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ADAMANTITE_WALL);
                         entries.add(ModBlocks.ADAMANTITE_BUTTON);
                         entries.add(ModBlocks.ADAMANTITE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ADAMANTITE_DOOR);
+                        entries.add(ModBlocks.ADAMANTITE_TRAPDOOR);
 
                         entries.add(ModBlocks.RAW_ORIKALKUM_BLOCK);
                         entries.add(ModBlocks.RAW_ORIKALKUM_SLAB);
@@ -404,6 +432,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_ORIKALKUM_WALL);
                         entries.add(ModBlocks.RAW_ORIKALKUM_BUTTON);
                         entries.add(ModBlocks.RAW_ORIKALKUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_ORIKALKUM_DOOR);
+                        entries.add(ModBlocks.RAW_ORIKALKUM_TRAPDOOR);
 
                         entries.add(ModBlocks.ORIKALKUM_BLOCK);
                         entries.add(ModBlocks.ORIKALKUM_SLAB);
@@ -413,6 +443,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORIKALKUM_WALL);
                         entries.add(ModBlocks.ORIKALKUM_BUTTON);
                         entries.add(ModBlocks.ORIKALKUM_PRESSURE_PLATE);
+                        entries.add(ModBlocks.ORIKALKUM_DOOR);
+                        entries.add(ModBlocks.ORIKALKUM_TRAPDOOR);
 
                         entries.add(ModBlocks.RAW_DRAGON_BANE_BLOCK);
                         entries.add(ModBlocks.RAW_DRAGON_BANE_SLAB);
@@ -422,6 +454,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_DRAGON_BANE_WALL);
                         entries.add(ModBlocks.RAW_DRAGON_BANE_BUTTON);
                         entries.add(ModBlocks.RAW_DRAGON_BANE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_DRAGON_BANE_DOOR);
+                        entries.add(ModBlocks.RAW_DRAGON_BANE_TRAPDOOR);
 
                         entries.add(ModBlocks.DRAGON_BANE_BLOCK);
                         entries.add(ModBlocks.DRAGON_BANE_SLAB);
@@ -431,6 +465,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DRAGON_BANE_WALL);
                         entries.add(ModBlocks.DRAGON_BANE_BUTTON);
                         entries.add(ModBlocks.DRAGON_BANE_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DRAGON_BANE_DOOR);
+                        entries.add(ModBlocks.DRAGON_BANE_TRAPDOOR);
 
                         entries.add(ModBlocks.RAW_DWARF_GOLD_BLOCK);
                         entries.add(ModBlocks.RAW_DWARF_GOLD_SLAB);
@@ -440,6 +476,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.RAW_DWARF_GOLD_WALL);
                         entries.add(ModBlocks.RAW_DWARF_GOLD_BUTTON);
                         entries.add(ModBlocks.RAW_DWARF_GOLD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.RAW_DWARF_GOLD_DOOR);
+                        entries.add(ModBlocks.RAW_DWARF_GOLD_TRAPDOOR);
 
                         entries.add(ModBlocks.DWARF_GOLD_BLOCK);
                         entries.add(ModBlocks.DWARF_GOLD_SLAB);
@@ -449,6 +487,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DWARF_GOLD_WALL);
                         entries.add(ModBlocks.DWARF_GOLD_BUTTON);
                         entries.add(ModBlocks.DWARF_GOLD_PRESSURE_PLATE);
+                        entries.add(ModBlocks.DWARF_GOLD_DOOR);
+                        entries.add(ModBlocks.DWARF_GOLD_TRAPDOOR);
 
 
 

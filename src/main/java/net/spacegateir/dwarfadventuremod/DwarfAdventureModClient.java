@@ -181,9 +181,6 @@ public class DwarfAdventureModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.LARGE_MYTHRIL_BUD, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_CLUSTER, RenderLayer.getCutout());
 
-//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PUREFICATED_MYTHRIL_DOOR, RenderLayer.getTranslucent());
-//        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR, RenderLayer.getTranslucent());
-
 
 
 

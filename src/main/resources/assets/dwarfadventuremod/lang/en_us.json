@@ -137,6 +137,8 @@
   "block.dwarfadventuremod.raw_dwarf_steel_fence": "Raw Dwarf Steel Fence",
   "block.dwarfadventuremod.raw_dwarf_steel_fence_gate": "Raw Dwarf Steel Fence Gate",
   "block.dwarfadventuremod.raw_dwarf_steel_wall": "Raw Dwarf Steel Wall",
+  "block.dwarfadventuremod.raw_dwarf_steel_door": "Raw Dwarf Steel Door",
+  "block.dwarfadventuremod.raw_dwarf_steel_trapdoor": "Raw Dwarf Steel Trapdoor",
 
 
   "block.dwarfadventuremod.stone_dwarf_steel_ore": "Dwarf Steel Ore",
@@ -167,6 +169,8 @@
   "block.dwarfadventuremod.wind_gem_fence": "Aer Spiritstone Fence",
   "block.dwarfadventuremod.wind_gem_fence_gate": "Aer Spiritstone Fence Gate",
   "block.dwarfadventuremod.wind_gem_wall": "Aer Spiritstone Wall",
+  "block.dwarfadventuremod.aer_spiritstone_door": "Aer Spiritstone Door",
+  "block.dwarfadventuremod.aer_spiritstone_trapdoor": "Aer Spiritstone Trapdoor",
 
   "block.dwarfadventuremod.fire_gem_stairs": "Ignis Spiritstone Stair",
   "block.dwarfadventuremod.fire_gem_slab": "Ignis Spiritstone Slab",
@@ -175,6 +179,8 @@
   "block.dwarfadventuremod.fire_gem_fence": "Ignis Spiritstone Fence",
   "block.dwarfadventuremod.fire_gem_fence_gate": "Ignis Spiritstone Fence Gate",
   "block.dwarfadventuremod.fire_gem_wall": "Ignis Spiritstone Wall",
+  "block.dwarfadventuremod.ignis_spiritstone_door": "Ignis Spiritstone Door",
+  "block.dwarfadventuremod.ignis_spiritstone_trapdoor": "Ignis Spiritstone Trapdoor",
 
   "block.dwarfadventuremod.water_gem_stairs": "Aqua Spiritstone Stair",
   "block.dwarfadventuremod.water_gem_slab": "Aqua Spiritstone Slab",
@@ -183,6 +189,8 @@
   "block.dwarfadventuremod.water_gem_fence": "Aqua Spiritstone Fence",
   "block.dwarfadventuremod.water_gem_fence_gate": "Aqua Spiritstone Fence Gate",
   "block.dwarfadventuremod.water_gem_wall": "Aqua Spiritstone Wall",
+  "block.dwarfadventuremod.aqua_spiritstone_door": "Aqua Spiritstone Door",
+  "block.dwarfadventuremod.aqua_spiritstone_trapdoor": "Aqua Spiritstone Trapdoor",
 
   "block.dwarfadventuremod.earth_gem_stairs": "Tera Spiritstone Stair",
   "block.dwarfadventuremod.earth_gem_slab": "Tera Spiritstone Slab",
@@ -191,6 +199,8 @@
   "block.dwarfadventuremod.earth_gem_fence": "Tera Spiritstone Fence",
   "block.dwarfadventuremod.earth_gem_fence_gate": "Tera Spiritstone Fence Gate",
   "block.dwarfadventuremod.earth_gem_wall": "Tera Spiritstone Wall",
+  "block.dwarfadventuremod.tera_spiritstone_door": "Tera Spiritstone Door",
+  "block.dwarfadventuremod.tera_spiritstone_trapdoor": "Tera Spiritstone Trapdoor",
 
   "block.dwarfadventuremod.elemental_gem_stairs": "Quintessence Spiritstone Stair",
   "block.dwarfadventuremod.elemental_gem_slab": "Quintessence Spiritstone Slab",
@@ -199,6 +209,8 @@
   "block.dwarfadventuremod.elemental_gem_fence": "Quintessence Spiritstone Fence",
   "block.dwarfadventuremod.elemental_gem_fence_gate": "Quintessence Spiritstone Fence Gate",
   "block.dwarfadventuremod.elemental_gem_wall": "Quintessence Spiritstone Wall",
+  "block.dwarfadventuremod.quintessence_door": "Quintessence Door",
+  "block.dwarfadventuremod.quintessence_trapdoor": "Quintessence Trapdoor",
 
   "item.dwarfadventuremod.forging_hot_aer": "Forging Hot Aer",
   "item.dwarfadventuremod.forging_hot_ignis": "Forging Hot Ignis",
@@ -256,6 +268,16 @@
   "block.dwarfadventuremod.tera_wall": "Tera Wall",
 
 
+  "block.dwarfadventuremod.aer_door": "Aer Door",
+  "block.dwarfadventuremod.aer_trapdoor": "Aer Trapdoor",
+  "block.dwarfadventuremod.ignis_door": "Ignis Door",
+  "block.dwarfadventuremod.ignis_trapdoor": "Ignis Trapdoor",
+  "block.dwarfadventuremod.aqua_door": "Aqua Door",
+  "block.dwarfadventuremod.aqua_trapdoor": "Aqua Trapdoor",
+  "block.dwarfadventuremod.tera_door": "Tera Door",
+  "block.dwarfadventuremod.tera_trapdoor": "Tera Trapdoor",
+
+
   "item.dwarfadventuremod.raw_magirite": "Raw Magirite",
   "block.dwarfadventuremod.raw_magirite_block": "Raw Magirite Block",
   "item.dwarfadventuremod.magirite_nugget": "Magirite Nugget",
@@ -270,6 +292,8 @@
   "block.dwarfadventuremod.raw_magirite_fence": "Raw Magirite Fence",
   "block.dwarfadventuremod.raw_magirite_fence_gate": "Raw Magirite Fence Gate",
   "block.dwarfadventuremod.raw_magirite_wall": "Raw Magirite Wall",
+  "block.dwarfadventuremod.raw_magirite_door": "Raw Magirite Door",
+  "block.dwarfadventuremod.raw_magirite_trapdoor": "Raw Magirite Trapdoor",
 
   "block.dwarfadventuremod.magirite_stairs": "Magirite Stair",
   "block.dwarfadventuremod.magirite_slab": "Magirite Slab",
@@ -278,6 +302,8 @@
   "block.dwarfadventuremod.magirite_fence": "Magirite Fence",
   "block.dwarfadventuremod.magirite_fence_gate": "Magirite Fence Gate",
   "block.dwarfadventuremod.magirite_wall": "Magirite Wall",
+  "block.dwarfadventuremod.magirite_door": "Magirite Door",
+  "block.dwarfadventuremod.magirite_trapdoor": "Magirite Trapdoor",
 
   "block.dwarfadventuremod.magirite_stone_ore": "Magirite Stone Ore",
   "block.dwarfadventuremod.magirite_andesite_ore": "Magirite Andersite Ore",
@@ -321,8 +347,8 @@
   "block.dwarfadventuremod.pureficated_mythril_fence": "Pure Mythril Fence",
   "block.dwarfadventuremod.pureficated_mythril_fence_gate": "Pure Mythril Fence Gate",
   "block.dwarfadventuremod.pureficated_mythril_wall": "Pure Mythril Wall",
-//  "block.dwarfadventuremod.pureficated_mythril_door": "Pure Mythril Door",
-//  "block.dwarfadventuremod.pureficated_mythril_trapdoor": "Pure Mythril Trapdoor",
+  "block.dwarfadventuremod.pureficated_mythril_door": "Pure Mythril Door",
+  "block.dwarfadventuremod.pureficated_mythril_trapdoor": "Pure Mythril Trapdoor",
 
   "item.dwarfadventuremod.raw_adamantite": "Raw Adamantite",
   "block.dwarfadventuremod.raw_adamantite_block": "Raw Adamantite Block",
@@ -338,6 +364,8 @@
   "block.dwarfadventuremod.raw_adamantite_fence": "Raw Adamantite Fence",
   "block.dwarfadventuremod.raw_adamantite_fence_gate": "Raw Adamantite Fence Gate",
   "block.dwarfadventuremod.raw_adamantite_wall": "Raw Adamantite Wall",
+  "block.dwarfadventuremod.raw_adamantite_door": "Raw Adamantite Door",
+  "block.dwarfadventuremod.raw_adamantite_trapdoor": "Raw Adamantite Trapdoor",
 
   "block.dwarfadventuremod.adamantite_stairs": "Adamantite Stair",
   "block.dwarfadventuremod.adamantite_slab": "Adamantite Slab",
@@ -346,6 +374,8 @@
   "block.dwarfadventuremod.adamantite_fence": "Adamantite Fence",
   "block.dwarfadventuremod.adamantite_fence_gate": "Adamantite Fence Gate",
   "block.dwarfadventuremod.adamantite_wall": "Adamantite Wall",
+  "block.dwarfadventuremod.adamantite_door": "Adamantite Door",
+  "block.dwarfadventuremod.adamantite_trapdoor": "Adamantite Trapdoor",
 
   "block.dwarfadventuremod.adamantite_stone_ore": "Adamantite Stone Ore",
   "block.dwarfadventuremod.adamantite_andesite_ore": "Adamantite Andersite Ore",
@@ -369,6 +399,8 @@
   "block.dwarfadventuremod.raw_orikalkum_fence": "Raw Orikalkum Fence",
   "block.dwarfadventuremod.raw_orikalkum_fence_gate": "Raw Orikalkum Fence Gate",
   "block.dwarfadventuremod.raw_orikalkum_wall": "Raw Orikalkum Wall",
+  "block.dwarfadventuremod.raw_orikalkum_door": "Raw Orikalkum Door",
+  "block.dwarfadventuremod.raw_orikalkum_trapdoor": "Raw Orikalkum Trapdoor",
 
   "block.dwarfadventuremod.orikalkum_stairs": "Orikalkum Stair",
   "block.dwarfadventuremod.orikalkum_slab": "Orikalkum Slab",
@@ -377,6 +409,8 @@
   "block.dwarfadventuremod.orikalkum_fence": "Orikalkum Fence",
   "block.dwarfadventuremod.orikalkum_fence_gate": "Orikalkum Fence Gate",
   "block.dwarfadventuremod.orikalkum_wall": "Orikalkum Wall",
+  "block.dwarfadventuremod.orikalkum_door": "Orikalkum Door",
+  "block.dwarfadventuremod.orikalkum_trapdoor": "Orikalkum Trapdoor",
 
   "block.dwarfadventuremod.orikalkum_stone_ore": "Orikalkum Stone Ore",
   "block.dwarfadventuremod.orikalkum_andesite_ore": "Orikalkum Andersite Ore",
@@ -400,6 +434,8 @@
   "block.dwarfadventuremod.raw_dragon_bane_fence": "Raw Dragon Bane Fence",
   "block.dwarfadventuremod.raw_dragon_bane_fence_gate": "Raw Dragon Bane Fence Gate",
   "block.dwarfadventuremod.raw_dragon_bane_wall": "Raw Dragon Bane Wall",
+  "block.dwarfadventuremod.raw_dragon_bane_door": "Raw Dragon Bane Door",
+  "block.dwarfadventuremod.raw_dragon_bane_trapdoor": "Raw Dragon Bane Trapdoor",
 
   "block.dwarfadventuremod.dragon_bane_stairs": "Dragon Bane Stair",
   "block.dwarfadventuremod.dragon_bane_slab": "Dragon Bane Slab",
@@ -408,6 +444,8 @@
   "block.dwarfadventuremod.dragon_bane_fence": "Dragon Bane Fence",
   "block.dwarfadventuremod.dragon_bane_fence_gate": "Dragon Bane Fence Gate",
   "block.dwarfadventuremod.dragon_bane_wall": "Dragon Bane Wall",
+  "block.dwarfadventuremod.dragon_bane_door": "Dragon Bane Door",
+  "block.dwarfadventuremod.dragon_bane_trapdoor": "Dragon Bane Trapdoor",
 
   "block.dwarfadventuremod.dragon_bane_stone_ore": "Dragon Bane Stone Ore",
   "block.dwarfadventuremod.dragon_bane_andesite_ore": "Dragon Bane Andersite Ore",
@@ -431,6 +469,8 @@
   "block.dwarfadventuremod.raw_dwarf_gold_fence": "Raw Dwarf Gold Fence",
   "block.dwarfadventuremod.raw_dwarf_gold_fence_gate": "Raw Dwarf Gold Fence Gate",
   "block.dwarfadventuremod.raw_dwarf_gold_wall": "Raw Dwarf Gold Wall",
+  "block.dwarfadventuremod.raw_dwarf_gold_door": "Raw Dwarf Gold Door",
+  "block.dwarfadventuremod.raw_dwarf_gold_trapdoor": "Raw Dwarf Gold Trapdoor",
 
   "block.dwarfadventuremod.dwarf_gold_stairs": "Dwarf Gold Stair",
   "block.dwarfadventuremod.dwarf_gold_slab": "Dwarf Gold Slab",
@@ -439,6 +479,8 @@
   "block.dwarfadventuremod.dwarf_gold_fence": "Dwarf Gold Fence",
   "block.dwarfadventuremod.dwarf_gold_fence_gate": "Dwarf Gold Fence Gate",
   "block.dwarfadventuremod.dwarf_gold_wall": "Dwarf Gold Wall",
+  "block.dwarfadventuremod.dwarf_gold_door": "Dwarf Gold Door",
+  "block.dwarfadventuremod.dwarf_gold_trapdoor": "Dwarf Gold Trapdoor",
 
   "block.dwarfadventuremod.dwarf_gold_stone_ore": "Dwarf Gold Stone Ore",
   "block.dwarfadventuremod.dwarf_gold_andesite_ore": "Dwarf Gold Andersite Ore",

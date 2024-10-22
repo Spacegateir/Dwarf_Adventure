@@ -3467,34 +3467,391 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("II")
                 .pattern("II")
                 .pattern("II")
-                .input('I', ModItems.DWARF_STEEL_INGOT) // Use Dwarf Steel Ingot as input
+                .input('I', ModItems.DWARF_STEEL_INGOT)
                 .criterion("has_ingot", conditionsFromItem(ModItems.DWARF_STEEL_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_STEEL_DOOR)));
+
+        // Raw Dwarf Steel Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_DWARF_STEEL_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_DWARF_STEEL)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.RAW_DWARF_STEEL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_DWARF_STEEL_DOOR)));
+
+        // Aer Spititstone Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AER_SPIRITSTONE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.WIND_GEM_BLOCK)
+                .criterion("has_block", conditionsFromItem(ModBlocks.WIND_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AER_SPIRITSTONE_DOOR)));
+
+        // Aer Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AER_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.AER_SPIRIT_INGOT)
+                .criterion("has_ingot", conditionsFromItem(ModItems.AER_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AER_DOOR)));
+
+        // Ignis Spititstone Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IGNIS_SPIRITSTONE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.FIRE_GEM_BLOCK)
+                .criterion("has_block", conditionsFromItem(ModBlocks.FIRE_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.IGNIS_SPIRITSTONE_DOOR)));
+
+        // Ignis Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IGNIS_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.IGNIS_SPIRIT_INGOT)
+                .criterion("has_ingot", conditionsFromItem(ModItems.IGNIS_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.IGNIS_DOOR)));
+
+        // Aqua Spititstone Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AQUA_SPITIRSTONE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.WATER_GEM_BLOCK)
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.WATER_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AQUA_SPITIRSTONE_DOOR)));
+
+        // Aqua Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AQUA_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.AQUA_SPIRIT_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.AQUA_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AQUA_DOOR)));
+
+        // Tera Spititstone Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TERA_SPIRITSTONE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.EARTH_GEM_BLOCK)
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.EARTH_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERA_SPIRITSTONE_DOOR)));
+
+        // Tera Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TERA_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.TERA_SPIRIT_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.TERA_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERA_DOOR)));
+
+        // Quintessence Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.QUINTESSENCE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.ELEMENTAL_GEM)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.ELEMENTAL_GEM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.QUINTESSENCE_DOOR)));
+
+        // Raw Magirite Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_MAGIRITE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_MAGIRITE)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_MAGIRITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_MAGIRITE_DOOR)));
+
+        // Magirite Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MAGIRITE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.MAGIRITE_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.MAGIRITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MAGIRITE_DOOR)));
 
         // Mythril Door
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MYTHRIL_DOOR, 3)
                 .pattern("MM")
                 .pattern("MM")
                 .pattern("MM")
-                .input('M', ModBlocks.MYTHRIL_BLOCK) // Use Mythril Block as input
-                .criterion("has_ingot", conditionsFromItem(ModBlocks.MYTHRIL_BLOCK))
+                .input('M', ModItems.MYTHRIL)
+                .criterion("has_ingot", conditionsFromItem(ModItems.MYTHRIL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_DOOR)));
 
-        // Dwarf Steel Trapdoor
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_STEEL_TRAPDOOR, 3)
+        // Purificated Mythril Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_DOOR, 3)
+                .pattern("MM")
+                .pattern("MM")
+                .pattern("MM")
+                .input('M', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_DOOR)));
+
+        // Raw Adamantite Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_DOOR, 3)
                 .pattern("II")
                 .pattern("II")
-                .input('I', ModItems.DWARF_STEEL_INGOT) // Use Dwarf Steel Ingot as input
+                .pattern("II")
+                .input('I', ModItems.RAW_ADAMANTITE)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_ADAMANTITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_ADAMANTITE_DOOR)));
+
+        // Adamantite Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ADAMANTITE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.ADAMANTITE_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ADAMANTITE_DOOR)));
+
+        // Raw Orikalkum Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ORIKALKUM_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_ORIKALKUM)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_ORIKALKUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_ORIKALKUM_DOOR)));
+
+        // Orikalkum Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ORIKALKUM_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.ORIKALKUM_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ORIKALKUM_DOOR)));
+
+        // Raw Dragon Bane Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_DRAGON_BANE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_DRAGON_BANE)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_DRAGON_BANE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_DRAGON_BANE_DOOR)));
+
+        // Dragon Bane Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DRAGON_BANE_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.DRAGON_BANE_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DRAGON_BANE_DOOR)));
+
+        // Raw Dwarf Gold Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_DWARF_GOLD_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_DWARF_GOLD)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_DWARF_GOLD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_DWARF_GOLD_DOOR)));
+
+        // Dwarf Gold Door
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_GOLD_DOOR, 3)
+                .pattern("II")
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.DWARF_GOLD_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_GOLD_DOOR)));
+
+        // Dwarf Steel TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_STEEL_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.DWARF_STEEL_INGOT)
                 .criterion("has_ingot", conditionsFromItem(ModItems.DWARF_STEEL_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_STEEL_TRAPDOOR)));
 
-        // Mythril Trapdoor
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MYTHRIL_TRAPDOOR, 3)
+        // Raw Dwarf Steel TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_DWARF_STEEL_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_DWARF_STEEL)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.RAW_DWARF_STEEL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_DWARF_STEEL_TRAPDOOR)));
+
+        // Aer Spititstone TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AER_SPIRITSTONE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.WIND_GEM_BLOCK)
+                .criterion("has_block", conditionsFromItem(ModBlocks.WIND_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AER_SPIRITSTONE_TRAPDOOR)));
+
+        // Aer TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AER_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.AER_SPIRIT_INGOT)
+                .criterion("has_ingot", conditionsFromItem(ModItems.AER_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AER_TRAPDOOR)));
+
+        // Ignis Spititstone TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IGNIS_SPIRITSTONE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.FIRE_GEM_BLOCK)
+                .criterion("has_block", conditionsFromItem(ModBlocks.FIRE_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.IGNIS_SPIRITSTONE_TRAPDOOR)));
+
+        // Ignis TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.IGNIS_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.IGNIS_SPIRIT_INGOT)
+                .criterion("has_ingot", conditionsFromItem(ModItems.IGNIS_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.IGNIS_TRAPDOOR)));
+
+        // Aqua Spititstone TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AQUA_SPIRITSTONE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.WATER_GEM_BLOCK)
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.WATER_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AQUA_SPIRITSTONE_TRAPDOOR)));
+
+        // Aqua TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.AQUA_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.AQUA_SPIRIT_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.AQUA_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.AQUA_TRAPDOOR)));
+
+        // Tera Spititstone TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TERA_SPIRITSTONE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModBlocks.EARTH_GEM_BLOCK)
+                .criterion("has_ingot", conditionsFromItem(ModBlocks.EARTH_GEM_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERA_SPIRITSTONE_TRAPDOOR)));
+
+        // Tera TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.TERA_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.TERA_SPIRIT_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.TERA_SPIRIT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERA_TRAPDOOR)));
+
+        // Quintessence TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.QUINTESSENCE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.ELEMENTAL_GEM)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.ELEMENTAL_GEM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.QUINTESSENCE_TRAPDOOR)));
+
+        // Raw Magirite TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_MAGIRITE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_MAGIRITE)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_MAGIRITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_MAGIRITE_TRAPDOOR)));
+
+        // Magirite TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MAGIRITE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.MAGIRITE_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.MAGIRITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MAGIRITE_TRAPDOOR)));
+
+        // Mythril TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.MYTHRIL_TRAPDOOR, 1)
                 .pattern("MM")
                 .pattern("MM")
-                .input('M', ModBlocks.MYTHRIL_BLOCK) // Use Mythril Block as input
-                .criterion("has_ingot", conditionsFromItem(ModBlocks.MYTHRIL_BLOCK))
+                .input('M', ModItems.MYTHRIL)
+                .criterion("has_ingot", conditionsFromItem(ModItems.MYTHRIL))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.MYTHRIL_TRAPDOOR)));
+
+        // Purificated Mythril TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR, 1)
+                .pattern("MM")
+                .pattern("MM")
+                .input('M', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR)));
+
+        // Raw Adamantite TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ADAMANTITE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_ADAMANTITE)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_ADAMANTITE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_ADAMANTITE_TRAPDOOR)));
+
+        // Adamantite TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ADAMANTITE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.ADAMANTITE_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ADAMANTITE_TRAPDOOR)));
+
+        // Raw Orikalkum TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_ORIKALKUM_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_ORIKALKUM)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_ORIKALKUM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_ORIKALKUM_TRAPDOOR)));
+
+        // Orikalkum TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ORIKALKUM_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.ORIKALKUM_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ORIKALKUM_TRAPDOOR)));
+
+        // Raw Dragon Bane TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_DRAGON_BANE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_DRAGON_BANE)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_DRAGON_BANE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_DRAGON_BANE_TRAPDOOR)));
+
+        // Dragon Bane TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DRAGON_BANE_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.DRAGON_BANE_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DRAGON_BANE_TRAPDOOR)));
+
+        // Raw Dwarf Gold TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.RAW_DWARF_GOLD_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.RAW_DWARF_GOLD)
+                .criterion("has_ingot", conditionsFromItem(ModItems.RAW_DWARF_GOLD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RAW_DWARF_GOLD_TRAPDOOR)));
+
+        // Dwarf Gold TDoor
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.DWARF_GOLD_TRAPDOOR, 1)
+                .pattern("II")
+                .pattern("II")
+                .input('I', ModItems.DWARF_GOLD_INGOT)
+                .criterion("has_raw_dwarf_steel", conditionsFromItem(ModItems.DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.DWARF_GOLD_TRAPDOOR)));
 
 
 

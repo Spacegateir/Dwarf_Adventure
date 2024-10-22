@@ -39,6 +39,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_DWARF_STEEL_FENCE)
                 .add(ModBlocks.RAW_DWARF_STEEL_FENCE_GATE)
                 .add(ModBlocks.RAW_DWARF_STEEL_WALL)
+                .add(ModBlocks.RAW_DWARF_STEEL_DOOR)
+                .add(ModBlocks.RAW_DWARF_STEEL_TRAPDOOR)
 
                 .add(ModBlocks.DWARF_STEEL_BLOCK)
                 .add(ModBlocks.DWARF_STEEL_STAIRS)
@@ -68,6 +70,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WIND_GEM_FENCE)
                 .add(ModBlocks.WIND_GEM_FENCE_GATE)
                 .add(ModBlocks.WIND_GEM_WALL)
+                .add(ModBlocks.AER_SPIRITSTONE_DOOR)
+                .add(ModBlocks.AER_SPIRITSTONE_TRAPDOOR)
 
                 .add(ModBlocks.AER_BLOCK)
                 .add(ModBlocks.AER_STAIRS)
@@ -77,6 +81,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AER_FENCE)
                 .add(ModBlocks.AER_FENCE_GATE)
                 .add(ModBlocks.AER_WALL)
+                .add(ModBlocks.AER_DOOR)
+                .add(ModBlocks.AER_TRAPDOOR)
 
                 .add(ModBlocks.FIRE_GEM_BLOCK)
                 .add(ModBlocks.FIRE_GEM_STAIRS)
@@ -86,6 +92,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.FIRE_GEM_FENCE)
                 .add(ModBlocks.FIRE_GEM_FENCE_GATE)
                 .add(ModBlocks.FIRE_GEM_WALL)
+                .add(ModBlocks.IGNIS_SPIRITSTONE_DOOR)
+                .add(ModBlocks.IGNIS_SPIRITSTONE_TRAPDOOR)
 
                 .add(ModBlocks.IGNIS_BLOCK)
                 .add(ModBlocks.IGNIS_STAIRS)
@@ -95,6 +103,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.IGNIS_FENCE)
                 .add(ModBlocks.IGNIS_FENCE_GATE)
                 .add(ModBlocks.IGNIS_WALL)
+                .add(ModBlocks.IGNIS_DOOR)
+                .add(ModBlocks.IGNIS_TRAPDOOR)
 
                 .add(ModBlocks.WATER_GEM_BLOCK)
                 .add(ModBlocks.WATER_GEM_STAIRS)
@@ -104,6 +114,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WATER_GEM_FENCE)
                 .add(ModBlocks.WATER_GEM_FENCE_GATE)
                 .add(ModBlocks.WATER_GEM_WALL)
+                .add(ModBlocks.AQUA_SPITIRSTONE_DOOR)
+                .add(ModBlocks.AQUA_SPIRITSTONE_TRAPDOOR)
 
                 .add(ModBlocks.AQUA_BLOCK)
                 .add(ModBlocks.AQUA_STAIRS)
@@ -113,6 +125,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.AQUA_FENCE)
                 .add(ModBlocks.AQUA_FENCE_GATE)
                 .add(ModBlocks.AQUA_WALL)
+                .add(ModBlocks.AQUA_DOOR)
+                .add(ModBlocks.AQUA_TRAPDOOR)
 
                 .add(ModBlocks.EARTH_GEM_BLOCK)
                 .add(ModBlocks.EARTH_GEM_STAIRS)
@@ -122,6 +136,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.EARTH_GEM_FENCE)
                 .add(ModBlocks.EARTH_GEM_FENCE_GATE)
                 .add(ModBlocks.EARTH_GEM_WALL)
+                .add(ModBlocks.TERA_SPIRITSTONE_DOOR)
+                .add(ModBlocks.TERA_SPIRITSTONE_TRAPDOOR)
 
                 .add(ModBlocks.TERA_BLOCK)
                 .add(ModBlocks.TERA_STAIRS)
@@ -131,6 +147,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TERA_FENCE)
                 .add(ModBlocks.TERA_FENCE_GATE)
                 .add(ModBlocks.TERA_WALL)
+                .add(ModBlocks.TERA_DOOR)
+                .add(ModBlocks.TERA_TRAPDOOR)
 
                 .add(ModBlocks.ELEMENTAL_GEM_BLOCK)
                 .add(ModBlocks.ELEMENTAL_GEM_STAIRS)
@@ -140,6 +158,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ELEMENTAL_GEM_FENCE)
                 .add(ModBlocks.ELEMENTAL_GEM_FENCE_GATE)
                 .add(ModBlocks.ELEMENTAL_GEM_WALL)
+                .add(ModBlocks.QUINTESSENCE_DOOR)
+                .add(ModBlocks.QUINTESSENCE_TRAPDOOR)
 
                 .add(ModBlocks.RAW_MAGIRITE_BLOCK)
                 .add(ModBlocks.RAW_MAGIRITE_STAIRS)
@@ -149,6 +169,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_MAGIRITE_FENCE)
                 .add(ModBlocks.RAW_MAGIRITE_FENCE_GATE)
                 .add(ModBlocks.RAW_MAGIRITE_WALL)
+                .add(ModBlocks.RAW_MAGIRITE_DOOR)
+                .add(ModBlocks.RAW_MAGIRITE_TRAPDOOR)
 
                 .add(ModBlocks.MAGIRITE_BLOCK)
                 .add(ModBlocks.MAGIRITE_STAIRS)
@@ -158,6 +180,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.MAGIRITE_FENCE)
                 .add(ModBlocks.MAGIRITE_FENCE_GATE)
                 .add(ModBlocks.MAGIRITE_WALL)
+                .add(ModBlocks.MAGIRITE_DOOR)
+                .add(ModBlocks.MAGIRITE_TRAPDOOR)
 
                 .add(ModBlocks.MAGIRITE_STONE_ORE)
                 .add(ModBlocks.MAGIRITE_DEEPSLATE_ORE)
@@ -200,8 +224,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PUREFICATED_MYTHRIL_FENCE)
                 .add(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE)
                 .add(ModBlocks.PUREFICATED_MYTHRIL_WALL)
-//                .add(ModBlocks.PUREFICATED_MYTHRIL_DOOR)
-//                .add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR)
+                .add(ModBlocks.PUREFICATED_MYTHRIL_DOOR)
+                .add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR)
 
                 .add(ModBlocks.RAW_ADAMANTITE_BLOCK)
                 .add(ModBlocks.RAW_ADAMANTITE_STAIRS)
@@ -211,6 +235,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_ADAMANTITE_FENCE)
                 .add(ModBlocks.RAW_ADAMANTITE_FENCE_GATE)
                 .add(ModBlocks.RAW_ADAMANTITE_WALL)
+                .add(ModBlocks.RAW_ADAMANTITE_DOOR)
+                .add(ModBlocks.RAW_ADAMANTITE_TRAPDOOR)
 
                 .add(ModBlocks.ADAMANTITE_BLOCK)
                 .add(ModBlocks.ADAMANTITE_STAIRS)
@@ -220,6 +246,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ADAMANTITE_FENCE)
                 .add(ModBlocks.ADAMANTITE_FENCE_GATE)
                 .add(ModBlocks.ADAMANTITE_WALL)
+                .add(ModBlocks.ADAMANTITE_DOOR)
+                .add(ModBlocks.ADAMANTITE_TRAPDOOR)
 
                 .add(ModBlocks.ADAMANTITE_STONE_ORE)
                 .add(ModBlocks.ADAMANTITE_DEEPSLATE_ORE)
@@ -237,6 +265,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_ORIKALKUM_FENCE)
                 .add(ModBlocks.RAW_ORIKALKUM_FENCE_GATE)
                 .add(ModBlocks.RAW_ORIKALKUM_WALL)
+                .add(ModBlocks.RAW_ORIKALKUM_DOOR)
+                .add(ModBlocks.RAW_ORIKALKUM_TRAPDOOR)
 
                 .add(ModBlocks.ORIKALKUM_BLOCK)
                 .add(ModBlocks.ORIKALKUM_STAIRS)
@@ -246,6 +276,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORIKALKUM_FENCE)
                 .add(ModBlocks.ORIKALKUM_FENCE_GATE)
                 .add(ModBlocks.ORIKALKUM_WALL)
+                .add(ModBlocks.ORIKALKUM_DOOR)
+                .add(ModBlocks.ORIKALKUM_TRAPDOOR)
 
                 .add(ModBlocks.ORIKALKUM_STONE_ORE)
                 .add(ModBlocks.ORIKALKUM_DEEPSLATE_ORE)
@@ -263,6 +295,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_DRAGON_BANE_FENCE)
                 .add(ModBlocks.RAW_DRAGON_BANE_FENCE_GATE)
                 .add(ModBlocks.RAW_DRAGON_BANE_WALL)
+                .add(ModBlocks.RAW_DRAGON_BANE_DOOR)
+                .add(ModBlocks.RAW_DRAGON_BANE_TRAPDOOR)
 
                 .add(ModBlocks.DRAGON_BANE_BLOCK)
                 .add(ModBlocks.DRAGON_BANE_STAIRS)
@@ -272,6 +306,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DRAGON_BANE_FENCE)
                 .add(ModBlocks.DRAGON_BANE_FENCE_GATE)
                 .add(ModBlocks.DRAGON_BANE_WALL)
+                .add(ModBlocks.DRAGON_BANE_DOOR)
+                .add(ModBlocks.DRAGON_BANE_TRAPDOOR)
 
                 .add(ModBlocks.DRAGON_BANE_STONE_ORE)
                 .add(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE)
@@ -289,6 +325,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_DWARF_GOLD_FENCE)
                 .add(ModBlocks.RAW_DWARF_GOLD_FENCE_GATE)
                 .add(ModBlocks.RAW_DWARF_GOLD_WALL)
+                .add(ModBlocks.RAW_DWARF_GOLD_DOOR)
+                .add(ModBlocks.RAW_DWARF_GOLD_TRAPDOOR)
 
                 .add(ModBlocks.DWARF_GOLD_BLOCK)
                 .add(ModBlocks.DWARF_GOLD_STAIRS)
@@ -298,6 +336,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DWARF_GOLD_FENCE)
                 .add(ModBlocks.DWARF_GOLD_FENCE_GATE)
                 .add(ModBlocks.DWARF_GOLD_WALL)
+                .add(ModBlocks.DWARF_GOLD_DOOR)
+                .add(ModBlocks.DWARF_GOLD_TRAPDOOR)
 
                 .add(ModBlocks.DWARF_GOLD_STONE_ORE)
                 .add(ModBlocks.DWARF_GOLD_DEEPSLATE_ORE)

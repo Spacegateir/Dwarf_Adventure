@@ -102,6 +102,8 @@ public class ModModelProvider extends FabricModelProvider {
         raw_dwarf_steelPool.fence(ModBlocks.RAW_DWARF_STEEL_FENCE);
         raw_dwarf_steelPool.fenceGate(ModBlocks.RAW_DWARF_STEEL_FENCE_GATE);
         raw_dwarf_steelPool.wall(ModBlocks.RAW_DWARF_STEEL_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAW_DWARF_STEEL_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAW_DWARF_STEEL_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool dwarf_steelPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DWARF_STEEL_BLOCK);
         dwarf_steelPool.stairs(ModBlocks.DWARF_STEEL_STAIRS);
@@ -130,6 +132,8 @@ public class ModModelProvider extends FabricModelProvider {
         windgemPool.fence(ModBlocks.WIND_GEM_FENCE);
         windgemPool.fenceGate(ModBlocks.WIND_GEM_FENCE_GATE);
         windgemPool.wall(ModBlocks.WIND_GEM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.AER_SPIRITSTONE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.AER_SPIRITSTONE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool AerPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AER_BLOCK);
         AerPool.stairs(ModBlocks.AER_STAIRS);
@@ -139,6 +143,8 @@ public class ModModelProvider extends FabricModelProvider {
         AerPool.fence(ModBlocks.AER_FENCE);
         AerPool.fenceGate(ModBlocks.AER_FENCE_GATE);
         AerPool.wall(ModBlocks.AER_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.AER_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.AER_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool firegemPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.FIRE_GEM_BLOCK);
         firegemPool.stairs(ModBlocks.FIRE_GEM_STAIRS);
@@ -148,6 +154,8 @@ public class ModModelProvider extends FabricModelProvider {
         firegemPool.fence(ModBlocks.FIRE_GEM_FENCE);
         firegemPool.fenceGate(ModBlocks.FIRE_GEM_FENCE_GATE);
         firegemPool.wall(ModBlocks.FIRE_GEM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.IGNIS_SPIRITSTONE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.IGNIS_SPIRITSTONE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool IgnisPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.IGNIS_BLOCK);
         IgnisPool.stairs(ModBlocks.IGNIS_STAIRS);
@@ -157,6 +165,8 @@ public class ModModelProvider extends FabricModelProvider {
         IgnisPool.fence(ModBlocks.IGNIS_FENCE);
         IgnisPool.fenceGate(ModBlocks.IGNIS_FENCE_GATE);
         IgnisPool.wall(ModBlocks.IGNIS_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.IGNIS_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.IGNIS_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool watergemPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.WATER_GEM_BLOCK);
         watergemPool.stairs(ModBlocks.WATER_GEM_STAIRS);
@@ -166,6 +176,8 @@ public class ModModelProvider extends FabricModelProvider {
         watergemPool.fence(ModBlocks.WATER_GEM_FENCE);
         watergemPool.fenceGate(ModBlocks.WATER_GEM_FENCE_GATE);
         watergemPool.wall(ModBlocks.WATER_GEM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.AQUA_SPITIRSTONE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.AQUA_SPIRITSTONE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool AquaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.AQUA_BLOCK);
         AquaPool.stairs(ModBlocks.AQUA_STAIRS);
@@ -175,6 +187,8 @@ public class ModModelProvider extends FabricModelProvider {
         AquaPool.fence(ModBlocks.AQUA_FENCE);
         AquaPool.fenceGate(ModBlocks.AQUA_FENCE_GATE);
         AquaPool.wall(ModBlocks.AQUA_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.AQUA_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.AQUA_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool earthgemPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.EARTH_GEM_BLOCK);
         earthgemPool.stairs(ModBlocks.EARTH_GEM_STAIRS);
@@ -184,6 +198,8 @@ public class ModModelProvider extends FabricModelProvider {
         earthgemPool.fence(ModBlocks.EARTH_GEM_FENCE);
         earthgemPool.fenceGate(ModBlocks.EARTH_GEM_FENCE_GATE);
         earthgemPool.wall(ModBlocks.EARTH_GEM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.TERA_SPIRITSTONE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.TERA_SPIRITSTONE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool TeraPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TERA_BLOCK);
         TeraPool.stairs(ModBlocks.TERA_STAIRS);
@@ -193,6 +209,8 @@ public class ModModelProvider extends FabricModelProvider {
         TeraPool.fence(ModBlocks.TERA_FENCE);
         TeraPool.fenceGate(ModBlocks.TERA_FENCE_GATE);
         TeraPool.wall(ModBlocks.TERA_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.TERA_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.TERA_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool elementalgemPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ELEMENTAL_GEM_BLOCK);
         elementalgemPool.stairs(ModBlocks.ELEMENTAL_GEM_STAIRS);
@@ -202,6 +220,8 @@ public class ModModelProvider extends FabricModelProvider {
         elementalgemPool.fence(ModBlocks.ELEMENTAL_GEM_FENCE);
         elementalgemPool.fenceGate(ModBlocks.ELEMENTAL_GEM_FENCE_GATE);
         elementalgemPool.wall(ModBlocks.ELEMENTAL_GEM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.QUINTESSENCE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.QUINTESSENCE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool magiritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGIRITE_BLOCK);
         magiritePool.stairs(ModBlocks.MAGIRITE_STAIRS);
@@ -211,6 +231,8 @@ public class ModModelProvider extends FabricModelProvider {
         magiritePool.fence(ModBlocks.MAGIRITE_FENCE);
         magiritePool.fenceGate(ModBlocks.MAGIRITE_FENCE_GATE);
         magiritePool.wall(ModBlocks.MAGIRITE_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.MAGIRITE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.MAGIRITE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool raw_magiritePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RAW_MAGIRITE_BLOCK);
         raw_magiritePool.stairs(ModBlocks.RAW_MAGIRITE_STAIRS);
@@ -220,6 +242,8 @@ public class ModModelProvider extends FabricModelProvider {
         raw_magiritePool.fence(ModBlocks.RAW_MAGIRITE_FENCE);
         raw_magiritePool.fenceGate(ModBlocks.RAW_MAGIRITE_FENCE_GATE);
         raw_magiritePool.wall(ModBlocks.RAW_MAGIRITE_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAW_MAGIRITE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAW_MAGIRITE_TRAPDOOR);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGIRITE_STONE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MAGIRITE_DEEPSLATE_ORE);
@@ -248,8 +272,8 @@ public class ModModelProvider extends FabricModelProvider {
         pureficatedmythrilPool.fence(ModBlocks.PUREFICATED_MYTHRIL_FENCE);
         pureficatedmythrilPool.fenceGate(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE);
         pureficatedmythrilPool.wall(ModBlocks.PUREFICATED_MYTHRIL_WALL);
-//        blockStateModelGenerator.registerDoor(ModBlocks.MYTHRIL_DOOR);
-//        blockStateModelGenerator.registerTrapdoor(ModBlocks.MYTHRIL_TRAPDOOR);
+        blockStateModelGenerator.registerDoor(ModBlocks.PUREFICATED_MYTHRIL_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BUDDING_MYTHRIL);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BUDDING_MYTHRIL_STONE);
@@ -272,6 +296,8 @@ public class ModModelProvider extends FabricModelProvider {
         rawadamantitePool.fence(ModBlocks.RAW_ADAMANTITE_FENCE);
         rawadamantitePool.fenceGate(ModBlocks.RAW_ADAMANTITE_FENCE_GATE);
         rawadamantitePool.wall(ModBlocks.RAW_ADAMANTITE_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAW_ADAMANTITE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAW_ADAMANTITE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool adamantitePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ADAMANTITE_BLOCK);
         adamantitePool.stairs(ModBlocks.ADAMANTITE_STAIRS);
@@ -281,6 +307,8 @@ public class ModModelProvider extends FabricModelProvider {
         adamantitePool.fence(ModBlocks.ADAMANTITE_FENCE);
         adamantitePool.fenceGate(ModBlocks.ADAMANTITE_FENCE_GATE);
         adamantitePool.wall(ModBlocks.ADAMANTITE_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.ADAMANTITE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ADAMANTITE_TRAPDOOR);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ADAMANTITE_STONE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ADAMANTITE_DEEPSLATE_ORE);
@@ -298,6 +326,8 @@ public class ModModelProvider extends FabricModelProvider {
         raworikalkumPool.fence(ModBlocks.RAW_ORIKALKUM_FENCE);
         raworikalkumPool.fenceGate(ModBlocks.RAW_ORIKALKUM_FENCE_GATE);
         raworikalkumPool.wall(ModBlocks.RAW_ORIKALKUM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAW_ORIKALKUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAW_ORIKALKUM_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool orikalkumPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORIKALKUM_BLOCK);
         orikalkumPool.stairs(ModBlocks.ORIKALKUM_STAIRS);
@@ -307,6 +337,8 @@ public class ModModelProvider extends FabricModelProvider {
         orikalkumPool.fence(ModBlocks.ORIKALKUM_FENCE);
         orikalkumPool.fenceGate(ModBlocks.ORIKALKUM_FENCE_GATE);
         orikalkumPool.wall(ModBlocks.ORIKALKUM_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.ORIKALKUM_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.ORIKALKUM_TRAPDOOR);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORIKALKUM_STONE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ORIKALKUM_DEEPSLATE_ORE);
@@ -324,6 +356,8 @@ public class ModModelProvider extends FabricModelProvider {
         rawDragonBanePool.fence(ModBlocks.RAW_DRAGON_BANE_FENCE);
         rawDragonBanePool.fenceGate(ModBlocks.RAW_DRAGON_BANE_FENCE_GATE);
         rawDragonBanePool.wall(ModBlocks.RAW_DRAGON_BANE_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAW_DRAGON_BANE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAW_DRAGON_BANE_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool DragonBanePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DRAGON_BANE_BLOCK);
         DragonBanePool.stairs(ModBlocks.DRAGON_BANE_STAIRS);
@@ -333,6 +367,8 @@ public class ModModelProvider extends FabricModelProvider {
         DragonBanePool.fence(ModBlocks.DRAGON_BANE_FENCE);
         DragonBanePool.fenceGate(ModBlocks.DRAGON_BANE_FENCE_GATE);
         DragonBanePool.wall(ModBlocks.DRAGON_BANE_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.DRAGON_BANE_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.DRAGON_BANE_TRAPDOOR);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DRAGON_BANE_STONE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE);
@@ -350,6 +386,8 @@ public class ModModelProvider extends FabricModelProvider {
         rawDwarfGoldPool.fence(ModBlocks.RAW_DWARF_GOLD_FENCE);
         rawDwarfGoldPool.fenceGate(ModBlocks.RAW_DWARF_GOLD_FENCE_GATE);
         rawDwarfGoldPool.wall(ModBlocks.RAW_DWARF_GOLD_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.RAW_DWARF_GOLD_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.RAW_DWARF_GOLD_TRAPDOOR);
 
         BlockStateModelGenerator.BlockTexturePool DwarfGoldPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DWARF_GOLD_BLOCK);
         DwarfGoldPool.stairs(ModBlocks.DWARF_GOLD_STAIRS);
@@ -359,6 +397,8 @@ public class ModModelProvider extends FabricModelProvider {
         DwarfGoldPool.fence(ModBlocks.DWARF_GOLD_FENCE);
         DwarfGoldPool.fenceGate(ModBlocks.DWARF_GOLD_FENCE_GATE);
         DwarfGoldPool.wall(ModBlocks.DWARF_GOLD_WALL);
+        blockStateModelGenerator.registerDoor(ModBlocks.DWARF_GOLD_DOOR);
+        blockStateModelGenerator.registerTrapdoor(ModBlocks.DWARF_GOLD_TRAPDOOR);
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DWARF_GOLD_STONE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DWARF_GOLD_DEEPSLATE_ORE);

@@ -191,16 +191,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_DWARF_STEEL_FENCE_GATE);
         addDrop(ModBlocks.RAW_DWARF_STEEL_BUTTON);
         addDrop(ModBlocks.RAW_DWARF_STEEL_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_DWARF_STEEL_TRAPDOOR);
+        addDrop(ModBlocks.RAW_DWARF_STEEL_DOOR, doorDrops(ModBlocks.RAW_DWARF_STEEL_DOOR));
         addDrop(ModBlocks.RAW_DWARF_STEEL_SLAB, slabDrops(ModBlocks.RAW_DWARF_STEEL_SLAB));
 
         addDrop(ModBlocks.DWARF_STEEL_BLOCK);
         addDrop(ModBlocks.DWARF_STEEL_STAIRS);
-        addDrop(ModBlocks.DWARF_STEEL_TRAPDOOR);
         addDrop(ModBlocks.DWARF_STEEL_WALL);
         addDrop(ModBlocks.DWARF_STEEL_FENCE);
         addDrop(ModBlocks.DWARF_STEEL_FENCE_GATE);
         addDrop(ModBlocks.DWARF_STEEL_BUTTON);
         addDrop(ModBlocks.DWARF_STEEL_PRESSURE_PLATE);
+        addDrop(ModBlocks.DWARF_STEEL_TRAPDOOR);
         addDrop(ModBlocks.DWARF_STEEL_DOOR, doorDrops(ModBlocks.DWARF_STEEL_DOOR));
         addDrop(ModBlocks.DWARF_STEEL_SLAB, slabDrops(ModBlocks.DWARF_STEEL_SLAB));
 
@@ -260,6 +262,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WIND_GEM_FENCE_GATE);
         addDrop(ModBlocks.WIND_GEM_BUTTON);
         addDrop(ModBlocks.WIND_GEM_PRESSURE_PLATE);
+        addDrop(ModBlocks.AER_SPIRITSTONE_TRAPDOOR);
+        addDrop(ModBlocks.AER_SPIRITSTONE_DOOR, doorDrops(ModBlocks.AER_SPIRITSTONE_DOOR));
         addDrop(ModBlocks.WIND_GEM_SLAB, slabDrops(ModBlocks.WIND_GEM_SLAB));
 
         addDrop(ModBlocks.AER_BLOCK);
@@ -269,6 +273,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.AER_FENCE_GATE);
         addDrop(ModBlocks.AER_BUTTON);
         addDrop(ModBlocks.AER_PRESSURE_PLATE);
+        addDrop(ModBlocks.AER_TRAPDOOR);
+        addDrop(ModBlocks.AER_DOOR, doorDrops(ModBlocks.AER_DOOR));
         addDrop(ModBlocks.AER_SLAB, slabDrops(ModBlocks.WIND_GEM_SLAB));
 
         addDrop(ModBlocks.FIRE_GEM_BLOCK);
@@ -278,6 +284,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.FIRE_GEM_FENCE_GATE);
         addDrop(ModBlocks.FIRE_GEM_BUTTON);
         addDrop(ModBlocks.FIRE_GEM_PRESSURE_PLATE);
+        addDrop(ModBlocks.IGNIS_SPIRITSTONE_TRAPDOOR);
+        addDrop(ModBlocks.IGNIS_SPIRITSTONE_DOOR, doorDrops(ModBlocks.IGNIS_SPIRITSTONE_DOOR));
         addDrop(ModBlocks.FIRE_GEM_SLAB, slabDrops(ModBlocks.FIRE_GEM_SLAB));
 
         addDrop(ModBlocks.IGNIS_BLOCK);
@@ -287,6 +295,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.IGNIS_FENCE_GATE);
         addDrop(ModBlocks.IGNIS_BUTTON);
         addDrop(ModBlocks.IGNIS_PRESSURE_PLATE);
+        addDrop(ModBlocks.IGNIS_TRAPDOOR);
+        addDrop(ModBlocks.IGNIS_DOOR, doorDrops(ModBlocks.IGNIS_DOOR));
         addDrop(ModBlocks.IGNIS_SLAB, slabDrops(ModBlocks.WIND_GEM_SLAB));
 
         addDrop(ModBlocks.WATER_GEM_BLOCK);
@@ -296,6 +306,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.WATER_GEM_FENCE_GATE);
         addDrop(ModBlocks.WATER_GEM_BUTTON);
         addDrop(ModBlocks.WATER_GEM_PRESSURE_PLATE);
+        addDrop(ModBlocks.AQUA_SPIRITSTONE_TRAPDOOR);
+        addDrop(ModBlocks.AQUA_SPITIRSTONE_DOOR, doorDrops(ModBlocks.AQUA_SPITIRSTONE_DOOR));
         addDrop(ModBlocks.WATER_GEM_SLAB, slabDrops(ModBlocks.WATER_GEM_SLAB));
 
         addDrop(ModBlocks.AQUA_BLOCK);
@@ -305,6 +317,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.AQUA_FENCE_GATE);
         addDrop(ModBlocks.AQUA_BUTTON);
         addDrop(ModBlocks.AQUA_PRESSURE_PLATE);
+        addDrop(ModBlocks.AQUA_TRAPDOOR);
+        addDrop(ModBlocks.AQUA_DOOR, doorDrops(ModBlocks.AQUA_DOOR));
         addDrop(ModBlocks.AQUA_SLAB, slabDrops(ModBlocks.WIND_GEM_SLAB));
 
         addDrop(ModBlocks.EARTH_GEM_BLOCK);
@@ -314,6 +328,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.EARTH_GEM_FENCE_GATE);
         addDrop(ModBlocks.EARTH_GEM_BUTTON);
         addDrop(ModBlocks.EARTH_GEM_PRESSURE_PLATE);
+        addDrop(ModBlocks.TERA_SPIRITSTONE_TRAPDOOR);
+        addDrop(ModBlocks.TERA_SPIRITSTONE_DOOR, doorDrops(ModBlocks.TERA_SPIRITSTONE_DOOR));
         addDrop(ModBlocks.EARTH_GEM_SLAB, slabDrops(ModBlocks.EARTH_GEM_SLAB));
 
         addDrop(ModBlocks.TERA_BLOCK);
@@ -323,6 +339,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.TERA_FENCE_GATE);
         addDrop(ModBlocks.TERA_BUTTON);
         addDrop(ModBlocks.TERA_PRESSURE_PLATE);
+        addDrop(ModBlocks.TERA_TRAPDOOR);
+        addDrop(ModBlocks.TERA_DOOR, doorDrops(ModBlocks.TERA_DOOR));
         addDrop(ModBlocks.TERA_SLAB, slabDrops(ModBlocks.WIND_GEM_SLAB));
 
         addDrop(ModBlocks.ELEMENTAL_GEM_BLOCK);
@@ -332,6 +350,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ELEMENTAL_GEM_FENCE_GATE);
         addDrop(ModBlocks.ELEMENTAL_GEM_BUTTON);
         addDrop(ModBlocks.ELEMENTAL_GEM_PRESSURE_PLATE);
+        addDrop(ModBlocks.QUINTESSENCE_TRAPDOOR);
+        addDrop(ModBlocks.QUINTESSENCE_DOOR, doorDrops(ModBlocks.QUINTESSENCE_DOOR));
         addDrop(ModBlocks.ELEMENTAL_GEM_SLAB, slabDrops(ModBlocks.ELEMENTAL_GEM_SLAB));
 
         addDrop(ModBlocks.RAW_MAGIRITE_BLOCK);
@@ -341,6 +361,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_MAGIRITE_FENCE_GATE);
         addDrop(ModBlocks.RAW_MAGIRITE_BUTTON);
         addDrop(ModBlocks.RAW_MAGIRITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_MAGIRITE_TRAPDOOR);
+        addDrop(ModBlocks.RAW_MAGIRITE_DOOR, doorDrops(ModBlocks.RAW_MAGIRITE_DOOR));
         addDrop(ModBlocks.RAW_MAGIRITE_SLAB, slabDrops(ModBlocks.RAW_MAGIRITE_SLAB));
 
         addDrop(ModBlocks.MAGIRITE_BLOCK);
@@ -350,6 +372,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.MAGIRITE_FENCE_GATE);
         addDrop(ModBlocks.MAGIRITE_BUTTON);
         addDrop(ModBlocks.MAGIRITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.MAGIRITE_TRAPDOOR);
+        addDrop(ModBlocks.MAGIRITE_DOOR, doorDrops(ModBlocks.MAGIRITE_DOOR));
         addDrop(ModBlocks.MAGIRITE_SLAB, slabDrops(ModBlocks.MAGIRITE_SLAB));
 
         addDrop(ModBlocks.MAGIRITE_STONE_ORE, MagiriteOreDrops(
@@ -414,13 +438,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_BLOCK);
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_STAIRS);
-//        addDrop(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR);
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_WALL);
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_FENCE);
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE);
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_BUTTON);
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_PRESSURE_PLATE);
-//        addDrop(ModBlocks.PUREFICATED_MYTHRIL_DOOR, doorDrops(ModBlocks.PUREFICATED_MYTHRIL_DOOR));
+        addDrop(ModBlocks.PUREFICATED_MYTHRIL_DOOR, doorDrops(ModBlocks.PUREFICATED_MYTHRIL_DOOR));
         addDrop(ModBlocks.PUREFICATED_MYTHRIL_SLAB, slabDrops(ModBlocks.PUREFICATED_MYTHRIL_SLAB));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_STONE, MythrilOreDrops(
@@ -500,6 +524,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_ADAMANTITE_FENCE_GATE);
         addDrop(ModBlocks.RAW_ADAMANTITE_BUTTON);
         addDrop(ModBlocks.RAW_ADAMANTITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_ADAMANTITE_TRAPDOOR);
+        addDrop(ModBlocks.RAW_ADAMANTITE_DOOR, doorDrops(ModBlocks.RAW_ADAMANTITE_DOOR));
         addDrop(ModBlocks.RAW_ADAMANTITE_SLAB, slabDrops(ModBlocks.RAW_ADAMANTITE_SLAB));
 
         addDrop(ModBlocks.ADAMANTITE_BLOCK);
@@ -509,6 +535,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ADAMANTITE_FENCE_GATE);
         addDrop(ModBlocks.ADAMANTITE_BUTTON);
         addDrop(ModBlocks.ADAMANTITE_PRESSURE_PLATE);
+        addDrop(ModBlocks.ADAMANTITE_TRAPDOOR);
+        addDrop(ModBlocks.ADAMANTITE_DOOR, doorDrops(ModBlocks.ADAMANTITE_DOOR));
         addDrop(ModBlocks.ADAMANTITE_SLAB, slabDrops(ModBlocks.ADAMANTITE_SLAB));
 
         addDrop(ModBlocks.ADAMANTITE_STONE_ORE, AdamantiteOreDrops(
@@ -567,6 +595,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_ORIKALKUM_FENCE_GATE);
         addDrop(ModBlocks.RAW_ORIKALKUM_BUTTON);
         addDrop(ModBlocks.RAW_ORIKALKUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_ORIKALKUM_TRAPDOOR);
+        addDrop(ModBlocks.RAW_ORIKALKUM_DOOR, doorDrops(ModBlocks.RAW_ORIKALKUM_DOOR));
         addDrop(ModBlocks.RAW_ORIKALKUM_SLAB, slabDrops(ModBlocks.RAW_ORIKALKUM_SLAB));
 
         addDrop(ModBlocks.ORIKALKUM_BLOCK);
@@ -576,6 +606,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.ORIKALKUM_FENCE_GATE);
         addDrop(ModBlocks.ORIKALKUM_BUTTON);
         addDrop(ModBlocks.ORIKALKUM_PRESSURE_PLATE);
+        addDrop(ModBlocks.ORIKALKUM_TRAPDOOR);
+        addDrop(ModBlocks.ORIKALKUM_DOOR, doorDrops(ModBlocks.ORIKALKUM_DOOR));
         addDrop(ModBlocks.ORIKALKUM_SLAB, slabDrops(ModBlocks.ORIKALKUM_SLAB));
 
         addDrop(ModBlocks.ORIKALKUM_STONE_ORE, OrikalkumOreDrops(
@@ -634,6 +666,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_DRAGON_BANE_FENCE_GATE);
         addDrop(ModBlocks.RAW_DRAGON_BANE_BUTTON);
         addDrop(ModBlocks.RAW_DRAGON_BANE_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_DRAGON_BANE_TRAPDOOR);
+        addDrop(ModBlocks.RAW_DRAGON_BANE_DOOR, doorDrops(ModBlocks.RAW_DRAGON_BANE_DOOR));
         addDrop(ModBlocks.RAW_DRAGON_BANE_SLAB, slabDrops(ModBlocks.RAW_DRAGON_BANE_SLAB));
 
         addDrop(ModBlocks.DRAGON_BANE_BLOCK);
@@ -643,6 +677,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DRAGON_BANE_FENCE_GATE);
         addDrop(ModBlocks.DRAGON_BANE_BUTTON);
         addDrop(ModBlocks.DRAGON_BANE_PRESSURE_PLATE);
+        addDrop(ModBlocks.DRAGON_BANE_TRAPDOOR);
+        addDrop(ModBlocks.DRAGON_BANE_DOOR, doorDrops(ModBlocks.DRAGON_BANE_DOOR));
         addDrop(ModBlocks.DRAGON_BANE_SLAB, slabDrops(ModBlocks.DRAGON_BANE_SLAB));
 
         addDrop(ModBlocks.DRAGON_BANE_STONE_ORE, DragonBaneOreDrops(
@@ -701,6 +737,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.RAW_DWARF_GOLD_FENCE_GATE);
         addDrop(ModBlocks.RAW_DWARF_GOLD_BUTTON);
         addDrop(ModBlocks.RAW_DWARF_GOLD_PRESSURE_PLATE);
+        addDrop(ModBlocks.RAW_DWARF_GOLD_TRAPDOOR);
+        addDrop(ModBlocks.RAW_DWARF_GOLD_DOOR, doorDrops(ModBlocks.RAW_DWARF_GOLD_DOOR));
         addDrop(ModBlocks.RAW_DWARF_GOLD_SLAB, slabDrops(ModBlocks.RAW_DWARF_GOLD_SLAB));
 
         addDrop(ModBlocks.DWARF_GOLD_BLOCK);
@@ -710,6 +748,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.DWARF_GOLD_FENCE_GATE);
         addDrop(ModBlocks.DWARF_GOLD_BUTTON);
         addDrop(ModBlocks.DWARF_GOLD_PRESSURE_PLATE);
+        addDrop(ModBlocks.DWARF_GOLD_TRAPDOOR);
+        addDrop(ModBlocks.DWARF_GOLD_DOOR, doorDrops(ModBlocks.DWARF_GOLD_DOOR));
         addDrop(ModBlocks.DWARF_GOLD_SLAB, slabDrops(ModBlocks.DWARF_GOLD_SLAB));
 
         addDrop(ModBlocks.DWARF_GOLD_STONE_ORE, DwarfGoldOreDrops(

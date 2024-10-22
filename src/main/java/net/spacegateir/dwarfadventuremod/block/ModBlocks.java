@@ -77,9 +77,9 @@ public class ModBlocks {
     public static final Block DWARF_STEEL_WALL = registerBlock("dwarf_steel_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
     public static final Block DWARF_STEEL_DOOR = registerBlock("dwarf_steel_door",
-            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.IRON));
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
     public static final Block DWARF_STEEL_TRAPDOOR = registerBlock("dwarf_steel_trapdoor",
-            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.IRON));
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     public static final Block RAW_DWARF_STEEL_STAIRS = registerBlock("raw_dwarf_steel_stairs",
             new StairsBlock(ModBlocks.RAW_DWARF_STEEL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never)));
@@ -96,6 +96,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK), WoodType.OAK));
     public static final Block RAW_DWARF_STEEL_WALL = registerBlock("raw_dwarf_steel_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK)));
+    public static final Block RAW_DWARF_STEEL_DOOR = registerBlock("raw_dwarf_steel_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block RAW_DWARF_STEEL_TRAPDOOR = registerBlock("raw_dwarf_steel_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
 
     //Wind Gem Block
@@ -107,19 +111,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.WIND_GEM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block WIND_GEM_SLAB = registerBlock("wind_gem_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block WIND_GEM_BUTTON = registerBlock("wind_gem_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block WIND_GEM_PRESSURE_PLATE = registerBlock("wind_gem_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block WIND_GEM_FENCE = registerBlock("wind_gem_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block WIND_GEM_FENCE_GATE = registerBlock("wind_gem_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block WIND_GEM_WALL = registerBlock("wind_gem_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block AER_SPIRITSTONE_DOOR = registerBlock("aer_spiritstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block AER_SPIRITSTONE_TRAPDOOR = registerBlock("aer_spiritstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Aer Block
 
@@ -130,19 +136,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.AER_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block AER_SLAB = registerBlock("aer_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block AER_BUTTON = registerBlock("aer_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block AER_PRESSURE_PLATE = registerBlock("aer_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block AER_FENCE = registerBlock("aer_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block AER_FENCE_GATE = registerBlock("aer_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block AER_WALL = registerBlock("aer_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block AER_DOOR = registerBlock("aer_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block AER_TRAPDOOR = registerBlock("aer_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Fire Gem Block
 
@@ -153,19 +161,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.FIRE_GEM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block FIRE_GEM_SLAB = registerBlock("fire_gem_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block FIRE_GEM_BUTTON = registerBlock("fire_gem_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block FIRE_GEM_PRESSURE_PLATE = registerBlock("fire_gem_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block FIRE_GEM_FENCE = registerBlock("fire_gem_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block FIRE_GEM_FENCE_GATE = registerBlock("fire_gem_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block FIRE_GEM_WALL = registerBlock("fire_gem_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block IGNIS_SPIRITSTONE_DOOR = registerBlock("ignis_spiritstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block IGNIS_SPIRITSTONE_TRAPDOOR = registerBlock("ignis_spiritstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Ignis Block
 
@@ -176,19 +186,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.IGNIS_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block IGNIS_SLAB = registerBlock("ignis_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block IGNIS_BUTTON = registerBlock("ignis_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block IGNIS_PRESSURE_PLATE = registerBlock("ignis_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block IGNIS_FENCE = registerBlock("ignis_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block IGNIS_FENCE_GATE = registerBlock("ignis_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block IGNIS_WALL = registerBlock("ignis_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block IGNIS_DOOR = registerBlock("ignis_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block IGNIS_TRAPDOOR = registerBlock("ignis_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Water Gem Block
 
@@ -199,19 +211,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.WATER_GEM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block WATER_GEM_SLAB = registerBlock("water_gem_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block WATER_GEM_BUTTON = registerBlock("water_gem_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block WATER_GEM_PRESSURE_PLATE = registerBlock("water_gem_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block WATER_GEM_FENCE = registerBlock("water_gem_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block WATER_GEM_FENCE_GATE = registerBlock("water_gem_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block WATER_GEM_WALL = registerBlock("water_gem_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block AQUA_SPITIRSTONE_DOOR = registerBlock("aqua_spiritstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block AQUA_SPIRITSTONE_TRAPDOOR = registerBlock("aqua_spiritstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Aqua Block
 
@@ -222,19 +236,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.AQUA_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block AQUA_SLAB = registerBlock("aqua_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block AQUA_BUTTON = registerBlock("aqua_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block AQUA_PRESSURE_PLATE = registerBlock("aqua_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block AQUA_FENCE = registerBlock("aqua_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block AQUA_FENCE_GATE = registerBlock("aqua_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block AQUA_WALL = registerBlock("aqua_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block AQUA_DOOR = registerBlock("aqua_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block AQUA_TRAPDOOR = registerBlock("aqua_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Earth Gem Block
 
@@ -245,19 +261,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.EARTH_GEM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block EARTH_GEM_SLAB = registerBlock("earth_gem_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block EARTH_GEM_BUTTON = registerBlock("earth_gem_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block EARTH_GEM_PRESSURE_PLATE = registerBlock("earth_gem_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block EARTH_GEM_FENCE = registerBlock("earth_gem_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block EARTH_GEM_FENCE_GATE = registerBlock("earth_gem_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block EARTH_GEM_WALL = registerBlock("earth_gem_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block TERA_SPIRITSTONE_DOOR = registerBlock("tera_spiritstone_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block TERA_SPIRITSTONE_TRAPDOOR = registerBlock("tera_spiritstone_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Tera Block
 
@@ -268,19 +286,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.TERA_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block TERA_SLAB = registerBlock("tera_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block TERA_BUTTON = registerBlock("tera_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block TERA_PRESSURE_PLATE = registerBlock("tera_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block TERA_FENCE = registerBlock("tera_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block TERA_FENCE_GATE = registerBlock("tera_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block TERA_WALL = registerBlock("tera_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block TERA_DOOR = registerBlock("tera_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block TERA_TRAPDOOR = registerBlock("tera_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Elemental Gem Block
 
@@ -291,19 +311,21 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.ELEMENTAL_GEM_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block ELEMENTAL_GEM_SLAB = registerBlock("elemental_gem_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block ELEMENTAL_GEM_BUTTON = registerBlock("elemental_gem_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block ELEMENTAL_GEM_PRESSURE_PLATE = registerBlock("elemental_gem_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block ELEMENTAL_GEM_FENCE = registerBlock("elemental_gem_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block ELEMENTAL_GEM_FENCE_GATE = registerBlock("elemental_gem_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block ELEMENTAL_GEM_WALL = registerBlock("elemental_gem_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
+    public static final Block QUINTESSENCE_DOOR = registerBlock("quintessence_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block QUINTESSENCE_TRAPDOOR = registerBlock("quintessence_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //Magirite
     public static final Block RAW_MAGIRITE_BLOCK = registerBlock("raw_magirite_block",
@@ -323,6 +345,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block RAW_MAGIRITE_WALL = registerBlock("raw_magirite_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block RAW_MAGIRITE_DOOR = registerBlock("raw_magirite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block RAW_MAGIRITE_TRAPDOOR = registerBlock("raw_magirite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     public static final Block MAGIRITE_BLOCK = registerBlock("magirite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).allowsSpawning(Blocks::never)));
@@ -341,6 +367,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block MAGIRITE_WALL = registerBlock("magirite_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block MAGIRITE_DOOR = registerBlock("magirite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block MAGIRITE_TRAPDOOR = registerBlock("magirite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     //mythril
 
@@ -351,20 +381,17 @@ public class ModBlocks {
             new StairsBlock(ModBlocks.MYTHRIL_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
     public static final Block MYTHRIL_SLAB = registerBlock("mythril_slab",
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).allowsSpawning(Blocks::never)));
-
     public static final Block MYTHRIL_BUTTON = registerBlock("mythril_button",
             new ButtonBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK, 10, true));
     public static final Block MYTHRIL_PRESSURE_PLATE = registerBlock("mythril_pressure_plate",
             new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
                     FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), BlockSetType.OAK));
-
     public static final Block MYTHRIL_FENCE = registerBlock("mythril_fence",
             new FenceBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
     public static final Block MYTHRIL_FENCE_GATE = registerBlock("mythril_fence_gate",
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block MYTHRIL_WALL = registerBlock("mythril_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK)));
-
     public static final Block MYTHRIL_DOOR = registerBlock("mythril_door",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.OAK));
     public static final Block MYTHRIL_TRAPDOOR = registerBlock("mythril_trapdoor",
@@ -394,7 +421,6 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK), WoodType.OAK));
     public static final Block PUREFICATED_MYTHRIL_WALL = registerBlock("pureficated_mythril_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque().solidBlock(Blocks::never).suffocates(Blocks::never).blockVision(Blocks::never)));
-
     public static final Block PUREFICATED_MYTHRIL_DOOR = registerBlock("pureficated_mythril_door",
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.AMETHYST_BLOCK).nonOpaque(), BlockSetType.OAK));
     public static final Block PUREFICATED_MYTHRIL_TRAPDOOR = registerBlock("pureficated_mythril_trapdoor",
@@ -419,6 +445,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block RAW_ADAMANTITE_WALL = registerBlock("raw_adamantite_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block RAW_ADAMANTITE_DOOR = registerBlock("raw_adamantite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block RAW_ADAMANTITE_TRAPDOOR = registerBlock("raw_adamantite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     public static final Block ADAMANTITE_BLOCK = registerBlock("adamantite_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).allowsSpawning(Blocks::never)));
@@ -437,6 +467,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block ADAMANTITE_WALL = registerBlock("adamantite_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block ADAMANTITE_DOOR = registerBlock("adamantite_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block ADAMANTITE_TRAPDOOR = registerBlock("adamantite_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
 
     //Orikalkum
@@ -457,6 +491,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block RAW_ORIKALKUM_WALL = registerBlock("raw_orikalkum_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block RAW_ORIKALKUM_DOOR = registerBlock("raw_orikalkum_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block RAW_ORIKALKUM_TRAPDOOR = registerBlock("raw_orikalkum_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     public static final Block ORIKALKUM_BLOCK = registerBlock("orikalkum_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).allowsSpawning(Blocks::never)));
@@ -475,6 +513,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block ORIKALKUM_WALL = registerBlock("orikalkum_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block ORIKALKUM_DOOR = registerBlock("orikalkum_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block ORIKALKUM_TRAPDOOR = registerBlock("orikalkum_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
 
     //Dragon Bane
@@ -495,6 +537,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block RAW_DRAGON_BANE_WALL = registerBlock("raw_dragon_bane_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block RAW_DRAGON_BANE_DOOR = registerBlock("raw_dragon_bane_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block RAW_DRAGON_BANE_TRAPDOOR = registerBlock("raw_dragon_bane_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     public static final Block DRAGON_BANE_BLOCK = registerBlock("dragon_bane_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).allowsSpawning(Blocks::never)));
@@ -513,6 +559,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block DRAGON_BANE_WALL = registerBlock("dragon_bane_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block DRAGON_BANE_DOOR = registerBlock("dragon_bane_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block DRAGON_BANE_TRAPDOOR = registerBlock("dragon_bane_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
 
     //Dwarf Gold
@@ -533,6 +583,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block RAW_DWARF_GOLD_WALL = registerBlock("raw_dwarf_gold_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block RAW_DWARF_GOLD_DOOR = registerBlock("raw_dwarf_gold_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block RAW_DWARF_GOLD_TRAPDOOR = registerBlock("raw_dwarf_gold_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
     public static final Block DWARF_GOLD_BLOCK = registerBlock("dwarf_gold_block",
             new Block(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK).allowsSpawning(Blocks::never)));
@@ -551,6 +605,10 @@ public class ModBlocks {
             new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK), WoodType.OAK));
     public static final Block DWARF_GOLD_WALL = registerBlock("dwarf_gold_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.NETHERITE_BLOCK)));
+    public static final Block DWARF_GOLD_DOOR = registerBlock("dwarf_gold_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_DOOR).nonOpaque(), BlockSetType.OAK));
+    public static final Block DWARF_GOLD_TRAPDOOR = registerBlock("dwarf_gold_trapdoor",
+            new TrapdoorBlock(FabricBlockSettings.copyOf(Blocks.IRON_TRAPDOOR).nonOpaque(), BlockSetType.OAK));
 
 
 
