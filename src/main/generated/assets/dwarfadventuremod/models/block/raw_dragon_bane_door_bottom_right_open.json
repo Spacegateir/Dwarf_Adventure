@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/raw_dragon_bane_door_bottom",
+    "top": "dwarfadventuremod:block/raw_dragon_bane_door_top"
+  }
+}

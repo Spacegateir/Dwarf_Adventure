@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/raw_dwarf_steel_door_bottom",
+    "top": "dwarfadventuremod:block/raw_dwarf_steel_door_top"
+  }
+}

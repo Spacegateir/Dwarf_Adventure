@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/tera_door_bottom",
+    "top": "dwarfadventuremod:block/tera_door_top"
+  }
+}

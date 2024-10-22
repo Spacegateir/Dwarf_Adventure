@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:raw_dwarf_steel"
+    }
+  },
+  "pattern": [
+    "II",
+    "II",
+    "II"
+  ],
+  "result": {
+    "count": 3,
+    "item": "dwarfadventuremod:raw_dwarf_steel_door"
+  },
+  "show_notification": true
+}

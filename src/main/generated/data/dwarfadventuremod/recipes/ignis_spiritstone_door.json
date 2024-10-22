@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:fire_gem_block"
+    }
+  },
+  "pattern": [
+    "II",
+    "II",
+    "II"
+  ],
+  "result": {
+    "count": 3,
+    "item": "dwarfadventuremod:ignis_spiritstone_door"
+  },
+  "show_notification": true
+}

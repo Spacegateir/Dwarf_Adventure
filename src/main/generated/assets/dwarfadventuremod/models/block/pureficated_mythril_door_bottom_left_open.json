@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/pureficated_mythril_door_bottom",
+    "top": "dwarfadventuremod:block/pureficated_mythril_door_top"
+  }
+}

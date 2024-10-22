@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/aer_spiritstone_door_bottom",
+    "top": "dwarfadventuremod:block/aer_spiritstone_door_top"
+  }
+}

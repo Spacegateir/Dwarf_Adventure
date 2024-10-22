@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/ignis_spiritstone_door_bottom",
+    "top": "dwarfadventuremod:block/ignis_spiritstone_door_top"
+  }
+}

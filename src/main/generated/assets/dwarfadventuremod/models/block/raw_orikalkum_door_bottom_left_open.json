@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/raw_orikalkum_door_bottom",
+    "top": "dwarfadventuremod:block/raw_orikalkum_door_top"
+  }
+}

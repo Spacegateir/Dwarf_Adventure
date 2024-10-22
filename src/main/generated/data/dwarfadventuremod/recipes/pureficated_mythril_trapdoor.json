@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "M": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    }
+  },
+  "pattern": [
+    "MM",
+    "MM"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:pureficated_mythril_trapdoor"
+  },
+  "show_notification": true
+}

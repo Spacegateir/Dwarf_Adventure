@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_left_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/quintessence_door_bottom",
+    "top": "dwarfadventuremod:block/quintessence_door_top"
+  }
+}

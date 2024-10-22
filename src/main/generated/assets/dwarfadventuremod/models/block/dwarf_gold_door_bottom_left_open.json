@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/dwarf_gold_door_bottom",
+    "top": "dwarfadventuremod:block/dwarf_gold_door_top"
+  }
+}

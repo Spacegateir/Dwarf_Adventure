@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_right_open",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/magirite_door_bottom",
+    "top": "dwarfadventuremod:block/magirite_door_top"
+  }
+}
