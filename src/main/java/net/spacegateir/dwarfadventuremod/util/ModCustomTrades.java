@@ -174,6 +174,413 @@ public class ModCustomTrades {
                             16, 30, 0.05f));
                 });
 
+// Iron Master Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Steelweaver Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Gem Forger Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Firestone Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Frost Steel Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Mountain Forger Artisan
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Ancient Forger Artisan
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Mythril Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Hearthforge Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// BloodForger Blacksmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
+// Elder Dwarf Godsmith
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,1,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,2,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,3,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,4,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+        TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,5,
+                factories -> {
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(Items.EMERALD,4),
+                            new ItemStack(Items.COARSE_DIRT,8),
+                            16, 30, 0.05f));
+                });
+
 
     }
 

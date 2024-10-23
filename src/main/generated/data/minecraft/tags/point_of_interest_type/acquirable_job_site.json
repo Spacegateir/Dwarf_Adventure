@@ -8,6 +8,50 @@
     {
       "id": "dwarfadventuremod:potpoi",
       "required": false
+    },
+    {
+      "id": "dwarfadventuremod:forgepoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:anvilpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:groundpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:stackpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:overpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:turnpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:toolpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:bellowspoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:weaponpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:createpoi",
+      "required": false
+    },
+    {
+      "id": "dwarfadventuremod:doublepoi",
+      "required": false
     }
   ]
 }

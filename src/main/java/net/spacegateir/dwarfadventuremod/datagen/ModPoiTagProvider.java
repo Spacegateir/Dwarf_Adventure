@@ -22,7 +22,19 @@ public class ModPoiTagProvider extends TagProvider<PointOfInterestType> {
     protected void configure(RegistryWrapper.WrapperLookup lookup) {
         this.getOrCreateTagBuilder(PointOfInterestTypeTags.ACQUIRABLE_JOB_SITE)
                 .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "benchpoi"))
-                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "potpoi"));
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "potpoi"))
+
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "forgepoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "anvilpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "groundpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "stackpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "overpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "turnpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "toolpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "bellowspoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "weaponpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "createpoi"))
+                .addOptional(new Identifier(DwarfAdventureMod.MOD_ID, "doublepoi"));
 
     }
 }
