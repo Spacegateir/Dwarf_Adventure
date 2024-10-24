@@ -3,6 +3,7 @@ package net.spacegateir.dwarfadventuremod.villager;
 import com.google.common.collect.ImmutableSet;
 import net.fabricmc.fabric.api.object.builder.v1.world.poi.PointOfInterestHelper;
 import net.minecraft.block.Block;
+import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -83,4 +84,5 @@ public class ModVillagers {
     public static void registerVillagers() {
         DwarfAdventureMod.LOGGER.info("Registering Villagers " + DwarfAdventureMod.MOD_ID);
     }
+
 }
