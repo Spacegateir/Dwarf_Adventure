@@ -415,6 +415,17 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
+        itemModelGenerator.register(ModItems.DWARF_COPPER_COIN_S, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_COPPER_COIN_M, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_COPPER_COIN_L, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_COIN_S, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_COIN_M, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_COIN_L, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_COIN_S, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_COIN_M, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_COIN_L, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_MYTHRIL_COIN_L, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.GLIMMER_ROOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.CORRUPT_GEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.HOT_INGOT, Models.GENERATED);

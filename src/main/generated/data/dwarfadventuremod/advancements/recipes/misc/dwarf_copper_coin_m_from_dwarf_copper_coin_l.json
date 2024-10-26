@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dwarf_copper_coin_l": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:dwarf_copper_coin_l"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:dwarf_copper_coin_m_from_dwarf_copper_coin_l"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_dwarf_copper_coin_l",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dwarf_copper_coin_m_from_dwarf_copper_coin_l"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -195,6 +195,20 @@ public class ModItems {
             new Hammer_9x9(ModToolMaterial.PRESSURE_HAMMER, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
 
 
+    public static final Item DWARF_COPPER_COIN_S = registerItem("dwarf_copper_coin_s", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
+    public static final Item DWARF_COPPER_COIN_M = registerItem("dwarf_copper_coin_m", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
+    public static final Item DWARF_COPPER_COIN_L = registerItem("dwarf_copper_coin_l", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
+
+    public static final Item DWARF_STEEL_COIN_S = registerItem("dwarf_steel_coin_s", new Item(new FabricItemSettings().rarity(Rarity.RARE)));
+    public static final Item DWARF_STEEL_COIN_M = registerItem("dwarf_steel_coin_m", new Item(new FabricItemSettings().rarity(Rarity.RARE)));
+    public static final Item DWARF_STEEL_COIN_L = registerItem("dwarf_steel_coin_l", new Item(new FabricItemSettings().rarity(Rarity.RARE)));
+
+    public static final Item DWARF_GOLD_COIN_S = registerItem("dwarf_gold_coin_s", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item DWARF_GOLD_COIN_M = registerItem("dwarf_gold_coin_m", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item DWARF_GOLD_COIN_L = registerItem("dwarf_gold_coin_l", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+
+    public static final Item DWARF_MYTHRIL_COIN_L = registerItem("dwarf_mythril_coin_l", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+
     public static final Item CORRUPT_GEM = registerItem("corrupt_gem", new Item(new FabricItemSettings().rarity(Rarity.COMMON)));
     public static final Item GLIMMER_ROOT = registerItem("glimmer_root", new GlimmerRootEffect(new FabricItemSettings().maxCount(64)));
     public static final Item ANCIENT_BRANCH = registerItem("ancient_branch", new Item(new FabricItemSettings()));

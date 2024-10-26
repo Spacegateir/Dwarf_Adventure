@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "dwarf_coins",
+  "ingredients": [
+    {
+      "item": "dwarfadventuremod:dwarf_steel_coin_s"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "dwarfadventuremod:dwarf_copper_coin_l"
+  }
+}

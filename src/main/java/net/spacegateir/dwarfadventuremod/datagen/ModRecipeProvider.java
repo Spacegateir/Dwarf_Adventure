@@ -163,16 +163,166 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        // Small Copper to Medium Copper Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_COPPER_COIN_M, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_COPPER_COIN_S)
+                .criterion(hasItem(ModItems.DWARF_COPPER_COIN_S), conditionsFromItem(ModItems.DWARF_COPPER_COIN_S))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_COPPER_COIN_M)));
 
+        // Medium Copper to Small Copper Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_COPPER_COIN_S,
+                ModItems.DWARF_COPPER_COIN_M,
+                "dwarf_coins",
+                9
+        );
+        // Medium Copper to Large Copper Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_COPPER_COIN_L, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_COPPER_COIN_M)
+                .criterion(hasItem(ModItems.DWARF_COPPER_COIN_M), conditionsFromItem(ModItems.DWARF_COPPER_COIN_M))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_COPPER_COIN_L)));
 
+        // Large Copper to Medium Copper Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_COPPER_COIN_M,
+                ModItems.DWARF_COPPER_COIN_L,
+                "dwarf_coins",
+                9
+        );
 
+        // Large Copper to Small Steel Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_COIN_S, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_COPPER_COIN_L)
+                .criterion(hasItem(ModItems.DWARF_COPPER_COIN_L), conditionsFromItem(ModItems.DWARF_COPPER_COIN_M))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_COIN_S)));
 
+        // Small Steel to Large Copper Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_COPPER_COIN_L,
+                ModItems.DWARF_STEEL_COIN_S,
+                "dwarf_coins",
+                9
+        );
 
+        // Small Steel Coins to Medium Steel Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_COIN_M, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_STEEL_COIN_S)
+                .criterion(hasItem(ModItems.DWARF_STEEL_COIN_S), conditionsFromItem(ModItems.DWARF_STEEL_COIN_S))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_COIN_M)));
 
+        // Medium Steel to Small Steel Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_STEEL_COIN_S,
+                ModItems.DWARF_STEEL_COIN_M,
+                "dwarf_coins",
+                9
+        );
 
+        // Medium Steel Coins to Large Steel Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_COIN_L, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_STEEL_COIN_M)
+                .criterion(hasItem(ModItems.DWARF_STEEL_COIN_M), conditionsFromItem(ModItems.DWARF_STEEL_COIN_M))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_COIN_L)));
 
+        // Large Steel to Medium Steel Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_STEEL_COIN_M,
+                ModItems.DWARF_STEEL_COIN_L,
+                "dwarf_coins",
+                9
+        );
 
+        // Large Steel Coins to Small Gold Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_COIN_S, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_STEEL_COIN_L)
+                .criterion(hasItem(ModItems.DWARF_STEEL_COIN_L), conditionsFromItem(ModItems.DWARF_STEEL_COIN_L))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_COIN_S)));
 
+        // Small Gold to Large Steel Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_STEEL_COIN_L,
+                ModItems.DWARF_GOLD_COIN_S,
+                "dwarf_coins",
+                9
+        );
+
+        // Small Gold to Medium Gold Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_COIN_M, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_GOLD_COIN_S)
+                .criterion(hasItem(ModItems.DWARF_GOLD_COIN_S), conditionsFromItem(ModItems.DWARF_GOLD_COIN_S))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_COIN_M)));
+
+        // Medium Gold to Small Gold Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_GOLD_COIN_S,
+                ModItems.DWARF_GOLD_COIN_M,
+                "dwarf_coins",
+                9
+        );
+
+        // Medium Gold to Large Gold Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_COIN_L, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_GOLD_COIN_M)
+                .criterion(hasItem(ModItems.DWARF_GOLD_COIN_M), conditionsFromItem(ModItems.DWARF_GOLD_COIN_M))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_COIN_L)));
+
+        // Large Gold to Medium Gold Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_GOLD_COIN_M,
+                ModItems.DWARF_GOLD_COIN_L,
+                "dwarf_coins",
+                9
+        );
+
+        // Large Gold to Large Mythril Coins
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_MYTHRIL_COIN_L, 1)
+                .pattern("CCC")
+                .pattern("CCC")
+                .pattern("CCC")
+                .input('C', ModItems.DWARF_GOLD_COIN_L)
+                .criterion(hasItem(ModItems.DWARF_GOLD_COIN_L), conditionsFromItem(ModItems.DWARF_GOLD_COIN_L))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_MYTHRIL_COIN_L)));
+
+        // Large Mythril to Large Gold Coins
+        offerShapelessRecipe(
+                exporter,
+                ModItems.DWARF_GOLD_COIN_L,
+                ModItems.DWARF_MYTHRIL_COIN_L,
+                "dwarf_coins",
+                9
+        );
 
         // Normal Flowers
         offerShapelessRecipe(

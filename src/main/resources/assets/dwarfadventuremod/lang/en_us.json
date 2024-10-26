@@ -577,5 +577,16 @@
   "item.dwarfadventuremod.dragon_bane_shovel": "Dragon Bane Shovel",
   "item.dwarfadventuremod.dragon_bane_hoe": "Dragon Bane Hoe",
   "item.dwarfadventuremod.dragon_bane_sword": "Dragon Bane Sword",
-  "item.dwarfadventuremod.dragon_bane_paxel": "Dragon Bane Paxel"
+  "item.dwarfadventuremod.dragon_bane_paxel": "Dragon Bane Paxel",
+
+  "item.dwarfadventuremod.dwarf_copper_coin_s": "Small Copper Coin",
+  "item.dwarfadventuremod.dwarf_copper_coin_m": "Medium Copper Coin",
+  "item.dwarfadventuremod.dwarf_copper_coin_l": "Large Copper Coin",
+  "item.dwarfadventuremod.dwarf_steel_coin_s": "Small Steel Coin",
+  "item.dwarfadventuremod.dwarf_steel_coin_m": "Medium Steel Coin",
+  "item.dwarfadventuremod.dwarf_steel_coin_l": "Large Steel Coin",
+  "item.dwarfadventuremod.dwarf_gold_coin_s": "Small Dwarf Gold Coin",
+  "item.dwarfadventuremod.dwarf_gold_coin_m": "Medium Dwarf Gold Coin",
+  "item.dwarfadventuremod.dwarf_gold_coin_l": "Large Dwarf Gold Coin",
+  "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin"
 }

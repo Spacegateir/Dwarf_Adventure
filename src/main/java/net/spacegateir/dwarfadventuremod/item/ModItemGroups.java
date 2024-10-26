@@ -18,6 +18,17 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.GARDEN_BENCH)).entries((displayContext, entries) -> {
 
 
+                        entries.add(ModItems.DWARF_COPPER_COIN_S);
+                        entries.add(ModItems.DWARF_COPPER_COIN_M);
+                        entries.add(ModItems.DWARF_COPPER_COIN_L);
+                        entries.add(ModItems.DWARF_STEEL_COIN_S);
+                        entries.add(ModItems.DWARF_STEEL_COIN_M);
+                        entries.add(ModItems.DWARF_STEEL_COIN_L);
+                        entries.add(ModItems.DWARF_GOLD_COIN_S);
+                        entries.add(ModItems.DWARF_GOLD_COIN_M);
+                        entries.add(ModItems.DWARF_GOLD_COIN_L);
+                        entries.add(ModItems.DWARF_MYTHRIL_COIN_L);
+
                         entries.add(ModBlocks.SNOW_DROP_FLOWER);
                         entries.add(ModBlocks.CARNATION_FLOWER);
                         entries.add(ModBlocks.VIOLET_FLOWER);
