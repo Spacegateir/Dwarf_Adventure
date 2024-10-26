@@ -13,46 +13,49 @@ import java.util.function.Supplier;
 import static net.fabricmc.yarn.constants.MiningLevels.NETHERITE;
 
 public enum ModToolMaterial implements ToolMaterial {
-    DWARF_STEEL(MiningLevels.IRON, 500, 9.0f, 2.0f, 30,
+    DWARF_STEEL(MiningLevels.IRON, 300, 6.0f, 2.5f, 16,
             () -> Ingredient.ofItems(ModItems.HOT_INGOT)),
 
-    QUINTESSENCE(MiningLevels.DIAMOND,3122,12,3.0f,30,
+    DWARF_GOLD(MiningLevels.IRON, 128, 12.0f, 0.0f, 30,
+            () -> Ingredient.ofItems(ModItems.MOLTEN_DWARF_GOLD_INGOT)),
+
+    QUINTESSENCE(MiningLevels.DIAMOND,1750,8,3.5f,18,
             () -> Ingredient.ofItems(ModItems.ELEMENTAL_GEM)),
 
-    AER(MiningLevels.DIAMOND,3122,12,3.0f,30,
+    AER(MiningLevels.DIAMOND,500,16,3.5f,18,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_AER)),
 
-    IGNIS(MiningLevels.DIAMOND,3122,12,3.0f,30,
+    IGNIS(MiningLevels.DIAMOND,850,8,6.0f,18,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_IGNIS)),
 
-    AQUA(MiningLevels.DIAMOND,3122,12,3.0f,30,
+    AQUA(MiningLevels.DIAMOND,1750,10,4.5f,10,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_AQUA)),
 
-    TERA(MiningLevels.DIAMOND,3122,12,3.0f,30,
+    TERA(MiningLevels.DIAMOND,3500,4,3.5f,18,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_TERA)),
 
-    MAGIRITE(NETHERITE,4062,15,4.0f,30,
+    MAGIRITE(NETHERITE,2300, 9.0F, 4.5F, 18,
             () -> Ingredient.ofItems(ModItems.MOLTEN_MAGIRITE_INGOT)),
 
-    MYTHRIL(5,8124,18,6.0f,60,
+    MYTHRIL(5,2500,10,5.0f,30,
             () -> Ingredient.ofItems(ModItems.PUREFICATED_MYTHRIL)),
 
-    ADAMANTITE(6,16248,21,8.0f,60,
+    ADAMANTITE(6,3000,11,5.5f,20,
             () -> Ingredient.ofItems(ModItems.MOLTEN_ADAMANTITE_INGOT)),
 
-    ORIKALKUM(7,32496,24,10.0f,100,
+    ORIKALKUM(7,3500,12,6.0f,25,
             () -> Ingredient.ofItems(ModItems.MOLTEN_ORIKALKUM_INGOT)),
 
-    DRAGON_BANE(8,32496,27,12.0f,10000,
+    DRAGON_BANE(8,5000,13,6.5f,10000,
             () -> Ingredient.ofItems(ModItems.MOLTEN_DRAGON_BANE_INGOT)),
 
     WAR_HAMMER(4,2500,10,10.0f,30,
             () -> Ingredient.ofItems(Items.NETHERITE_BLOCK)),
 
-    DWARF_HAMMER(6, 5000,15,1f,60,
+    DWARF_HAMMER(6, 5000,13,0f,60,
             () -> Ingredient.ofItems(ModBlocks.ADAMANTITE_BLOCK)),
 
-    PRESSURE_HAMMER(8,7500,20,1.5f,100,
+    PRESSURE_HAMMER(8,7500,15,0f,100,
             () -> Ingredient.ofItems(ModBlocks.DRAGON_BANE_BLOCK));
 
 

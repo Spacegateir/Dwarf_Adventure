@@ -11,6 +11,7 @@ import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
+import net.spacegateir.dwarfadventuremod.util.ModTags;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -734,6 +735,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RAW_DRAGON_BANE_WALL)
                 .add(ModBlocks.DWARF_GOLD_WALL)
                 .add(ModBlocks.RAW_DWARF_GOLD_WALL);
+
+        getOrCreateTagBuilder(ModTags.Blocks.PAXEL_MINEABLE)
+                .forceAddTag(BlockTags.PICKAXE_MINEABLE)
+                .forceAddTag(BlockTags.AXE_MINEABLE)
+                .forceAddTag(BlockTags.SHOVEL_MINEABLE)
+                .forceAddTag(BlockTags.HOE_MINEABLE);
     }
 
 

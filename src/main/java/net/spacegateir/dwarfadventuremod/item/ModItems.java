@@ -14,6 +14,7 @@ import net.spacegateir.dwarfadventuremod.item.DwarfPickaxeAbillities.*;
 import net.spacegateir.dwarfadventuremod.item.custom.AncestralForgeCoalItem;
 import net.spacegateir.dwarfadventuremod.item.custom.GlimmerRootEffect;
 import net.spacegateir.dwarfadventuremod.item.custom.MortarAndPestleItem;
+import net.spacegateir.dwarfadventuremod.item.custom.PaxelItem;
 
 import static net.minecraft.item.Items.register;
 
@@ -25,20 +26,164 @@ public class ModItems {
     public static final Item LVL1_DWARF_PICKAXE = registerItem("lvl1_dwarf_pickaxe",
             new Hammer_1x2(ModToolMaterial.DWARF_STEEL, new FabricItemSettings().fireproof()));
 
+    public static final Item DWARF_STEEL_PICKAXE = registerItem("dwarf_steel_pickaxe",
+            new PickaxeItem(ModToolMaterial.DWARF_STEEL,1,-2.8F, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_AXE = registerItem("dwarf_steel_axe",
+            new AxeItem(ModToolMaterial.DWARF_STEEL,6,-3.1F, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_SHOVEL = registerItem("dwarf_steel_shovel",
+            new ShovelItem(ModToolMaterial.DWARF_STEEL,1.5F,-3F, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_HOE = registerItem("dwarf_steel_hoe",
+            new HoeItem(ModToolMaterial.DWARF_STEEL,-2,-1.0F, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_SWORD = registerItem("dwarf_steel_sword",
+            new SwordItem(ModToolMaterial.DWARF_STEEL,3,-2.4f, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_PAXEL = registerItem("dwarf_steel_paxel",
+            new PaxelItem(ModToolMaterial.DWARF_STEEL,1,-1.5f, new FabricItemSettings()));
+
+    public static final Item DWARF_GOLD_PICKAXE = registerItem("dwarf_gold_pickaxe",
+            new PickaxeItem(ModToolMaterial.DWARF_GOLD,1,-2.8F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_AXE = registerItem("dwarf_gold_axe",
+            new AxeItem(ModToolMaterial.DWARF_GOLD,6,-3F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_SHOVEL = registerItem("dwarf_gold_shovel",
+            new ShovelItem(ModToolMaterial.DWARF_GOLD,1.5F,-3F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_HOE = registerItem("dwarf_gold_hoe",
+            new HoeItem(ModToolMaterial.DWARF_GOLD,0,-3F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_SWORD = registerItem("dwarf_gold_sword",
+            new SwordItem(ModToolMaterial.DWARF_GOLD,3,-3.0F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_PAXEL = registerItem("dwarf_gold_paxel",
+            new PaxelItem(ModToolMaterial.DWARF_GOLD,1,-1.5F, new FabricItemSettings()));
+
+
     public static final Item LVL2_DWARF_PICKAXE = registerItem("lvl2_dwarf_pickaxe",
             new Hammer_1x2(ModToolMaterial.QUINTESSENCE, new FabricItemSettings().fireproof()));
+
+    public static final Item AER_PICKAXE = registerItem("aer_pickaxe",
+            new PickaxeItem(ModToolMaterial.AER,1,-2.8F, new FabricItemSettings()));
+    public static final Item AER_AXE = registerItem("aer_axe",
+            new AxeItem(ModToolMaterial.AER,5,-3F, new FabricItemSettings()));
+    public static final Item AER_SHOVEL = registerItem("aer_shovel",
+            new ShovelItem(ModToolMaterial.AER,1.5F,-3.0F, new FabricItemSettings()));
+    public static final Item AER_HOE = registerItem("aer_hoe",
+            new HoeItem(ModToolMaterial.AER,-3,0.0F, new FabricItemSettings()));
+    public static final Item AER_SWORD = registerItem("aer_sword",
+            new SwordItem(ModToolMaterial.AER,3,-2.0F, new FabricItemSettings()));
+    public static final Item AER_PAXEL = registerItem("aer_paxel",
+            new PaxelItem(ModToolMaterial.AER,1,-1.5F, new FabricItemSettings()));
+
+    public static final Item IGNIS_PICKAXE = registerItem("ignis_pickaxe",
+            new PickaxeItem(ModToolMaterial.IGNIS,1,-2.8F, new FabricItemSettings()));
+    public static final Item IGNIS_AXE = registerItem("ignis_axe",
+            new AxeItem(ModToolMaterial.IGNIS,5,-3.3F, new FabricItemSettings()));
+    public static final Item IGNIS_SHOVEL = registerItem("ignis_shovel",
+            new ShovelItem(ModToolMaterial.IGNIS,1.5F,-3.0F, new FabricItemSettings()));
+    public static final Item IGNIS_HOE = registerItem("ignis_hoe",
+            new HoeItem(ModToolMaterial.IGNIS,-3,0.0F, new FabricItemSettings()));
+    public static final Item IGNIS_SWORD = registerItem("ignis_sword",
+            new SwordItem(ModToolMaterial.IGNIS,3,-2.6F, new FabricItemSettings()));
+    public static final Item IGNIS_PAXEL = registerItem("ignis_paxel",
+            new PaxelItem(ModToolMaterial.IGNIS,1,-1.8F, new FabricItemSettings()));
+
+    public static final Item AQUA_PICKAXE = registerItem("aqua_pickaxe",
+            new PickaxeItem(ModToolMaterial.AQUA,1,-2.8F, new FabricItemSettings()));
+    public static final Item AQUA_AXE = registerItem("aqua_axe",
+            new AxeItem(ModToolMaterial.AQUA,5,-3F, new FabricItemSettings()));
+    public static final Item AQUA_SHOVEL = registerItem("aqua_shovel",
+            new ShovelItem(ModToolMaterial.AQUA,1.5F,-3.0F, new FabricItemSettings()));
+    public static final Item AQUA_HOE = registerItem("aqua_hoe",
+            new HoeItem(ModToolMaterial.AQUA,-3,0.0F, new FabricItemSettings()));
+    public static final Item AQUA_SWORD = registerItem("aqua_sword",
+            new SwordItem(ModToolMaterial.AQUA,3,-2.3F, new FabricItemSettings()));
+    public static final Item AQUA_PAXEL = registerItem("aqua_paxel",
+            new PaxelItem(ModToolMaterial.AQUA,1,-1.5F, new FabricItemSettings()));
+
+    public static final Item TERA_PICKAXE = registerItem("tera_pickaxe",
+            new PickaxeItem(ModToolMaterial.TERA,1,-2.8F, new FabricItemSettings()));
+    public static final Item TERA_AXE = registerItem("tera_axe",
+            new AxeItem(ModToolMaterial.TERA,5,-3F, new FabricItemSettings()));
+    public static final Item TERA_SHOVEL = registerItem("tera_shovel",
+            new ShovelItem(ModToolMaterial.TERA,1.5F,-3.0F, new FabricItemSettings()));
+    public static final Item TERA_HOE = registerItem("tera_hoe",
+            new HoeItem(ModToolMaterial.TERA,-3,0.0F, new FabricItemSettings()));
+    public static final Item TERA_SWORD = registerItem("tera_sword",
+            new SwordItem(ModToolMaterial.TERA,3,-2.3F, new FabricItemSettings()));
+    public static final Item TERA_PAXEL = registerItem("tera_paxel",
+            new PaxelItem(ModToolMaterial.TERA,1,-1.5F, new FabricItemSettings()));
 
     public static final Item LVL3_DWARF_PICKAXE = registerItem("lvl3_dwarf_pickaxe",
             new Hammer_1x3(ModToolMaterial.MAGIRITE, new FabricItemSettings().fireproof()));
 
+    public static final Item MAGIRITE_PICKAXE = registerItem("magirite_pickaxe",
+            new PickaxeItem(ModToolMaterial.MAGIRITE,1,-2.8F, new FabricItemSettings().fireproof()));
+    public static final Item MAGIRITE_AXE = registerItem("magirite_axe",
+            new AxeItem(ModToolMaterial.MAGIRITE,5,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item MAGIRITE_SHOVEL = registerItem("magirite_shovel",
+            new ShovelItem(ModToolMaterial.MAGIRITE,1.5F,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item MAGIRITE_HOE = registerItem("magirite_hoe",
+            new HoeItem(ModToolMaterial.MAGIRITE,-4,0.0F, new FabricItemSettings().fireproof()));
+    public static final Item MAGIRITE_SWORD = registerItem("magirite_sword",
+            new SwordItem(ModToolMaterial.MAGIRITE,3,-2.2F, new FabricItemSettings().fireproof()));
+    public static final Item MAGIRITE_PAXEL = registerItem("magirite_paxel",
+            new PaxelItem(ModToolMaterial.MAGIRITE,1,-1.5F, new FabricItemSettings().fireproof()));
+
     public static final Item LVL4_DWARF_PICKAXE = registerItem("lvl4_dwarf_pickaxe",
             new Hammer_1x3(ModToolMaterial.MYTHRIL, new FabricItemSettings().fireproof()));
+
+    public static final Item MYTHRIL_PICKAXE = registerItem("mythril_pickaxe",
+            new PickaxeItem(ModToolMaterial.MYTHRIL,1,-2.8F, new FabricItemSettings().fireproof()));
+    public static final Item MYTHRIL_AXE = registerItem("mythril_axe",
+            new AxeItem(ModToolMaterial.MYTHRIL,5,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item MYTHRIL_SHOVEL = registerItem("mythril_shovel",
+            new ShovelItem(ModToolMaterial.MYTHRIL,1.5F,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item MYTHRIL_HOE = registerItem("mythril_hoe",
+            new HoeItem(ModToolMaterial.MYTHRIL,-4,0.0F, new FabricItemSettings().fireproof()));
+    public static final Item MYTHRIL_SWORD = registerItem("mythril_sword",
+            new SwordItem(ModToolMaterial.MYTHRIL,3,-2.1F, new FabricItemSettings().fireproof()));
+    public static final Item MYTHRIL_PAXEL = registerItem("mythril_paxel",
+            new PaxelItem(ModToolMaterial.MYTHRIL,1,-1.5F, new FabricItemSettings().fireproof()));
 
     public static final Item LVL5_DWARF_PICKAXE = registerItem("lvl5_dwarf_pickaxe",
             new Hammer_3x3(ModToolMaterial.ADAMANTITE, new FabricItemSettings().fireproof()));
 
+    public static final Item ADAMANTITE_PICKAXE = registerItem("adamantite_pickaxe",
+            new PickaxeItem(ModToolMaterial.ADAMANTITE,1,-2.8F, new FabricItemSettings().fireproof()));
+    public static final Item ADAMANTITE_AXE = registerItem("adamantite_axe",
+            new AxeItem(ModToolMaterial.ADAMANTITE,5,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item ADAMANTITE_SHOVEL = registerItem("adamantite_shovel",
+            new ShovelItem(ModToolMaterial.ADAMANTITE,1.5F,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item ADAMANTITE_HOE = registerItem("adamantite_hoe",
+            new HoeItem(ModToolMaterial.ADAMANTITE,-4,0.0F, new FabricItemSettings().fireproof()));
+    public static final Item ADAMANTITE_SWORD = registerItem("adamantite_sword",
+            new SwordItem(ModToolMaterial.ADAMANTITE,3,-2.0F, new FabricItemSettings().fireproof()));
+    public static final Item ADAMANTITE_PAXEL = registerItem("adamantite_paxel",
+            new PaxelItem(ModToolMaterial.ADAMANTITE,1,-1.5F, new FabricItemSettings().fireproof()));
+
     public static final Item LVL6_DWARF_PICKAXE = registerItem("lvl6_dwarf_pickaxe",
             new Hammer_3x3(ModToolMaterial.ORIKALKUM, new FabricItemSettings().fireproof()));
+
+    public static final Item ORIKALKUM_PICKAXE = registerItem("orikalkum_pickaxe",
+            new PickaxeItem(ModToolMaterial.ORIKALKUM,1,-2.8F, new FabricItemSettings().fireproof()));
+    public static final Item ORIKALKUM_AXE = registerItem("orikalkum_axe",
+            new AxeItem(ModToolMaterial.ORIKALKUM,5,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item ORIKALKUM_SHOVEL = registerItem("orikalkum_shovel",
+            new ShovelItem(ModToolMaterial.ORIKALKUM,1.5F,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item ORIKALKUM_HOE = registerItem("orikalkum_hoe",
+            new HoeItem(ModToolMaterial.ORIKALKUM,-4,0.0F, new FabricItemSettings().fireproof()));
+    public static final Item ORIKALKUM_SWORD = registerItem("orikalkum_sword",
+            new SwordItem(ModToolMaterial.ORIKALKUM,3,-1.9F, new FabricItemSettings().fireproof()));
+    public static final Item ORIKALKUM_PAXEL = registerItem("orikalkum_paxel",
+            new PaxelItem(ModToolMaterial.ORIKALKUM,1,-1.5F, new FabricItemSettings().fireproof()));
+
+    public static final Item DRAGON_BANE_PICKAXE = registerItem("dragon_bane_pickaxe",
+            new PickaxeItem(ModToolMaterial.DRAGON_BANE,1,-2.8F, new FabricItemSettings().fireproof()));
+    public static final Item DRAGON_BANE_AXE = registerItem("dragon_bane_axe",
+            new AxeItem(ModToolMaterial.DRAGON_BANE,5,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item DRAGON_BANE_SHOVEL = registerItem("dragon_bane_shovel",
+            new ShovelItem(ModToolMaterial.DRAGON_BANE,1.5F,-3.0F, new FabricItemSettings().fireproof()));
+    public static final Item DRAGON_BANE_HOE = registerItem("dragon_bane_hoe",
+            new HoeItem(ModToolMaterial.DRAGON_BANE,-4,0.0F, new FabricItemSettings().fireproof()));
+    public static final Item DRAGON_BANE_SWORD = registerItem("dragon_bane_sword",
+            new SwordItem(ModToolMaterial.DRAGON_BANE,3,-1.8F, new FabricItemSettings().fireproof()));
+    public static final Item DRAGON_BANE_PAXEL = registerItem("dragon_bane_paxel",
+            new PaxelItem(ModToolMaterial.DRAGON_BANE,1,-1.5F, new FabricItemSettings().fireproof()));
 
     public static final Item WAR_HAMMER = registerItem("war_hammer",
             new Hammer_5x5(ModToolMaterial.WAR_HAMMER, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));

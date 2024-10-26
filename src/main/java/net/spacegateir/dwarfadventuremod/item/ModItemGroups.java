@@ -98,6 +98,83 @@ public class ModItemGroups {
                         entries.add(ModItems.LVL5_DWARF_PICKAXE);
                         entries.add(ModItems.LVL6_DWARF_PICKAXE);
 
+                        entries.add(ModItems.DWARF_STEEL_PICKAXE);
+                        entries.add(ModItems.DWARF_STEEL_AXE);
+                        entries.add(ModItems.DWARF_STEEL_SHOVEL);
+                        entries.add(ModItems.DWARF_STEEL_HOE);
+                        entries.add(ModItems.DWARF_STEEL_SWORD);
+                        entries.add(ModItems.DWARF_STEEL_PAXEL);
+
+                        entries.add(ModItems.DWARF_GOLD_PICKAXE);
+                        entries.add(ModItems.DWARF_GOLD_AXE);
+                        entries.add(ModItems.DWARF_GOLD_SHOVEL);
+                        entries.add(ModItems.DWARF_GOLD_HOE);
+                        entries.add(ModItems.DWARF_GOLD_SWORD);
+                        entries.add(ModItems.DWARF_GOLD_PAXEL);
+
+                        entries.add(ModItems.AER_PICKAXE);
+                        entries.add(ModItems.AER_AXE);
+                        entries.add(ModItems.AER_SHOVEL);
+                        entries.add(ModItems.AER_HOE);
+                        entries.add(ModItems.AER_SWORD);
+                        entries.add(ModItems.AER_PAXEL);
+
+                        entries.add(ModItems.IGNIS_PICKAXE);
+                        entries.add(ModItems.IGNIS_AXE);
+                        entries.add(ModItems.IGNIS_SHOVEL);
+                        entries.add(ModItems.IGNIS_HOE);
+                        entries.add(ModItems.IGNIS_SWORD);
+                        entries.add(ModItems.IGNIS_PAXEL);
+
+                        entries.add(ModItems.AQUA_PICKAXE);
+                        entries.add(ModItems.AQUA_AXE);
+                        entries.add(ModItems.AQUA_SHOVEL);
+                        entries.add(ModItems.AQUA_HOE);
+                        entries.add(ModItems.AQUA_SWORD);
+                        entries.add(ModItems.AQUA_PAXEL);
+
+                        entries.add(ModItems.TERA_PICKAXE);
+                        entries.add(ModItems.TERA_AXE);
+                        entries.add(ModItems.TERA_SHOVEL);
+                        entries.add(ModItems.TERA_HOE);
+                        entries.add(ModItems.TERA_SWORD);
+                        entries.add(ModItems.TERA_PAXEL);
+
+                        entries.add(ModItems.MAGIRITE_PICKAXE);
+                        entries.add(ModItems.MAGIRITE_AXE);
+                        entries.add(ModItems.MAGIRITE_SHOVEL);
+                        entries.add(ModItems.MAGIRITE_HOE);
+                        entries.add(ModItems.MAGIRITE_SWORD);
+                        entries.add(ModItems.MAGIRITE_PAXEL);
+
+                        entries.add(ModItems.MYTHRIL_PICKAXE);
+                        entries.add(ModItems.MYTHRIL_AXE);
+                        entries.add(ModItems.MYTHRIL_SHOVEL);
+                        entries.add(ModItems.MYTHRIL_HOE);
+                        entries.add(ModItems.MYTHRIL_SWORD);
+                        entries.add(ModItems.MYTHRIL_PAXEL);
+
+                        entries.add(ModItems.ADAMANTITE_PICKAXE);
+                        entries.add(ModItems.ADAMANTITE_AXE);
+                        entries.add(ModItems.ADAMANTITE_SHOVEL);
+                        entries.add(ModItems.ADAMANTITE_HOE);
+                        entries.add(ModItems.ADAMANTITE_SWORD);
+                        entries.add(ModItems.ADAMANTITE_PAXEL);
+
+                        entries.add(ModItems.ORIKALKUM_PICKAXE);
+                        entries.add(ModItems.ORIKALKUM_AXE);
+                        entries.add(ModItems.ORIKALKUM_SHOVEL);
+                        entries.add(ModItems.ORIKALKUM_HOE);
+                        entries.add(ModItems.ORIKALKUM_SWORD);
+                        entries.add(ModItems.ORIKALKUM_PAXEL);
+
+                        entries.add(ModItems.DRAGON_BANE_PICKAXE);
+                        entries.add(ModItems.DRAGON_BANE_AXE);
+                        entries.add(ModItems.DRAGON_BANE_SHOVEL);
+                        entries.add(ModItems.DRAGON_BANE_HOE);
+                        entries.add(ModItems.DRAGON_BANE_SWORD);
+                        entries.add(ModItems.DRAGON_BANE_PAXEL);
+
                         entries.add(ModItems.HANDLE_PART);
                         entries.add(ModItems.HOT_DWARF_PICKAXE_HEAD);
                         entries.add(ModItems.DWARF_STEEL_PICKAXE_HEAD);

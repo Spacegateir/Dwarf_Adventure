@@ -16,7 +16,7 @@ public class Hammer_1x3 extends MiningToolItem {
 
     // Constructor
     public Hammer_1x3(ToolMaterial material, Settings settings) {
-        super(6f, -1.5f, material, BlockTags.PICKAXE_MINEABLE, settings);
+        super(2f, -2.5f, material, BlockTags.PICKAXE_MINEABLE, settings);
     }
 
     // Method to get a list of blocks in a 5x5 area around the initial block

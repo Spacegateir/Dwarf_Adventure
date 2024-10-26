@@ -16,7 +16,7 @@ public class Hammer_3x3 extends MiningToolItem {
 
     // Constructor
     public Hammer_3x3(ToolMaterial material, Settings settings) {
-        super(6f, -0.5f, material, BlockTags.PICKAXE_MINEABLE, settings);
+        super(2f, -2.5f, material, BlockTags.PICKAXE_MINEABLE, settings);
     }
 
     // Method to get a list of blocks in a 3x3 area around the initial block

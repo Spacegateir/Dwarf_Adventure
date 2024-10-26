@@ -490,6 +490,83 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MOLTEN_DRAGON_BANE_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.MOLTEN_DWARF_GOLD_INGOT, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.DWARF_STEEL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.DWARF_GOLD_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.AER_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.IGNIS_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.AQUA_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.TERA_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.MAGIRITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.MYTHRIL_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.ADAMANTITE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.ORIKALKUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_PAXEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.DRAGON_BANE_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_SHOVEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_HOE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_PAXEL, Models.HANDHELD);
+
 
 
 

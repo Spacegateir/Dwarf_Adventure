@@ -16,7 +16,7 @@ public class Hammer_1x2 extends MiningToolItem {
 
     // Constructor
     public Hammer_1x2(ToolMaterial material, Settings settings) {
-        super(5f, -2.5f, material, BlockTags.PICKAXE_MINEABLE, settings);
+        super(2f, -2.5f, material, BlockTags.PICKAXE_MINEABLE, settings);
     }
 
     // Method to get a list of blocks to be destroyed

@@ -1,6 +1,7 @@
-// 1.20.1	2024-10-24T16:40:41.4018912	Dwarf Adventure Mod/Tags for minecraft:block
+// 1.20.1	2024-10-26T12:12:24.5039397	Dwarf Adventure Mod/Tags for minecraft:block
 391b1ed32f61406fffa99c1b5002bdb37927b5d8 data\minecraft\tags\blocks\fence_gates.json
 660536b05b143f7e116966aa10cf4b63ac330562 data\fabric\tags\blocks\needs_tool_level_3.json
+1822b6a01ca988562f51827f6bc4f0a41d43f5b5 data\dwarfadventuremod\tags\blocks\mineable\paxel.json
 714241b963eeda6d5d276cc94ec980932f802007 data\fabric\tags\blocks\needs_tool_level_5.json
 5b86933d59907c18dca81e87056bd2f0fd326a2c data\fabric\tags\blocks\needs_tool_level_2.json
 fe6d72cedec8cec6259f0135682e0599c38418a2 data\minecraft\tags\blocks\walls.json
