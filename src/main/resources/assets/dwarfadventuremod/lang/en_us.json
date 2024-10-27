@@ -31,7 +31,6 @@
 
   "entity.minecraft.villager.horticulturist": "Horticulturist",
   "entity.minecraft.villager.floraculturist": "Floraculturist",
-
   "entity.minecraft.villager.iron_master_blacksmith": "Iron Master Blacksmith",
   "entity.minecraft.villager.steelweaver_blacksmith": "Steelweaver Blacksmith",
   "entity.minecraft.villager.gem_forger_blacksmith": "Gem Forger Blacksmith",
@@ -44,6 +43,7 @@
   "entity.minecraft.villager.ancient_forger_artisan": "Ancient Forger Artisan",
   "entity.minecraft.villager.elder_dwarf_godsmith": "Elder Dwarf Godsmith",
 
+  "block.dwarfadventuremod.cash_register": "Cash Register",
   "block.dwarfadventuremod.weapon_rack": "Weapons Rack",
   "block.dwarfadventuremod.tool_rack": "Equipment Rack",
   "block.dwarfadventuremod.dwarf_forge": "Dwarf Forge",

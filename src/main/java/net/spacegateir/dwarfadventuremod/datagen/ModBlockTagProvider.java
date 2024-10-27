@@ -24,6 +24,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.CASH_REGISTER)
                 .add(ModBlocks.DWARF_ANVIL)
                 .add(ModBlocks.DWARF_ANVIL_GROUND)
                 .add(ModBlocks.DWARF_ANVIL_STACK)

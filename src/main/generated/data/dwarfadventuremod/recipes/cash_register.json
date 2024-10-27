@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "dwarfadventuremod:dwarf_copper_coin_m"
+    },
+    "I": {
+      "item": "dwarfadventuremod:dwarf_steel_nugget"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    },
+    "S": {
+      "item": "dwarfadventuremod:dwarf_steel_block"
+    }
+  },
+  "pattern": [
+    "III",
+    "IRI",
+    "SCS"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:cash_register"
+  },
+  "show_notification": true
+}

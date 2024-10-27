@@ -81,6 +81,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER);
 
 
+                        entries.add(ModBlocks.CASH_REGISTER);
                         entries.add(ModBlocks.WEAPON_RACK);
                         entries.add(ModBlocks.TOOL_RACK);
                         entries.add(ModBlocks.GARDEN_BENCH);

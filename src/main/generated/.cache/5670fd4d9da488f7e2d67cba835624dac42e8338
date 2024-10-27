@@ -1,4 +1,4 @@
-// 1.20.1	2024-10-27T08:46:15.7951812	Dwarf Adventure Mod/Block Loot Tables
+// 1.20.1	2024-10-27T16:54:02.5329243	Dwarf Adventure Mod/Block Loot Tables
 97884513609c7ea3a0f5ae113315a199c3176fd4 data\dwarfadventuremod\loot_tables\blocks\raw_orikalkum_pressure_plate.json
 46ab4d4f2f0a80b11b97e7d3fd7eed1b63674c9f data\dwarfadventuremod\loot_tables\blocks\raw_dwarf_steel_block.json
 d47cc390b5300c8327b807fa19262e673607b841 data\dwarfadventuremod\loot_tables\blocks\potted_ancient_hawthorn_flower.json
@@ -130,6 +130,7 @@ edb5f1375da7d4e4869d26b0865316f128477f1f data\dwarfadventuremod\loot_tables\bloc
 c103c4d03acb42370945f552f27fd95694c234a6 data\dwarfadventuremod\loot_tables\blocks\raw_magirite_button.json
 9984e889eb6b531e15c3a1ce1ea4246c737c12c0 data\dwarfadventuremod\loot_tables\blocks\adamantite_wall.json
 7f4ffdc6f1eba09f4435ec806500efbc49f16f21 data\dwarfadventuremod\loot_tables\blocks\weapon_rack.json
+230e7539bf4d2b2cc6c344c2b0f484f2637b5907 data\dwarfadventuremod\loot_tables\blocks\cash_register.json
 5f333bc6426bc176e72293bfc4ca3a50e23e4af3 data\dwarfadventuremod\loot_tables\blocks\ancient_violet_flower.json
 d299b86752f7d7e8244b5d9711035a5675da0695 data\dwarfadventuremod\loot_tables\blocks\raw_orikalkum_slab.json
 a249ecdd75cfdc3fe348d3e25ebd403efbc6f040 data\dwarfadventuremod\loot_tables\blocks\dwarf_bellows.json

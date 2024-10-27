@@ -22,6 +22,8 @@ import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
 
+    public static final Block CASH_REGISTER = registerBlock("cash_register",
+            new CashRegisterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block WEAPON_RACK = registerBlock("weapon_rack",
             new WeaponRackBlock(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block TOOL_RACK = registerBlock("tool_rack",

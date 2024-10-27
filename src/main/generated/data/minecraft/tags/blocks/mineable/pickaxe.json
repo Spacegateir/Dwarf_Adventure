@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "dwarfadventuremod:cash_register",
     "dwarfadventuremod:dwarf_anvil",
     "dwarfadventuremod:dwarf_anvil_ground",
     "dwarfadventuremod:dwarf_anvil_stack",

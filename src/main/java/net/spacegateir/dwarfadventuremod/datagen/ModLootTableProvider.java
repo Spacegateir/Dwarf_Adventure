@@ -166,6 +166,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 .exactMatch(AncientCropBlock.AGE, 7));
         addDrop(ModBlocks.ANCIENT_FLOWER_CROP, cropDrops(ModBlocks.ANCIENT_FLOWER_CROP, ModItems.ANCIENT_SEED, ModItems.GLIMMER_ROOT, builder));
 
+        addDrop(ModBlocks.CASH_REGISTER);
         addDrop(ModBlocks.GARDEN_BENCH);
         addDrop(ModBlocks.GARDEN_POT);
         addDrop(ModBlocks.GARDEN_POTTED_POT);

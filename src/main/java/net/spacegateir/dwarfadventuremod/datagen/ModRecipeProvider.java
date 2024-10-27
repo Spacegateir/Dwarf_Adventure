@@ -163,6 +163,18 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        // Cash Register
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CASH_REGISTER, 1)
+                .pattern("III")
+                .pattern("IRI")
+                .pattern("SCS")
+                .input('C', ModItems.DWARF_COPPER_COIN_M)
+                .input('S', ModBlocks.DWARF_STEEL_BLOCK)
+                .input('I', ModItems.DWARF_STEEL_NUGGET)
+                .input('R', Items.REDSTONE_BLOCK)
+                .criterion(hasItem(ModItems.DWARF_COPPER_COIN_S), conditionsFromItem(ModItems.DWARF_COPPER_COIN_S))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CASH_REGISTER )));
+
         // Small Copper to Medium Copper Coins
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_COPPER_COIN_M, 1)
                 .pattern("CCC")
