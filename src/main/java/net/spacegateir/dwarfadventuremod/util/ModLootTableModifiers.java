@@ -307,8 +307,10 @@ public class ModLootTableModifiers {
                 .with(ItemEntry.builder(ModItems.ANCESTRAL_FORGE_COAL))
                 .with(ItemEntry.builder(ModItems.CORRUPT_GEM))
                 .with(ItemEntry.builder(ModItems.MORTAR_AND_PESTLE))
+                .with(ItemEntry.builder(ModItems.DWARF_COPPER_COIN_S))
+                .with(ItemEntry.builder(ModItems.DWARF_COPPER_COIN_M))
 
-                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 2.0f)).build());
+                .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 5.0f)).build());
 
         tableBuilder.pool(poolBuilder.build());
     }
