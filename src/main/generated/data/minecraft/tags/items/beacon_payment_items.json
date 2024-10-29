@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_ingot",
+    "minecraft:emerald",
+    "minecraft:diamond",
+    "minecraft:gold_ingot",
+    "minecraft:iron_ingot",
+    "dwarfadventuremod:dwarf_steel_ingot",
+    "dwarfadventuremod:dwarf_gold_ingot",
+    "dwarfadventuremod:aer_spirit_ingot",
+    "dwarfadventuremod:ignis_spirit_ingot",
+    "dwarfadventuremod:aqua_spirit_ingot",
+    "dwarfadventuremod:tera_spirit_ingot",
+    "dwarfadventuremod:elemental_gem",
+    "dwarfadventuremod:magirite_ingot",
+    "dwarfadventuremod:pureficated_mythril",
+    "dwarfadventuremod:adamantite_ingot",
+    "dwarfadventuremod:orikalkum_ingot",
+    "dwarfadventuremod:dragon_bane_ingot"
+  ]
+}
