@@ -56,6 +56,8 @@ public class DwarfAdventureMod implements ModInitializer {
 
 
 
+
+
 		FuelRegistry.INSTANCE.add(ModItems.ANCESTRAL_FORGE_COAL,16000);
 
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x2UsageEvent());

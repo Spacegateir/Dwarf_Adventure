@@ -31,7 +31,7 @@ public enum ModToolMaterial implements ToolMaterial {
     AQUA(MiningLevels.DIAMOND,1750,10,4.5f,10,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_AQUA)),
 
-    TERA(MiningLevels.DIAMOND,3500,4,3.5f,18,
+    TERA(MiningLevels.DIAMOND,3500,4,3.5f,5,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_TERA)),
 
     MAGIRITE(NETHERITE,2300, 9.0F, 4.5F, 18,

@@ -515,12 +515,22 @@
   "item.dwarfadventuremod.dwarf_steel_sword": "Dwarf Steel Sword",
   "item.dwarfadventuremod.dwarf_steel_paxel": "Dwarf Steel Paxel",
 
+  "item.dwarfadventuremod.dwarf_steel_helmet": "Dwarf Steel Helmet",
+  "item.dwarfadventuremod.dwarf_steel_chestplate": "Dwarf Steel Chestplate",
+  "item.dwarfadventuremod.dwarf_steel_leggings": "Dwarf Steel Leggings",
+  "item.dwarfadventuremod.dwarf_steel_boots": "Dwarf Steel Boots",
+
   "item.dwarfadventuremod.dwarf_gold_pickaxe": "Dwarf Gold Pickaxe",
   "item.dwarfadventuremod.dwarf_gold_axe": "Dwarf Gold Axe",
   "item.dwarfadventuremod.dwarf_gold_shovel": "Dwarf Gold Shovel",
   "item.dwarfadventuremod.dwarf_gold_hoe": "Dwarf Gold Hoe",
   "item.dwarfadventuremod.dwarf_gold_sword": "Dwarf Gold Sword",
   "item.dwarfadventuremod.dwarf_gold_paxel": "Dwarf Gold Paxel",
+
+  "item.dwarfadventuremod.dwarf_gold_helmet": "Dwarf Gold Helmet",
+  "item.dwarfadventuremod.dwarf_gold_chestplate": "Dwarf Gold Chestplate",
+  "item.dwarfadventuremod.dwarf_gold_leggings": "Dwarf Gold Leggings",
+  "item.dwarfadventuremod.dwarf_gold_boots": "Dwarf Gold Boots",
 
   "item.dwarfadventuremod.aer_pickaxe": "Aer Pickaxe",
   "item.dwarfadventuremod.aer_axe": "Aer Axe",
@@ -529,12 +539,22 @@
   "item.dwarfadventuremod.aer_sword": "Aer Sword",
   "item.dwarfadventuremod.aer_paxel": "Aer Paxel",
 
+  "item.dwarfadventuremod.aer_helmet": "Aer Helmet",
+  "item.dwarfadventuremod.aer_chestplate": "Aer Chestplate",
+  "item.dwarfadventuremod.aer_leggings": "Aer Leggings",
+  "item.dwarfadventuremod.aer_boots": "Aer Boots",
+
   "item.dwarfadventuremod.ignis_pickaxe": "Ignis Pickaxe",
   "item.dwarfadventuremod.ignis_axe": "Ignis Axe",
   "item.dwarfadventuremod.ignis_shovel": "Ignis Shovel",
   "item.dwarfadventuremod.ignis_hoe": "Ignis Hoe",
   "item.dwarfadventuremod.ignis_sword": "Ignis Sword",
   "item.dwarfadventuremod.ignis_paxel": "Ignis Paxel",
+
+  "item.dwarfadventuremod.ignis_helmet": "Ignis Helmet",
+  "item.dwarfadventuremod.ignis_chestplate": "Ignis Chestplate",
+  "item.dwarfadventuremod.ignis_leggings": "Ignis Leggings",
+  "item.dwarfadventuremod.ignis_boots": "Ignis Boots",
 
   "item.dwarfadventuremod.aqua_pickaxe": "Aqua Pickaxe",
   "item.dwarfadventuremod.aqua_axe": "Aqua Axe",
@@ -543,12 +563,22 @@
   "item.dwarfadventuremod.aqua_sword": "Aqua Sword",
   "item.dwarfadventuremod.aqua_paxel": "Aqua Paxel",
 
+  "item.dwarfadventuremod.aqua_helmet": "Aqua Helmet",
+  "item.dwarfadventuremod.aqua_chestplate": "Aqua Chestplate",
+  "item.dwarfadventuremod.aqua_leggings": "Aqua Leggings",
+  "item.dwarfadventuremod.aqua_boots": "Aqua Boots",
+
   "item.dwarfadventuremod.tera_pickaxe": "Tera Pickaxe",
   "item.dwarfadventuremod.tera_axe": "Tera Axe",
   "item.dwarfadventuremod.tera_shovel": "Tera Shovel",
   "item.dwarfadventuremod.tera_hoe": "Tera Hoe",
   "item.dwarfadventuremod.tera_sword": "Tera Sword",
   "item.dwarfadventuremod.tera_paxel": "Tera Paxel",
+
+  "item.dwarfadventuremod.tera_helmet": "Tera Helmet",
+  "item.dwarfadventuremod.tera_chestplate": "Tera Chestplate",
+  "item.dwarfadventuremod.tera_leggings": "Tera Leggings",
+  "item.dwarfadventuremod.tera_boots": "Tera Boots",
 
   "item.dwarfadventuremod.magirite_pickaxe": "Magirite Pickaxe",
   "item.dwarfadventuremod.magirite_axe": "Magirite Axe",
@@ -557,12 +587,22 @@
   "item.dwarfadventuremod.magirite_sword": "Magirite Sword",
   "item.dwarfadventuremod.magirite_paxel": "Magirite Paxel",
 
+  "item.dwarfadventuremod.magirite_helmet": "Magirite Helmet",
+  "item.dwarfadventuremod.magirite_chestplate": "Magirite Chestplate",
+  "item.dwarfadventuremod.magirite_leggings": "Magirite Leggings",
+  "item.dwarfadventuremod.magirite_boots": "Magirite Boots",
+
   "item.dwarfadventuremod.mythril_pickaxe": "Mythril Pickaxe",
   "item.dwarfadventuremod.mythril_axe": "Mythril Axe",
   "item.dwarfadventuremod.mythril_shovel": "Mythril Shovel",
   "item.dwarfadventuremod.mythril_hoe": "Mythril Hoe",
   "item.dwarfadventuremod.mythril_sword": "Mythril Sword",
   "item.dwarfadventuremod.mythril_paxel": "Mythril Paxel",
+
+  "item.dwarfadventuremod.mythril_helmet": "Mythril Helmet",
+  "item.dwarfadventuremod.mythril_chestplate": "Mythril Chestplate",
+  "item.dwarfadventuremod.mythril_leggings": "Mythril Leggings",
+  "item.dwarfadventuremod.mythril_boots": "Mythril Boots",
 
   "item.dwarfadventuremod.adamantite_pickaxe": "Adamantite Pickaxe",
   "item.dwarfadventuremod.adamantite_axe": "Adamantite Axe",
@@ -571,6 +611,11 @@
   "item.dwarfadventuremod.adamantite_sword": "Adamantite Sword",
   "item.dwarfadventuremod.adamantite_paxel": "Adamantite Paxel",
 
+  "item.dwarfadventuremod.adamantite_helmet": "Adamantite Helmet",
+  "item.dwarfadventuremod.adamantite_chestplate": "Adamantite Chestplate",
+  "item.dwarfadventuremod.adamantite_leggings": "Adamantite Leggings",
+  "item.dwarfadventuremod.adamantite_boots": "Adamantite Boots",
+
   "item.dwarfadventuremod.orikalkum_pickaxe": "Orikalkum Pickaxe",
   "item.dwarfadventuremod.orikalkum_axe": "Orikalkum Axe",
   "item.dwarfadventuremod.orikalkum_shovel": "Orikalkum Shovel",
@@ -578,12 +623,22 @@
   "item.dwarfadventuremod.orikalkum_sword": "Orikalkum Sword",
   "item.dwarfadventuremod.orikalkum_paxel": "Orikalkum Paxel",
 
+  "item.dwarfadventuremod.orikalkum_helmet": "Orikalkum Helmet",
+  "item.dwarfadventuremod.orikalkum_chestplate": "Orikalkum Chestplate",
+  "item.dwarfadventuremod.orikalkum_leggings": "Orikalkum Leggings",
+  "item.dwarfadventuremod.orikalkum_boots": "Orikalkum Boots",
+
   "item.dwarfadventuremod.dragon_bane_pickaxe": "Dragon Bane Pickaxe",
   "item.dwarfadventuremod.dragon_bane_axe": "Dragon Bane Axe",
   "item.dwarfadventuremod.dragon_bane_shovel": "Dragon Bane Shovel",
   "item.dwarfadventuremod.dragon_bane_hoe": "Dragon Bane Hoe",
   "item.dwarfadventuremod.dragon_bane_sword": "Dragon Bane Sword",
   "item.dwarfadventuremod.dragon_bane_paxel": "Dragon Bane Paxel",
+
+  "item.dwarfadventuremod.dragon_bane_helmet": "Dragon Bane Helmet",
+  "item.dwarfadventuremod.dragon_bane_chestplate": "Dragon Bane Chestplate",
+  "item.dwarfadventuremod.dragon_bane_leggings": "Dragon Bane Leggings",
+  "item.dwarfadventuremod.dragon_bane_boots": "Dragon Bane Boots",
 
   "item.dwarfadventuremod.dwarf_copper_coin_s": "Small Copper Coin",
   "item.dwarfadventuremod.dwarf_copper_coin_m": "Medium Copper Coin",

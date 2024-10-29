@@ -119,12 +119,22 @@ public class ModItemGroups {
                         entries.add(ModItems.DWARF_STEEL_SWORD);
                         entries.add(ModItems.DWARF_STEEL_PAXEL);
 
+                        entries.add(ModItems.DWARF_STEEL_HELMET);
+                        entries.add(ModItems.DWARF_STEEL_CHESTPLATE);
+                        entries.add(ModItems.DWARF_STEEL_LEGGINGS);
+                        entries.add(ModItems.DWARF_STEEL_BOOTS);
+
                         entries.add(ModItems.DWARF_GOLD_PICKAXE);
                         entries.add(ModItems.DWARF_GOLD_AXE);
                         entries.add(ModItems.DWARF_GOLD_SHOVEL);
                         entries.add(ModItems.DWARF_GOLD_HOE);
                         entries.add(ModItems.DWARF_GOLD_SWORD);
                         entries.add(ModItems.DWARF_GOLD_PAXEL);
+
+                        entries.add(ModItems.DWARF_GOLD_HELMET);
+                        entries.add(ModItems.DWARF_GOLD_CHESTPLATE);
+                        entries.add(ModItems.DWARF_GOLD_LEGGINGS);
+                        entries.add(ModItems.DWARF_GOLD_BOOTS);
 
                         entries.add(ModItems.AER_PICKAXE);
                         entries.add(ModItems.AER_AXE);
@@ -133,12 +143,22 @@ public class ModItemGroups {
                         entries.add(ModItems.AER_SWORD);
                         entries.add(ModItems.AER_PAXEL);
 
+                        entries.add(ModItems.AER_HELMET);
+                        entries.add(ModItems.AER_CHESTPLATE);
+                        entries.add(ModItems.AER_LEGGINGS);
+                        entries.add(ModItems.AER_BOOTS);
+
                         entries.add(ModItems.IGNIS_PICKAXE);
                         entries.add(ModItems.IGNIS_AXE);
                         entries.add(ModItems.IGNIS_SHOVEL);
                         entries.add(ModItems.IGNIS_HOE);
                         entries.add(ModItems.IGNIS_SWORD);
                         entries.add(ModItems.IGNIS_PAXEL);
+
+                        entries.add(ModItems.IGNIS_HELMET);
+                        entries.add(ModItems.IGNIS_CHESTPLATE);
+                        entries.add(ModItems.IGNIS_LEGGINGS);
+                        entries.add(ModItems.IGNIS_BOOTS);
 
                         entries.add(ModItems.AQUA_PICKAXE);
                         entries.add(ModItems.AQUA_AXE);
@@ -147,12 +167,22 @@ public class ModItemGroups {
                         entries.add(ModItems.AQUA_SWORD);
                         entries.add(ModItems.AQUA_PAXEL);
 
+                        entries.add(ModItems.AQUA_HELMET);
+                        entries.add(ModItems.AQUA_CHESTPLATE);
+                        entries.add(ModItems.AQUA_LEGGINGS);
+                        entries.add(ModItems.AQUA_BOOTS);
+
                         entries.add(ModItems.TERA_PICKAXE);
                         entries.add(ModItems.TERA_AXE);
                         entries.add(ModItems.TERA_SHOVEL);
                         entries.add(ModItems.TERA_HOE);
                         entries.add(ModItems.TERA_SWORD);
                         entries.add(ModItems.TERA_PAXEL);
+
+                        entries.add(ModItems.TERA_HELMET);
+                        entries.add(ModItems.TERA_CHESTPLATE);
+                        entries.add(ModItems.TERA_LEGGINGS);
+                        entries.add(ModItems.TERA_BOOTS);
 
                         entries.add(ModItems.MAGIRITE_PICKAXE);
                         entries.add(ModItems.MAGIRITE_AXE);
@@ -161,12 +191,22 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGIRITE_SWORD);
                         entries.add(ModItems.MAGIRITE_PAXEL);
 
+                        entries.add(ModItems.MAGIRITE_HELMET);
+                        entries.add(ModItems.MAGIRITE_CHESTPLATE);
+                        entries.add(ModItems.MAGIRITE_LEGGINGS);
+                        entries.add(ModItems.MAGIRITE_BOOTS);
+
                         entries.add(ModItems.MYTHRIL_PICKAXE);
                         entries.add(ModItems.MYTHRIL_AXE);
                         entries.add(ModItems.MYTHRIL_SHOVEL);
                         entries.add(ModItems.MYTHRIL_HOE);
                         entries.add(ModItems.MYTHRIL_SWORD);
                         entries.add(ModItems.MYTHRIL_PAXEL);
+
+                        entries.add(ModItems.MYTHRIL_HELMET);
+                        entries.add(ModItems.MYTHRIL_CHESTPLATE);
+                        entries.add(ModItems.MYTHRIL_LEGGINGS);
+                        entries.add(ModItems.MYTHRIL_BOOTS);
 
                         entries.add(ModItems.ADAMANTITE_PICKAXE);
                         entries.add(ModItems.ADAMANTITE_AXE);
@@ -175,6 +215,11 @@ public class ModItemGroups {
                         entries.add(ModItems.ADAMANTITE_SWORD);
                         entries.add(ModItems.ADAMANTITE_PAXEL);
 
+                        entries.add(ModItems.ADAMANTITE_HELMET);
+                        entries.add(ModItems.ADAMANTITE_CHESTPLATE);
+                        entries.add(ModItems.ADAMANTITE_LEGGINGS);
+                        entries.add(ModItems.ADAMANTITE_BOOTS);
+
                         entries.add(ModItems.ORIKALKUM_PICKAXE);
                         entries.add(ModItems.ORIKALKUM_AXE);
                         entries.add(ModItems.ORIKALKUM_SHOVEL);
@@ -182,12 +227,22 @@ public class ModItemGroups {
                         entries.add(ModItems.ORIKALKUM_SWORD);
                         entries.add(ModItems.ORIKALKUM_PAXEL);
 
+                        entries.add(ModItems.ORIKALKUM_HELMET);
+                        entries.add(ModItems.ORIKALKUM_CHESTPLATE);
+                        entries.add(ModItems.ORIKALKUM_LEGGINGS);
+                        entries.add(ModItems.ORIKALKUM_BOOTS);
+
                         entries.add(ModItems.DRAGON_BANE_PICKAXE);
                         entries.add(ModItems.DRAGON_BANE_AXE);
                         entries.add(ModItems.DRAGON_BANE_SHOVEL);
                         entries.add(ModItems.DRAGON_BANE_HOE);
                         entries.add(ModItems.DRAGON_BANE_SWORD);
                         entries.add(ModItems.DRAGON_BANE_PAXEL);
+
+                        entries.add(ModItems.DRAGON_BANE_HELMET);
+                        entries.add(ModItems.DRAGON_BANE_CHESTPLATE);
+                        entries.add(ModItems.DRAGON_BANE_LEGGINGS);
+                        entries.add(ModItems.DRAGON_BANE_BOOTS);
 
                         entries.add(ModItems.HANDLE_PART);
                         entries.add(ModItems.HOT_DWARF_PICKAXE_HEAD);
