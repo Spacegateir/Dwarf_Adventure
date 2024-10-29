@@ -2,12 +2,16 @@ package net.spacegateir.dwarfadventuremod.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
 
 
@@ -20,6 +24,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
+
+
+
+        getOrCreateTagBuilder(ItemTags.BEACON_PAYMENT_ITEMS)
+                .add(Items.NETHERITE_INGOT, Items.EMERALD, Items.DIAMOND, Items.GOLD_INGOT, Items.IRON_INGOT,
+                        ModItems.DWARF_STEEL_INGOT, ModItems.DWARF_GOLD_INGOT, ModItems.AER_SPIRIT_INGOT, ModItems.IGNIS_SPIRIT_INGOT,
+                        ModItems.AQUA_SPIRIT_INGOT, ModItems.TERA_SPIRIT_INGOT, ModItems.ELEMENTAL_GEM, ModItems.MAGIRITE_INGOT,
+                        ModItems.PUREFICATED_MYTHRIL, ModItems.ADAMANTITE_INGOT, ModItems.ORIKALKUM_INGOT, ModItems.DRAGON_BANE_INGOT);
+
         getOrCreateTagBuilder(ItemTags.TRIMMABLE_ARMOR)
                 .add(ModItems.DWARF_STEEL_HELMET, ModItems.DWARF_STEEL_CHESTPLATE, ModItems.DWARF_STEEL_LEGGINGS, ModItems.DWARF_STEEL_BOOTS)
                 .add(ModItems.DWARF_GOLD_HELMET, ModItems.DWARF_GOLD_CHESTPLATE, ModItems.DWARF_GOLD_LEGGINGS, ModItems.DWARF_GOLD_BOOTS)
