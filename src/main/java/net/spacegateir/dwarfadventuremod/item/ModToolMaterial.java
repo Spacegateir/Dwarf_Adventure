@@ -37,25 +37,25 @@ public enum ModToolMaterial implements ToolMaterial {
     MAGIRITE(NETHERITE,2300, 9.0F, 4.5F, 18,
             () -> Ingredient.ofItems(ModItems.MOLTEN_MAGIRITE_INGOT)),
 
-    MYTHRIL(5,2500,10,5.0f,30,
+    MYTHRIL(5,2500,10,5.0F,30,
             () -> Ingredient.ofItems(ModItems.PUREFICATED_MYTHRIL)),
 
-    ADAMANTITE(6,3000,11,5.5f,20,
+    ADAMANTITE(6,3000,11,5.5F,20,
             () -> Ingredient.ofItems(ModItems.MOLTEN_ADAMANTITE_INGOT)),
 
-    ORIKALKUM(7,3500,12,6.0f,25,
+    ORIKALKUM(7,3500,12,6.0F,25,
             () -> Ingredient.ofItems(ModItems.MOLTEN_ORIKALKUM_INGOT)),
 
-    DRAGON_BANE(8,5000,13,6.5f,10000,
+    DRAGON_BANE(8,5000,13,7F,10000,
             () -> Ingredient.ofItems(ModItems.MOLTEN_DRAGON_BANE_INGOT)),
 
-    WAR_HAMMER(4,2500,10,10.0f,30,
+    WAR_HAMMER(4,2500,10,10.0F,30,
             () -> Ingredient.ofItems(Items.NETHERITE_BLOCK)),
 
-    DWARF_HAMMER(6, 5000,13,0f,60,
+    DWARF_HAMMER(6, 5000,13,0F,60,
             () -> Ingredient.ofItems(ModBlocks.ADAMANTITE_BLOCK)),
 
-    PRESSURE_HAMMER(8,7500,15,0f,100,
+    PRESSURE_HAMMER(8,7500,15,0F,100,
             () -> Ingredient.ofItems(ModBlocks.DRAGON_BANE_BLOCK));
 
 

@@ -11,10 +11,7 @@ import net.minecraft.util.Rarity;
 import net.spacegateir.dwarfadventuremod.DwarfAdventureMod;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.item.DwarfPickaxeAbillities.*;
-import net.spacegateir.dwarfadventuremod.item.custom.AncestralForgeCoalItem;
-import net.spacegateir.dwarfadventuremod.item.custom.GlimmerRootEffect;
-import net.spacegateir.dwarfadventuremod.item.custom.MortarAndPestleItem;
-import net.spacegateir.dwarfadventuremod.item.custom.PaxelItem;
+import net.spacegateir.dwarfadventuremod.item.custom.*;
 
 import static net.minecraft.item.Items.register;
 
@@ -195,7 +192,7 @@ public class ModItems {
             new Hammer_9x9(ModToolMaterial.PRESSURE_HAMMER, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
 
     public static final Item GOD_SWORD = registerItem("god_sword",
-            new SwordItem(ModToolMaterial.DRAGON_BANE,100,-0F, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
+            new GodSwordItem(ModToolMaterial.DRAGON_BANE,92,-0F, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
 
 
     public static final Item DWARF_COPPER_COIN_S = registerItem("dwarf_copper_coin_s", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
