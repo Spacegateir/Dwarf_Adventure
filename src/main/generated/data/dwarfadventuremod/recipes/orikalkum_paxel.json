@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:orikalkum_axe"
+    },
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:molten_orikalkum_ingot"
+    },
+    "O": {
+      "item": "dwarfadventuremod:orikalkum_hoe"
+    },
+    "P": {
+      "item": "dwarfadventuremod:orikalkum_pickaxe"
+    },
+    "S": {
+      "item": "dwarfadventuremod:orikalkum_shovel"
+    }
+  },
+  "pattern": [
+    "PIA",
+    "OHS",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:orikalkum_paxel"
+  },
+  "show_notification": true
+}

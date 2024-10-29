@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:molten_orikalkum_ingot"
+    }
+  },
+  "pattern": [
+    "III",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:orikalkum_pickaxe"
+  },
+  "show_notification": true
+}

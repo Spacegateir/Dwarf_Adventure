@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:forging_hot_ignis"
+    }
+  },
+  "pattern": [
+    "III",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:ignis_pickaxe"
+  },
+  "show_notification": true
+}

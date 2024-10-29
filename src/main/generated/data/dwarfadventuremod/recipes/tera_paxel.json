@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:tera_axe"
+    },
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:forging_hot_tera"
+    },
+    "O": {
+      "item": "dwarfadventuremod:tera_hoe"
+    },
+    "P": {
+      "item": "dwarfadventuremod:tera_pickaxe"
+    },
+    "S": {
+      "item": "dwarfadventuremod:tera_shovel"
+    }
+  },
+  "pattern": [
+    "PIA",
+    "OHS",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:tera_paxel"
+  },
+  "show_notification": true
+}

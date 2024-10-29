@@ -4039,6 +4039,790 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        // Dwarf Steel Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_PICKAXE)));
+
+        // Dwarf Gold Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_PICKAXE)));
+
+        // Aer Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_PICKAXE)));
+
+        // Ignis Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_PICKAXE)));
+
+        // Aqua Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_PICKAXE)));
+
+        // Tera Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_PICKAXE)));
+
+        // Magirite Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_PICKAXE)));
+
+        // Mythril Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_PICKAXE)));
+
+        // Adamantite Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_PICKAXE)));
+
+        // Orikalkum Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_PICKAXE)));
+
+        // Dragon Bane Pickaxe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_PICKAXE, 1)
+                .pattern("III")
+                .pattern(" H ")
+                .pattern(" H ")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_PICKAXE)));
+
+
+        // Dwarf Steel axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_AXE)));
+
+        // Dwarf Gold axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_AXE)));
+
+        // Aer axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_AXE)));
+
+        // Ignis axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_AXE)));
+
+        // Aqua axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_AXE)));
+
+        // Tera axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_AXE)));
+
+        // Magirite axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_AXE)));
+
+        // Mythril axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_AXE)));
+
+        // Adamantite axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_AXE)));
+
+        // Orikalkum axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_AXE)));
+
+        // Dragon Bane axe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_AXE, 1)
+                .pattern("II")
+                .pattern("IH")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_AXE)));
+
+
+        // Dwarf Steel Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_SHOVEL)));
+
+        // Dwarf Gold Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_SHOVEL)));
+
+        // Aer Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_SHOVEL)));
+
+        // Ignis Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_SHOVEL)));
+
+        // Aqua Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_SHOVEL)));
+
+        // Tera Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_SHOVEL)));
+
+        // Magirite Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_SHOVEL)));
+
+        // Mythril Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_SHOVEL)));
+
+        // Adamantite Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_SHOVEL)));
+
+        // Orikalkum Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_SHOVEL)));
+
+        // Dragon Bane Shovel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_SHOVEL, 1)
+                .pattern("I")
+                .pattern("H")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_SHOVEL)));
+
+
+        // Dwarf Steel Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_HOE)));
+
+        // Dwarf Gold Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_HOE)));
+
+        // Aer Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_HOE)));
+
+        // Ignis Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_HOE)));
+
+        // Aqua Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_HOE)));
+
+        // Tera Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_HOE)));
+
+        // Magirite Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_HOE)));
+
+        // Mythril Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_HOE)));
+
+        // Adamantite Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_HOE)));
+
+        // Orikalkum Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_HOE)));
+
+        // Dragon Bane Hoe
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_HOE, 1)
+                .pattern("II")
+                .pattern(" H")
+                .pattern(" H")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_HOE)));
+
+
+        // Dwarf Steel Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_SWORD)));
+
+        // Dwarf Gold Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_SWORD)));
+
+        // Aer Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_SWORD)));
+
+        // Ignis Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_SWORD)));
+
+        // Aqua Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_SWORD)));
+
+        // Tera Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_SWORD)));
+
+        // Magirite Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_SWORD)));
+
+        // Mythril Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_SWORD)));
+
+        // Adamantite Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_SWORD)));
+
+        // Orikalkum Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_SWORD)));
+
+        // Dragon Bane Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_SWORD, 1)
+                .pattern("I")
+                .pattern("I")
+                .pattern("H")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_SWORD)));
+
+
+        // Dwarf Steel Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.DWARF_STEEL_PICKAXE)
+                .input('A', ModItems.DWARF_STEEL_AXE)
+                .input('S', ModItems.DWARF_STEEL_SHOVEL)
+                .input('O', ModItems.DWARF_STEEL_HOE)
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_PAXEL)));
+
+        // Dwarf Gold Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.DWARF_GOLD_PICKAXE)
+                .input('A', ModItems.DWARF_GOLD_AXE)
+                .input('S', ModItems.DWARF_GOLD_SHOVEL)
+                .input('O', ModItems.DWARF_GOLD_HOE)
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_PAXEL)));
+
+        // Aer Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.AER_PICKAXE)
+                .input('A', ModItems.AER_AXE)
+                .input('S', ModItems.AER_SHOVEL)
+                .input('O', ModItems.AER_HOE)
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_PAXEL)));
+
+        // Ignis Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.IGNIS_PICKAXE)
+                .input('A', ModItems.IGNIS_AXE)
+                .input('S', ModItems.IGNIS_SHOVEL)
+                .input('O', ModItems.IGNIS_HOE)
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_PAXEL)));
+
+        // Aqua Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.AQUA_PICKAXE)
+                .input('A', ModItems.AQUA_AXE)
+                .input('S', ModItems.AQUA_SHOVEL)
+                .input('O', ModItems.AQUA_HOE)
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_PAXEL)));
+
+        // Tera Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.TERA_PICKAXE)
+                .input('A', ModItems.TERA_AXE)
+                .input('S', ModItems.TERA_SHOVEL)
+                .input('O', ModItems.TERA_HOE)
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_PAXEL)));
+
+        // Magirite Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.MAGIRITE_PICKAXE)
+                .input('A', ModItems.MAGIRITE_AXE)
+                .input('S', ModItems.MAGIRITE_SHOVEL)
+                .input('O', ModItems.MAGIRITE_HOE)
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_PAXEL)));
+
+        // Mythril Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.MYTHRIL_PICKAXE)
+                .input('A', ModItems.MYTHRIL_AXE)
+                .input('S', ModItems.MYTHRIL_SHOVEL)
+                .input('O', ModItems.MYTHRIL_HOE)
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_PAXEL)));
+
+        // Adamantite Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.ADAMANTITE_PICKAXE)
+                .input('A', ModItems.ADAMANTITE_AXE)
+                .input('S', ModItems.ADAMANTITE_SHOVEL)
+                .input('O', ModItems.ADAMANTITE_HOE)
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_PAXEL)));
+
+        // Orikalkum Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.ORIKALKUM_PICKAXE)
+                .input('A', ModItems.ORIKALKUM_AXE)
+                .input('S', ModItems.ORIKALKUM_SHOVEL)
+                .input('O', ModItems.ORIKALKUM_HOE)
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_PAXEL)));
+
+        // Dragon Bane Paxel
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_PAXEL, 1)
+                .pattern("PIA")
+                .pattern("OHS")
+                .pattern(" H ")
+                .input('P', ModItems.DRAGON_BANE_PICKAXE)
+                .input('A', ModItems.DRAGON_BANE_AXE)
+                .input('S', ModItems.DRAGON_BANE_SHOVEL)
+                .input('O', ModItems.DRAGON_BANE_HOE)
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_PAXEL)));
+
+
+
+
+
+
+
+
+
+
 
 
 

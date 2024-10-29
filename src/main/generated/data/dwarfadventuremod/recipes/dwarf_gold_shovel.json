@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:molten_dwarf_gold_ingot"
+    }
+  },
+  "pattern": [
+    "I",
+    "H",
+    "H"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_gold_shovel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:molten_adamantite_ingot"
+    }
+  },
+  "pattern": [
+    "I",
+    "I",
+    "H"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:adamantite_sword"
+  },
+  "show_notification": true
+}

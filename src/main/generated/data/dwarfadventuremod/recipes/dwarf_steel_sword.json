@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:hot_ingot"
+    }
+  },
+  "pattern": [
+    "I",
+    "I",
+    "H"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_steel_sword"
+  },
+  "show_notification": true
+}

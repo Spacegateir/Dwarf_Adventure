@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    }
+  },
+  "pattern": [
+    "III",
+    " H ",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:mythril_pickaxe"
+  },
+  "show_notification": true
+}

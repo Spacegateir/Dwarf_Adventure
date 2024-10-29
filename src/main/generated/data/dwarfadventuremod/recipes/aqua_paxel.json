@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:aqua_axe"
+    },
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:forging_hot_aqua"
+    },
+    "O": {
+      "item": "dwarfadventuremod:aqua_hoe"
+    },
+    "P": {
+      "item": "dwarfadventuremod:aqua_pickaxe"
+    },
+    "S": {
+      "item": "dwarfadventuremod:aqua_shovel"
+    }
+  },
+  "pattern": [
+    "PIA",
+    "OHS",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:aqua_paxel"
+  },
+  "show_notification": true
+}

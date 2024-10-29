@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:mythril_axe"
+    },
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    },
+    "O": {
+      "item": "dwarfadventuremod:mythril_hoe"
+    },
+    "P": {
+      "item": "dwarfadventuremod:mythril_pickaxe"
+    },
+    "S": {
+      "item": "dwarfadventuremod:mythril_shovel"
+    }
+  },
+  "pattern": [
+    "PIA",
+    "OHS",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:mythril_paxel"
+  },
+  "show_notification": true
+}

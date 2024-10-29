@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:adamantite_axe"
+    },
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:molten_adamantite_ingot"
+    },
+    "O": {
+      "item": "dwarfadventuremod:adamantite_hoe"
+    },
+    "P": {
+      "item": "dwarfadventuremod:adamantite_pickaxe"
+    },
+    "S": {
+      "item": "dwarfadventuremod:adamantite_shovel"
+    }
+  },
+  "pattern": [
+    "PIA",
+    "OHS",
+    " H "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:adamantite_paxel"
+  },
+  "show_notification": true
+}

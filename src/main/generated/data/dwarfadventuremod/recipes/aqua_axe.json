@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:handle_part"
+    },
+    "I": {
+      "item": "dwarfadventuremod:forging_hot_aqua"
+    }
+  },
+  "pattern": [
+    "II",
+    "IH",
+    " H"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:aqua_axe"
+  },
+  "show_notification": true
+}
