@@ -23,6 +23,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
 
+        getOrCreateTagBuilder(BlockTags.BEACON_BASE_BLOCKS)
+                .add(Blocks.NETHERITE_BLOCK, Blocks.EMERALD_BLOCK, Blocks.DIAMOND_BLOCK, Blocks.GOLD_BLOCK, Blocks.IRON_BLOCK,
+                        ModBlocks.DWARF_STEEL_BLOCK, ModBlocks.DWARF_GOLD_BLOCK, ModBlocks.AER_BLOCK, ModBlocks.IGNIS_BLOCK,
+                        ModBlocks.AQUA_BLOCK, ModBlocks.TERA_BLOCK, ModBlocks.ELEMENTAL_GEM_BLOCK, ModBlocks.MAGIRITE_BLOCK,
+                        ModBlocks.PUREFICATED_MYTHRIL_BLOCK, ModBlocks.ADAMANTITE_BLOCK, ModBlocks.ORIKALKUM_BLOCK, ModBlocks.DRAGON_BANE_BLOCK);
+
+
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CASH_REGISTER)
                 .add(ModBlocks.DWARF_ANVIL)
@@ -558,8 +565,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PUREFICATED_MYTHRIL_FENCE)
                 .add(ModBlocks.PUREFICATED_MYTHRIL_FENCE_GATE)
                 .add(ModBlocks.PUREFICATED_MYTHRIL_WALL)
-//                .add(ModBlocks.PUREFICATED_MYTHRIL_DOOR)
-//                .add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR)
+                .add(ModBlocks.PUREFICATED_MYTHRIL_DOOR)
+                .add(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR)
 
                 .add(ModBlocks.ADAMANTITE_STONE_ORE)
                 .add(ModBlocks.ADAMANTITE_DEEPSLATE_ORE)
@@ -742,6 +749,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .forceAddTag(BlockTags.AXE_MINEABLE)
                 .forceAddTag(BlockTags.SHOVEL_MINEABLE)
                 .forceAddTag(BlockTags.HOE_MINEABLE);
+    }
+
+    @Override
+    public String getName() {
+        return "Mod Block Tags";
     }
 
 

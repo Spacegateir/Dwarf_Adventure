@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_block",
+    "minecraft:emerald_block",
+    "minecraft:diamond_block",
+    "minecraft:gold_block",
+    "minecraft:iron_block",
+    "dwarfadventuremod:dwarf_steel_block",
+    "dwarfadventuremod:dwarf_gold_block",
+    "dwarfadventuremod:aer_block",
+    "dwarfadventuremod:ignis_block",
+    "dwarfadventuremod:aqua_block",
+    "dwarfadventuremod:tera_block",
+    "dwarfadventuremod:elemental_gem_block",
+    "dwarfadventuremod:magirite_block",
+    "dwarfadventuremod:pureficated_mythril_block",
+    "dwarfadventuremod:adamantite_block",
+    "dwarfadventuremod:orikalkum_block",
+    "dwarfadventuremod:dragon_bane_block"
+  ]
+}
