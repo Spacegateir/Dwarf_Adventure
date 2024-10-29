@@ -178,6 +178,17 @@ public class ModLootTableModifiers {
                 tableBuilder.pool(poolBuilder.build());
             }
 
+            if (ENDER_DRAGON_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) // 0.01% drop chance
+                        .conditionally(KilledByPlayerLootCondition.builder().build()) // Only when killed by player
+                        .with(ItemEntry.builder(ModItems.GOD_SWORD_BLADE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
             if (WITHER_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
@@ -197,6 +208,17 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.1f)) // 10% drop chance
                         .conditionally(KilledByPlayerLootCondition.builder().build()) // Only when killed by player
                         .with(ItemEntry.builder(ModItems.WITHER_BONE))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (WITHER_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.0001f)) // 0.01% drop chance
+                        .conditionally(KilledByPlayerLootCondition.builder().build()) // Only when killed by player
+                        .with(ItemEntry.builder(ModItems.GOD_SWORD_GEM))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
@@ -240,6 +262,17 @@ public class ModLootTableModifiers {
             if (WARDEN_ID.equals(id)) {
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.0001f)) // 0.001% drop chance
+                        .conditionally(KilledByPlayerLootCondition.builder().build()) // Only when killed by player
+                        .with(ItemEntry.builder(ModItems.GOD_SWORD_HILT))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (WARDEN_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
                         .conditionally(RandomChanceLootCondition.builder(1f)) // 100% drop chance
                         .conditionally(KilledByPlayerLootCondition.builder().build()) // Only when killed by player
                         .with(ItemEntry.builder(ModItems.EARTH_GEM))
@@ -258,6 +291,17 @@ public class ModLootTableModifiers {
                         .with(ItemEntry.builder(ModItems.PRESSURE_HAMMER))
                         .with(ItemEntry.builder(ModBlocks.WATER_GEM_BLOCK))
                         .with(ItemEntry.builder(ModItems.ELEMENTAL_GEM))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (ELDER_GUARDIAN_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.001f)) // 0.1% drop chance
+                        .conditionally(KilledByPlayerLootCondition.builder().build()) // Only when killed by player
+                        .with(ItemEntry.builder(ModItems.GOD_SWORD_HANDLE))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

@@ -65,6 +65,12 @@
   "item.dwarfadventuremod.dwarf_hammer": "Dwarf Hammer",
   "item.dwarfadventuremod.pressure_hammer": "Pressure Hammer",
 
+  "item.dwarfadventuremod.god_sword": "God Sword",
+  "item.dwarfadventuremod.god_sword_blade": "God Sword Blade Part",
+  "item.dwarfadventuremod.god_sword_hilt": "God Sword Hilt Part",
+  "item.dwarfadventuremod.god_sword_handle": "God Sword Handle Part",
+  "item.dwarfadventuremod.god_sword_gem": "God Sword Gem Part",
+
   "item.dwarfadventuremod.lvl1_dwarf_pickaxe": "Forge Master Dwarf Pickaxe",
   "item.dwarfadventuremod.lvl2_dwarf_pickaxe": "Elder Dwarf Pickaxe",
   "item.dwarfadventuremod.lvl3_dwarf_pickaxe": "Ancient Dwarf Pickaxe",

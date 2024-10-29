@@ -1485,6 +1485,21 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_enhanced_golem_core", conditionsFromItem(ModItems.ENHNACED_GOLEM_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.LVL6_DWARF_PICKAXE)));
 
+        // God Sword
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.GOD_SWORD, 1)
+                .pattern("B  ")
+                .pattern(" H ")
+                .pattern(" NG")
+                .input('B', ModItems.GOD_SWORD_BLADE)
+                .input('H', ModItems.GOD_SWORD_HILT)
+                .input('N', ModItems.GOD_SWORD_HANDLE)
+                .input('G', ModItems.GOD_SWORD_GEM)
+                .criterion("has_god_sword_blade", conditionsFromItem(ModItems.GOD_SWORD_BLADE))
+                .criterion("has_god_sword_hilt", conditionsFromItem(ModItems.GOD_SWORD_HILT))
+                .criterion("has_god_sword_handle", conditionsFromItem(ModItems.GOD_SWORD_HANDLE))
+                .criterion("has_god_sword_gem", conditionsFromItem(ModItems.GOD_SWORD_GEM))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.GOD_SWORD)));
+
 
         // Clump of Raw Iron Steel recipe
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CLUMP_OF_DWARF_STEEL, 1)

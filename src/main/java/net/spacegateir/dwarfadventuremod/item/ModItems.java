@@ -194,6 +194,9 @@ public class ModItems {
     public static final Item PRESSURE_HAMMER = registerItem("pressure_hammer",
             new Hammer_9x9(ModToolMaterial.PRESSURE_HAMMER, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
 
+    public static final Item GOD_SWORD = registerItem("god_sword",
+            new SwordItem(ModToolMaterial.DRAGON_BANE,100,-0F, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));
+
 
     public static final Item DWARF_COPPER_COIN_S = registerItem("dwarf_copper_coin_s", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item DWARF_COPPER_COIN_M = registerItem("dwarf_copper_coin_m", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
@@ -208,6 +211,11 @@ public class ModItems {
     public static final Item DWARF_GOLD_COIN_L = registerItem("dwarf_gold_coin_l", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static final Item DWARF_MYTHRIL_COIN_L = registerItem("dwarf_mythril_coin_l", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+
+    public static final Item GOD_SWORD_BLADE = registerItem("god_sword_blade", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item GOD_SWORD_HILT = registerItem("god_sword_hilt", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item GOD_SWORD_HANDLE = registerItem("god_sword_handle", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
+    public static final Item GOD_SWORD_GEM = registerItem("god_sword_gem", new Item(new FabricItemSettings().rarity(Rarity.EPIC)));
 
     public static final Item CORRUPT_GEM = registerItem("corrupt_gem", new Item(new FabricItemSettings().rarity(Rarity.COMMON)));
     public static final Item GLIMMER_ROOT = registerItem("glimmer_root", new GlimmerRootEffect(new FabricItemSettings().maxCount(64)));

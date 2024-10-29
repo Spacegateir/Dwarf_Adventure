@@ -103,6 +103,12 @@ public class ModItemGroups {
                         entries.add(ModItems.DWARF_HAMMER);
                         entries.add(ModItems.PRESSURE_HAMMER);
 
+                        entries.add(ModItems.GOD_SWORD);
+                        entries.add(ModItems.GOD_SWORD_BLADE);
+                        entries.add(ModItems.GOD_SWORD_HILT);
+                        entries.add(ModItems.GOD_SWORD_HANDLE);
+                        entries.add(ModItems.GOD_SWORD_GEM);
+
                         entries.add(ModItems.LVL1_DWARF_PICKAXE);
                         entries.add(ModItems.LVL2_DWARF_PICKAXE);
                         entries.add(ModItems.LVL3_DWARF_PICKAXE);

@@ -1,0 +1,215 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"2": "dwarfadventuremod:item/campfire_fire",
+		"3": "dwarfadventuremod:item/god_sword_gem",
+		"particle": "dwarfadventuremod:item/god_sword_gem"
+	},
+	"elements": [
+		{
+			"from": [6.5, -1, 8],
+			"to": [9.5, 2, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [0, 0, 3, 3], "texture": "#3"},
+				"east": {"uv": [8, 8, 9, 11], "texture": "#3"},
+				"south": {"uv": [0, 3, 3, 6], "texture": "#3"},
+				"west": {"uv": [0, 9, 1, 12], "texture": "#3"},
+				"up": {"uv": [12, 1, 9, 0], "texture": "#3"},
+				"down": {"uv": [4, 9, 1, 10], "texture": "#3"}
+			}
+		},
+		{
+			"from": [6.5, -1, 7],
+			"to": [9.5, 2, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [3, 0, 6, 3], "texture": "#3"},
+				"east": {"uv": [9, 1, 10, 4], "texture": "#3"},
+				"south": {"uv": [3, 3, 6, 6], "texture": "#3"},
+				"west": {"uv": [4, 9, 5, 12], "texture": "#3"},
+				"up": {"uv": [12, 5, 9, 4], "texture": "#3"},
+				"down": {"uv": [12, 5, 9, 6], "texture": "#3"}
+			}
+		},
+		{
+			"from": [6.75, -0.75, 6],
+			"to": [9.25, 1.75, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [0, 6, 3, 9], "texture": "#3"},
+				"east": {"uv": [5, 9, 6, 12], "texture": "#3"},
+				"south": {"uv": [6, 0, 9, 3], "texture": "#3"},
+				"west": {"uv": [9, 8, 10, 11], "texture": "#3"},
+				"up": {"uv": [4, 11, 1, 10], "texture": "#3"},
+				"down": {"uv": [13, 1, 10, 2], "texture": "#3"}
+			}
+		},
+		{
+			"from": [6.75, -0.75, 7.5],
+			"to": [9.25, 1.75, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [3, 6, 6, 9], "texture": "#3"},
+				"east": {"uv": [6, 10, 7, 13], "texture": "#3"},
+				"south": {"uv": [6, 3, 9, 6], "texture": "#3"},
+				"west": {"uv": [10, 6, 11, 9], "texture": "#3"},
+				"up": {"uv": [13, 3, 10, 2], "texture": "#3"},
+				"down": {"uv": [13, 3, 10, 4], "texture": "#3"}
+			}
+		},
+		{
+			"from": [7, 0.41924, 5.03076],
+			"to": [9, 2.41924, 7.03076],
+			"rotation": {"angle": -45, "axis": "x", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"west": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"up": {"uv": [11, 12, 6, 8], "texture": "#2"},
+				"down": {"uv": [11, 8, 6, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.91924, -0.5, 5.03076],
+			"to": [9.91924, 1.5, 7.03076],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"west": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"up": {"uv": [11, 12, 6, 8], "texture": "#2"},
+				"down": {"uv": [11, 8, 6, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.07825, -0.95, 6.73536],
+			"to": [7.57825, 1.95, 7.23536],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"west": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"up": {"uv": [11, 12, 6, 8], "texture": "#2"},
+				"down": {"uv": [11, 8, 6, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [7.78536, -0.95, 6.02825],
+			"to": [8.28536, 1.95, 6.52825],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"west": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"up": {"uv": [11, 12, 6, 8], "texture": "#2"},
+				"down": {"uv": [11, 8, 6, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [6.55, 0.28536, 6.02825],
+			"to": [9.45, 0.78536, 6.52825],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"west": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"up": {"uv": [11, 12, 6, 8], "texture": "#2"},
+				"down": {"uv": [11, 8, 6, 12], "texture": "#2"}
+			}
+		},
+		{
+			"from": [6.55, -0.42175, 6.73536],
+			"to": [9.45, 0.07825, 7.23536],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 0.5, 6.95]},
+			"faces": {
+				"north": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"east": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"south": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"west": {"uv": [6, 8, 11, 12], "texture": "#2"},
+				"up": {"uv": [11, 12, 6, 8], "texture": "#2"},
+				"down": {"uv": [11, 8, 6, 12], "texture": "#2"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [43, 0, 0],
+			"translation": [1.75, 5.25, 7.25]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [43, 0, 0],
+			"translation": [1.75, 5.5, 7.25]
+		},
+		"firstperson_righthand": {
+			"rotation": [43, 0, 0],
+			"translation": [1.75, 7.25, 7.25]
+		},
+		"firstperson_lefthand": {
+			"rotation": [43, 0, 0],
+			"translation": [1.75, 7.25, 7.25]
+		},
+		"ground": {
+			"rotation": [78, 0, 0],
+			"translation": [0, 2.25, 15],
+			"scale": [2.01, 2.01, 2.01]
+		},
+		"gui": {
+			"rotation": [-90, 180, -43],
+			"translation": [-9.75, -2.5, 0.5],
+			"scale": [2.01, 2.01, 2.01]
+		},
+		"head": {
+			"scale": [0, 0, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 180, -43],
+			"translation": [-10.25, -3, -11.25],
+			"scale": [2.01, 2.01, 2.01]
+		}
+	},
+	"groups": [
+		{
+			"name": "God Sword",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Gem",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [
+						{
+							"name": "Gem",
+							"origin": [8, 8, 8],
+							"color": 0,
+							"children": [
+								0,
+								1,
+								2,
+								3,
+								{
+									"name": "gem",
+									"origin": [0, 0, 2.5],
+									"color": 0,
+									"children": [4, 5, 6, 7, 8, 9]
+								}
+							]
+						},
+						{
+							"name": "animation",
+							"origin": [0, 0, 0],
+							"color": 0,
+							"children": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
