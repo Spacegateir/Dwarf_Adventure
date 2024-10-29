@@ -38,7 +38,32 @@
                       "dwarfadventuremod:lvl3_dwarf_pickaxe",
                       "dwarfadventuremod:lvl4_dwarf_pickaxe",
                       "dwarfadventuremod:lvl5_dwarf_pickaxe",
-                      "dwarfadventuremod:lvl6_dwarf_pickaxe"
+                      "dwarfadventuremod:lvl6_dwarf_pickaxe",
+                      "dwarfadventuremod:dwarf_steel_pickaxe",
+                      "dwarfadventuremod:dwarf_steel_paxel",
+                      "dwarfadventuremod:dwarf_gold_pickaxe",
+                      "dwarfadventuremod:dwarf_gold_paxel",
+                      "dwarfadventuremod:aer_pickaxe",
+                      "dwarfadventuremod:aer_paxel",
+                      "dwarfadventuremod:ignis_pickaxe",
+                      "dwarfadventuremod:ignis_paxel",
+                      "dwarfadventuremod:aqua_pickaxe",
+                      "dwarfadventuremod:aqua_paxel",
+                      "dwarfadventuremod:tera_pickaxe",
+                      "dwarfadventuremod:tera_paxel",
+                      "dwarfadventuremod:magirite_pickaxe",
+                      "dwarfadventuremod:magirite_paxel",
+                      "dwarfadventuremod:mythril_pickaxe",
+                      "dwarfadventuremod:mythril_paxel",
+                      "dwarfadventuremod:adamantite_pickaxe",
+                      "dwarfadventuremod:adamantite_paxel",
+                      "dwarfadventuremod:orikalkum_pickaxe",
+                      "dwarfadventuremod:orikalkum_paxel",
+                      "dwarfadventuremod:dragon_bane_pickaxe",
+                      "dwarfadventuremod:dragon_bane_paxel",
+                      "dwarfadventuremod:war_hammer",
+                      "dwarfadventuremod:dwarf_hammer",
+                      "dwarfadventuremod:pressure_hammer"
                     ]
                   }
                 }

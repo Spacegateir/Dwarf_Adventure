@@ -209,51 +209,86 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.STONE_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.STONE_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.DEEPSLATE_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.DEEPSLATE_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.NETHERRACK_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.NETHERRACK_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.END_STONE_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.END_STONE_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.ANDESITE_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.ANDESITE_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.DIORITE_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.DIORITE_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.GRANITE_DWARF_STEEL_ORE, DwarfSteelOreDrops(
                 ModBlocks.GRANITE_DWARF_STEEL_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_STEEL));
 
         addDrop(ModBlocks.WIND_GEM_BLOCK);
@@ -379,51 +414,86 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.MAGIRITE_STONE_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MAGIRITE_DEEPSLATE_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_DEEPSLATE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MAGIRITE_NETHERRACK_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_NETHERRACK_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MAGIRITE_END_STONE_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_END_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MAGIRITE_ANDESITE_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_ANDESITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MAGIRITE_DIORITE_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_DIORITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MAGIRITE_GRANITE_ORE, MagiriteOreDrops(
                 ModBlocks.MAGIRITE_GRANITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_MAGIRITE));
 
         addDrop(ModBlocks.MYTHRIL_BLOCK);
@@ -450,72 +520,122 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_STONE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_STONE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_DEELSLATE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_DEELSLATE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_NETHERRACK, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_NETHERRACK,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_END_STONE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_END_STONE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_ANDESITE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_ANDESITE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_DIORITE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_DIORITE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL_GRANDITE, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL_GRANDITE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.BUDDING_MYTHRIL, MythrilOreDrops(
                 ModBlocks.BUDDING_MYTHRIL,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(Blocks.BUDDING_AMETHYST, MythrilOreDrops(
                 Blocks.BUDDING_AMETHYST,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 Items.AMETHYST_SHARD));
 
         addDrop(ModBlocks.MYTHRIL_CLUSTER, MythrilOreDrops(
                 ModBlocks.MYTHRIL_CLUSTER,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.MYTHRIL));
 
         addDrop(ModBlocks.RAW_ADAMANTITE_BLOCK);
@@ -542,51 +662,86 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ADAMANTITE_STONE_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.ADAMANTITE_DEEPSLATE_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_DEEPSLATE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.ADAMANTITE_NETHERRACK_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_NETHERRACK_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.ADAMANTITE_END_STONE_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_END_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.ADAMANTITE_ANDESITE_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_ANDESITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.ADAMANTITE_DIORITE_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_DIORITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.ADAMANTITE_GRANITE_ORE, AdamantiteOreDrops(
                 ModBlocks.ADAMANTITE_GRANITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ADAMANTITE));
 
         addDrop(ModBlocks.RAW_ORIKALKUM_BLOCK);
@@ -613,51 +768,86 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.ORIKALKUM_STONE_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.ORIKALKUM_DEEPSLATE_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_DEEPSLATE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.ORIKALKUM_NETHERRACK_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_NETHERRACK_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.ORIKALKUM_END_STONE_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_END_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.ORIKALKUM_ANDESITE_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_ANDESITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.ORIKALKUM_DIORITE_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_DIORITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.ORIKALKUM_GRANITE_ORE, OrikalkumOreDrops(
                 ModBlocks.ORIKALKUM_GRANITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_ORIKALKUM));
 
         addDrop(ModBlocks.RAW_DRAGON_BANE_BLOCK);
@@ -684,51 +874,86 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.DRAGON_BANE_STONE_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_DEEPSLATE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.DRAGON_BANE_NETHERRACK_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_NETHERRACK_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.DRAGON_BANE_END_STONE_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_END_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.DRAGON_BANE_ANDESITE_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_ANDESITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.DRAGON_BANE_DIORITE_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_DIORITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.DRAGON_BANE_GRANITE_ORE, DragonBaneOreDrops(
                 ModBlocks.DRAGON_BANE_GRANITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DRAGON_BANE));
 
         addDrop(ModBlocks.RAW_DWARF_GOLD_BLOCK);
@@ -755,51 +980,86 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.DWARF_GOLD_STONE_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
         addDrop(ModBlocks.DWARF_GOLD_DEEPSLATE_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_DEEPSLATE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
         addDrop(ModBlocks.DWARF_GOLD_NETHERRACK_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_NETHERRACK_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
         addDrop(ModBlocks.DWARF_GOLD_END_STONE_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_END_STONE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
         addDrop(ModBlocks.DWARF_GOLD_ANDESITE_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_ANDESITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
         addDrop(ModBlocks.DWARF_GOLD_DIORITE_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_DIORITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
         addDrop(ModBlocks.DWARF_GOLD_GRANITE_ORE, DwarfGoldOreDrops(
                 ModBlocks.DWARF_GOLD_GRANITE_ORE,
-                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE,
-                ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
-                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE,
+                ModItems.LVL1_DWARF_PICKAXE, ModItems.LVL2_DWARF_PICKAXE, ModItems.LVL3_DWARF_PICKAXE, ModItems.LVL4_DWARF_PICKAXE,
+                ModItems.LVL5_DWARF_PICKAXE, ModItems.LVL6_DWARF_PICKAXE, ModItems.DWARF_STEEL_PICKAXE, ModItems.DWARF_STEEL_PAXEL,
+                ModItems.DWARF_GOLD_PICKAXE, ModItems.DWARF_GOLD_PAXEL, ModItems.AER_PICKAXE, ModItems.AER_PAXEL,
+                ModItems.IGNIS_PICKAXE, ModItems.IGNIS_PAXEL, ModItems.AQUA_PICKAXE, ModItems.AQUA_PAXEL,
+                ModItems.TERA_PICKAXE, ModItems.TERA_PAXEL, ModItems.MAGIRITE_PICKAXE, ModItems.MAGIRITE_PAXEL,
+                ModItems.MYTHRIL_PICKAXE, ModItems.MYTHRIL_PAXEL, ModItems.ADAMANTITE_PICKAXE, ModItems.ADAMANTITE_PAXEL,
+                ModItems.ORIKALKUM_PICKAXE, ModItems.ORIKALKUM_PAXEL, ModItems.DRAGON_BANE_PICKAXE, ModItems.DRAGON_BANE_PAXEL,
+                ModItems.WAR_HAMMER, ModItems.DWARF_HAMMER, ModItems.PRESSURE_HAMMER,
                 ModItems.RAW_DWARF_GOLD));
 
     }
@@ -808,6 +1068,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                                 Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
                                                 Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
                                                 Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                                Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                                Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                                Item aer_pickaxe, Item aer_paxel,
+                                                Item ignis_pickaxe, Item ignis_paxel,
+                                                Item aqua_pickaxe, Item aqua_paxel,
+                                                Item tera_pickaxe, Item tera_paxel,
+                                                Item magirite_pickaxe, Item magirite_paxel,
+                                                Item mythril_pickaxe, Item mythril_paxel,
+                                                Item adamantite_pickaxe, Item adamantite_paxel,
+                                                Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                                Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                                Item war_hammer, Item dwarf_hammer, Item presure_hammer,
                                                 Item item) {
         return dropsWithSilkTouch(
                 drop,
@@ -820,17 +1092,35 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                            dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                            aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                            aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                            magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                            adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                            dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );
     }
 
     public LootTable.Builder MagiriteOreDrops(Block drop,
-                                                Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
-                                                Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
-                                                Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
-                                                Item item) {
+                                              Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
+                                              Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
+                                              Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                              Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                              Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                              Item aer_pickaxe, Item aer_paxel,
+                                              Item ignis_pickaxe, Item ignis_paxel,
+                                              Item aqua_pickaxe, Item aqua_paxel,
+                                              Item tera_pickaxe, Item tera_paxel,
+                                              Item magirite_pickaxe, Item magirite_paxel,
+                                              Item mythril_pickaxe, Item mythril_paxel,
+                                              Item adamantite_pickaxe, Item adamantite_paxel,
+                                              Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                              Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                              Item war_hammer, Item dwarf_hammer, Item presure_hammer,
+                                              Item item) {
         return dropsWithSilkTouch(
                 drop,
                 (LootPoolEntry.Builder<?>) this.applyExplosionDecay(
@@ -842,17 +1132,35 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                        dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                        aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                        aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                        magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                        adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                        dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );
     }
 
     public LootTable.Builder MythrilOreDrops(Block drop,
-                                                Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
-                                                Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
-                                                Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
-                                                Item item) {
+                                             Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
+                                             Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
+                                             Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                             Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                             Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                             Item aer_pickaxe, Item aer_paxel,
+                                             Item ignis_pickaxe, Item ignis_paxel,
+                                             Item aqua_pickaxe, Item aqua_paxel,
+                                             Item tera_pickaxe, Item tera_paxel,
+                                             Item magirite_pickaxe, Item magirite_paxel,
+                                             Item mythril_pickaxe, Item mythril_paxel,
+                                             Item adamantite_pickaxe, Item adamantite_paxel,
+                                             Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                             Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                             Item war_hammer, Item dwarf_hammer, Item presure_hammer,
+                                             Item item) {
         return dropsWithSilkTouch(
                 drop,
                 (LootPoolEntry.Builder<?>) this.applyExplosionDecay(
@@ -864,7 +1172,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                        dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                        aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                        aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                        magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                        adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                        dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );
@@ -874,6 +1188,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                                 Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
                                                 Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
                                                 Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                                Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                                Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                                Item aer_pickaxe, Item aer_paxel,
+                                                Item ignis_pickaxe, Item ignis_paxel,
+                                                Item aqua_pickaxe, Item aqua_paxel,
+                                                Item tera_pickaxe, Item tera_paxel,
+                                                Item magirite_pickaxe, Item magirite_paxel,
+                                                Item mythril_pickaxe, Item mythril_paxel,
+                                                Item adamantite_pickaxe, Item adamantite_paxel,
+                                                Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                                Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                                Item war_hammer, Item dwarf_hammer, Item presure_hammer,
                                                 Item item) {
         return dropsWithSilkTouch(
                 drop,
@@ -886,17 +1212,35 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                        dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                        aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                        aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                        magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                        adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                        dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );
     }
 
     public LootTable.Builder OrikalkumOreDrops(Block drop,
-                                                Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
-                                                Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
-                                                Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
-                                                Item item) {
+                                               Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
+                                               Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
+                                               Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                               Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                               Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                               Item aer_pickaxe, Item aer_paxel,
+                                               Item ignis_pickaxe, Item ignis_paxel,
+                                               Item aqua_pickaxe, Item aqua_paxel,
+                                               Item tera_pickaxe, Item tera_paxel,
+                                               Item magirite_pickaxe, Item magirite_paxel,
+                                               Item mythril_pickaxe, Item mythril_paxel,
+                                               Item adamantite_pickaxe, Item adamantite_paxel,
+                                               Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                               Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                               Item war_hammer, Item dwarf_hammer, Item presure_hammer,
+                                               Item item) {
         return dropsWithSilkTouch(
                 drop,
                 (LootPoolEntry.Builder<?>) this.applyExplosionDecay(
@@ -908,7 +1252,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                        dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                        aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                        aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                        magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                        adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                        dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );
@@ -918,6 +1268,18 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                                 Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
                                                 Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
                                                 Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                                Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                                Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                                Item aer_pickaxe, Item aer_paxel,
+                                                Item ignis_pickaxe, Item ignis_paxel,
+                                                Item aqua_pickaxe, Item aqua_paxel,
+                                                Item tera_pickaxe, Item tera_paxel,
+                                                Item magirite_pickaxe, Item magirite_paxel,
+                                                Item mythril_pickaxe, Item mythril_paxel,
+                                                Item adamantite_pickaxe, Item adamantite_paxel,
+                                                Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                                Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                                Item war_hammer, Item dwarf_hammer, Item presure_hammer,
                                                 Item item) {
         return dropsWithSilkTouch(
                 drop,
@@ -930,17 +1292,35 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                        dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                        aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                        aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                        magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                        adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                        dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );
     }
 
     public LootTable.Builder DwarfGoldOreDrops(Block drop,
-                                                Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
-                                                Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
-                                                Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
-                                                Item item) {
+                                               Item lvl1_dwarf_pickaxe, Item lvl2_dwarf_pickaxe,
+                                               Item lvl3_dwarf_pickaxe, Item lvl4_dwarf_pickaxe,
+                                               Item lvl5_dwarf_pickaxe, Item lvl6_dwarf_pickaxe,
+                                               Item dwarf_Steel_pickaxe, Item dwarf_steel_paxel,
+                                               Item dwarf_gold_pickaxe, Item dwarf_gold_paxel,
+                                               Item aer_pickaxe, Item aer_paxel,
+                                               Item ignis_pickaxe, Item ignis_paxel,
+                                               Item aqua_pickaxe, Item aqua_paxel,
+                                               Item tera_pickaxe, Item tera_paxel,
+                                               Item magirite_pickaxe, Item magirite_paxel,
+                                               Item mythril_pickaxe, Item mythril_paxel,
+                                               Item adamantite_pickaxe, Item adamantite_paxel,
+                                               Item orikalkum_pickaxe, Item orikalkum_paxel,
+                                               Item dragon_bane_pickaxe, Item dragon_bane_paxel,
+                                               Item war_hammer, Item dwarf_hammer, Item presure_hammer,
+                                               Item item) {
         return dropsWithSilkTouch(
                 drop,
                 (LootPoolEntry.Builder<?>) this.applyExplosionDecay(
@@ -952,7 +1332,13 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                                 .conditionally(MatchToolLootCondition.builder(
                                         ItemPredicate.Builder.create()
                                                 .items(lvl1_dwarf_pickaxe, lvl2_dwarf_pickaxe, lvl3_dwarf_pickaxe,
-                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe)
+                                                        lvl4_dwarf_pickaxe, lvl5_dwarf_pickaxe, lvl6_dwarf_pickaxe,
+                                                        dwarf_Steel_pickaxe, dwarf_steel_paxel, dwarf_gold_pickaxe, dwarf_gold_paxel,
+                                                        aer_pickaxe, aer_paxel, ignis_pickaxe, ignis_paxel,
+                                                        aqua_pickaxe, aqua_paxel, tera_pickaxe, tera_paxel,
+                                                        magirite_pickaxe, magirite_paxel, mythril_pickaxe, mythril_paxel,
+                                                        adamantite_pickaxe, adamantite_paxel, orikalkum_pickaxe, orikalkum_paxel,
+                                                        dragon_bane_pickaxe, dragon_bane_paxel, war_hammer, dwarf_hammer,presure_hammer)
                                 ))
                 )
         );

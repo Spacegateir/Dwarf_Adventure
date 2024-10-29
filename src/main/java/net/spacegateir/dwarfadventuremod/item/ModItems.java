@@ -207,49 +207,49 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.DWARF_STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item DWARF_GOLD_HELMET = registerItem("dwarf_gold_helmet",
-            new ArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item DWARF_GOLD_CHESTPLATE = registerItem("dwarf_gold_chestplate",
-            new ArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item DWARF_GOLD_LEGGINGS = registerItem("dwarf_gold_leggings",
-            new ArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item DWARF_GOLD_BOOTS = registerItem("dwarf_gold_boots",
-            new ArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item AER_HELMET = registerItem("aer_helmet",
-            new ArmorItem(ModArmorMaterials.AER, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AER, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item AER_CHESTPLATE = registerItem("aer_chestplate",
-            new ArmorItem(ModArmorMaterials.AER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AER, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item AER_LEGGINGS = registerItem("aer_leggings",
-            new ArmorItem(ModArmorMaterials.AER, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AER, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item AER_BOOTS = registerItem("aer_boots",
-            new ArmorItem(ModArmorMaterials.AER, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AER, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item IGNIS_HELMET = registerItem("ignis_helmet",
-            new ArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item IGNIS_CHESTPLATE = registerItem("ignis_chestplate",
-            new ArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item IGNIS_LEGGINGS = registerItem("ignis_leggings",
-            new ArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item IGNIS_BOOTS = registerItem("ignis_boots",
-            new ArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.IGNIS, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item AQUA_HELMET = registerItem("aqua_helmet",
-            new ArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item AQUA_CHESTPLATE = registerItem("aqua_chestplate",
-            new ArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item AQUA_LEGGINGS = registerItem("aqua_leggings",
-            new ArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item AQUA_BOOTS = registerItem("aqua_boots",
-            new ArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.AQUA, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item TERA_HELMET = registerItem("tera_helmet",
-            new ArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item TERA_CHESTPLATE = registerItem("tera_chestplate",
-            new ArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.CHESTPLATE, new FabricItemSettings().fireproof()));
     public static final Item TERA_LEGGINGS = registerItem("tera_leggings",
-            new ArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.LEGGINGS, new FabricItemSettings().fireproof()));
     public static final Item TERA_BOOTS = registerItem("tera_boots",
-            new ArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
+            new ModArmorItem(ModArmorMaterials.TERA, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
     public static final Item MAGIRITE_HELMET = registerItem("magirite_helmet",
             new ArmorItem(ModArmorMaterials.MAGIRITE, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
