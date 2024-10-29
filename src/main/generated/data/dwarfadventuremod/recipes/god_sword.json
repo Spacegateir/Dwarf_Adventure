@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "dwarfadventuremod:god_sword_blade"
+    },
+    "G": {
+      "item": "dwarfadventuremod:god_sword_gem"
+    },
+    "H": {
+      "item": "dwarfadventuremod:god_sword_hilt"
+    },
+    "N": {
+      "item": "dwarfadventuremod:god_sword_handle"
+    }
+  },
+  "pattern": [
+    "B  ",
+    " H ",
+    " NG"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:god_sword"
+  },
+  "show_notification": true
+}

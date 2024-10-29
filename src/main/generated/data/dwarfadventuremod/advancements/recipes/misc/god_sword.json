@@ -1,0 +1,74 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_god_sword_blade": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:god_sword_blade"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_god_sword_gem": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:god_sword_gem"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_god_sword_handle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:god_sword_handle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_god_sword_hilt": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "dwarfadventuremod:god_sword_hilt"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:god_sword"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_god_sword_blade",
+      "has_god_sword_hilt",
+      "has_god_sword_handle",
+      "has_god_sword_gem",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:god_sword"
+    ]
+  },
+  "sends_telemetry_event": false
+}
