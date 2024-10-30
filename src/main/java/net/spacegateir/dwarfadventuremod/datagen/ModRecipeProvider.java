@@ -4815,6 +4815,388 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_PAXEL)));
 
 
+        // Dwarf Steel Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.HOT_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_HELMET)));
+
+        // Dwarf Steel Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.HOT_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_CHESTPLATE)));
+
+        // Dwarf Steel Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.HOT_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_LEGGINGS)));
+
+        // Dwarf Steel Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.HOT_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_BOOTS)));
+
+        // Dwarf Gold Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_HELMET)));
+
+        // Dwarf Gold Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_CHESTPLATE)));
+
+        // Dwarf Gold Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_LEGGINGS)));
+
+        // Dwarf Gold Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_BOOTS)));
+
+        // Aer Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_HELMET)));
+
+        // Aer Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_CHESTPLATE)));
+
+        // Aer Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_LEGGINGS)));
+
+        // Aer Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_BOOTS)));
+
+        // Ignis Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_HELMET)));
+
+        // Ignis Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_CHESTPLATE)));
+
+        // Ignis Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_LEGGINGS)));
+
+        // Ignis Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_BOOTS)));
+
+
+        // Aqua Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_HELMET)));
+
+        // Aqua Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_CHESTPLATE)));
+
+        // Aqua Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_LEGGINGS)));
+
+        // Aqua Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_BOOTS)));
+
+
+        // Tera Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_HELMET)));
+
+        // Tera Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_CHESTPLATE)));
+
+        // Tera Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_LEGGINGS)));
+
+        // Tera Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_BOOTS)));
+
+
+        // Magirite Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_HELMET)));
+
+        // Magirite Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_CHESTPLATE)));
+
+        // Magirite Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_LEGGINGS)));
+
+        // Magirite Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_BOOTS)));
+
+
+        // Mythril Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_HELMET)));
+
+        // Mythril Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_CHESTPLATE)));
+
+        // Mythril Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_LEGGINGS)));
+
+        // Mythril Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_BOOTS)));
+
+
+        // Adamantite Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_HELMET)));
+
+        // Adamantite Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_CHESTPLATE)));
+
+        // Adamantite Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_LEGGINGS)));
+
+        // Adamantite Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_BOOTS)));
+
+
+        // Orikalkum Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_HELMET)));
+
+        // Orikalkum Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_CHESTPLATE)));
+
+        // Orikalkum Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_LEGGINGS)));
+
+        // Orikalkum Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_BOOTS)));
+
+
+        // Dragon Bane Helmet
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_HELMET, 1)
+                .pattern("III")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_HELMET)));
+
+        // Dragon Bane Chestplate
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_CHESTPLATE, 1)
+                .pattern("I I")
+                .pattern("III")
+                .pattern("III")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_CHESTPLATE)));
+
+        // Dragon Bane Leggings
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_LEGGINGS, 1)
+                .pattern("III")
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_LEGGINGS)));
+
+        // Dragon Bane Boots
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_BOOTS, 1)
+                .pattern("I I")
+                .pattern("I I")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_BOOTS)));
+
+
 
 
 
