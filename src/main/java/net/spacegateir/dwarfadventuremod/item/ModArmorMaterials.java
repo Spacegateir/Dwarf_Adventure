@@ -36,42 +36,42 @@ public enum ModArmorMaterials implements ArmorMaterial {
         map.put(ArmorItem.Type.LEGGINGS, 6);
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
-    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.ofItems(ModItems.AER_SPIRIT_INGOT)),
+    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 2.0F, 0.0F, () -> Ingredient.ofItems(ModItems.AER_SPIRIT_INGOT)),
 
     IGNIS("ignis", 20, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 6);
         map.put(ArmorItem.Type.LEGGINGS, 9);
         map.put(ArmorItem.Type.CHESTPLATE, 10);
         map.put(ArmorItem.Type.HELMET, 6);
-    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.3F, () -> Ingredient.ofItems(ModItems.IGNIS_SPIRIT_INGOT)),
+    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 2.0F, 0.3F, () -> Ingredient.ofItems(ModItems.IGNIS_SPIRIT_INGOT)),
 
     AQUA("aqua", 33, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 3);
         map.put(ArmorItem.Type.LEGGINGS, 6);
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
-    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.ofItems(ModItems.AQUA_SPIRIT_INGOT)),
+    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 2.0F, 0.0F, () -> Ingredient.ofItems(ModItems.AQUA_SPIRIT_INGOT)),
 
     TERA("tera", 66, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 3);
         map.put(ArmorItem.Type.LEGGINGS, 6);
         map.put(ArmorItem.Type.CHESTPLATE, 8);
         map.put(ArmorItem.Type.HELMET, 3);
-    }), 5, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> Ingredient.ofItems(ModItems.TERA_SPIRIT_INGOT)),
+    }), 5, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 2.0F, 0.0F, () -> Ingredient.ofItems(ModItems.TERA_SPIRIT_INGOT)),
 
     MAGIRITE("magirite", 40, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 4);
         map.put(ArmorItem.Type.LEGGINGS, 7);
         map.put(ArmorItem.Type.CHESTPLATE, 9);
         map.put(ArmorItem.Type.HELMET, 4);
-    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> Ingredient.ofItems(ModItems.MAGIRITE_INGOT)),
+    }), 18, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 3.0F, 0.1F, () -> Ingredient.ofItems(ModItems.MAGIRITE_INGOT)),
 
     MYTHRIL("mythril", 45, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 5);
         map.put(ArmorItem.Type.LEGGINGS, 8);
         map.put(ArmorItem.Type.CHESTPLATE, 9);
         map.put(ArmorItem.Type.HELMET, 5);
-    }), 30, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 4.0F, 0.2F, () -> Ingredient.ofItems(ModItems.PUREFICATED_MYTHRIL)),
+    }), 30, SoundEvents.ITEM_ARMOR_EQUIP_DIAMOND, 4.0F, 0.2F, () -> Ingredient.ofItems(ModItems.PUREFICATED_MYTHRIL)),
 
     ADAMANTITE("adamantite", 60, Util.make(new EnumMap(ArmorItem.Type.class), map -> {
         map.put(ArmorItem.Type.BOOTS, 6);

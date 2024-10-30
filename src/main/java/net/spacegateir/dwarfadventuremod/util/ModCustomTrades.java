@@ -228,35 +228,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_GOLD_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_GOLD_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_GOLD_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_GOLD_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.IRON_MASTER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_GOLD_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -300,35 +300,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_STEEL_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_STEEL_BOOTS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_STEEL_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_STEEL_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.STEELWEAVER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_STEEL_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -372,35 +372,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AER_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AER_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AER_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AER_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.GEM_FORGER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AER_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -444,35 +444,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.IGNIS_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.IGNIS_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.IGNIS_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.IGNIS_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FIRESTONE_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.IGNIS_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -516,35 +516,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AQUA_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AQUA_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AQUA_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AQUA_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FROST_STEEL_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.AQUA_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -588,35 +588,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.TERA_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.TERA_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.TERA_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.TERA_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MOUNTAIN_FORGER_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.TERA_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -660,35 +660,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MAGIRITE_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MAGIRITE_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MAGIRITE_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MAGIRITE_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ANCIENT_FORGER_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MAGIRITE_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -732,35 +732,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MYTHRIL_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MAGIRITE_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MYTHRIL_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MYTHRIL_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.MITHRIL_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MYTHRIL_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -804,35 +804,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ADAMANTITE_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ADAMANTITE_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ADAMANTITE_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ADAMANTITE_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HEARTHFORGER_ARTISAN,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ADAMANTITE_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -876,35 +876,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ORIKALKUM_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ORIKALKUM_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ORIKALKUM_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ORIKALKUM_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.BLOODFORGER_BLACKSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.ORIKALKUM_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
@@ -948,35 +948,35 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DRAGON_BANE_PAXEL,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,2),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DRAGON_BANE_HELMET,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,5),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,5),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DRAGON_BANE_BOOTS,4),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,1),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DRAGON_BANE_CHESTPLATE,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,8),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,8),
                             8, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.ELDER_DWARF_GODSMITH,5,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DRAGON_BANE_LEGGINGS,1),
-                            new ItemStack(ModItems.DWARF_COPPER_COIN_M,7),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
                 });
 
