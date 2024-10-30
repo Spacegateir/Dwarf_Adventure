@@ -57,4 +57,6 @@ public class Hammer_1x2 extends MiningToolItem {
 
         return positions;
     }
+
+
 }

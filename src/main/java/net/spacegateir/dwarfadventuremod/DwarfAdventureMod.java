@@ -4,8 +4,12 @@ import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.item.ItemStack;
 import net.spacegateir.dwarfadventuremod.AncientFlowerConversions.*;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
+import net.spacegateir.dwarfadventuremod.enchantment.ModEnchantments;
+import net.spacegateir.dwarfadventuremod.enchantment.VeinMinerEnchantment;
 import net.spacegateir.dwarfadventuremod.event.ModEventHandlers;
 import net.spacegateir.dwarfadventuremod.event.player.EventHandlers;
 import net.spacegateir.dwarfadventuremod.item.ModItemGroups;
@@ -33,6 +37,7 @@ public class DwarfAdventureMod implements ModInitializer {
 		ModVillagers.registerVillagers();
 
 		ModLootTableModifiers.modifyLootTables();
+		ModEnchantments.registerModEnchantments();
 
 		AncientSnowDropConversions.registerEvents();
 		AncientCarnationConversions.registerEvents();
@@ -69,6 +74,19 @@ public class DwarfAdventureMod implements ModInitializer {
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer7x7UsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer9x7UsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer9x9UsageEvent());
+
+		PlayerBlockBreakEvents.AFTER.register((world, player, pos, state, blockEntity) -> {
+			ItemStack stack = player.getMainHandStack();
+			int enchantmentLevel = EnchantmentHelper.getLevel(ModEnchantments.VEIN_MINER, stack); // Get the enchantment level
+
+			if (enchantmentLevel > 0) {
+				VeinMinerEnchantment veinMiner = (VeinMinerEnchantment) ModEnchantments.VEIN_MINER;
+				veinMiner.mineVein(state, pos, world, player, enchantmentLevel); // Pass the enchantment level
+			}
+		});
+
+
+
 
 
 

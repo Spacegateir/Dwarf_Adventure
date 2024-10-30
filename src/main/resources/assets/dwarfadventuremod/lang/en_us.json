@@ -649,5 +649,8 @@
   "item.dwarfadventuremod.dwarf_gold_coin_s": "Small Dwarf Gold Coin",
   "item.dwarfadventuremod.dwarf_gold_coin_m": "Medium Dwarf Gold Coin",
   "item.dwarfadventuremod.dwarf_gold_coin_l": "Large Dwarf Gold Coin",
-  "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin"
+  "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin",
+
+  "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
+  "enchantment.dwarfadventuremod.vein_miner": "Vein Miner"
 }

@@ -1,6 +1,8 @@
 package net.spacegateir.dwarfadventuremod.item.custom;
 
 import com.google.common.collect.ImmutableMap;
+import net.minecraft.enchantment.Enchantment;
+import net.minecraft.enchantment.MendingEnchantment;
 import net.spacegateir.dwarfadventuremod.item.ModArmorMaterials;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.effect.StatusEffectInstance;
