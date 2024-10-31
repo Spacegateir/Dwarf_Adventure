@@ -29,6 +29,7 @@ public class DwarfAdventureMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItemGroups.registerItemGroups();
+		ModRegistries.registerModStuff();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
@@ -58,12 +59,6 @@ public class DwarfAdventureMod implements ModInitializer {
 
 		ModEventHandlers.registerBlockInteractionEvent();
 		EventHandlers.registerEventHandlers();
-
-
-
-
-
-		FuelRegistry.INSTANCE.add(ModItems.ANCESTRAL_FORGE_COAL,16000);
 
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x2UsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x3UsageEvent());

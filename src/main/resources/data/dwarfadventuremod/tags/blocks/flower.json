@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:snow_drop_flower",
+    "dwarfadventuremod:carnation_flower",
+    "dwarfadventuremod:violet_flower",
+    "dwarfadventuremod:iris_flower",
+    "dwarfadventuremod:primrose_flower",
+    "dwarfadventuremod:daffodil_flower",
+    "dwarfadventuremod:delphinium_flower",
+    "dwarfadventuremod:dahlia_flower",
+    "dwarfadventuremod:hydrangea_flower",
+    "dwarfadventuremod:midnight_mystic_flower",
+    "dwarfadventuremod:hawthorn_flower",
+    "dwarfadventuremod:bonsai_flower",
+    "dwarfadventuremod:spiderlily_flower",
+    "dwarfadventuremod:larkspur_flower",
+    "dwarfadventuremod:agapanthus_flower",
+    "dwarfadventuremod:blue_cosmos_flower"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "dwarfadventuremod:corrupt_snow_drop_flower",
+    "dwarfadventuremod:corrupt_carnation_flower",
+    "dwarfadventuremod:corrupt_violet_flower",
+    "dwarfadventuremod:corrupt_iris_flower",
+    "dwarfadventuremod:corrupt_primrose_flower",
+    "dwarfadventuremod:corrupt_daffodil_flower",
+    "dwarfadventuremod:corrupt_delphinium_flower",
+    "dwarfadventuremod:corrupt_dahlia_flower",
+    "dwarfadventuremod:corrupt_hydrangea_flower",
+    "dwarfadventuremod:corrupt_midnight_mystic_flower",
+    "dwarfadventuremod:corrupt_hawthorn_flower",
+    "dwarfadventuremod:corrupt_bonsai_flower",
+    "dwarfadventuremod:corrupt_spiderlily_flower",
+    "dwarfadventuremod:corrupt_larkspur_flower",
+    "dwarfadventuremod:corrupt_agapanthus_flower",
+    "dwarfadventuremod:corrupt_blue_cosmos_flower"
+  ]
+}
