@@ -42,4 +42,19 @@ public class LightningStrikerEnchantment extends Enchantment {
     public int getMaxLevel() {
         return 2;
     }
+
+    @Override
+    public boolean isTreasure() {
+        return true;
+    }
+
+    @Override
+    public boolean isAvailableForEnchantedBookOffer() {
+        return false;
+    }
+
+    @Override
+    public boolean isAvailableForRandomSelection() {
+        return false;
+    }
 }
