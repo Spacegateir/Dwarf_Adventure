@@ -15,6 +15,7 @@ import net.spacegateir.dwarfadventuremod.item.ModItemGroups;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
 import net.spacegateir.dwarfadventuremod.util.*;
 import net.spacegateir.dwarfadventuremod.util.HammerEvents.*;
+import net.spacegateir.dwarfadventuremod.villager.ModLibarianTradeModifications;
 import net.spacegateir.dwarfadventuremod.villager.ModVillagers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -34,6 +35,7 @@ public class DwarfAdventureMod implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModCustomTrades.registerCustomTrades();
+		ModLibarianTradeModifications.registerLibarianModifications();
 		ModVillagers.registerVillagers();
 
 		ModLootTableModifiers.modifyLootTables();
