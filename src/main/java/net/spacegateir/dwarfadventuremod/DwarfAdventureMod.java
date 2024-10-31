@@ -3,7 +3,6 @@ package net.spacegateir.dwarfadventuremod;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
-import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.ItemStack;
 import net.spacegateir.dwarfadventuremod.AncientFlowerConversions.*;
