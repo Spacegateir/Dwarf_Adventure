@@ -18,9 +18,6 @@ public class ModEnchantments {
             new LightningStrikerEnchantment(Enchantment.Rarity.VERY_RARE,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
 
-    public static final Enchantment CUSTOM_MENDING = register("custom_mending",
-            new CustomMendingEnchantment(Enchantment.Rarity.VERY_RARE, EquipmentSlot.MAINHAND));
-
 
     private static Enchantment register(String name, Enchantment enchantment) {
         return Registry.register(Registries.ENCHANTMENT, new Identifier(DwarfAdventureMod.MOD_ID, name), enchantment);
