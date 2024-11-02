@@ -19,6 +19,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.GARDEN_BENCH)).entries((displayContext, entries) -> {
 
 
+                        entries.add(ModBlocks.PETUNIA_BLOCK);
+
                         entries.add(ModItems.DWARF_COPPER_COIN_S);
                         entries.add(ModItems.DWARF_COPPER_COIN_M);
                         entries.add(ModItems.DWARF_COPPER_COIN_L);

@@ -34,6 +34,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
+        addDrop(ModBlocks.PETUNIA_BLOCK);
+
         addDrop(ModBlocks.DAHLIA_FLOWER);
         addDrop(ModBlocks.CORRUPT_DAHLIA_FLOWER);
         addDrop(ModBlocks.ANCIENT_DAHLIA_FLOWER);

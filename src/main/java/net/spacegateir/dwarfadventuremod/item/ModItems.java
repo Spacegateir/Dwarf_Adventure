@@ -3,6 +3,8 @@ package net.spacegateir.dwarfadventuremod.item;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -12,12 +14,21 @@ import net.spacegateir.dwarfadventuremod.DwarfAdventureMod;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.item.DwarfPickaxeAbillities.*;
 import net.spacegateir.dwarfadventuremod.item.custom.*;
-
-import static net.minecraft.item.Items.register;
+import static net.spacegateir.dwarfadventuremod.block.ModBlocks.PETUNIA_BLOCK;
 
 public class ModItems {
     public static final Item ANCIENT_SEED = registerItem("ancient_seed",
             new AliasedBlockItem(ModBlocks.ANCIENT_FLOWER_CROP,new FabricItemSettings().rarity(Rarity.RARE)));
+
+
+    public static final Item PETUNIA = registerBlockItem("petunia", ModBlocks.PETUNIA_BLOCK);
+
+
+
+
+
+
+
 
 
     public static final Item LVL1_DWARF_PICKAXE = registerItem("lvl1_dwarf_pickaxe",
@@ -409,6 +420,12 @@ public class ModItems {
         DwarfAdventureMod.LOGGER.info("Registering Mod Items for " + DwarfAdventureMod.MOD_ID);
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
+    }
+
+
+    private static Item registerBlockItem(String name, Block block) {
+        return Registry.register(Registries.ITEM, new Identifier(DwarfAdventureMod.MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings()));
     }
 
 

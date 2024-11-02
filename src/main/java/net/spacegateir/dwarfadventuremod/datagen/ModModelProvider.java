@@ -28,6 +28,8 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PETUNIA_BLOCK, ModBlocks.POTTED_PETUNIA, BlockStateModelGenerator.TintType.NOT_TINTED);
+
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA_FLOWER, ModBlocks.POTTED_DAHLIA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CORRUPT_DAHLIA_FLOWER, ModBlocks.POTTED_CORRUPT_DAHLIA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ANCIENT_DAHLIA_FLOWER, ModBlocks.POTTED_ANCIENT_DAHLIA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);

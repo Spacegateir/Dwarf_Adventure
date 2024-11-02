@@ -619,6 +619,20 @@ public class ModBlocks {
 
 
 
+    public static final Block PETUNIA_BLOCK = registerBlock("petunia",
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 5,
+                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+
+    public static final Block POTTED_PETUNIA = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "potted_petunia"),
+            new FlowerPotBlock(PETUNIA_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+
+
+
+
+
+
+
     public static final Block SNOW_DROP_FLOWER = registerBlock("snow_drop_flower",
             new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
                     FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
@@ -1249,6 +1263,8 @@ public class ModBlocks {
     public static void registerModBlocks() {
         DwarfAdventureMod.LOGGER.info("Registering ModBlocks for " + DwarfAdventureMod.MOD_ID);
     }
+
+
 
 
 
