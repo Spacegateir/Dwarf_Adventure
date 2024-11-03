@@ -158,7 +158,7 @@ public class AncientBonsaiConversions {
             World serverWorld = player.getWorld();
 
             // Check if the clicked block is a poppy
-            if (serverWorld.getBlockState(blockPos).getBlock() == ModBlocks.ANCIENT_BONSAI_FLOWER) {
+            if (serverWorld.getBlockState(blockPos).getBlock() == ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK) {
                 // Get the item the player is holding
                 ItemStack stackInHand = player.getStackInHand(hand);
 

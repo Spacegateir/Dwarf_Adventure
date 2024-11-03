@@ -158,7 +158,7 @@ public class AncientHawthornConversions {
             World serverWorld = player.getWorld();
 
             // Check if the clicked block is a poppy
-            if (serverWorld.getBlockState(blockPos).getBlock() == ModBlocks.ANCIENT_HAWTHORN_FLOWER) {
+            if (serverWorld.getBlockState(blockPos).getBlock() == ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK) {
                 // Get the item the player is holding
                 ItemStack stackInHand = player.getStackInHand(hand);
 

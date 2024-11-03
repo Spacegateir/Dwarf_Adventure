@@ -38,22 +38,22 @@ public class GlimmerRootEffect extends Item {
             Random random = new Random();
             List<ItemConvertible> modItemsAndBlocksList = new ArrayList<>(List.of(
                     // Blocks from ModBlocks
-                    ModBlocks.ANCIENT_CARNATION_FLOWER,
-                    ModBlocks.ANCIENT_AGAPANTHUS_FLOWER,
-                    ModBlocks.ANCIENT_SNOW_DROP_FLOWER,
-                    ModBlocks.ANCIENT_SPIDERLILY_FLOWER,
-                    ModBlocks.ANCIENT_VIOLET_FLOWER,
-                    ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER,
-                    ModBlocks.ANCIENT_BONSAI_FLOWER,
-                    ModBlocks.ANCIENT_HYDRANGEA_FLOWER,
-                    ModBlocks.ANCIENT_IRIS_FLOWER,
-                    ModBlocks.ANCIENT_PRIMROSE_FLOWER,
-                    ModBlocks.ANCIENT_DAFFODIL_FLOWER,
-                    ModBlocks.ANCIENT_DELPHINIUM_FLOWER,
-                    ModBlocks.ANCIENT_DAHLIA_FLOWER,
-                    ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER,
-                    ModBlocks.ANCIENT_HAWTHORN_FLOWER,
-                    ModBlocks.ANCIENT_LARKSPUR_FLOWER,
+                    ModBlocks.ANCIENT_CARNATION_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_AGAPANTHUS_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_SNOW_DROP_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_SPIDERLILY_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_VIOLET_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_HYDRANGEA_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_IRIS_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_PRIMROSE_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_DAFFODIL_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_DELPHINIUM_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK,
+                    ModBlocks.ANCIENT_LARKSPUR_FLOWER_BLOCK,
 
                     // Items from ModItems
                     ModItems.ANCIENT_BRANCH

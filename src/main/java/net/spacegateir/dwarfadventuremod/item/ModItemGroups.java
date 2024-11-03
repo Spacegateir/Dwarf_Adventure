@@ -18,8 +18,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.dwarf adventure"))
                     .icon(() -> new ItemStack(ModBlocks.GARDEN_BENCH)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.PETUNIA);
 
-                        entries.add(ModBlocks.PETUNIA_BLOCK);
 
                         entries.add(ModItems.DWARF_COPPER_COIN_S);
                         entries.add(ModItems.DWARF_COPPER_COIN_M);
@@ -32,56 +32,56 @@ public class ModItemGroups {
                         entries.add(ModItems.DWARF_GOLD_COIN_L);
                         entries.add(ModItems.DWARF_MYTHRIL_COIN_L);
 
-                        entries.add(ModBlocks.SNOW_DROP_FLOWER);
-                        entries.add(ModBlocks.CARNATION_FLOWER);
-                        entries.add(ModBlocks.VIOLET_FLOWER);
-                        entries.add(ModBlocks.IRIS_FLOWER);
-                        entries.add(ModBlocks.PRIMROSE_FLOWER);
-                        entries.add(ModBlocks.DAFFODIL_FLOWER);
-                        entries.add(ModBlocks.DELPHINIUM_FLOWER);
-                        entries.add(ModBlocks.DAHLIA_FLOWER);
-                        entries.add(ModBlocks.HYDRANGEA_FLOWER);
-                        entries.add(ModBlocks.MIDNIGHT_MYSTIC_FLOWER);
-                        entries.add(ModBlocks.HAWTHORN_FLOWER);
-                        entries.add(ModBlocks.BONSAI_FLOWER);
-                        entries.add(ModBlocks.SPIDERLILY_FLOWER);
-                        entries.add(ModBlocks.LARKSPUR_FLOWER);
-                        entries.add(ModBlocks.AGAPANTHUS_FLOWER);
-                        entries.add(ModBlocks.BLUE_COSMOS_FLOWER);
+                        entries.add(ModItems.SNOW_DROP_FLOWER);
+                        entries.add(ModItems.CARNATION_FLOWER);
+                        entries.add(ModItems.VIOLET_FLOWER);
+                        entries.add(ModItems.IRIS_FLOWER);
+                        entries.add(ModItems.PRIMROSE_FLOWER);
+                        entries.add(ModItems.DAFFODIL_FLOWER);
+                        entries.add(ModItems.DELPHINIUM_FLOWER);
+                        entries.add(ModItems.DAHLIA_FLOWER);
+                        entries.add(ModItems.HYDRANGEA_FLOWER);
+                        entries.add(ModItems.MIDNIGHT_MYSTIC_FLOWER);
+                        entries.add(ModItems.HAWTHORN_FLOWER);
+                        entries.add(ModItems.BONSAI_FLOWER);
+                        entries.add(ModItems.SPIDERLILY_FLOWER);
+                        entries.add(ModItems.LARKSPUR_FLOWER);
+                        entries.add(ModItems.AGAPANTHUS_FLOWER);
+                        entries.add(ModItems.BLUE_COSMOS_FLOWER);
 
-                        entries.add(ModBlocks.CORRUPT_SNOW_DROP_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_CARNATION_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_VIOLET_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_IRIS_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_PRIMROSE_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_DAFFODIL_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_DELPHINIUM_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_DAHLIA_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_HYDRANGEA_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_HAWTHORN_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_BONSAI_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_SPIDERLILY_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_LARKSPUR_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER);
-                        entries.add(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER);
+                        entries.add(ModItems.CORRUPT_SNOW_DROP_FLOWER);
+                        entries.add(ModItems.CORRUPT_CARNATION_FLOWER);
+                        entries.add(ModItems.CORRUPT_VIOLET_FLOWER);
+                        entries.add(ModItems.CORRUPT_IRIS_FLOWER);
+                        entries.add(ModItems.CORRUPT_PRIMROSE_FLOWER);
+                        entries.add(ModItems.CORRUPT_DAFFODIL_FLOWER);
+                        entries.add(ModItems.CORRUPT_DELPHINIUM_FLOWER);
+                        entries.add(ModItems.CORRUPT_DAHLIA_FLOWER);
+                        entries.add(ModItems.CORRUPT_HYDRANGEA_FLOWER);
+                        entries.add(ModItems.CORRUPT_MIDNIGHT_MYSTIC_FLOWER);
+                        entries.add(ModItems.CORRUPT_HAWTHORN_FLOWER);
+                        entries.add(ModItems.CORRUPT_BONSAI_FLOWER);
+                        entries.add(ModItems.CORRUPT_SPIDERLILY_FLOWER);
+                        entries.add(ModItems.CORRUPT_LARKSPUR_FLOWER);
+                        entries.add(ModItems.CORRUPT_AGAPANTHUS_FLOWER);
+                        entries.add(ModItems.CORRUPT_BLUE_COSMOS_FLOWER);
 
-                        entries.add(ModBlocks.ANCIENT_SNOW_DROP_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_CARNATION_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_VIOLET_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_IRIS_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_PRIMROSE_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_DAFFODIL_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_DELPHINIUM_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_DAHLIA_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_HYDRANGEA_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_HAWTHORN_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_BONSAI_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_SPIDERLILY_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_LARKSPUR_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_AGAPANTHUS_FLOWER);
-                        entries.add(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER);
+                        entries.add(ModItems.ANCIENT_SNOW_DROP_FLOWER);
+                        entries.add(ModItems.ANCIENT_CARNATION_FLOWER);
+                        entries.add(ModItems.ANCIENT_VIOLET_FLOWER);
+                        entries.add(ModItems.ANCIENT_IRIS_FLOWER);
+                        entries.add(ModItems.ANCIENT_PRIMROSE_FLOWER);
+                        entries.add(ModItems.ANCIENT_DAFFODIL_FLOWER);
+                        entries.add(ModItems.ANCIENT_DELPHINIUM_FLOWER);
+                        entries.add(ModItems.ANCIENT_DAHLIA_FLOWER);
+                        entries.add(ModItems.ANCIENT_HYDRANGEA_FLOWER);
+                        entries.add(ModItems.ANCIENT_MIDNIGHT_MYSTIC_FLOWER);
+                        entries.add(ModItems.ANCIENT_HAWTHORN_FLOWER);
+                        entries.add(ModItems.ANCIENT_BONSAI_FLOWER);
+                        entries.add(ModItems.ANCIENT_SPIDERLILY_FLOWER);
+                        entries.add(ModItems.ANCIENT_LARKSPUR_FLOWER);
+                        entries.add(ModItems.ANCIENT_AGAPANTHUS_FLOWER);
+                        entries.add(ModItems.ANCIENT_BLUE_COSMOS_FLOWER);
 
 
                         entries.add(ModBlocks.CASH_REGISTER);

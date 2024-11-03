@@ -34,48 +34,48 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.SNOW_DROP_FLOWER,4),
+                            new ItemStack(ModBlocks.SNOW_DROP_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.CARNATION_FLOWER,4),
+                            new ItemStack(ModBlocks.CARNATION_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HORTICULTURALIST,2,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.VIOLET_FLOWER,4),
+                            new ItemStack(ModBlocks.VIOLET_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.IRIS_FLOWER,4),
+                            new ItemStack(ModBlocks.IRIS_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HORTICULTURALIST,3,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.PRIMROSE_FLOWER,4),
+                            new ItemStack(ModBlocks.PRIMROSE_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.DAFFODIL_FLOWER,4),
+                            new ItemStack(ModBlocks.DAFFODIL_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HORTICULTURALIST,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.DELPHINIUM_FLOWER,4),
+                            new ItemStack(ModBlocks.DELPHINIUM_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.HYDRANGEA_FLOWER,4),
+                            new ItemStack(ModBlocks.HYDRANGEA_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.HORTICULTURALIST,5,
@@ -101,48 +101,48 @@ public class ModCustomTrades {
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.MIDNIGHT_MYSTIC_FLOWER,4),
+                            new ItemStack(ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.HAWTHORN_FLOWER,4),
+                            new ItemStack(ModBlocks.HAWTHORN_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FLORACULTURIST,2,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.BONSAI_FLOWER,4),
+                            new ItemStack(ModBlocks.BONSAI_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.SPIDERLILY_FLOWER,4),
+                            new ItemStack(ModBlocks.SPIDERLILY_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FLORACULTURIST,3,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.LARKSPUR_FLOWER,4),
+                            new ItemStack(ModBlocks.LARKSPUR_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.AGAPANTHUS_FLOWER,4),
+                            new ItemStack(ModBlocks.AGAPANTHUS_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FLORACULTURIST,4,
                 factories -> {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.BLUE_COSMOS_FLOWER,4),
+                            new ItemStack(ModBlocks.BLUE_COSMOS_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
 
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,2),
-                            new ItemStack(ModBlocks.DAHLIA_FLOWER,4),
+                            new ItemStack(ModBlocks.DAHLIA_FLOWER_BLOCK,4),
                             64, 1, 0.05f));
                 });
         TradeOfferHelper.registerVillagerOffers(ModVillagers.FLORACULTURIST,5,

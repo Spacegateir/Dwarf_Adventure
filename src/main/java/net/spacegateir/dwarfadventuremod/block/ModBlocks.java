@@ -617,369 +617,364 @@ public class ModBlocks {
     public static final Block ANCIENT_FLOWER_CROP = Registry.register(Registries.BLOCK, new Identifier(DwarfAdventureMod.MOD_ID,"ancient_flower_crop"),
             new AncientCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
 
-
-
-    public static final Block PETUNIA_BLOCK = registerBlock("petunia",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 5,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
-
+    public static final Block PETUNIA_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "petunia"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 5, FabricBlockSettings.copyOf(Blocks.ALLIUM)));
     public static final Block POTTED_PETUNIA = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_petunia"),
             new FlowerPotBlock(PETUNIA_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-
-
-
-
-
-
-    public static final Block SNOW_DROP_FLOWER = registerBlock("snow_drop_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block SNOW_DROP_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "snow_drop_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_SNOW_DROP_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_snow_drop_flower"),
-            new FlowerPotBlock(SNOW_DROP_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(SNOW_DROP_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_SNOW_DROP_FLOWER = registerBlock("corrupt_snow_drop_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_SNOW_DROP_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_snow_drop_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_SNOW_DROP_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_snow_drop_flower"),
-            new FlowerPotBlock(CORRUPT_SNOW_DROP_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_SNOW_DROP_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_SNOW_DROP_FLOWER = registerBlock("ancient_snow_drop_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_SNOW_DROP_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_snow_drop_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_SNOW_DROP_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_snow_drop_flower"),
-            new FlowerPotBlock(ANCIENT_SNOW_DROP_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_SNOW_DROP_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block CARNATION_FLOWER = registerBlock("carnation_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block CARNATION_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "carnation_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_CARNATION_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_carnation_flower"),
-            new FlowerPotBlock(CARNATION_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(CARNATION_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_CARNATION_FLOWER = registerBlock("corrupt_carnation_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_CARNATION_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_carnation_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_CARNATION_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_carnation_flower"),
-            new FlowerPotBlock(CORRUPT_CARNATION_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_CARNATION_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_CARNATION_FLOWER = registerBlock("ancient_carnation_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_CARNATION_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_carnation_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_CARNATION_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_carnation_flower"),
-            new FlowerPotBlock(ANCIENT_CARNATION_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_CARNATION_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block VIOLET_FLOWER = registerBlock("violet_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block VIOLET_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "violet_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_VIOLET_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_violet_flower"),
-            new FlowerPotBlock(VIOLET_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(VIOLET_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_VIOLET_FLOWER = registerBlock("corrupt_violet_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_VIOLET_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_violet_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_VIOLET_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_violet_flower"),
-            new FlowerPotBlock(CORRUPT_VIOLET_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_VIOLET_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_VIOLET_FLOWER = registerBlock("ancient_violet_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_VIOLET_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_violet_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_VIOLET_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_violet_flower"),
-            new FlowerPotBlock(ANCIENT_VIOLET_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_VIOLET_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block IRIS_FLOWER = registerBlock("iris_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block IRIS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "iris_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_IRIS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_iris_flower"),
-            new FlowerPotBlock(IRIS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(IRIS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_IRIS_FLOWER = registerBlock("corrupt_iris_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_IRIS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_iris_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_IRIS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_iris_flower"),
-            new FlowerPotBlock(CORRUPT_IRIS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_IRIS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_IRIS_FLOWER = registerBlock("ancient_iris_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_IRIS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_iris_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_IRIS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_iris_flower"),
-            new FlowerPotBlock(ANCIENT_IRIS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_IRIS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block PRIMROSE_FLOWER = registerBlock("primrose_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block PRIMROSE_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "primrose_flower"),
+            new FlowerBlock(StatusEffects.REGENERATION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_PRIMROSE_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_primrose_flower"),
-            new FlowerPotBlock(PRIMROSE_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(PRIMROSE_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_PRIMROSE_FLOWER = registerBlock("corrupt_primrose_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_PRIMROSE_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_primrose_flower"),
+            new FlowerBlock(StatusEffects.REGENERATION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_PRIMROSE_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_primrose_flower"),
-            new FlowerPotBlock(CORRUPT_PRIMROSE_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_PRIMROSE_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_PRIMROSE_FLOWER = registerBlock("ancient_primrose_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_PRIMROSE_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_primrose_flower"),
+            new FlowerBlock(StatusEffects.REGENERATION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_PRIMROSE_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_primrose_flower"),
-            new FlowerPotBlock(ANCIENT_PRIMROSE_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_PRIMROSE_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block DAFFODIL_FLOWER = registerBlock("daffodil_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block DAFFODIL_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "daffodil_flower"),
+            new FlowerBlock(StatusEffects.SPEED, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAFFODIL_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_daffodil_flower"),
-            new FlowerPotBlock(DAFFODIL_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(DAFFODIL_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_DAFFODIL_FLOWER = registerBlock("corrupt_daffodil_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_DAFFODIL_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_daffodil_flower"),
+            new FlowerBlock(StatusEffects.SPEED, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_DAFFODIL_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_daffodil_flower"),
-            new FlowerPotBlock(CORRUPT_DAFFODIL_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_DAFFODIL_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_DAFFODIL_FLOWER = registerBlock("ancient_daffodil_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_DAFFODIL_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_daffodil_flower"),
+            new FlowerBlock(StatusEffects.SPEED, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_DAFFODIL_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_daffodil_flower"),
-            new FlowerPotBlock(ANCIENT_DAFFODIL_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_DAFFODIL_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block DELPHINIUM_FLOWER = registerBlock("delphinium_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block DELPHINIUM_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "delphinium_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DELPHINIUM_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_delphinium_flower"),
-            new FlowerPotBlock(DELPHINIUM_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(DELPHINIUM_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_DELPHINIUM_FLOWER = registerBlock("corrupt_delphinium_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_DELPHINIUM_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_delphinium_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_DELPHINIUM_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_delphinium_flower"),
-            new FlowerPotBlock(CORRUPT_DELPHINIUM_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_DELPHINIUM_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_DELPHINIUM_FLOWER = registerBlock("ancient_delphinium_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_DELPHINIUM_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_delphinium_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_DELPHINIUM_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_delphinium_flower"),
-            new FlowerPotBlock(ANCIENT_DELPHINIUM_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_DELPHINIUM_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block DAHLIA_FLOWER = registerBlock("dahlia_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block DAHLIA_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "dahlia_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_DAHLIA_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_dahlia_flower"),
-            new FlowerPotBlock(DAHLIA_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(DAHLIA_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_DAHLIA_FLOWER = registerBlock("corrupt_dahlia_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_DAHLIA_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_dahlia_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_DAHLIA_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_dahlia_flower"),
-            new FlowerPotBlock(CORRUPT_DAHLIA_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_DAHLIA_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_DAHLIA_FLOWER = registerBlock("ancient_dahlia_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_DAHLIA_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_dahlia_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_DAHLIA_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_dahlia_flower"),
-            new FlowerPotBlock(ANCIENT_DAHLIA_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_DAHLIA_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block HYDRANGEA_FLOWER = registerBlock("hydrangea_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block HYDRANGEA_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "hydrangea_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_HYDRANGEA_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_hydrangea_flower"),
-            new FlowerPotBlock(HYDRANGEA_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(HYDRANGEA_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_HYDRANGEA_FLOWER = registerBlock("corrupt_hydrangea_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_HYDRANGEA_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_hydrangea_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_HYDRANGEA_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_hydrangea_flower"),
-            new FlowerPotBlock(CORRUPT_HYDRANGEA_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_HYDRANGEA_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_HYDRANGEA_FLOWER = registerBlock("ancient_hydrangea_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_HYDRANGEA_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_hydrangea_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_HYDRANGEA_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_hydrangea_flower"),
-            new FlowerPotBlock(ANCIENT_HYDRANGEA_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_HYDRANGEA_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block MIDNIGHT_MYSTIC_FLOWER = registerBlock("midnight_mystic_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block MIDNIGHT_MYSTIC_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "midnight_mystic_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_MIDNIGHT_MYSTIC_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_midnight_mystic_flower"),
-            new FlowerPotBlock(MIDNIGHT_MYSTIC_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(MIDNIGHT_MYSTIC_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_MIDNIGHT_MYSTIC_FLOWER = registerBlock("corrupt_midnight_mystic_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_midnight_mystic_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_MIDNIGHT_MYSTIC_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_midnight_mystic_flower"),
-            new FlowerPotBlock(CORRUPT_MIDNIGHT_MYSTIC_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_MIDNIGHT_MYSTIC_FLOWER = registerBlock("ancient_midnight_mystic_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_midnight_mystic_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_MIDNIGHT_MYSTIC_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_midnight_mystic_flower"),
-            new FlowerPotBlock(ANCIENT_MIDNIGHT_MYSTIC_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block HAWTHORN_FLOWER = registerBlock("hawthorn_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block HAWTHORN_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "hawthorn_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_HAWTHORN_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_hawthorn_flower"),
-            new FlowerPotBlock(HAWTHORN_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(HAWTHORN_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_HAWTHORN_FLOWER = registerBlock("corrupt_hawthorn_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_HAWTHORN_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_hawthorn_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_HAWTHORN_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_hawthorn_flower"),
-            new FlowerPotBlock(CORRUPT_HAWTHORN_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_HAWTHORN_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_HAWTHORN_FLOWER = registerBlock("ancient_hawthorn_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_HAWTHORN_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_hawthorn_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_HAWTHORN_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_hawthorn_flower"),
-            new FlowerPotBlock(ANCIENT_HAWTHORN_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_HAWTHORN_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
-    public static final Block BONSAI_FLOWER = registerBlock("bonsai_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+
+    public static final Block BONSAI_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "bonsai_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_BONSAI_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_bonsai_flower"),
-            new FlowerPotBlock(BONSAI_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(BONSAI_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_BONSAI_FLOWER = registerBlock("corrupt_bonsai_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_BONSAI_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_bonsai_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_BONSAI_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_bonsai_flower"),
-            new FlowerPotBlock(CORRUPT_BONSAI_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_BONSAI_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_BONSAI_FLOWER = registerBlock("ancient_bonsai_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_BONSAI_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_bonsai_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_BONSAI_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_bonsai_flower"),
-            new FlowerPotBlock(ANCIENT_BONSAI_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_BONSAI_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
 
-    public static final Block SPIDERLILY_FLOWER = registerBlock("spiderlily_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block SPIDERLILY_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "spiderlily_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_SPIDERLILY_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_spiderlily_flower"),
-            new FlowerPotBlock(SPIDERLILY_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(SPIDERLILY_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_SPIDERLILY_FLOWER = registerBlock("corrupt_spiderlily_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_SPIDERLILY_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_spiderlily_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_SPIDERLILY_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_spiderlily_flower"),
-            new FlowerPotBlock(CORRUPT_SPIDERLILY_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_SPIDERLILY_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_SPIDERLILY_FLOWER = registerBlock("ancient_spiderlily_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_SPIDERLILY_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_spiderlily_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_SPIDERLILY_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_spiderlily_flower"),
-            new FlowerPotBlock(ANCIENT_SPIDERLILY_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_SPIDERLILY_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
-    public static final Block LARKSPUR_FLOWER = registerBlock("larkspur_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+
+    public static final Block LARKSPUR_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "larkspur_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_LARKSPUR_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_larkspur_flower"),
-            new FlowerPotBlock(LARKSPUR_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(LARKSPUR_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_LARKSPUR_FLOWER = registerBlock("corrupt_larkspur_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_LARKSPUR_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_larkspur_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_LARKSPUR_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_larkspur_flower"),
-            new FlowerPotBlock(CORRUPT_LARKSPUR_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_LARKSPUR_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_LARKSPUR_FLOWER = registerBlock("ancient_larkspur_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_LARKSPUR_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_larkspur_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_LARKSPUR_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_larkspur_flower"),
-            new FlowerPotBlock(ANCIENT_LARKSPUR_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_LARKSPUR_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
-
-    public static final Block AGAPANTHUS_FLOWER = registerBlock("agapanthus_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block AGAPANTHUS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "agapanthus_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_AGAPANTHUS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_agapanthus_flower"),
-            new FlowerPotBlock(AGAPANTHUS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(AGAPANTHUS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_AGAPANTHUS_FLOWER = registerBlock("corrupt_agapanthus_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_AGAPANTHUS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_agapanthus_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_AGAPANTHUS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_agapanthus_flower"),
-            new FlowerPotBlock(CORRUPT_AGAPANTHUS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_AGAPANTHUS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_AGAPANTHUS_FLOWER = registerBlock("ancient_agapanthus_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_AGAPANTHUS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_agapanthus_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_AGAPANTHUS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_agapanthus_flower"),
-            new FlowerPotBlock(ANCIENT_AGAPANTHUS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_AGAPANTHUS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
 
-    public static final Block BLUE_COSMOS_FLOWER = registerBlock("blue_cosmos_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
+    public static final Block BLUE_COSMOS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "blue_cosmos_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).nonOpaque().noCollision()));
     public static final Block POTTED_BLUE_COSMOS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_blue_cosmos_flower"),
-            new FlowerPotBlock(BLUE_COSMOS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
+            new FlowerPotBlock(BLUE_COSMOS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
-    public static final Block CORRUPT_BLUE_COSMOS_FLOWER = registerBlock("corrupt_blue_cosmos_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
+    public static final Block CORRUPT_BLUE_COSMOS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "corrupt_blue_cosmos_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(8).nonOpaque().noCollision()));
     public static final Block POTTED_CORRUPT_BLUE_COSMOS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_corrupt_blue_cosmos_flower"),
-            new FlowerPotBlock(CORRUPT_BLUE_COSMOS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(CORRUPT_BLUE_COSMOS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(8).nonOpaque()));
 
-    public static final Block ANCIENT_BLUE_COSMOS_FLOWER = registerBlock("ancient_blue_cosmos_flower",
-            new FlowerBlock(StatusEffects.NIGHT_VISION, 200,
-                    FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
+    public static final Block ANCIENT_BLUE_COSMOS_FLOWER_BLOCK = Registry.register(Registries.BLOCK,
+            new Identifier(DwarfAdventureMod.MOD_ID, "ancient_blue_cosmos_flower"),
+            new FlowerBlock(StatusEffects.NIGHT_VISION, 200, FabricBlockSettings.copyOf(Blocks.ALLIUM).luminance(15).nonOpaque().noCollision()));
     public static final Block POTTED_ANCIENT_BLUE_COSMOS_FLOWER = Registry.register(Registries.BLOCK,
             new Identifier(DwarfAdventureMod.MOD_ID, "potted_ancient_blue_cosmos_flower"),
-            new FlowerPotBlock(ANCIENT_BLUE_COSMOS_FLOWER, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+            new FlowerPotBlock(ANCIENT_BLUE_COSMOS_FLOWER_BLOCK, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).luminance(15).nonOpaque()));
+
+
+
 
 
     public static final Block BUDDING_MYTHRIL = registerBlock("budding_mythril",

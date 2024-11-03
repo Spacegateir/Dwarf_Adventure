@@ -36,69 +36,70 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.PETUNIA_BLOCK);
 
-        addDrop(ModBlocks.DAHLIA_FLOWER);
-        addDrop(ModBlocks.CORRUPT_DAHLIA_FLOWER);
-        addDrop(ModBlocks.ANCIENT_DAHLIA_FLOWER);
 
-        addDrop(ModBlocks.SNOW_DROP_FLOWER);
-        addDrop(ModBlocks.CORRUPT_SNOW_DROP_FLOWER);
-        addDrop(ModBlocks.ANCIENT_SNOW_DROP_FLOWER);
+        addDrop(ModBlocks.DAHLIA_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.CARNATION_FLOWER);
-        addDrop(ModBlocks.CORRUPT_CARNATION_FLOWER);
-        addDrop(ModBlocks.ANCIENT_CARNATION_FLOWER);
+        addDrop(ModBlocks.SNOW_DROP_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_SNOW_DROP_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.VIOLET_FLOWER);
-        addDrop(ModBlocks.CORRUPT_VIOLET_FLOWER);
-        addDrop(ModBlocks.ANCIENT_VIOLET_FLOWER);
+        addDrop(ModBlocks.CARNATION_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_CARNATION_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.IRIS_FLOWER);
-        addDrop(ModBlocks.CORRUPT_IRIS_FLOWER);
-        addDrop(ModBlocks.ANCIENT_IRIS_FLOWER);
+        addDrop(ModBlocks.VIOLET_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_VIOLET_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.PRIMROSE_FLOWER);
-        addDrop(ModBlocks.CORRUPT_PRIMROSE_FLOWER);
-        addDrop(ModBlocks.ANCIENT_PRIMROSE_FLOWER);
+        addDrop(ModBlocks.IRIS_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_IRIS_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.DAFFODIL_FLOWER);
-        addDrop(ModBlocks.CORRUPT_DAFFODIL_FLOWER);
-        addDrop(ModBlocks.ANCIENT_DAFFODIL_FLOWER);
+        addDrop(ModBlocks.PRIMROSE_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_PRIMROSE_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.DELPHINIUM_FLOWER);
-        addDrop(ModBlocks.CORRUPT_DELPHINIUM_FLOWER);
-        addDrop(ModBlocks.ANCIENT_DELPHINIUM_FLOWER);
+        addDrop(ModBlocks.DAFFODIL_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_DAFFODIL_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.HYDRANGEA_FLOWER);
-        addDrop(ModBlocks.CORRUPT_HYDRANGEA_FLOWER);
-        addDrop(ModBlocks.ANCIENT_HYDRANGEA_FLOWER);
+        addDrop(ModBlocks.DELPHINIUM_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_DELPHINIUM_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.MIDNIGHT_MYSTIC_FLOWER);
-        addDrop(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER);
-        addDrop(ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER);
+        addDrop(ModBlocks.HYDRANGEA_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_HYDRANGEA_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.HAWTHORN_FLOWER);
-        addDrop(ModBlocks.CORRUPT_HAWTHORN_FLOWER);
-        addDrop(ModBlocks.ANCIENT_HAWTHORN_FLOWER);
+        addDrop(ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.BONSAI_FLOWER);
-        addDrop(ModBlocks.CORRUPT_BONSAI_FLOWER);
-        addDrop(ModBlocks.ANCIENT_BONSAI_FLOWER);
+        addDrop(ModBlocks.HAWTHORN_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.SPIDERLILY_FLOWER);
-        addDrop(ModBlocks.CORRUPT_SPIDERLILY_FLOWER);
-        addDrop(ModBlocks.ANCIENT_SPIDERLILY_FLOWER);
+        addDrop(ModBlocks.BONSAI_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.LARKSPUR_FLOWER);
-        addDrop(ModBlocks.CORRUPT_LARKSPUR_FLOWER);
-        addDrop(ModBlocks.ANCIENT_LARKSPUR_FLOWER);
+        addDrop(ModBlocks.SPIDERLILY_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_SPIDERLILY_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.AGAPANTHUS_FLOWER);
-        addDrop(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER);
-        addDrop(ModBlocks.ANCIENT_AGAPANTHUS_FLOWER);
+        addDrop(ModBlocks.LARKSPUR_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_LARKSPUR_FLOWER_BLOCK);
 
-        addDrop(ModBlocks.BLUE_COSMOS_FLOWER);
-        addDrop(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER);
-        addDrop(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER);
+        addDrop(ModBlocks.AGAPANTHUS_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_AGAPANTHUS_FLOWER_BLOCK);
+
+        addDrop(ModBlocks.BLUE_COSMOS_FLOWER_BLOCK);
+        addDrop(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK);
+        addDrop(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER_BLOCK);
 
         addPottedPlantDrops(ModBlocks.POTTED_DAHLIA_FLOWER);
         addPottedPlantDrops(ModBlocks.POTTED_CORRUPT_DAHLIA_FLOWER);

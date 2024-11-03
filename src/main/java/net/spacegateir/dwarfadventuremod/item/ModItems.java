@@ -14,21 +14,10 @@ import net.spacegateir.dwarfadventuremod.DwarfAdventureMod;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.item.DwarfPickaxeAbillities.*;
 import net.spacegateir.dwarfadventuremod.item.custom.*;
-import static net.spacegateir.dwarfadventuremod.block.ModBlocks.PETUNIA_BLOCK;
 
 public class ModItems {
     public static final Item ANCIENT_SEED = registerItem("ancient_seed",
             new AliasedBlockItem(ModBlocks.ANCIENT_FLOWER_CROP,new FabricItemSettings().rarity(Rarity.RARE)));
-
-
-    public static final Item PETUNIA = registerBlockItem("petunia", ModBlocks.PETUNIA_BLOCK);
-
-
-
-
-
-
-
 
 
     public static final Item LVL1_DWARF_PICKAXE = registerItem("lvl1_dwarf_pickaxe",
@@ -308,10 +297,6 @@ public class ModItems {
             new ArmorItem(ModArmorMaterials.DRAGON_BANE, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
 
-
-
-
-
     public static final Item DWARF_COPPER_COIN_S = registerItem("dwarf_copper_coin_s", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item DWARF_COPPER_COIN_M = registerItem("dwarf_copper_coin_m", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     public static final Item DWARF_COPPER_COIN_L = registerItem("dwarf_copper_coin_l", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
@@ -408,6 +393,63 @@ public class ModItems {
     public static final Item CLUMP_OF_DWARF_GOLD = registerItem("clump_of_dwarf_gold", new Item(new FabricItemSettings()));
     public static final Item MOLTEN_DWARF_GOLD_INGOT = registerItem("molten_dwarf_gold_ingot", new Item(new FabricItemSettings()));
 
+    public static final Item PETUNIA = registerBlockItem("petunia", ModBlocks.PETUNIA_BLOCK);
+
+    public static final Item SNOW_DROP_FLOWER = registerBlockItem("snow_drop_flower", ModBlocks.SNOW_DROP_FLOWER_BLOCK);
+    public static final Item CARNATION_FLOWER = registerBlockItem("carnation_flower", ModBlocks.CARNATION_FLOWER_BLOCK);
+    public static final Item VIOLET_FLOWER = registerBlockItem("violet_flower", ModBlocks.VIOLET_FLOWER_BLOCK);
+    public static final Item IRIS_FLOWER = registerBlockItem("iris_flower", ModBlocks.IRIS_FLOWER_BLOCK);
+    public static final Item PRIMROSE_FLOWER = registerBlockItem("primrose_flower", ModBlocks.PRIMROSE_FLOWER_BLOCK);
+    public static final Item DAFFODIL_FLOWER = registerBlockItem("daffodil_flower", ModBlocks.DAFFODIL_FLOWER_BLOCK);
+    public static final Item DELPHINIUM_FLOWER = registerBlockItem("delphinium_flower", ModBlocks.DELPHINIUM_FLOWER_BLOCK);
+    public static final Item DAHLIA_FLOWER = registerBlockItem("dahlia_flower", ModBlocks.DAHLIA_FLOWER_BLOCK);
+    public static final Item HYDRANGEA_FLOWER = registerBlockItem("hydrangea_flower", ModBlocks.HYDRANGEA_FLOWER_BLOCK);
+    public static final Item MIDNIGHT_MYSTIC_FLOWER = registerBlockItem("midnight_mystic_flower", ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK);
+    public static final Item HAWTHORN_FLOWER = registerBlockItem("hawthorn_flower", ModBlocks.HAWTHORN_FLOWER_BLOCK);
+    public static final Item BONSAI_FLOWER = registerBlockItem("bonsai_flower", ModBlocks.BONSAI_FLOWER_BLOCK);
+    public static final Item SPIDERLILY_FLOWER = registerBlockItem("spiderlily_flower", ModBlocks.SPIDERLILY_FLOWER_BLOCK);
+    public static final Item LARKSPUR_FLOWER = registerBlockItem("larkspur_flower", ModBlocks.LARKSPUR_FLOWER_BLOCK);
+    public static final Item AGAPANTHUS_FLOWER = registerBlockItem("agapanthus_flower", ModBlocks.AGAPANTHUS_FLOWER_BLOCK);
+    public static final Item BLUE_COSMOS_FLOWER = registerBlockItem("blue_cosmos_flower", ModBlocks.BLUE_COSMOS_FLOWER_BLOCK);
+
+    // Corrupt flower items
+    public static final Item CORRUPT_SNOW_DROP_FLOWER = registerBlockItem("corrupt_snow_drop_flower", ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK);
+    public static final Item CORRUPT_CARNATION_FLOWER = registerBlockItem("corrupt_carnation_flower", ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK);
+    public static final Item CORRUPT_VIOLET_FLOWER = registerBlockItem("corrupt_violet_flower", ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK);
+    public static final Item CORRUPT_IRIS_FLOWER = registerBlockItem("corrupt_iris_flower", ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK);
+    public static final Item CORRUPT_PRIMROSE_FLOWER = registerBlockItem("corrupt_primrose_flower", ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK);
+    public static final Item CORRUPT_DAFFODIL_FLOWER = registerBlockItem("corrupt_daffodil_flower", ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK);
+    public static final Item CORRUPT_DELPHINIUM_FLOWER = registerBlockItem("corrupt_delphinium_flower", ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK);
+    public static final Item CORRUPT_DAHLIA_FLOWER = registerBlockItem("corrupt_dahlia_flower", ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK);
+    public static final Item CORRUPT_HYDRANGEA_FLOWER = registerBlockItem("corrupt_hydrangea_flower", ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK);
+    public static final Item CORRUPT_MIDNIGHT_MYSTIC_FLOWER = registerBlockItem("corrupt_midnight_mystic_flower", ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK);
+    public static final Item CORRUPT_HAWTHORN_FLOWER = registerBlockItem("corrupt_hawthorn_flower", ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK);
+    public static final Item CORRUPT_BONSAI_FLOWER = registerBlockItem("corrupt_bonsai_flower", ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK);
+    public static final Item CORRUPT_SPIDERLILY_FLOWER = registerBlockItem("corrupt_spiderlily_flower", ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK);
+    public static final Item CORRUPT_LARKSPUR_FLOWER = registerBlockItem("corrupt_larkspur_flower", ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK);
+    public static final Item CORRUPT_AGAPANTHUS_FLOWER = registerBlockItem("corrupt_agapanthus_flower", ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK);
+    public static final Item CORRUPT_BLUE_COSMOS_FLOWER = registerBlockItem("corrupt_blue_cosmos_flower", ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK);
+
+    // Ancient flower items
+    public static final Item ANCIENT_SNOW_DROP_FLOWER = registerBlockItem("ancient_snow_drop_flower", ModBlocks.ANCIENT_SNOW_DROP_FLOWER_BLOCK);
+    public static final Item ANCIENT_CARNATION_FLOWER = registerBlockItem("ancient_carnation_flower", ModBlocks.ANCIENT_CARNATION_FLOWER_BLOCK);
+    public static final Item ANCIENT_VIOLET_FLOWER = registerBlockItem("ancient_violet_flower", ModBlocks.ANCIENT_VIOLET_FLOWER_BLOCK);
+    public static final Item ANCIENT_IRIS_FLOWER = registerBlockItem("ancient_iris_flower", ModBlocks.ANCIENT_IRIS_FLOWER_BLOCK);
+    public static final Item ANCIENT_PRIMROSE_FLOWER = registerBlockItem("ancient_primrose_flower", ModBlocks.ANCIENT_PRIMROSE_FLOWER_BLOCK);
+    public static final Item ANCIENT_DAFFODIL_FLOWER = registerBlockItem("ancient_daffodil_flower", ModBlocks.ANCIENT_DAFFODIL_FLOWER_BLOCK);
+    public static final Item ANCIENT_DELPHINIUM_FLOWER = registerBlockItem("ancient_delphinium_flower", ModBlocks.ANCIENT_DELPHINIUM_FLOWER_BLOCK);
+    public static final Item ANCIENT_DAHLIA_FLOWER = registerBlockItem("ancient_dahlia_flower", ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK);
+    public static final Item ANCIENT_HYDRANGEA_FLOWER = registerBlockItem("ancient_hydrangea_flower", ModBlocks.ANCIENT_HYDRANGEA_FLOWER_BLOCK);
+    public static final Item ANCIENT_MIDNIGHT_MYSTIC_FLOWER = registerBlockItem("ancient_midnight_mystic_flower", ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK);
+    public static final Item ANCIENT_HAWTHORN_FLOWER = registerBlockItem("ancient_hawthorn_flower", ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK);
+    public static final Item ANCIENT_BONSAI_FLOWER = registerBlockItem("ancient_bonsai_flower", ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK);
+    public static final Item ANCIENT_SPIDERLILY_FLOWER = registerBlockItem("ancient_spiderlily_flower", ModBlocks.ANCIENT_SPIDERLILY_FLOWER_BLOCK);
+    public static final Item ANCIENT_LARKSPUR_FLOWER = registerBlockItem("ancient_larkspur_flower", ModBlocks.ANCIENT_LARKSPUR_FLOWER_BLOCK);
+    public static final Item ANCIENT_AGAPANTHUS_FLOWER = registerBlockItem("ancient_agapanthus_flower", ModBlocks.ANCIENT_AGAPANTHUS_FLOWER_BLOCK);
+    public static final Item ANCIENT_BLUE_COSMOS_FLOWER = registerBlockItem("ancient_blue_cosmos_flower", ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER_BLOCK);
+
+
+
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     };
@@ -421,7 +463,6 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(ModItems::addItemsToIngredientItemGroup);
     }
-
 
     private static Item registerBlockItem(String name, Block block) {
         return Registry.register(Registries.ITEM, new Identifier(DwarfAdventureMod.MOD_ID, name),

@@ -32,7 +32,7 @@ public class AncientMidnightMysticConversions {
         addAllCandle();
 
         // Other conversions can go here
-      //  CONVERSION_MAP.put(new ItemStack(Items.DIRT), new ItemStack(Items.ROOTED_DIRT));
+        CONVERSION_MAP.put(new ItemStack(Items.POPPY), new ItemStack(Items.WITHER_ROSE));
       //  CONVERSION_MAP.put(new ItemStack(Items.COBBLESTONE), new ItemStack(Items.OBSIDIAN));
     }
 
@@ -158,7 +158,7 @@ public class AncientMidnightMysticConversions {
             World serverWorld = player.getWorld();
 
             // Check if the clicked block is a poppy
-            if (serverWorld.getBlockState(blockPos).getBlock() == ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER) {
+            if (serverWorld.getBlockState(blockPos).getBlock() == ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK) {
                 // Get the item the player is holding
                 ItemStack stackInHand = player.getStackInHand(hand);
 

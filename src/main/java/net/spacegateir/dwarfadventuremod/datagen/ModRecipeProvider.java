@@ -340,14 +340,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIGHT_BLUE_DYE,
-                ModBlocks.BLUE_COSMOS_FLOWER,
+                ModBlocks.BLUE_COSMOS_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
         offerShapelessRecipe(
                 exporter,
                 Items.WHITE_DYE,
-                ModBlocks.SNOW_DROP_FLOWER,
+                ModBlocks.SNOW_DROP_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -355,7 +355,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.MAGENTA_DYE,
-                ModBlocks.CARNATION_FLOWER,
+                ModBlocks.CARNATION_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -363,7 +363,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.PURPLE_DYE,
-                ModBlocks.VIOLET_FLOWER,
+                ModBlocks.VIOLET_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -371,7 +371,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.PINK_DYE,
-                ModBlocks.IRIS_FLOWER,
+                ModBlocks.IRIS_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -379,7 +379,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.YELLOW_DYE,
-                ModBlocks.PRIMROSE_FLOWER,
+                ModBlocks.PRIMROSE_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -387,7 +387,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.ORANGE_DYE,
-                ModBlocks.DAFFODIL_FLOWER,
+                ModBlocks.DAFFODIL_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -395,7 +395,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BLUE_DYE,
-                ModBlocks.DELPHINIUM_FLOWER,
+                ModBlocks.DELPHINIUM_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -403,7 +403,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BROWN_DYE,
-                ModBlocks.DAHLIA_FLOWER,
+                ModBlocks.DAHLIA_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -411,7 +411,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIME_DYE,
-                ModBlocks.HYDRANGEA_FLOWER,
+                ModBlocks.HYDRANGEA_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -419,7 +419,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BLACK_DYE,
-                ModBlocks.MIDNIGHT_MYSTIC_FLOWER,
+                ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -427,7 +427,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIGHT_GRAY_DYE,
-                ModBlocks.HAWTHORN_FLOWER,
+                ModBlocks.HAWTHORN_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -435,7 +435,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.GREEN_DYE,
-                ModBlocks.BONSAI_FLOWER,
+                ModBlocks.BONSAI_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -443,7 +443,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.RED_DYE,
-                ModBlocks.SPIDERLILY_FLOWER,
+                ModBlocks.SPIDERLILY_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -451,7 +451,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.CYAN_DYE,
-                ModBlocks.LARKSPUR_FLOWER,
+                ModBlocks.LARKSPUR_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -459,7 +459,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.GRAY_DYE,
-                ModBlocks.AGAPANTHUS_FLOWER,
+                ModBlocks.AGAPANTHUS_FLOWER_BLOCK,
                 "dye_recipes",
                 1
         );
@@ -469,14 +469,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIGHT_BLUE_DYE,
-                ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER,
+                ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
         offerShapelessRecipe(
                 exporter,
                 Items.WHITE_DYE,
-                ModBlocks.CORRUPT_SNOW_DROP_FLOWER,
+                ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -484,7 +484,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.MAGENTA_DYE,
-                ModBlocks.CORRUPT_CARNATION_FLOWER,
+                ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -492,7 +492,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.PURPLE_DYE,
-                ModBlocks.CORRUPT_VIOLET_FLOWER,
+                ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -500,7 +500,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.PINK_DYE,
-                ModBlocks.CORRUPT_IRIS_FLOWER,
+                ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -508,7 +508,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.YELLOW_DYE,
-                ModBlocks.CORRUPT_PRIMROSE_FLOWER,
+                ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -516,7 +516,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.ORANGE_DYE,
-                ModBlocks.CORRUPT_DAFFODIL_FLOWER,
+                ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -524,7 +524,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BLUE_DYE,
-                ModBlocks.CORRUPT_DELPHINIUM_FLOWER,
+                ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -532,7 +532,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BROWN_DYE,
-                ModBlocks.CORRUPT_DAHLIA_FLOWER,
+                ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -540,7 +540,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIME_DYE,
-                ModBlocks.CORRUPT_HYDRANGEA_FLOWER,
+                ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -548,7 +548,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BLACK_DYE,
-                ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER,
+                ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -556,7 +556,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIGHT_GRAY_DYE,
-                ModBlocks.CORRUPT_HAWTHORN_FLOWER,
+                ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -564,7 +564,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.GREEN_DYE,
-                ModBlocks.CORRUPT_BONSAI_FLOWER,
+                ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -572,7 +572,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.RED_DYE,
-                ModBlocks.CORRUPT_SPIDERLILY_FLOWER,
+                ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -580,7 +580,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.CYAN_DYE,
-                ModBlocks.CORRUPT_LARKSPUR_FLOWER,
+                ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -588,7 +588,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.GRAY_DYE,
-                ModBlocks.CORRUPT_AGAPANTHUS_FLOWER,
+                ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK,
                 "dye_recipes",
                 2
         );
@@ -598,14 +598,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIGHT_BLUE_DYE,
-                ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER,
+                ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
         offerShapelessRecipe(
                 exporter,
                 Items.WHITE_DYE,
-                ModBlocks.ANCIENT_SNOW_DROP_FLOWER,
+                ModBlocks.ANCIENT_SNOW_DROP_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -613,7 +613,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.MAGENTA_DYE,
-                ModBlocks.ANCIENT_CARNATION_FLOWER,
+                ModBlocks.ANCIENT_CARNATION_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -621,7 +621,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.PURPLE_DYE,
-                ModBlocks.ANCIENT_VIOLET_FLOWER,
+                ModBlocks.ANCIENT_VIOLET_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -629,7 +629,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.PINK_DYE,
-                ModBlocks.ANCIENT_IRIS_FLOWER,
+                ModBlocks.ANCIENT_IRIS_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -637,7 +637,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.YELLOW_DYE,
-                ModBlocks.ANCIENT_PRIMROSE_FLOWER,
+                ModBlocks.ANCIENT_PRIMROSE_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -645,7 +645,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.ORANGE_DYE,
-                ModBlocks.ANCIENT_DAFFODIL_FLOWER,
+                ModBlocks.ANCIENT_DAFFODIL_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -653,7 +653,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BLUE_DYE,
-                ModBlocks.ANCIENT_DELPHINIUM_FLOWER,
+                ModBlocks.ANCIENT_DELPHINIUM_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -661,7 +661,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BROWN_DYE,
-                ModBlocks.ANCIENT_DAHLIA_FLOWER,
+                ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -669,7 +669,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIME_DYE,
-                ModBlocks.ANCIENT_HYDRANGEA_FLOWER,
+                ModBlocks.ANCIENT_HYDRANGEA_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -677,7 +677,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.BLACK_DYE,
-                ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER,
+                ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -685,7 +685,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.LIGHT_GRAY_DYE,
-                ModBlocks.ANCIENT_HAWTHORN_FLOWER,
+                ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -693,7 +693,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.GREEN_DYE,
-                ModBlocks.ANCIENT_BONSAI_FLOWER,
+                ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -701,7 +701,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.RED_DYE,
-                ModBlocks.ANCIENT_SPIDERLILY_FLOWER,
+                ModBlocks.ANCIENT_SPIDERLILY_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -709,7 +709,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.CYAN_DYE,
-                ModBlocks.ANCIENT_LARKSPUR_FLOWER,
+                ModBlocks.ANCIENT_LARKSPUR_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
@@ -717,348 +717,348 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         offerShapelessRecipe(
                 exporter,
                 Items.GRAY_DYE,
-                ModBlocks.ANCIENT_AGAPANTHUS_FLOWER,
+                ModBlocks.ANCIENT_AGAPANTHUS_FLOWER_BLOCK,
                 "dye_recipes",
                 4
         );
 
 
 // Mutated Snow Drop Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_SNOW_DROP_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.SNOW_DROP_FLOWER)
+                .input('F', ModBlocks.SNOW_DROP_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.SNOW_DROP_FLOWER), conditionsFromItem(ModBlocks.SNOW_DROP_FLOWER))
+                .criterion(hasItem(ModBlocks.SNOW_DROP_FLOWER_BLOCK), conditionsFromItem(ModBlocks.SNOW_DROP_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_SNOW_DROP_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK)));
 // Ancient Snow Drop Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_SNOW_DROP_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_SNOW_DROP_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_SNOW_DROP_FLOWER)
+                .input('F', ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_SNOW_DROP_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_SNOW_DROP_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_SNOW_DROP_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_SNOW_DROP_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_SNOW_DROP_FLOWER_BLOCK)));
 
 // Mutated Carnation Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_CARNATION_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.CARNATION_FLOWER)
+                .input('F', ModBlocks.CARNATION_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.CARNATION_FLOWER), conditionsFromItem(ModBlocks.CARNATION_FLOWER))
+                .criterion(hasItem(ModBlocks.CARNATION_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CARNATION_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_CARNATION_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK)));
 // Ancient Carnation Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_CARNATION_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_CARNATION_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_CARNATION_FLOWER)
+                .input('F', ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_CARNATION_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_CARNATION_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_CARNATION_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_CARNATION_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_CARNATION_FLOWER_BLOCK)));
 
 // Mutated Violet Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_VIOLET_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.VIOLET_FLOWER)
+                .input('F', ModBlocks.VIOLET_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.VIOLET_FLOWER), conditionsFromItem(ModBlocks.VIOLET_FLOWER))
+                .criterion(hasItem(ModBlocks.VIOLET_FLOWER_BLOCK), conditionsFromItem(ModBlocks.VIOLET_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_VIOLET_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK)));
 // Ancient Violet Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_VIOLET_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_VIOLET_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_VIOLET_FLOWER)
+                .input('F', ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_VIOLET_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_VIOLET_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_VIOLET_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_VIOLET_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_VIOLET_FLOWER_BLOCK)));
 
 // Iris Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_IRIS_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.IRIS_FLOWER)
+                .input('F', ModBlocks.IRIS_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.IRIS_FLOWER), conditionsFromItem(ModBlocks.IRIS_FLOWER))
+                .criterion(hasItem(ModBlocks.IRIS_FLOWER_BLOCK), conditionsFromItem(ModBlocks.IRIS_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_IRIS_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK)));
 // Ancient Iris Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_IRIS_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_IRIS_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_IRIS_FLOWER)
+                .input('F', ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_IRIS_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_IRIS_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_IRIS_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_IRIS_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_IRIS_FLOWER_BLOCK)));
 
 
 // Mutated Primrose Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_PRIMROSE_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.PRIMROSE_FLOWER)
+                .input('F', ModBlocks.PRIMROSE_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.PRIMROSE_FLOWER), conditionsFromItem(ModBlocks.PRIMROSE_FLOWER))
+                .criterion(hasItem(ModBlocks.PRIMROSE_FLOWER_BLOCK), conditionsFromItem(ModBlocks.PRIMROSE_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_PRIMROSE_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK)));
 // Ancient Primrose Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_PRIMROSE_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_PRIMROSE_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_PRIMROSE_FLOWER)
+                .input('F', ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_PRIMROSE_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_PRIMROSE_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_PRIMROSE_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_PRIMROSE_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_PRIMROSE_FLOWER_BLOCK)));
 
 // Daffodil Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_DAFFODIL_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.DAFFODIL_FLOWER)
+                .input('F', ModBlocks.DAFFODIL_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.DAFFODIL_FLOWER), conditionsFromItem(ModBlocks.DAFFODIL_FLOWER))
+                .criterion(hasItem(ModBlocks.DAFFODIL_FLOWER_BLOCK), conditionsFromItem(ModBlocks.DAFFODIL_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_DAFFODIL_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK)));
 // Ancient Daffodil Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_DAFFODIL_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_DAFFODIL_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_DAFFODIL_FLOWER)
+                .input('F', ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_DAFFODIL_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_DAFFODIL_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_DAFFODIL_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_DAFFODIL_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_DAFFODIL_FLOWER_BLOCK)));
 
 // Mutated Dahlia Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_DAHLIA_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.DAHLIA_FLOWER)
+                .input('F', ModBlocks.DAHLIA_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.DAHLIA_FLOWER), conditionsFromItem(ModBlocks.DAHLIA_FLOWER))
+                .criterion(hasItem(ModBlocks.DAHLIA_FLOWER_BLOCK), conditionsFromItem(ModBlocks.DAHLIA_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_DAHLIA_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK)));
 // Ancient Dahlia Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_DAHLIA_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_DAHLIA_FLOWER)
+                .input('F', ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_DAHLIA_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_DAHLIA_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_DAHLIA_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK)));
 
 // Mutated Delphinium Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_DELPHINIUM_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.DELPHINIUM_FLOWER)
+                .input('F', ModBlocks.DELPHINIUM_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.DELPHINIUM_FLOWER), conditionsFromItem(ModBlocks.DELPHINIUM_FLOWER))
+                .criterion(hasItem(ModBlocks.DELPHINIUM_FLOWER_BLOCK), conditionsFromItem(ModBlocks.DELPHINIUM_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_DELPHINIUM_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK)));
 // Ancient Delphinium Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_DELPHINIUM_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_DELPHINIUM_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_DELPHINIUM_FLOWER)
+                .input('F', ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_DELPHINIUM_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_DELPHINIUM_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_DELPHINIUM_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_DELPHINIUM_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_DELPHINIUM_FLOWER_BLOCK)));
 
 // Mutated Hydrangea Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_HYDRANGEA_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.HYDRANGEA_FLOWER)
+                .input('F', ModBlocks.HYDRANGEA_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.HYDRANGEA_FLOWER), conditionsFromItem(ModBlocks.HYDRANGEA_FLOWER))
+                .criterion(hasItem(ModBlocks.HYDRANGEA_FLOWER_BLOCK), conditionsFromItem(ModBlocks.HYDRANGEA_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_HYDRANGEA_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK)));
 // Ancient Hydrangea Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_HYDRANGEA_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_HYDRANGEA_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_HYDRANGEA_FLOWER)
+                .input('F', ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_HYDRANGEA_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_HYDRANGEA_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_HYDRANGEA_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_HYDRANGEA_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_HYDRANGEA_FLOWER_BLOCK)));
 
 // Mutated Midnight Mystic Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.MIDNIGHT_MYSTIC_FLOWER)
+                .input('F', ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.MIDNIGHT_MYSTIC_FLOWER), conditionsFromItem(ModBlocks.MIDNIGHT_MYSTIC_FLOWER))
+                .criterion(hasItem(ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK), conditionsFromItem(ModBlocks.MIDNIGHT_MYSTIC_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK)));
 // Ancient Midnight Mystic Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER)
+                .input('F', ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_MIDNIGHT_MYSTIC_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_MIDNIGHT_MYSTIC_FLOWER_BLOCK)));
 
 // Mutated Hawthorn Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_HAWTHORN_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.HAWTHORN_FLOWER)
+                .input('F', ModBlocks.HAWTHORN_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.HAWTHORN_FLOWER), conditionsFromItem(ModBlocks.HAWTHORN_FLOWER))
+                .criterion(hasItem(ModBlocks.HAWTHORN_FLOWER_BLOCK), conditionsFromItem(ModBlocks.HAWTHORN_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_HAWTHORN_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK)));
 // Ancient Hawthorn Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_HAWTHORN_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_HAWTHORN_FLOWER)
+                .input('F', ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_HAWTHORN_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_HAWTHORN_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_HAWTHORN_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_HAWTHORN_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_HAWTHORN_FLOWER_BLOCK)));
 
 // Mutated Bonsai Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_BONSAI_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.BONSAI_FLOWER)
+                .input('F', ModBlocks.BONSAI_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.BONSAI_FLOWER), conditionsFromItem(ModBlocks.BONSAI_FLOWER))
+                .criterion(hasItem(ModBlocks.BONSAI_FLOWER_BLOCK), conditionsFromItem(ModBlocks.BONSAI_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_BONSAI_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK)));
 // Ancient Bonsai Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_BONSAI_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_BONSAI_FLOWER)
+                .input('F', ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_BONSAI_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_BONSAI_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_BONSAI_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_BONSAI_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_BONSAI_FLOWER_BLOCK)));
 
 // Mutated Spiderlily Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_SPIDERLILY_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.SPIDERLILY_FLOWER)
+                .input('F', ModBlocks.SPIDERLILY_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.SPIDERLILY_FLOWER), conditionsFromItem(ModBlocks.SPIDERLILY_FLOWER))
+                .criterion(hasItem(ModBlocks.SPIDERLILY_FLOWER_BLOCK), conditionsFromItem(ModBlocks.SPIDERLILY_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_SPIDERLILY_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK)));
 // Ancient Spiderlily Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_SPIDERLILY_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_SPIDERLILY_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_SPIDERLILY_FLOWER)
+                .input('F', ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_SPIDERLILY_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_SPIDERLILY_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_SPIDERLILY_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_SPIDERLILY_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_SPIDERLILY_FLOWER_BLOCK)));
 
 // Mutated Larkspur Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_LARKSPUR_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.LARKSPUR_FLOWER)
+                .input('F', ModBlocks.LARKSPUR_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.LARKSPUR_FLOWER), conditionsFromItem(ModBlocks.LARKSPUR_FLOWER))
+                .criterion(hasItem(ModBlocks.LARKSPUR_FLOWER_BLOCK), conditionsFromItem(ModBlocks.LARKSPUR_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_LARKSPUR_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK)));
 // Ancient Larkspur Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_LARKSPUR_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_LARKSPUR_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_LARKSPUR_FLOWER)
+                .input('F', ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_LARKSPUR_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_LARKSPUR_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_LARKSPUR_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_LARKSPUR_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_LARKSPUR_FLOWER_BLOCK)));
 
 // Mutated Agapanthus Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_AGAPANTHUS_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.AGAPANTHUS_FLOWER)
+                .input('F', ModBlocks.AGAPANTHUS_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.AGAPANTHUS_FLOWER), conditionsFromItem(ModBlocks.AGAPANTHUS_FLOWER))
+                .criterion(hasItem(ModBlocks.AGAPANTHUS_FLOWER_BLOCK), conditionsFromItem(ModBlocks.AGAPANTHUS_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK)));
 // Ancient Agapanthus Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_AGAPANTHUS_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_AGAPANTHUS_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_AGAPANTHUS_FLOWER)
+                .input('F', ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_AGAPANTHUS_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_AGAPANTHUS_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_AGAPANTHUS_FLOWER_BLOCK)));
 
 // Mutated Blue Cosmos Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER, 4)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK, 4)
                 .pattern("FFF")
                 .pattern("FGF")
                 .pattern("FFF")
-                .input('F', ModBlocks.BLUE_COSMOS_FLOWER)
+                .input('F', ModBlocks.BLUE_COSMOS_FLOWER_BLOCK)
                 .input('G', ModItems.CORRUPT_GEM)
-                .criterion(hasItem(ModBlocks.BLUE_COSMOS_FLOWER), conditionsFromItem(ModBlocks.BLUE_COSMOS_FLOWER))
+                .criterion(hasItem(ModBlocks.BLUE_COSMOS_FLOWER_BLOCK), conditionsFromItem(ModBlocks.BLUE_COSMOS_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.CORRUPT_GEM), conditionsFromItem(ModItems.CORRUPT_GEM))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK)));
 // Ancient Blue Cosmos Flower
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER, 2)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER_BLOCK, 2)
                 .pattern(" F ")
                 .pattern("FGF")
                 .pattern(" F ")
-                .input('F', ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER)
+                .input('F', ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK)
                 .input('G', ModItems.GLIMMER_ROOT)
-                .criterion(hasItem(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER), conditionsFromItem(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER))
+                .criterion(hasItem(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK), conditionsFromItem(ModBlocks.CORRUPT_BLUE_COSMOS_FLOWER_BLOCK))
                 .criterion(hasItem(ModItems.GLIMMER_ROOT), conditionsFromItem(ModItems.GLIMMER_ROOT))
-                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER)));
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.ANCIENT_BLUE_COSMOS_FLOWER_BLOCK)));
 
 //Tuff
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, Blocks.TUFF, 4)

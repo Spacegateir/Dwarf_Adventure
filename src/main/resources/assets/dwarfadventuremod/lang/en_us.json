@@ -79,9 +79,6 @@
   "item.dwarfadventuremod.lvl6_dwarf_pickaxe": "Grandmaster Dwarf Pickaxe",
 
 
-  "block.dwarfadventuremod.petunia": "Petunia",
-
-
   "block.dwarfadventuremod.snow_drop_flower": "Snow Drop Flower",
   "block.dwarfadventuremod.carnation_flower": "Carnation Flower",
   "block.dwarfadventuremod.iris_flower": "Iris Flower",
@@ -655,5 +652,9 @@
   "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin",
 
   "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
-  "enchantment.dwarfadventuremod.vein_miner": "Vein Miner"
+  "enchantment.dwarfadventuremod.vein_miner": "Vein Miner",
+
+
+
+  "block.dwarfadventuremod.petunia": "Petunia"
 }
