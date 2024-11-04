@@ -28,9 +28,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
-
-        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PETUNIA_BLOCK, ModBlocks.POTTED_PETUNIA, BlockStateModelGenerator.TintType.NOT_TINTED);
-
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.DAHLIA_FLOWER_BLOCK, ModBlocks.POTTED_DAHLIA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.CORRUPT_DAHLIA_FLOWER_BLOCK, ModBlocks.POTTED_CORRUPT_DAHLIA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.ANCIENT_DAHLIA_FLOWER_BLOCK, ModBlocks.POTTED_ANCIENT_DAHLIA_FLOWER, BlockStateModelGenerator.TintType.NOT_TINTED);
@@ -636,6 +633,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_BOOTS));
+
+        itemModelGenerator.register(ModItems.DWARF_STEEL_KNIFE, Models.HANDHELD);
 
 
 

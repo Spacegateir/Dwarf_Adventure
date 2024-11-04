@@ -18,8 +18,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.dwarf adventure"))
                     .icon(() -> new ItemStack(ModBlocks.GARDEN_BENCH)).entries((displayContext, entries) -> {
 
-                        entries.add(ModItems.PETUNIA);
 
+                        entries.add(ModItems.DWARF_STEEL_KNIFE);
+                        entries.add(ModItems.DWARF_STEEL_TRIDENT);
 
                         entries.add(ModItems.DWARF_COPPER_COIN_S);
                         entries.add(ModItems.DWARF_COPPER_COIN_M);

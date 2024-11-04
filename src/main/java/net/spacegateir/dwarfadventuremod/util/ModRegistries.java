@@ -20,8 +20,6 @@ public class ModRegistries {
 
     private static void registerModCompostables() {
 
-        ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.PETUNIA, 0.4F);
-
         ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.SNOW_DROP_FLOWER, 0.4F);
         ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.CARNATION_FLOWER, 0.4F);
         ComposterBlock.ITEM_TO_LEVEL_INCREASE_CHANCE.put(ModItems.VIOLET_FLOWER, 0.4F);

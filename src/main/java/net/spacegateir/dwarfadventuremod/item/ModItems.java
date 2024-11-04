@@ -4,7 +4,6 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -35,6 +34,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.DWARF_STEEL,3,-2.4f, new FabricItemSettings()));
     public static final Item DWARF_STEEL_PAXEL = registerItem("dwarf_steel_paxel",
             new PaxelItem(ModToolMaterial.DWARF_STEEL,1,-1.5f, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_KNIFE = registerItem("dwarf_steel_knife",
+            new KnifeItem(ModToolMaterial.DWARF_STEEL,-3,-1.0F, new FabricItemSettings()));
+    public static final Item DWARF_STEEL_TRIDENT = registerItem("dwarf_steel_trident",
+            new TridentItem(new FabricItemSettings().maxDamage(250)));
 
     public static final Item DWARF_GOLD_PICKAXE = registerItem("dwarf_gold_pickaxe",
             new PickaxeItem(ModToolMaterial.DWARF_GOLD,1,-2.8F, new FabricItemSettings()));
@@ -393,8 +396,10 @@ public class ModItems {
     public static final Item CLUMP_OF_DWARF_GOLD = registerItem("clump_of_dwarf_gold", new Item(new FabricItemSettings()));
     public static final Item MOLTEN_DWARF_GOLD_INGOT = registerItem("molten_dwarf_gold_ingot", new Item(new FabricItemSettings()));
 
-    public static final Item PETUNIA = registerBlockItem("petunia", ModBlocks.PETUNIA_BLOCK);
 
+
+
+    //normal flowers
     public static final Item SNOW_DROP_FLOWER = registerBlockItem("snow_drop_flower", ModBlocks.SNOW_DROP_FLOWER_BLOCK);
     public static final Item CARNATION_FLOWER = registerBlockItem("carnation_flower", ModBlocks.CARNATION_FLOWER_BLOCK);
     public static final Item VIOLET_FLOWER = registerBlockItem("violet_flower", ModBlocks.VIOLET_FLOWER_BLOCK);

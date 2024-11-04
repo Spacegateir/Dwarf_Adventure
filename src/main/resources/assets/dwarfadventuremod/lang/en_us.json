@@ -651,10 +651,14 @@
   "item.dwarfadventuremod.dwarf_gold_coin_l": "Large Dwarf Gold Coin",
   "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin",
 
+  "item.dwarfadventuremod.dwarf_steel_knife": "Dwarf Steel Knife",
+
+  "item.dwarfadventuremod.dwarf_steel_trident": "Dwarf Steel Trident",
+
   "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
-  "enchantment.dwarfadventuremod.vein_miner": "Vein Miner",
+  "enchantment.dwarfadventuremod.vein_miner": "Vein Miner"
 
 
 
-  "block.dwarfadventuremod.petunia": "Petunia"
+
 }
