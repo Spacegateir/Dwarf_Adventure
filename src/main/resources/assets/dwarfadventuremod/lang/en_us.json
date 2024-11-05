@@ -514,6 +514,8 @@
   "item.dwarfadventuremod.dwarf_steel_hoe": "Dwarf Steel Hoe",
   "item.dwarfadventuremod.dwarf_steel_sword": "Dwarf Steel Sword",
   "item.dwarfadventuremod.dwarf_steel_paxel": "Dwarf Steel Paxel",
+  "item.dwarfadventuremod.dwarf_steel_knife": "Dwarf Steel Knife",
+  "item.dwarfadventuremod.dwarf_steel_shears": "Dwarf Steel Shears",
 
   "item.dwarfadventuremod.dwarf_steel_helmet": "Dwarf Steel Helmet",
   "item.dwarfadventuremod.dwarf_steel_chestplate": "Dwarf Steel Chestplate",
@@ -526,6 +528,8 @@
   "item.dwarfadventuremod.dwarf_gold_hoe": "Dwarf Gold Hoe",
   "item.dwarfadventuremod.dwarf_gold_sword": "Dwarf Gold Sword",
   "item.dwarfadventuremod.dwarf_gold_paxel": "Dwarf Gold Paxel",
+  "item.dwarfadventuremod.dwarf_gold_knife": "Dwarf Gold Knife",
+  "item.dwarfadventuremod.dwarf_gold_shears": "Dwarf Gold Shears",
 
   "item.dwarfadventuremod.dwarf_gold_helmet": "Dwarf Gold Helmet",
   "item.dwarfadventuremod.dwarf_gold_chestplate": "Dwarf Gold Chestplate",
@@ -538,6 +542,8 @@
   "item.dwarfadventuremod.aer_hoe": "Aer Hoe",
   "item.dwarfadventuremod.aer_sword": "Aer Sword",
   "item.dwarfadventuremod.aer_paxel": "Aer Paxel",
+  "item.dwarfadventuremod.aer_knife": "Aer Knife",
+  "item.dwarfadventuremod.aer_shears": "Aer Shears",
 
   "item.dwarfadventuremod.aer_helmet": "Aer Helmet",
   "item.dwarfadventuremod.aer_chestplate": "Aer Chestplate",
@@ -550,6 +556,8 @@
   "item.dwarfadventuremod.ignis_hoe": "Ignis Hoe",
   "item.dwarfadventuremod.ignis_sword": "Ignis Sword",
   "item.dwarfadventuremod.ignis_paxel": "Ignis Paxel",
+  "item.dwarfadventuremod.ignis_knife": "Ignis Knife",
+  "item.dwarfadventuremod.ignis_shears": "Ignis Shears",
 
   "item.dwarfadventuremod.ignis_helmet": "Ignis Helmet",
   "item.dwarfadventuremod.ignis_chestplate": "Ignis Chestplate",
@@ -562,6 +570,8 @@
   "item.dwarfadventuremod.aqua_hoe": "Aqua Hoe",
   "item.dwarfadventuremod.aqua_sword": "Aqua Sword",
   "item.dwarfadventuremod.aqua_paxel": "Aqua Paxel",
+  "item.dwarfadventuremod.aqua_knife": "Aqua Knife",
+  "item.dwarfadventuremod.aqua_shears": "Aqua Shears",
 
   "item.dwarfadventuremod.aqua_helmet": "Aqua Helmet",
   "item.dwarfadventuremod.aqua_chestplate": "Aqua Chestplate",
@@ -574,6 +584,8 @@
   "item.dwarfadventuremod.tera_hoe": "Tera Hoe",
   "item.dwarfadventuremod.tera_sword": "Tera Sword",
   "item.dwarfadventuremod.tera_paxel": "Tera Paxel",
+  "item.dwarfadventuremod.tera_knife": "Tera Knife",
+  "item.dwarfadventuremod.tera_shears": "Tera Shears",
 
   "item.dwarfadventuremod.tera_helmet": "Tera Helmet",
   "item.dwarfadventuremod.tera_chestplate": "Tera Chestplate",
@@ -586,6 +598,8 @@
   "item.dwarfadventuremod.magirite_hoe": "Magirite Hoe",
   "item.dwarfadventuremod.magirite_sword": "Magirite Sword",
   "item.dwarfadventuremod.magirite_paxel": "Magirite Paxel",
+  "item.dwarfadventuremod.magirite_knife": "Magirtie Knife",
+  "item.dwarfadventuremod.magirite_shears": "Magirite Shears",
 
   "item.dwarfadventuremod.magirite_helmet": "Magirite Helmet",
   "item.dwarfadventuremod.magirite_chestplate": "Magirite Chestplate",
@@ -598,6 +612,8 @@
   "item.dwarfadventuremod.mythril_hoe": "Mythril Hoe",
   "item.dwarfadventuremod.mythril_sword": "Mythril Sword",
   "item.dwarfadventuremod.mythril_paxel": "Mythril Paxel",
+  "item.dwarfadventuremod.mythril_knife": "Mythril Knife",
+  "item.dwarfadventuremod.mythril_shears": "Mythril Shears",
 
   "item.dwarfadventuremod.mythril_helmet": "Mythril Helmet",
   "item.dwarfadventuremod.mythril_chestplate": "Mythril Chestplate",
@@ -610,6 +626,8 @@
   "item.dwarfadventuremod.adamantite_hoe": "Adamantite Hoe",
   "item.dwarfadventuremod.adamantite_sword": "Adamantite Sword",
   "item.dwarfadventuremod.adamantite_paxel": "Adamantite Paxel",
+  "item.dwarfadventuremod.adamantite_knife": "Adamantite Knife",
+  "item.dwarfadventuremod.adamantite_shears": "Adamantite Shears",
 
   "item.dwarfadventuremod.adamantite_helmet": "Adamantite Helmet",
   "item.dwarfadventuremod.adamantite_chestplate": "Adamantite Chestplate",
@@ -622,6 +640,8 @@
   "item.dwarfadventuremod.orikalkum_hoe": "Orikalkum Hoe",
   "item.dwarfadventuremod.orikalkum_sword": "Orikalkum Sword",
   "item.dwarfadventuremod.orikalkum_paxel": "Orikalkum Paxel",
+  "item.dwarfadventuremod.orikalkum_knife": "Orikalkum Knife",
+  "item.dwarfadventuremod.orikalkum_shears": "Orikalkum Shears",
 
   "item.dwarfadventuremod.orikalkum_helmet": "Orikalkum Helmet",
   "item.dwarfadventuremod.orikalkum_chestplate": "Orikalkum Chestplate",
@@ -634,6 +654,8 @@
   "item.dwarfadventuremod.dragon_bane_hoe": "Dragon Bane Hoe",
   "item.dwarfadventuremod.dragon_bane_sword": "Dragon Bane Sword",
   "item.dwarfadventuremod.dragon_bane_paxel": "Dragon Bane Paxel",
+  "item.dwarfadventuremod.dragon_bane_knife": "Dragon Bane Knife",
+  "item.dwarfadventuremod.dragon_bane_shears": "Dragon Bane Shears",
 
   "item.dwarfadventuremod.dragon_bane_helmet": "Dragon Bane Helmet",
   "item.dwarfadventuremod.dragon_bane_chestplate": "Dragon Bane Chestplate",
@@ -651,9 +673,7 @@
   "item.dwarfadventuremod.dwarf_gold_coin_l": "Large Dwarf Gold Coin",
   "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin",
 
-  "item.dwarfadventuremod.dwarf_steel_knife": "Dwarf Steel Knife",
 
-  "item.dwarfadventuremod.dwarf_steel_trident": "Dwarf Steel Trident",
 
   "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
   "enchantment.dwarfadventuremod.vein_miner": "Vein Miner"

@@ -508,6 +508,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DWARF_STEEL_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DWARF_STEEL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DWARF_STEEL_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_STEEL_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DWARF_STEEL_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DWARF_STEEL_CHESTPLATE));
@@ -520,6 +522,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DWARF_GOLD_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DWARF_GOLD_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DWARF_GOLD_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DWARF_GOLD_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DWARF_GOLD_CHESTPLATE));
@@ -532,6 +536,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AER_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AER_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AER_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AER_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AER_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AER_CHESTPLATE));
@@ -544,6 +550,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.IGNIS_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IGNIS_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.IGNIS_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IGNIS_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.IGNIS_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.IGNIS_CHESTPLATE));
@@ -556,6 +564,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.AQUA_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AQUA_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.AQUA_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.AQUA_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AQUA_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.AQUA_CHESTPLATE));
@@ -568,6 +578,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TERA_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TERA_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TERA_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TERA_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TERA_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.TERA_CHESTPLATE));
@@ -580,6 +592,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MAGIRITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGIRITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MAGIRITE_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MAGIRITE_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MAGIRITE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MAGIRITE_CHESTPLATE));
@@ -592,6 +606,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.MYTHRIL_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MYTHRIL_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.MYTHRIL_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.MYTHRIL_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.MYTHRIL_CHESTPLATE));
@@ -604,6 +620,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ADAMANTITE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ADAMANTITE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ADAMANTITE_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ADAMANTITE_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADAMANTITE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ADAMANTITE_CHESTPLATE));
@@ -616,6 +634,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ORIKALKUM_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ORIKALKUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ORIKALKUM_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.ORIKALKUM_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ORIKALKUM_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.ORIKALKUM_CHESTPLATE));
@@ -628,13 +648,14 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.DRAGON_BANE_HOE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DRAGON_BANE_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.DRAGON_BANE_PAXEL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_SHEARS, Models.HANDHELD);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_BOOTS));
 
-        itemModelGenerator.register(ModItems.DWARF_STEEL_KNIFE, Models.HANDHELD);
 
 
 

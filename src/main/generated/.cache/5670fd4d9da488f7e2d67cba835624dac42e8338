@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-04T18:03:00.8235923	Dwarf Adventure Mod/Block Loot Tables
+// 1.20.1	2024-11-05T16:01:10.6383558	Dwarf Adventure Mod/Block Loot Tables
 97884513609c7ea3a0f5ae113315a199c3176fd4 data\dwarfadventuremod\loot_tables\blocks\raw_orikalkum_pressure_plate.json
 46ab4d4f2f0a80b11b97e7d3fd7eed1b63674c9f data\dwarfadventuremod\loot_tables\blocks\raw_dwarf_steel_block.json
 d47cc390b5300c8327b807fa19262e673607b841 data\dwarfadventuremod\loot_tables\blocks\potted_ancient_hawthorn_flower.json
@@ -159,8 +159,8 @@ f02077a8cb5bb754d6343cb9902211f909850c05 data\dwarfadventuremod\loot_tables\bloc
 b0b0d820e9e02e6c25b6e220808d635bc0b06f0a data\dwarfadventuremod\loot_tables\blocks\dragon_bane_pressure_plate.json
 b65e180b3c7ab5afffa86ac757ee2e4ebecec698 data\dwarfadventuremod\loot_tables\blocks\orikalkum_deepslate_ore.json
 610c21667893f39615c04aef67f94cc9fa66ae48 data\dwarfadventuremod\loot_tables\blocks\budding_mythril_granite.json
-704fa92f5c7c7c23e00978a5fa0be8770dbcd2af data\dwarfadventuremod\loot_tables\blocks\magirite_door.json
 ef39b3f74ae1dc4c9f3b657dee1d9d36df15abac data\dwarfadventuremod\loot_tables\blocks\adamantite_end_stone_ore.json
+704fa92f5c7c7c23e00978a5fa0be8770dbcd2af data\dwarfadventuremod\loot_tables\blocks\magirite_door.json
 f78acccbf70d5e07a6684ead4ee1a28e283b6786 data\dwarfadventuremod\loot_tables\blocks\raw_adamantite_fence.json
 be4ecccca5c5ae71fa41006940a43c9ed4e2eacf data\dwarfadventuremod\loot_tables\blocks\raw_dwarf_steel_pressure_plate.json
 bebb63f66b65f02018de01a8a73c139a2c450a93 data\dwarfadventuremod\loot_tables\blocks\ignis_spiritstone_door.json

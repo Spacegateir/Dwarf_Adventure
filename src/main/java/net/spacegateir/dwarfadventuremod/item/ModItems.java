@@ -36,8 +36,8 @@ public class ModItems {
             new PaxelItem(ModToolMaterial.DWARF_STEEL,1,-1.5f, new FabricItemSettings()));
     public static final Item DWARF_STEEL_KNIFE = registerItem("dwarf_steel_knife",
             new KnifeItem(ModToolMaterial.DWARF_STEEL,-3,-1.0F, new FabricItemSettings()));
-    public static final Item DWARF_STEEL_TRIDENT = registerItem("dwarf_steel_trident",
-            new TridentItem(new FabricItemSettings().maxDamage(250)));
+    public static final Item DWARF_STEEL_SHEARS = registerItem("dwarf_steel_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(250)));
 
     public static final Item DWARF_GOLD_PICKAXE = registerItem("dwarf_gold_pickaxe",
             new PickaxeItem(ModToolMaterial.DWARF_GOLD,1,-2.8F, new FabricItemSettings()));
@@ -51,6 +51,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.DWARF_GOLD,3,-3.0F, new FabricItemSettings()));
     public static final Item DWARF_GOLD_PAXEL = registerItem("dwarf_gold_paxel",
             new PaxelItem(ModToolMaterial.DWARF_GOLD,1,-1.5F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_KNIFE = registerItem("dwarf_gold_knife",
+            new KnifeItem(ModToolMaterial.DWARF_GOLD,-1,-2.0F, new FabricItemSettings()));
+    public static final Item DWARF_GOLD_SHEARS = registerItem("dwarf_gold_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(64)));
 
 
     public static final Item LVL2_DWARF_PICKAXE = registerItem("lvl2_dwarf_pickaxe",
@@ -68,6 +72,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.AER,3,-2.0F, new FabricItemSettings()));
     public static final Item AER_PAXEL = registerItem("aer_paxel",
             new PaxelItem(ModToolMaterial.AER,1,-1.5F, new FabricItemSettings()));
+    public static final Item AER_KNIFE = registerItem("aer_knife",
+            new KnifeItem(ModToolMaterial.AER,-4,-1.0F, new FabricItemSettings()));
+    public static final Item AER_SHEARS = registerItem("aer_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(350)));
 
     public static final Item IGNIS_PICKAXE = registerItem("ignis_pickaxe",
             new PickaxeItem(ModToolMaterial.IGNIS,1,-2.8F, new FabricItemSettings()));
@@ -81,6 +89,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.IGNIS,3,-2.6F, new FabricItemSettings()));
     public static final Item IGNIS_PAXEL = registerItem("ignis_paxel",
             new PaxelItem(ModToolMaterial.IGNIS,1,-1.8F, new FabricItemSettings()));
+    public static final Item IGNIS_KNIFE = registerItem("ignis_knife",
+            new KnifeItem(ModToolMaterial.IGNIS,-6,-1.0F, new FabricItemSettings()));
+    public static final Item IGNIS_SHEARS = registerItem("ignis_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(350)));
 
     public static final Item AQUA_PICKAXE = registerItem("aqua_pickaxe",
             new PickaxeItem(ModToolMaterial.AQUA,1,-2.8F, new FabricItemSettings()));
@@ -94,6 +106,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.AQUA,3,-2.3F, new FabricItemSettings()));
     public static final Item AQUA_PAXEL = registerItem("aqua_paxel",
             new PaxelItem(ModToolMaterial.AQUA,1,-1.5F, new FabricItemSettings()));
+    public static final Item AQUA_KNIFE = registerItem("aqua_knife",
+            new KnifeItem(ModToolMaterial.AQUA,-5,-1.0F, new FabricItemSettings()));
+    public static final Item AQUA_SHEARS = registerItem("aqua_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(350)));
 
     public static final Item TERA_PICKAXE = registerItem("tera_pickaxe",
             new PickaxeItem(ModToolMaterial.TERA,1,-2.8F, new FabricItemSettings()));
@@ -107,6 +123,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.TERA,3,-2.3F, new FabricItemSettings()));
     public static final Item TERA_PAXEL = registerItem("tera_paxel",
             new PaxelItem(ModToolMaterial.TERA,1,-1.5F, new FabricItemSettings()));
+    public static final Item TERA_KNIFE = registerItem("tera_knife",
+            new KnifeItem(ModToolMaterial.TERA,-4,-1.0F, new FabricItemSettings()));
+    public static final Item TERA_SHEARS = registerItem("tera_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(350)));
 
     public static final Item LVL3_DWARF_PICKAXE = registerItem("lvl3_dwarf_pickaxe",
             new Hammer_1x3(ModToolMaterial.MAGIRITE, new FabricItemSettings().fireproof()));
@@ -123,6 +143,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.MAGIRITE,3,-2.2F, new FabricItemSettings().fireproof()));
     public static final Item MAGIRITE_PAXEL = registerItem("magirite_paxel",
             new PaxelItem(ModToolMaterial.MAGIRITE,1,-1.5F, new FabricItemSettings().fireproof()));
+    public static final Item MAGIRITE_KNIFE = registerItem("magirite_knife",
+            new KnifeItem(ModToolMaterial.MAGIRITE,-5,-1.0F, new FabricItemSettings()));
+    public static final Item MAGIRITE_SHEARS = registerItem("magirite_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(500)));
 
     public static final Item LVL4_DWARF_PICKAXE = registerItem("lvl4_dwarf_pickaxe",
             new Hammer_1x3(ModToolMaterial.MYTHRIL, new FabricItemSettings().fireproof()));
@@ -139,6 +163,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.MYTHRIL,3,-2.1F, new FabricItemSettings().fireproof()));
     public static final Item MYTHRIL_PAXEL = registerItem("mythril_paxel",
             new PaxelItem(ModToolMaterial.MYTHRIL,1,-1.5F, new FabricItemSettings().fireproof()));
+    public static final Item MYTHRIL_KNIFE = registerItem("mythril_knife",
+            new KnifeItem(ModToolMaterial.MYTHRIL,-5,-1.0F, new FabricItemSettings()));
+    public static final Item MYTHRIL_SHEARS = registerItem("mythril_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(600)));
 
     public static final Item LVL5_DWARF_PICKAXE = registerItem("lvl5_dwarf_pickaxe",
             new Hammer_3x3(ModToolMaterial.ADAMANTITE, new FabricItemSettings().fireproof()));
@@ -155,6 +183,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.ADAMANTITE,3,-2.0F, new FabricItemSettings().fireproof()));
     public static final Item ADAMANTITE_PAXEL = registerItem("adamantite_paxel",
             new PaxelItem(ModToolMaterial.ADAMANTITE,1,-1.5F, new FabricItemSettings().fireproof()));
+    public static final Item ADAMANTITE_KNIFE = registerItem("adamantite_knife",
+            new KnifeItem(ModToolMaterial.ADAMANTITE,-6,-0.5F, new FabricItemSettings()));
+    public static final Item ADAMANTITE_SHEARS = registerItem("adamantite_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(750)));
 
     public static final Item LVL6_DWARF_PICKAXE = registerItem("lvl6_dwarf_pickaxe",
             new Hammer_3x3(ModToolMaterial.ORIKALKUM, new FabricItemSettings().fireproof()));
@@ -171,6 +203,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.ORIKALKUM,3,-1.9F, new FabricItemSettings().fireproof()));
     public static final Item ORIKALKUM_PAXEL = registerItem("orikalkum_paxel",
             new PaxelItem(ModToolMaterial.ORIKALKUM,1,-1.5F, new FabricItemSettings().fireproof()));
+    public static final Item ORIKALKUM_KNIFE = registerItem("orikalkum_knife",
+            new KnifeItem(ModToolMaterial.ORIKALKUM,-6,-0.5F, new FabricItemSettings()));
+    public static final Item ORIKALKUM_SHEARS = registerItem("orikalkum_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(900)));
 
     public static final Item DRAGON_BANE_PICKAXE = registerItem("dragon_bane_pickaxe",
             new PickaxeItem(ModToolMaterial.DRAGON_BANE,1,-2.8F, new FabricItemSettings().fireproof()));
@@ -184,6 +220,10 @@ public class ModItems {
             new SwordItem(ModToolMaterial.DRAGON_BANE,3,-1.8F, new FabricItemSettings().fireproof()));
     public static final Item DRAGON_BANE_PAXEL = registerItem("dragon_bane_paxel",
             new PaxelItem(ModToolMaterial.DRAGON_BANE,1,-1.5F, new FabricItemSettings().fireproof()));
+    public static final Item DRAGON_BANE_KNIFE = registerItem("dragon_bane_knife",
+            new KnifeItem(ModToolMaterial.DRAGON_BANE,-7,-0.5F, new FabricItemSettings()));
+    public static final Item DRAGON_BANE_SHEARS = registerItem("dragon_bane_shears",
+            new ShearsItem(new FabricItemSettings().maxDamage(1000)));
 
     public static final Item WAR_HAMMER = registerItem("war_hammer",
             new Hammer_5x5(ModToolMaterial.WAR_HAMMER, new FabricItemSettings().fireproof().rarity(Rarity.EPIC)));

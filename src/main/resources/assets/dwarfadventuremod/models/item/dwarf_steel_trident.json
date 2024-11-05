@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "dwarfadventuremod:item/dwarf_steel_trident"
-  }
-}

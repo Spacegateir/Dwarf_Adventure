@@ -16,7 +16,7 @@ public enum ModToolMaterial implements ToolMaterial {
     DWARF_STEEL(MiningLevels.IRON, 300, 6.0f, 2.5f, 16,
             () -> Ingredient.ofItems(ModItems.HOT_INGOT)),
 
-    DWARF_GOLD(MiningLevels.IRON, 128, 12.0f, 0.0f, 30,
+    DWARF_GOLD(MiningLevels.IRON, 128, 12.0f, 0.5f, 30,
             () -> Ingredient.ofItems(ModItems.MOLTEN_DWARF_GOLD_INGOT)),
 
     QUINTESSENCE(MiningLevels.DIAMOND,1750,8,3.5f,18,
@@ -25,7 +25,7 @@ public enum ModToolMaterial implements ToolMaterial {
     AER(MiningLevels.DIAMOND,500,16,3.5f,18,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_AER)),
 
-    IGNIS(MiningLevels.DIAMOND,850,8,6.0f,18,
+    IGNIS(MiningLevels.DIAMOND,850,8,5.5f,18,
             () -> Ingredient.ofItems(ModItems.FORGING_HOT_IGNIS)),
 
     AQUA(MiningLevels.DIAMOND,1750,10,4.5f,10,
@@ -37,7 +37,7 @@ public enum ModToolMaterial implements ToolMaterial {
     MAGIRITE(NETHERITE,2300, 9.0F, 4.5F, 18,
             () -> Ingredient.ofItems(ModItems.MOLTEN_MAGIRITE_INGOT)),
 
-    MYTHRIL(5,2500,10,5.0F,30,
+    MYTHRIL(5,2500,10,4.5F,30,
             () -> Ingredient.ofItems(ModItems.PUREFICATED_MYTHRIL)),
 
     ADAMANTITE(6,3000,11,5.5F,20,

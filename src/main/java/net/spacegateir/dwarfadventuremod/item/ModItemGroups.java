@@ -19,8 +19,6 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModBlocks.GARDEN_BENCH)).entries((displayContext, entries) -> {
 
 
-                        entries.add(ModItems.DWARF_STEEL_KNIFE);
-                        entries.add(ModItems.DWARF_STEEL_TRIDENT);
 
                         entries.add(ModItems.DWARF_COPPER_COIN_S);
                         entries.add(ModItems.DWARF_COPPER_COIN_M);
@@ -122,6 +120,8 @@ public class ModItemGroups {
                         entries.add(ModItems.DWARF_STEEL_HOE);
                         entries.add(ModItems.DWARF_STEEL_SWORD);
                         entries.add(ModItems.DWARF_STEEL_PAXEL);
+                        entries.add(ModItems.DWARF_STEEL_KNIFE);
+                        entries.add(ModItems.DWARF_STEEL_SHEARS);
 
                         entries.add(ModItems.DWARF_STEEL_HELMET);
                         entries.add(ModItems.DWARF_STEEL_CHESTPLATE);
@@ -134,6 +134,8 @@ public class ModItemGroups {
                         entries.add(ModItems.DWARF_GOLD_HOE);
                         entries.add(ModItems.DWARF_GOLD_SWORD);
                         entries.add(ModItems.DWARF_GOLD_PAXEL);
+                        entries.add(ModItems.DWARF_GOLD_KNIFE);
+                        entries.add(ModItems.DWARF_GOLD_SHEARS);
 
                         entries.add(ModItems.DWARF_GOLD_HELMET);
                         entries.add(ModItems.DWARF_GOLD_CHESTPLATE);
@@ -146,6 +148,8 @@ public class ModItemGroups {
                         entries.add(ModItems.AER_HOE);
                         entries.add(ModItems.AER_SWORD);
                         entries.add(ModItems.AER_PAXEL);
+                        entries.add(ModItems.AER_KNIFE);
+                        entries.add(ModItems.AER_SHEARS);
 
                         entries.add(ModItems.AER_HELMET);
                         entries.add(ModItems.AER_CHESTPLATE);
@@ -158,6 +162,8 @@ public class ModItemGroups {
                         entries.add(ModItems.IGNIS_HOE);
                         entries.add(ModItems.IGNIS_SWORD);
                         entries.add(ModItems.IGNIS_PAXEL);
+                        entries.add(ModItems.IGNIS_KNIFE);
+                        entries.add(ModItems.IGNIS_SHEARS);
 
                         entries.add(ModItems.IGNIS_HELMET);
                         entries.add(ModItems.IGNIS_CHESTPLATE);
@@ -170,6 +176,8 @@ public class ModItemGroups {
                         entries.add(ModItems.AQUA_HOE);
                         entries.add(ModItems.AQUA_SWORD);
                         entries.add(ModItems.AQUA_PAXEL);
+                        entries.add(ModItems.AQUA_KNIFE);
+                        entries.add(ModItems.AQUA_SHEARS);
 
                         entries.add(ModItems.AQUA_HELMET);
                         entries.add(ModItems.AQUA_CHESTPLATE);
@@ -182,6 +190,8 @@ public class ModItemGroups {
                         entries.add(ModItems.TERA_HOE);
                         entries.add(ModItems.TERA_SWORD);
                         entries.add(ModItems.TERA_PAXEL);
+                        entries.add(ModItems.TERA_KNIFE);
+                        entries.add(ModItems.TERA_SHEARS);
 
                         entries.add(ModItems.TERA_HELMET);
                         entries.add(ModItems.TERA_CHESTPLATE);
@@ -194,6 +204,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MAGIRITE_HOE);
                         entries.add(ModItems.MAGIRITE_SWORD);
                         entries.add(ModItems.MAGIRITE_PAXEL);
+                        entries.add(ModItems.MAGIRITE_KNIFE);
+                        entries.add(ModItems.MAGIRITE_SHEARS);
 
                         entries.add(ModItems.MAGIRITE_HELMET);
                         entries.add(ModItems.MAGIRITE_CHESTPLATE);
@@ -206,6 +218,8 @@ public class ModItemGroups {
                         entries.add(ModItems.MYTHRIL_HOE);
                         entries.add(ModItems.MYTHRIL_SWORD);
                         entries.add(ModItems.MYTHRIL_PAXEL);
+                        entries.add(ModItems.MYTHRIL_KNIFE);
+                        entries.add(ModItems.MYTHRIL_SHEARS);
 
                         entries.add(ModItems.MYTHRIL_HELMET);
                         entries.add(ModItems.MYTHRIL_CHESTPLATE);
@@ -218,6 +232,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ADAMANTITE_HOE);
                         entries.add(ModItems.ADAMANTITE_SWORD);
                         entries.add(ModItems.ADAMANTITE_PAXEL);
+                        entries.add(ModItems.ADAMANTITE_KNIFE);
+                        entries.add(ModItems.ADAMANTITE_SHEARS);
 
                         entries.add(ModItems.ADAMANTITE_HELMET);
                         entries.add(ModItems.ADAMANTITE_CHESTPLATE);
@@ -230,6 +246,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ORIKALKUM_HOE);
                         entries.add(ModItems.ORIKALKUM_SWORD);
                         entries.add(ModItems.ORIKALKUM_PAXEL);
+                        entries.add(ModItems.ORIKALKUM_KNIFE);
+                        entries.add(ModItems.ORIKALKUM_SHEARS);
 
                         entries.add(ModItems.ORIKALKUM_HELMET);
                         entries.add(ModItems.ORIKALKUM_CHESTPLATE);
@@ -242,6 +260,8 @@ public class ModItemGroups {
                         entries.add(ModItems.DRAGON_BANE_HOE);
                         entries.add(ModItems.DRAGON_BANE_SWORD);
                         entries.add(ModItems.DRAGON_BANE_PAXEL);
+                        entries.add(ModItems.DRAGON_BANE_KNIFE);
+                        entries.add(ModItems.DRAGON_BANE_SHEARS);
 
                         entries.add(ModItems.DRAGON_BANE_HELMET);
                         entries.add(ModItems.DRAGON_BANE_CHESTPLATE);
