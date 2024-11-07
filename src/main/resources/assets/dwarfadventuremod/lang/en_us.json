@@ -29,6 +29,18 @@
   "item.dwarfadventuremod.clump_of_orikalkum": "Clump of Orikalkum",
   "item.dwarfadventuremod.clump_of_dragon_bane": "Clump of Dragon Bane",
 
+  "item.dwarfadventuremod.dwarf_steel_fire_charge": "Dwarf Steel Fire Charge",
+  "item.dwarfadventuremod.dwarf_gold_fire_charge": "Dwarf Gold Fire Charge",
+  "item.dwarfadventuremod.aer_fire_charge": "Aer Fire Charge",
+  "item.dwarfadventuremod.ignis_fire_charge": "Ignis Fire Charge",
+  "item.dwarfadventuremod.aqua_fire_charge": "Aqua Fire Charge",
+  "item.dwarfadventuremod.tera_fire_charge": "Tera Fire Charge",
+  "item.dwarfadventuremod.magirite_fire_charge": "Magirite Fire Charge",
+  "item.dwarfadventuremod.mythril_fire_charge": "Mythril Fire Charge",
+  "item.dwarfadventuremod.adamantite_fire_charge": "Adamantite Fire Charge",
+  "item.dwarfadventuremod.orikalkum_fire_charge": "Orikalkum Fire Charge",
+  "item.dwarfadventuremod.dragon_bane_fire_charge": "Dragon Bane Fire Charge",
+
   "entity.minecraft.villager.horticulturist": "Horticulturist",
   "entity.minecraft.villager.floraculturist": "Floraculturist",
   "entity.minecraft.villager.iron_master_blacksmith": "Iron Master Blacksmith",

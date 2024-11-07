@@ -4814,6 +4814,215 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_PAXEL)));
 
+        //Dwarf Steel Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.HOT_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_SHEARS)));
+
+        //Dwarf Gold Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_SHEARS)));
+
+        //Aer Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_SHEARS)));
+
+        //Ignis Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_SHEARS)));
+
+        //Aqua Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_SHEARS)));
+
+        //Tera Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_SHEARS)));
+
+        //Magirite Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_SHEARS)));
+
+        //Mythril Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_SHEARS)));
+
+        //Adamantite Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_SHEARS)));
+
+        //Orikalkum Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_SHEARS)));
+
+        //Dragon Bane Shears
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_SHEARS, 1)
+                .pattern("I ")
+                .pattern(" I")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_SHEARS)));
+
+        //Dwarf Steel Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.HOT_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_KNIFE)));
+
+        //Dwarf Gold Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_KNIFE)));
+
+        //Aer Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AER))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_KNIFE)));
+
+        //Ignis Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_KNIFE)));
+
+        //Aqua Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_KNIFE)));
+
+        //Tera Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_KNIFE)));
+
+        //Magirite Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_KNIFE)));
+
+        //Mythril Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_KNIFE)));
+
+        //Adamantite Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_KNIFE)));
+
+        //Orikalkum Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_KNIFE)));
+
+        //Dragon Bane Knife
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_KNIFE, 1)
+                .pattern("  I")
+                .pattern(" II")
+                .pattern("HI ")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('H', ModItems.HANDLE_PART)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_KNIFE)));
+
 
         // Dwarf Steel Helmet
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_HELMET, 1)

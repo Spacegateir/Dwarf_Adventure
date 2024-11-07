@@ -301,6 +301,18 @@ public class ModItemGroups {
                         entries.add(ModItems.CLUMP_OF_DRAGON_BANE);
                         entries.add(ModItems.CLUMP_OF_DWARF_GOLD);
 
+                        entries.add(ModItems.DWARF_STEEL_FIRE_CHARGE);
+                        entries.add(ModItems.DWARF_GOLD_FIRE_CHARGE);
+                        entries.add(ModItems.AER_FIRE_CHARGE);
+                        entries.add(ModItems.IGNIS_FIRE_CHARGE);
+                        entries.add(ModItems.AQUA_FIRE_CHARGE);
+                        entries.add(ModItems.TERA_FIRE_CHARGE);
+                        entries.add(ModItems.MAGIRITE_FIRE_CHARGE);
+                        entries.add(ModItems.MYTHRIL_FIRE_CHARGE);
+                        entries.add(ModItems.ADAMANTITE_FIRE_CHARGE);
+                        entries.add(ModItems.ORIKALKUM_FIRE_CHARGE);
+                        entries.add(ModItems.DRAGON_BANE_FIRE_CHARGE);
+
                         entries.add(ModItems.RAW_DWARF_STEEL);
                         entries.add(ModItems.RAW_MAGIRITE);
                         entries.add(ModItems.RAW_ADAMANTITE);

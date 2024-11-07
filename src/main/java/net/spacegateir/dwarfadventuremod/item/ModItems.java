@@ -436,6 +436,29 @@ public class ModItems {
     public static final Item CLUMP_OF_DWARF_GOLD = registerItem("clump_of_dwarf_gold", new Item(new FabricItemSettings()));
     public static final Item MOLTEN_DWARF_GOLD_INGOT = registerItem("molten_dwarf_gold_ingot", new Item(new FabricItemSettings()));
 
+    public static final Item DWARF_STEEL_FIRE_CHARGE = registerItem("dwarf_steel_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item DWARF_GOLD_FIRE_CHARGE = registerItem("dwarf_gold_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item AER_FIRE_CHARGE = registerItem("aer_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item IGNIS_FIRE_CHARGE = registerItem("ignis_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item AQUA_FIRE_CHARGE = registerItem("aqua_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item TERA_FIRE_CHARGE = registerItem("tera_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item MAGIRITE_FIRE_CHARGE = registerItem("magirite_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item MYTHRIL_FIRE_CHARGE = registerItem("mythril_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item ADAMANTITE_FIRE_CHARGE = registerItem("adamantite_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item ORIKALKUM_FIRE_CHARGE = registerItem("orikalkum_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+    public static final Item DRAGON_BANE_FIRE_CHARGE = registerItem("dragon_bane_fire_charge",
+            new FireChargeItem(new FabricItemSettings()));
+
 
 
 

@@ -463,6 +463,18 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.CLUMP_OF_DRAGON_BANE, Models.GENERATED);
         itemModelGenerator.register(ModItems.CLUMP_OF_DWARF_GOLD, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.DWARF_STEEL_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DWARF_GOLD_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AER_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IGNIS_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AQUA_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.TERA_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MAGIRITE_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MYTHRIL_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ADAMANTITE_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ORIKALKUM_FIRE_CHARGE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DRAGON_BANE_FIRE_CHARGE, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.RAW_DWARF_STEEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_MAGIRITE, Models.GENERATED);
         itemModelGenerator.register(ModItems.RAW_ADAMANTITE, Models.GENERATED);
