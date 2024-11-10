@@ -2,17 +2,25 @@ package net.spacegateir.dwarfadventuremod.util;
 
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.block.Blocks;
+import net.minecraft.enchantment.EnchantmentHelper;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
 import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.KilledByPlayerLootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
+import net.minecraft.loot.context.LootContext;
 import net.minecraft.loot.entry.ItemEntry;
-import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.function.*;
 import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
+import net.spacegateir.dwarfadventuremod.enchantment.ModEnchantments;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
+import org.spongepowered.include.com.google.common.collect.ImmutableMap;
+
+import java.util.Map;
 
 public class ModLootTableModifiers {
 

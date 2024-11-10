@@ -102,10 +102,10 @@ public class KnifeItem extends SwordItem {
     @Override
     public boolean postHit(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         // Apply various status effects to the target
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 100, 2), attacker);
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 2), attacker);
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 2), attacker);
-        target.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 100, 2), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.GLOWING, 100, 1), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 1), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 100, 1), attacker);
+        target.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 100, 1), attacker);
 
         return super.postHit(stack, target, attacker);
     }
