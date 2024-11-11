@@ -11,6 +11,8 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.item.ToolItem;
+import net.minecraft.registry.tag.BlockTags; // Corrected import
 
 import java.util.HashSet;
 import java.util.Set;
@@ -54,7 +56,7 @@ public class VeinMinerEnchantment extends Enchantment {
         int totalBlocksMined = veinMine(world, pos, blockState.getBlock(), minedBlocks, player, maxBlocks, areaRadius);
 
         // Dynamically calculate the cooldown duration based on the number of blocks mined
-        int cooldownDuration = totalBlocksMined * 1; // 5 ticks per block (adjust as needed)
+        int cooldownDuration = totalBlocksMined * 1; // 1 tick per block (adjust as needed)
 
         // Set cooldown on the item after performing the vein mining action
         player.getItemCooldownManager().set(item.getItem(), cooldownDuration);
@@ -65,13 +67,18 @@ public class VeinMinerEnchantment extends Enchantment {
         ItemStack tool = player.getMainHandStack();
         int totalBlocksMined = 0;
 
+        // Check if the tool is a pickaxe
+        if (!(tool.getItem() instanceof ToolItem)) {
+            return totalBlocksMined; // Exit if the tool isn't a pickaxe
+        }
+
         // Iterate over all positions within the spherical area of effect
         for (BlockPos pos : BlockPos.iterateOutwards(origin, areaRadius, areaRadius, areaRadius)) {
             // Check if the block is within the spherical radius and matches the block type
             if (minedBlocks.size() < maxBlocks
                     && !minedBlocks.contains(pos)
                     && pos.getSquaredDistance(origin) <= areaRadius * areaRadius
-                    && world.getBlockState(pos).isOf(block)) {
+                    && isPickaxeMinable(world.getBlockState(pos))) {
 
                 // Add block to mined set and break it
                 minedBlocks.add(pos);
@@ -87,10 +94,16 @@ public class VeinMinerEnchantment extends Enchantment {
         return totalBlocksMined; // Return the number of blocks mined
     }
 
+    // Check if the block is pickaxe minable (like ores or blocks in the pickaxe tag)
+    private boolean isPickaxeMinable(BlockState blockState) {
+        return blockState.isIn(BlockTags.PICKAXE_MINEABLE);
+    }
+
     @Override
     public boolean canAccept(Enchantment other) {
         return !(other instanceof MendingEnchantment || other instanceof LumberJackEnchantment || other instanceof PlantShrederEnchantment)
-                && super.canAccept(other);}
+                && super.canAccept(other);
+    }
 
     @Override
     public boolean isTreasure() {
