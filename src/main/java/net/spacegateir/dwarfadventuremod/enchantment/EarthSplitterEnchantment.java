@@ -4,15 +4,13 @@ import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentTarget;
 import net.minecraft.enchantment.MendingEnchantment;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.item.AxeItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
-public class LumberJackEnchantment extends Enchantment {
+public class EarthSplitterEnchantment extends Enchantment {
 
     private final ModEnchantmentTarget modTarget;
 
-    public LumberJackEnchantment(Rarity weight, ModEnchantmentTarget modTarget, EquipmentSlot... slotTypes) {
+    public EarthSplitterEnchantment(Rarity weight, ModEnchantmentTarget modTarget, EquipmentSlot... slotTypes) {
         super(weight, EnchantmentTarget.BREAKABLE, slotTypes); // Use a generic target like BREAKABLE
         this.modTarget = modTarget;
     }
@@ -29,13 +27,13 @@ public class LumberJackEnchantment extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 2;
+        return 3;
     }
 
     @Override
     public boolean canAccept(Enchantment other) {
         return !(other instanceof MendingEnchantment || other instanceof PlantShrederEnchantment ||
-                other instanceof VeinMinerEnchantment || other instanceof EarthSplitterEnchantment )
+                other instanceof LumberJackEnchantment || other instanceof VeinMinerEnchantment)
                 && super.canAccept(other);}
 
     @Override

@@ -40,7 +40,8 @@ public class PlantShrederEnchantment extends Enchantment {
 
     @Override
     public boolean canAccept(Enchantment other) {
-        return !(other instanceof MendingEnchantment || other instanceof LumberJackEnchantment || other instanceof VeinMinerEnchantment)
+        return !(other instanceof MendingEnchantment || other instanceof EarthSplitterEnchantment ||
+                other instanceof LumberJackEnchantment || other instanceof VeinMinerEnchantment)
                 && super.canAccept(other);}
 
 

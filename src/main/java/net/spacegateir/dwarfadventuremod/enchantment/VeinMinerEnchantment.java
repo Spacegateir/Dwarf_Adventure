@@ -101,7 +101,8 @@ public class VeinMinerEnchantment extends Enchantment {
 
     @Override
     public boolean canAccept(Enchantment other) {
-        return !(other instanceof MendingEnchantment || other instanceof LumberJackEnchantment || other instanceof PlantShrederEnchantment)
+        return !(other instanceof MendingEnchantment || other instanceof EarthSplitterEnchantment ||
+                other instanceof LumberJackEnchantment || other instanceof PlantShrederEnchantment)
                 && super.canAccept(other);
     }
 

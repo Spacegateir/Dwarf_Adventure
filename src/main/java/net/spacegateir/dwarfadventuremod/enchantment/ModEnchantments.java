@@ -22,6 +22,10 @@ public class ModEnchantments {
             new PlantShrederEnchantment(Enchantment.Rarity.VERY_RARE,
                     ModEnchantmentTarget.HOE_SHEARS_PAXEL, EquipmentSlot.MAINHAND));
 
+    public static final Enchantment EARTH_SPLITTER = register("earth_splitter",
+            new EarthSplitterEnchantment(Enchantment.Rarity.VERY_RARE,
+                    ModEnchantmentTarget.HOE_SHOVEL_PAXEL, EquipmentSlot.MAINHAND));
+
     public static final Enchantment LIGHTNING_STRIKER = register("lightning_striker",
             new LightningStrikerEnchantment(Enchantment.Rarity.VERY_RARE,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));

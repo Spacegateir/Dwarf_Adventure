@@ -27,6 +27,13 @@ public class ModEnchantmentTarget {
         }
     };
 
+    public static final ModEnchantmentTarget HOE_SHOVEL_PAXEL = new ModEnchantmentTarget() {
+        @Override
+        public boolean isAcceptableItem(Item item) {
+            return item instanceof HoeItem || item instanceof ShovelItem || item instanceof PaxelItem;
+        }
+    };
+
     // Default constructor
     protected ModEnchantmentTarget() {}
 
