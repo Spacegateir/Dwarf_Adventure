@@ -22,8 +22,16 @@ public class VeinMinerEnchantment extends Enchantment {
     private static final int BLOCKS_PER_LEVEL = 15; // Additional blocks per level
     private static final int RADIUS_PER_LEVEL = 10; // Additional radius per level
 
-    protected VeinMinerEnchantment(Rarity weight, EnchantmentTarget target, EquipmentSlot... slotTypes) {
-        super(weight, target, slotTypes);
+    private final ModEnchantmentTarget modTarget;
+
+    public VeinMinerEnchantment(Rarity weight, ModEnchantmentTarget modTarget, EquipmentSlot... slotTypes) {
+        super(weight, EnchantmentTarget.BREAKABLE, slotTypes); // Use a generic target like BREAKABLE
+        this.modTarget = modTarget;
+    }
+
+    @Override
+    public boolean isAcceptableItem(ItemStack stack) {
+        return modTarget.isAcceptableItem(stack.getItem()); // Check if item matches the custom target
     }
 
     @Override
@@ -81,8 +89,8 @@ public class VeinMinerEnchantment extends Enchantment {
 
     @Override
     public boolean canAccept(Enchantment other) {
-        return !(other instanceof MendingEnchantment) && super.canAccept(other);
-    }
+        return !(other instanceof MendingEnchantment || other instanceof LumberJackEnchantment || other instanceof PlantShrederEnchantment)
+                && super.canAccept(other);}
 
     @Override
     public boolean isTreasure() {

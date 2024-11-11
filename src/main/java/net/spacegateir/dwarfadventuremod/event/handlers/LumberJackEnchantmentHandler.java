@@ -16,20 +16,21 @@ public class LumberJackEnchantmentHandler {
             ItemStack tool = player.getMainHandStack();
             int level = EnchantmentHelper.getLevel(ModEnchantments.LUMBER_JACK, tool);
 
-            // Check if the tool is on cooldown
+            // Check if the tool has the Lumber Jack enchantment and isn't on cooldown
             if (level > 0 && !player.getItemCooldownManager().isCoolingDown(tool.getItem())) {
                 int blocksBroken = 0;
 
+                // Perform tree chopping based on enchantment level
                 if (level == 1) {
                     blocksBroken = chopTree(world, pos); // Level 1 behavior: only vertical
                 } else if (level == 2) {
                     blocksBroken = chopTreeWithRadius(world, pos, 2); // Start with a radius of 2
                 }
 
-                // Apply durability damage equal to the number of blocks broken
+                // Apply durability damage based on the number of blocks broken
                 tool.damage(blocksBroken, player, (p) -> p.sendToolBreakStatus(player.getActiveHand()));
 
-                // Set cooldown on the item based on the number of blocks broken
+                // Set cooldown for the specific tool used to break the block
                 player.getItemCooldownManager().set(tool.getItem(), blocksBroken);
             }
             return true;
@@ -43,7 +44,7 @@ public class LumberJackEnchantmentHandler {
 
         if (isLog(state)) {
             world.breakBlock(pos, true);
-            blocksBroken += 1 + chopTree(world, pos.up());
+            blocksBroken += 1 + chopTree(world, pos.up()); // Recursively chop upwards
         }
 
         return blocksBroken;

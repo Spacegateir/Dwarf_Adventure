@@ -11,6 +11,7 @@ import net.spacegateir.dwarfadventuremod.enchantment.ModEnchantments;
 import net.spacegateir.dwarfadventuremod.enchantment.VeinMinerEnchantment;
 import net.spacegateir.dwarfadventuremod.event.ModEventHandlers;
 import net.spacegateir.dwarfadventuremod.event.handlers.LumberJackEnchantmentHandler;
+import net.spacegateir.dwarfadventuremod.event.handlers.PlantShrederEnchantmentHandler;
 import net.spacegateir.dwarfadventuremod.event.player.EventHandlers;
 import net.spacegateir.dwarfadventuremod.item.ModItemGroups;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
@@ -42,6 +43,7 @@ public class DwarfAdventureMod implements ModInitializer {
 		ModLootTableModifiers.modifyLootTables();
 		ModEnchantments.registerModEnchantments();
 		LumberJackEnchantmentHandler.register();
+		PlantShrederEnchantmentHandler.register();
 
 
 		AncientSnowDropConversions.registerEvents();
