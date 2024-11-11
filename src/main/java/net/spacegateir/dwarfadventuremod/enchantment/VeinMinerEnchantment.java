@@ -27,27 +27,35 @@ public class VeinMinerEnchantment extends Enchantment {
     }
 
     @Override
-    public boolean canAccept(Enchantment other) {
-        return !(other instanceof MendingEnchantment) && super.canAccept(other);
-    }
-
-    @Override
     public int getMaxLevel() {
         return 3; // Set max level to 3
     }
 
     public void mineVein(BlockState blockState, BlockPos pos, World world, PlayerEntity player, int level) {
+        // Check if the cooldown is active. If it is, stop the enchantment from working
+        ItemStack item = player.getMainHandStack();
+        if (player.getItemCooldownManager().isCoolingDown(item.getItem())) {
+            return; // Exit early if the cooldown is active
+        }
+
         // Calculate max blocks and radius based on the enchantment level
         int maxBlocks = BASE_MAX_BLOCKS + (BLOCKS_PER_LEVEL * (level - 1));
         int areaRadius = BASE_AREA_RADIUS + (RADIUS_PER_LEVEL * (level - 1));
 
         Set<BlockPos> minedBlocks = new HashSet<>();
-        veinMine(world, pos, blockState.getBlock(), minedBlocks, player, maxBlocks, areaRadius);
+        int totalBlocksMined = veinMine(world, pos, blockState.getBlock(), minedBlocks, player, maxBlocks, areaRadius);
+
+        // Dynamically calculate the cooldown duration based on the number of blocks mined
+        int cooldownDuration = totalBlocksMined * 1; // 5 ticks per block (adjust as needed)
+
+        // Set cooldown on the item after performing the vein mining action
+        player.getItemCooldownManager().set(item.getItem(), cooldownDuration);
     }
 
-    private void veinMine(World world, BlockPos origin, Block block, Set<BlockPos> minedBlocks, PlayerEntity player, int maxBlocks, int areaRadius) {
+    private int veinMine(World world, BlockPos origin, Block block, Set<BlockPos> minedBlocks, PlayerEntity player, int maxBlocks, int areaRadius) {
         // Get the player's current tool
         ItemStack tool = player.getMainHandStack();
+        int totalBlocksMined = 0;
 
         // Iterate over all positions within the spherical area of effect
         for (BlockPos pos : BlockPos.iterateOutwards(origin, areaRadius, areaRadius, areaRadius)) {
@@ -59,6 +67,7 @@ public class VeinMinerEnchantment extends Enchantment {
 
                 // Add block to mined set and break it
                 minedBlocks.add(pos);
+                totalBlocksMined++; // Increment the count of mined blocks
                 if (world instanceof ServerWorld) {
                     world.breakBlock(pos, true, player);
                     // Decrease the durability of the tool
@@ -66,11 +75,18 @@ public class VeinMinerEnchantment extends Enchantment {
                 }
             }
         }
+
+        return totalBlocksMined; // Return the number of blocks mined
+    }
+
+    @Override
+    public boolean canAccept(Enchantment other) {
+        return !(other instanceof MendingEnchantment) && super.canAccept(other);
     }
 
     @Override
     public boolean isTreasure() {
-        return true;
+        return false;
     }
 
     @Override

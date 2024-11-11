@@ -14,6 +14,10 @@ public class ModEnchantments {
             new VeinMinerEnchantment(Enchantment.Rarity.VERY_RARE,
                     EnchantmentTarget.DIGGER, EquipmentSlot.MAINHAND));
 
+    public static final Enchantment LUMBER_JACK = register("lumber_jack",
+            new LumberJackEnchantment(Enchantment.Rarity.VERY_RARE,
+                    EnchantmentTarget.DIGGER, EquipmentSlot.MAINHAND));
+
     public static final Enchantment LIGHTNING_STRIKER = register("lightning_striker",
             new LightningStrikerEnchantment(Enchantment.Rarity.VERY_RARE,
                     EnchantmentTarget.WEAPON, EquipmentSlot.MAINHAND));
