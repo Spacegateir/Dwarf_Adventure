@@ -294,6 +294,7 @@
     "dwarfadventuremod:dwarf_gold_end_stone_ore",
     "dwarfadventuremod:dwarf_gold_andesite_ore",
     "dwarfadventuremod:dwarf_gold_diorite_ore",
-    "dwarfadventuremod:dwarf_gold_granite_ore"
+    "dwarfadventuremod:dwarf_gold_granite_ore",
+    "dwarfadventuremod:cursed_block"
   ]
 }

@@ -22,6 +22,9 @@ import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
 
+    public static final Block CURSED_BLOCK = registerBlock("cursed_block",
+            new CursedBlock(FabricBlockSettings.copyOf(Blocks.SCULK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
     public static final Block CASH_REGISTER = registerBlock("cash_register",
             new CashRegisterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
     public static final Block WEAPON_RACK = registerBlock("weapon_rack",

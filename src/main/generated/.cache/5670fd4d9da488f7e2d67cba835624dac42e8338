@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-10T11:11:23.4380172	Dwarf Adventure Mod/Block Loot Tables
+// 1.20.1	2024-11-13T19:33:50.6634463	Dwarf Adventure Mod/Block Loot Tables
 97884513609c7ea3a0f5ae113315a199c3176fd4 data\dwarfadventuremod\loot_tables\blocks\raw_orikalkum_pressure_plate.json
 46ab4d4f2f0a80b11b97e7d3fd7eed1b63674c9f data\dwarfadventuremod\loot_tables\blocks\raw_dwarf_steel_block.json
 d47cc390b5300c8327b807fa19262e673607b841 data\dwarfadventuremod\loot_tables\blocks\potted_ancient_hawthorn_flower.json
@@ -41,6 +41,7 @@ b89bdb4612c833e8c2345546cec26921b3a0f310 data\dwarfadventuremod\loot_tables\bloc
 60ab3e48a19e44d185c035105c2eba046ba64855 data\dwarfadventuremod\loot_tables\blocks\dragon_bane_wall.json
 b13c62714ec0704218102d25e17251b5cb4f5243 data\dwarfadventuremod\loot_tables\blocks\dwarf_gold_stone_ore.json
 52b354180208ba528688b68611ec97e833add2fa data\dwarfadventuremod\loot_tables\blocks\budding_mythril_stone.json
+eb7284cc7339bc49a932d5e3f3063201263fff08 data\dwarfadventuremod\loot_tables\blocks\cursed_block.json
 9cbcfd8141bd1660fd86f379b9d72ad099cbb4dd data\dwarfadventuremod\loot_tables\blocks\diorite_dwarf_steel_ore.json
 78c4d04f7da9a63199016518b26b29b7506396eb data\dwarfadventuremod\loot_tables\blocks\ancient_spiderlily_flower.json
 78e447c6a2fbecd5942ccb9da7dccef1b3beb475 data\dwarfadventuremod\loot_tables\blocks\aer_button.json

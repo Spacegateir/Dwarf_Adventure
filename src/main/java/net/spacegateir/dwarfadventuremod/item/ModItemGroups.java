@@ -676,6 +676,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DWARF_GOLD_DOOR);
                         entries.add(ModBlocks.DWARF_GOLD_TRAPDOOR);
 
+                        entries.add(ModBlocks.CURSED_BLOCK);
+
 
 
                     }).build());

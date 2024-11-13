@@ -409,6 +409,8 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DWARF_GOLD_DIORITE_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.DWARF_GOLD_GRANITE_ORE);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CURSED_BLOCK);
+
 
     }
 
@@ -667,6 +669,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.DRAGON_BANE_BOOTS));
+
+
+
 
 
 

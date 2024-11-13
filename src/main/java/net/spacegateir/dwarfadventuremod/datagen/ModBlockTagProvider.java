@@ -354,7 +354,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DWARF_GOLD_END_STONE_ORE)
                 .add(ModBlocks.DWARF_GOLD_ANDESITE_ORE)
                 .add(ModBlocks.DWARF_GOLD_DIORITE_ORE)
-                .add(ModBlocks.DWARF_GOLD_GRANITE_ORE);
+                .add(ModBlocks.DWARF_GOLD_GRANITE_ORE)
+
+                .add(ModBlocks.CURSED_BLOCK);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -370,7 +372,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE);
 
-        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE);
+        getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
+                .add(ModBlocks.CURSED_BLOCK);
 
 
 
@@ -635,6 +638,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORIKALKUM_FENCE_GATE)
                 .add(ModBlocks.ORIKALKUM_WALL)
 
+                .add(ModBlocks.CURSED_BLOCK)
 
                 .add(ModBlocks.DRAGON_BANE_STONE_ORE)
                 .add(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE)
