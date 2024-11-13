@@ -45,18 +45,28 @@ public class CursedBlock extends Block {
                         StatusEffectInstance weakness = new StatusEffectInstance(
                                 StatusEffects.WEAKNESS,
                                 20000,
-                                2,
+                                1,
                                 false,
                                 true
                         );
                         player.addStatusEffect(weakness);
 
+                        // Apply Darkness effect (separate from Weakness)
+                        StatusEffectInstance darkness = new StatusEffectInstance(
+                                StatusEffects.DARKNESS,
+                                200,
+                                1,
+                                false,
+                                true
+                        );
+                        player.addStatusEffect(darkness);
+
                         // Send message to the player
-                        player.sendMessage(Text.of("You have been cursed"), true);
+                        player.sendMessage(Text.of("You have been cursed. Purify the area!"), true);
 
                         // Calculate distance and set heartbeat volume based on proximity
                         double distance = player.getPos().distanceTo(Vec3d.ofCenter(pos));
-                        float maxVolume = 5.0f;
+                        float maxVolume = 5f;  // Max volume for heartbeat sound
                         float volume = Math.max(0, maxVolume - (float)(distance / radius));
 
                         // Play heartbeat sound at adjusted volume
@@ -84,6 +94,6 @@ public class CursedBlock extends Block {
     }
 
     public void scheduleTick(ServerWorld world, BlockPos pos) {
-        world.scheduleBlockTick(pos, this, 20);
+        world.scheduleBlockTick(pos, this, 20); // Schedule the next random tick in 20 game ticks (~1 second)
     }
 }
