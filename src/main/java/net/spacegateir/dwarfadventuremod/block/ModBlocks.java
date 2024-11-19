@@ -18,12 +18,38 @@ import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilBloc
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilClusterBlock;
 import net.spacegateir.dwarfadventuremod.block.custom.*;
 import net.spacegateir.dwarfadventuremod.block.custom.GlassLikeBlock;
+import net.spacegateir.dwarfadventuremod.block.traps.CourseDirtTrapBlock;
+import net.spacegateir.dwarfadventuremod.block.traps.CursedBlock;
+import net.spacegateir.dwarfadventuremod.block.traps.DeepslateTrapBlock;
+import net.spacegateir.dwarfadventuremod.block.traps.StoneTrapBlock;
 import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
 
     public static final Block CURSED_BLOCK = registerBlock("cursed_block",
-            new CursedBlock(FabricBlockSettings.copyOf(Blocks.SCULK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+            new CursedBlock(FabricBlockSettings.copyOf(Blocks.SCULK).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block COURSE_DIRT_TRAP_BLOCK = registerBlock("course_dirt_trap_block",
+            new CourseDirtTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block COURSE_DIRT_TRAP_BLOCK_SPIKES = registerBlock("course_dirt_trap_block_spikes",
+            new CourseDirtTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block STONE_TRAP_BLOCK = registerBlock("stone_trap_block",
+            new StoneTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STONE_TRAP_BLOCK_SPIKES = registerBlock("stone_trap_block_spikes",
+            new StoneTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block DEEPSLATE_TRAP_BLOCK = registerBlock("deepslate_trap_block",
+            new DeepslateTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block DEEPSLATE_TRAP_BLOCK_SPIKES = registerBlock("deepslate_trap_block_spikes",
+            new DeepslateTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+
+
+
+
+
+
 
     public static final Block CASH_REGISTER = registerBlock("cash_register",
             new CashRegisterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));

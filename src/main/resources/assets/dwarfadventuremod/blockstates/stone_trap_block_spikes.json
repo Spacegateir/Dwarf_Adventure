@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dwarfadventuremod:block/stone_trap_block_spikes"
+    }
+  }
+}

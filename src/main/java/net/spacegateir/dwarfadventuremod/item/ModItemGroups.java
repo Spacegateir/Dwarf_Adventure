@@ -677,6 +677,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DWARF_GOLD_TRAPDOOR);
 
                         entries.add(ModBlocks.CURSED_BLOCK);
+                        entries.add(ModBlocks.COURSE_DIRT_TRAP_BLOCK);
+                        entries.add(ModBlocks.STONE_TRAP_BLOCK);
+                        entries.add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
 
 
 

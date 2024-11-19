@@ -693,5 +693,11 @@
   "enchantment.dwarfadventuremod.plant_shreder": "Plant Shreder",
   "enchantment.dwarfadventuremod.earth_splitter": "Earth Splitter",
 
-  "block.dwarfadventuremod.cursed_block": "Cursed Sculk "
+  "block.dwarfadventuremod.cursed_block": "Cursed Sculk ",
+  "block.dwarfadventuremod.course_dirt_trap_block": "Course Dirt Spike Trap ",
+  "block.dwarfadventuremod.course_dirt_trap_block_spikes": "Course Dirt Spike Trap ",
+  "block.dwarfadventuremod.stone_trap_block": "Stone Spike Trap ",
+  "block.dwarfadventuremod.stone_trap_block_spikes": "Stone Spike Trap ",
+  "block.dwarfadventuremod.deepslate_trap_block": "Deepslate Spike Trap ",
+  "block.dwarfadventuremod.deepslate_trap_block_spikes": "Deepslate Spike Trap "
 }

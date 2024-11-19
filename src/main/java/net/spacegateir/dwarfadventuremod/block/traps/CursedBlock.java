@@ -1,4 +1,4 @@
-package net.spacegateir.dwarfadventuremod.block.custom;
+package net.spacegateir.dwarfadventuremod.block.traps;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

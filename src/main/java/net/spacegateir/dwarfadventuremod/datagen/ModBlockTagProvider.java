@@ -368,7 +368,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STORAGE_CREATE)
                 .add(ModBlocks.STORAGE_CREATE_SMALL)
                 .add(ModBlocks.STORAGE_CREATE_LARGE)
-                .add(ModBlocks.STORAGE_CREATE_DOUBLE);
+                .add(ModBlocks.STORAGE_CREATE_DOUBLE)
+
+                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
+                .add(ModBlocks.STONE_TRAP_BLOCK)
+                .add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE);
 
@@ -639,6 +643,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORIKALKUM_WALL)
 
                 .add(ModBlocks.CURSED_BLOCK)
+                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
+                .add(ModBlocks.STONE_TRAP_BLOCK)
+                .add(ModBlocks.DEEPSLATE_TRAP_BLOCK)
 
                 .add(ModBlocks.DRAGON_BANE_STONE_ORE)
                 .add(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE)

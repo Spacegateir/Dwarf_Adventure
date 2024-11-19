@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-13T19:33:50.6893752	Dwarf Adventure Mod/Recipes
+// 1.20.1	2024-11-19T16:22:18.7146385	Dwarf Adventure Mod/Recipes
 521ccf32c0786c516429db62da63e0688145700a data\dwarfadventuremod\recipes\dwarf_gold_paxel.json
 ac56b8fed063b2969375745b07e7a345701f99f8 data\dwarfadventuremod\advancements\recipes\misc\hot_ingot_from_blasting_dwarf_steel_ingot.json
 bd11923d8f3278eb8cca63e5830e13be6b2dc679 data\dwarfadventuremod\advancements\recipes\misc\aer_axe.json
@@ -888,8 +888,8 @@ c23992a6688f6ac19191459bdfcc5201db12403d data\dwarfadventuremod\advancements\rec
 2e9e1af740dff3029c0f50985f24dfa9d3b525d2 data\dwarfadventuremod\advancements\recipes\misc\aqua_fence_gate.json
 241d8698392a1f630aa4a4aa994446dd9a372c86 data\dwarfadventuremod\recipes\aqua_paxel.json
 babcdbcfb08579fefc0520e83c76b00495862744 data\dwarfadventuremod\recipes\aqua_helmet.json
-1f5e705a959d90007ba5c1d3b3e11daa078f1bea data\dwarfadventuremod\recipes\clump_of_magirite.json
 eb30fd5adfb596a7774fd10aa2a15abf21c2cd70 data\dwarfadventuremod\recipes\cash_register.json
+1f5e705a959d90007ba5c1d3b3e11daa078f1bea data\dwarfadventuremod\recipes\clump_of_magirite.json
 beb20d09b5a7b0445b57550afdff6be3a10da821 data\dwarfadventuremod\advancements\recipes\misc\ancient_larkspur_flower.json
 b00e89331359a077a04ab8b79890660335fe208e data\dwarfadventuremod\advancements\recipes\misc\gray_dye_from_agapanthus_flower.json
 d2530c4038649ed2aeb87ce73b5a80f1cb66d666 data\dwarfadventuremod\advancements\recipes\misc\ignis_leggings.json
