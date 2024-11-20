@@ -356,7 +356,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DWARF_GOLD_DIORITE_ORE)
                 .add(ModBlocks.DWARF_GOLD_GRANITE_ORE)
 
-                .add(ModBlocks.CURSED_BLOCK);
+                .add(ModBlocks.CURSED_BLOCK)
+                .add(ModBlocks.SPEED_BOOSTER_BLOCK)
+                .add(ModBlocks.SPEED_DECELERANT_BLOCK);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -374,7 +376,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STONE_TRAP_BLOCK)
                 .add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
 
-        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE);
+        getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
+
+                .add(ModBlocks.SAND_QUICKSAND)
+                .add(ModBlocks.RED_SAND_QUICKSAND)
+                .add(ModBlocks.GRAVEL_SINKSTONE)
+                .add(ModBlocks.MUD_SINKING_SLUDGE)
+                .add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
 
         getOrCreateTagBuilder(BlockTags.HOE_MINEABLE)
                 .add(ModBlocks.CURSED_BLOCK);
@@ -646,6 +654,13 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
                 .add(ModBlocks.STONE_TRAP_BLOCK)
                 .add(ModBlocks.DEEPSLATE_TRAP_BLOCK)
+                .add(ModBlocks.SPEED_BOOSTER_BLOCK)
+                .add(ModBlocks.SPEED_DECELERANT_BLOCK)
+                .add(ModBlocks.SAND_QUICKSAND)
+                .add(ModBlocks.RED_SAND_QUICKSAND)
+                .add(ModBlocks.GRAVEL_SINKSTONE)
+                .add(ModBlocks.MUD_SINKING_SLUDGE)
+                .add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND)
 
                 .add(ModBlocks.DRAGON_BANE_STONE_ORE)
                 .add(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE)

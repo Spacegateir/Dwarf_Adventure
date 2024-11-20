@@ -52,6 +52,10 @@ public class ModBlocks {
     public static final Block SOUL_SAND_PHANTOM_QUICKSAND = registerBlock("soul_sand_phantom_quicksand",
             new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
 
+    public static final Block SPEED_BOOSTER_BLOCK = registerBlock("speed_booster_block",
+            new SpeedBoosterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SPEED_DECELERANT_BLOCK = registerBlock("speed_decelerant_block",
+            new SpeedDecelerantBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
 
 

@@ -687,6 +687,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MUD_SINKING_SLUDGE);
                         entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
 
+                        entries.add(ModBlocks.SPEED_BOOSTER_BLOCK);
+                        entries.add(ModBlocks.SPEED_DECELERANT_BLOCK);
+
 
 
                     }).build());
