@@ -681,6 +681,12 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STONE_TRAP_BLOCK);
                         entries.add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
 
+                        entries.add(ModBlocks.SAND_QUICKSAND);
+                        entries.add(ModBlocks.RED_SAND_QUICKSAND);
+                        entries.add(ModBlocks.GRAVEL_SINKSTONE);
+                        entries.add(ModBlocks.MUD_SINKING_SLUDGE);
+                        entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
+
 
 
                     }).build());

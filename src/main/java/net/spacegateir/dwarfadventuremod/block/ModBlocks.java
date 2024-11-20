@@ -18,10 +18,7 @@ import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilBloc
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilClusterBlock;
 import net.spacegateir.dwarfadventuremod.block.custom.*;
 import net.spacegateir.dwarfadventuremod.block.custom.GlassLikeBlock;
-import net.spacegateir.dwarfadventuremod.block.traps.CourseDirtTrapBlock;
-import net.spacegateir.dwarfadventuremod.block.traps.CursedBlock;
-import net.spacegateir.dwarfadventuremod.block.traps.DeepslateTrapBlock;
-import net.spacegateir.dwarfadventuremod.block.traps.StoneTrapBlock;
+import net.spacegateir.dwarfadventuremod.block.traps.*;
 import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
@@ -43,6 +40,17 @@ public class ModBlocks {
             new DeepslateTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block DEEPSLATE_TRAP_BLOCK_SPIKES = registerBlock("deepslate_trap_block_spikes",
             new DeepslateTrapBlock(FabricBlockSettings.copyOf(Blocks.STONE).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block SAND_QUICKSAND = registerBlock("sand_quicksand",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block RED_SAND_QUICKSAND = registerBlock("red_sand_quicksand",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.RED_SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block GRAVEL_SINKSTONE = registerBlock("gravel_sinkstone",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.GRAVEL).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block MUD_SINKING_SLUDGE = registerBlock("mud_sinking_sludge",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.MUD).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
+    public static final Block SOUL_SAND_PHANTOM_QUICKSAND = registerBlock("soul_sand_phantom_quicksand",
+            new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
 
 
 

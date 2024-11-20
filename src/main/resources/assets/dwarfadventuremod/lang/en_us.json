@@ -685,7 +685,8 @@
   "item.dwarfadventuremod.dwarf_gold_coin_l": "Large Dwarf Gold Coin",
   "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin",
 
-
+  "effect.dwarfadventuremod.slimey": "Sticky Feat",
+  "effect.dwarfadventuremod.disorient": "Disorient",
 
   "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
   "enchantment.dwarfadventuremod.vein_miner": "Vein Miner",
@@ -699,5 +700,11 @@
   "block.dwarfadventuremod.stone_trap_block": "Stone Spike Trap ",
   "block.dwarfadventuremod.stone_trap_block_spikes": "Stone Spike Trap ",
   "block.dwarfadventuremod.deepslate_trap_block": "Deepslate Spike Trap ",
-  "block.dwarfadventuremod.deepslate_trap_block_spikes": "Deepslate Spike Trap "
+  "block.dwarfadventuremod.deepslate_trap_block_spikes": "Deepslate Spike Trap ",
+  "block.dwarfadventuremod.sand_quicksand": "Quicksand Sand",
+  "block.dwarfadventuremod.red_sand_quicksand": "Quicksand Red sand ",
+  "block.dwarfadventuremod.gravel_sinkstone": "Sinkstone Gravel ",
+  "block.dwarfadventuremod.mud_sinking_sludge": "Sinking Sludge Mud ",
+  "block.dwarfadventuremod.soul_sand_phantom_quicksand": "Phantom Quicksand Soul Sand "
+
 }

@@ -411,6 +411,12 @@ public class ModModelProvider extends FabricModelProvider {
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CURSED_BLOCK);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SAND_QUICKSAND);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_SAND_QUICKSAND);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAVEL_SINKSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MUD_SINKING_SLUDGE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
+
 
     }
 

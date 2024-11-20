@@ -7,6 +7,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.ItemStack;
 import net.spacegateir.dwarfadventuremod.AncientFlowerConversions.*;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
+import net.spacegateir.dwarfadventuremod.effect.ModEffects;
 import net.spacegateir.dwarfadventuremod.enchantment.ModEnchantments;
 import net.spacegateir.dwarfadventuremod.enchantment.VeinMinerEnchantment;
 import net.spacegateir.dwarfadventuremod.event.ModEventHandlers;
@@ -46,6 +47,8 @@ public class DwarfAdventureMod implements ModInitializer {
 		LumberJackEnchantmentHandler.register();
 		PlantShrederEnchantmentHandler.register();
 		EarthSplitterEnchantmentHandler.register();
+
+		ModEffects.registerEffects();
 
 
 		AncientSnowDropConversions.registerEvents();
