@@ -685,6 +685,18 @@
   "item.dwarfadventuremod.dwarf_gold_coin_l": "Large Dwarf Gold Coin",
   "item.dwarfadventuremod.dwarf_mythril_coin_l": "Dwarf Mythril Coin",
 
+  "item.dwarfadventuremod.dwarf_steel_shield": "Dwarf Steel Shield",
+  "item.dwarfadventuremod.dwarf_gold_shield": "Dwarf Gold Shield",
+  "item.dwarfadventuremod.aer_shield": "Aer Shield",
+  "item.dwarfadventuremod.ignis_shield": "Ignis Shield",
+  "item.dwarfadventuremod.aqua_shield": "Aqua Shield",
+  "item.dwarfadventuremod.tera_shield": "Tera Shield",
+  "item.dwarfadventuremod.magrite_shield": "Magirite Shield",
+  "item.dwarfadventuremod.mythril_shield": "Mythril Shield",
+  "item.dwarfadventuremod.adamantite_shield": "Adamantite Shield",
+  "item.dwarfadventuremod.orikalkum_shield": "Orikalkum Shield",
+  "item.dwarfadventuremod.dragon_bane_shield": "Dragon Bane Shield",
+
   "effect.dwarfadventuremod.slimey": "Sticky Feat",
   "effect.dwarfadventuremod.disorient": "Disorient",
 

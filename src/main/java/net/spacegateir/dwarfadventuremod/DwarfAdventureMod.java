@@ -2,6 +2,7 @@ package net.spacegateir.dwarfadventuremod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,7 @@ import net.spacegateir.dwarfadventuremod.event.handlers.PlantShrederEnchantmentH
 import net.spacegateir.dwarfadventuremod.event.player.EventHandlers;
 import net.spacegateir.dwarfadventuremod.item.ModItemGroups;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
+import net.spacegateir.dwarfadventuremod.item.custom.DwarfShieldItem;
 import net.spacegateir.dwarfadventuremod.util.*;
 import net.spacegateir.dwarfadventuremod.util.HammerEvents.*;
 import net.spacegateir.dwarfadventuremod.villager.ModLibarianTradeModifications;
@@ -50,7 +52,6 @@ public class DwarfAdventureMod implements ModInitializer {
 
 		ModEffects.registerEffects();
 
-
 		AncientSnowDropConversions.registerEvents();
 		AncientCarnationConversions.registerEvents();
 		AncientVioletConversions.registerEvents();
@@ -70,6 +71,7 @@ public class DwarfAdventureMod implements ModInitializer {
 
 		ModEventHandlers.registerBlockInteractionEvent();
 		EventHandlers.registerEventHandlers();
+		ModModelPredicates.registerModelPredicates();
 
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x2UsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x3UsageEvent());
