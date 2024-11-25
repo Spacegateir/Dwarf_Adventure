@@ -71,7 +71,6 @@ public class DwarfAdventureMod implements ModInitializer {
 
 		ModEventHandlers.registerBlockInteractionEvent();
 		EventHandlers.registerEventHandlers();
-		ModModelPredicates.registerModelPredicates();
 
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x2UsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x3UsageEvent());

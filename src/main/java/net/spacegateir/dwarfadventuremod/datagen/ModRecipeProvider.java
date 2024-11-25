@@ -5023,6 +5023,135 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion("has_handle_part", conditionsFromItem(ModItems.HANDLE_PART))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_KNIFE)));
 
+        // Dwarf Steel Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_SHIELD, 1)
+                .pattern("IWI")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.HOT_INGOT)
+                .input('S', Items.SHIELD)
+                .input('W', ItemTags.LOGS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.HOT_INGOT))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .criterion("has_log", conditionsFromTag(ItemTags.LOGS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_STEEL_SHIELD)));
+
+        // Dwarf Gold Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_GOLD_SHIELD, 1)
+                .pattern("IWI")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.MOLTEN_DWARF_GOLD_INGOT)
+                .input('S', Items.SHIELD)
+                .input('W', ItemTags.LOGS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DWARF_GOLD_INGOT))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .criterion("has_log", conditionsFromTag(ItemTags.LOGS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DWARF_GOLD_SHIELD)));
+
+        // Aer Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AER_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.FORGING_HOT_AER)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AER_SHIELD)));
+
+        // Ignis Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.IGNIS_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.FORGING_HOT_IGNIS)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_IGNIS))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.IGNIS_SHIELD)));
+
+        // Aqua Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.AQUA_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.FORGING_HOT_AQUA)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_AQUA))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.AQUA_SHIELD)));
+
+        // Tera Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.TERA_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.FORGING_HOT_TERA)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.FORGING_HOT_TERA))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.TERA_SHIELD)));
+
+        // Magirite Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MAGIRITE_SHIELD, 1)
+                .pattern("III")
+                .pattern("NSN")
+                .pattern(" I ")
+                .input('I', ModItems.MOLTEN_MAGIRITE_INGOT)
+                .input('S', Items.SHIELD)
+                .input('N', Items.NETHERITE_INGOT)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_MAGIRITE_INGOT))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .criterion("has_ingot", conditionsFromItem(Items.NETHERITE_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MAGIRITE_SHIELD)));
+
+        // Mythril Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.MYTHRIL_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.PUREFICATED_MYTHRIL)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.PUREFICATED_MYTHRIL))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.MYTHRIL_SHIELD)));
+
+        // Adamantite Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ADAMANTITE_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.MOLTEN_ADAMANTITE_INGOT)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ADAMANTITE_INGOT))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ADAMANTITE_SHIELD)));
+
+        // Orikalkum Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ORIKALKUM_SHIELD, 1)
+                .pattern("III")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.MOLTEN_ORIKALKUM_INGOT)
+                .input('S', Items.SHIELD)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_ORIKALKUM_INGOT))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.ORIKALKUM_SHIELD)));
+
+        // Dragon Bane Shield
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DRAGON_BANE_SHIELD, 1)
+                .pattern("IWI")
+                .pattern("ISI")
+                .pattern(" I ")
+                .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
+                .input('S', Items.SHIELD)
+                .input('W', ItemTags.LOGS)
+                .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
+                .criterion("has_shield", conditionsFromItem(Items.SHIELD))
+                .criterion("has_log", conditionsFromTag(ItemTags.LOGS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_SHIELD)));
+
 
         // Dwarf Steel Helmet
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.DWARF_STEEL_HELMET, 1)

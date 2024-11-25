@@ -1,4 +1,10 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "dwarfadventuremod:sand_quicksand",
+    "dwarfadventuremod:red_sand_quicksand",
+    "dwarfadventuremod:gravel_sinkstone",
+    "dwarfadventuremod:mud_sinking_sludge",
+    "dwarfadventuremod:soul_sand_phantom_quicksand"
+  ]
 }
