@@ -9,10 +9,8 @@ import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.RecipeProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemConvertible;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.Items;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.item.*;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
@@ -5533,6 +5531,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('I', ModItems.MOLTEN_DRAGON_BANE_INGOT)
                 .criterion("has_hot_ingot", conditionsFromItem(ModItems.MOLTEN_DRAGON_BANE_INGOT))
                 .offerTo(exporter, new Identifier(getRecipeName(ModItems.DRAGON_BANE_BOOTS)));
+
+
+
 
 
 
