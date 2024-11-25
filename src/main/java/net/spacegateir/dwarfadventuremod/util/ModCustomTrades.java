@@ -233,6 +233,11 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.DWARF_GOLD_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.DWARF_GOLD_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
+                            8, 1, 0.05f));
                 });
 
 // Steelweaver Blacksmith
@@ -304,6 +309,11 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DWARF_STEEL_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
+                            8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.DWARF_STEEL_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
                             8, 1, 0.05f));
                 });
 
@@ -377,6 +387,11 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.AER_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.AER_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
+                            8, 1, 0.05f));
                 });
 
 // Firestone Blacksmith
@@ -448,6 +463,11 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.IGNIS_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
+                            8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.IGNIS_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
                             8, 1, 0.05f));
                 });
 
@@ -521,6 +541,11 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.AQUA_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.AQUA_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
+                            8, 1, 0.05f));
                 });
 
 // Mountain Forger Artisan
@@ -592,6 +617,11 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.TERA_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
+                            8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.TERA_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
                             8, 1, 0.05f));
                 });
 
@@ -665,6 +695,11 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.MAGIRITE_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.MAGIRITE_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
+                            8, 1, 0.05f));
                 });
 
 // Mythril Blacksmith
@@ -736,6 +771,11 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.MYTHRIL_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
+                            8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.MYTHRIL_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
                             8, 1, 0.05f));
                 });
 
@@ -809,6 +849,11 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.ADAMANTITE_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.ADAMANTITE_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
+                            8, 1, 0.05f));
                 });
 
 // BloodForger Blacksmith
@@ -881,6 +926,11 @@ public class ModCustomTrades {
                             new ItemStack(ModItems.ORIKALKUM_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
                             8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.ORIKALKUM_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
+                            8, 1, 0.05f));
                 });
 
 // Elder Dwarf Godsmith
@@ -952,6 +1002,11 @@ public class ModCustomTrades {
                     factories.add((entity, random) -> new TradeOffer(
                             new ItemStack(ModItems.DRAGON_BANE_LEGGINGS,1),
                             new ItemStack(ModItems.DWARF_COPPER_COIN_S,7),
+                            8, 1, 0.05f));
+
+                    factories.add((entity, random) -> new TradeOffer(
+                            new ItemStack(ModItems.DRAGON_BANE_SHIELD,1),
+                            new ItemStack(ModItems.DWARF_COPPER_COIN_S,6),
                             8, 1, 0.05f));
                 });
 
