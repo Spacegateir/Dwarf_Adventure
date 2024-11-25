@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:forging_hot_ignis"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    " I "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:ignis_shield"
+  },
+  "show_notification": true
+}

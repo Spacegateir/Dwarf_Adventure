@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:pureficated_mythril"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    " I "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:mythril_shield"
+  },
+  "show_notification": true
+}

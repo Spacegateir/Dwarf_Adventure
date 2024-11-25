@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:molten_dwarf_gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    },
+    "W": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "pattern": [
+    "IWI",
+    "ISI",
+    " I "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:dwarf_gold_shield"
+  },
+  "show_notification": true
+}

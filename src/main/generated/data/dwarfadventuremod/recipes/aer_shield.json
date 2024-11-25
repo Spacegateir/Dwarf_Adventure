@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:forging_hot_aer"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    " I "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:aer_shield"
+  },
+  "show_notification": true
+}

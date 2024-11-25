@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "dwarfadventuremod:molten_orikalkum_ingot"
+    },
+    "S": {
+      "item": "minecraft:shield"
+    }
+  },
+  "pattern": [
+    "III",
+    "ISI",
+    " I "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:orikalkum_shield"
+  },
+  "show_notification": true
+}
