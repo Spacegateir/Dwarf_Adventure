@@ -16,6 +16,7 @@ public class ModRegistries {
         FuelRegistry registry = FuelRegistry.INSTANCE;
 
         registry.add(ModItems.ANCESTRAL_FORGE_COAL, 16000);
+        registry.add(ModItems.ANCIENT_BRANCH, 1000);
     }
 
     private static void registerModCompostables() {
