@@ -4,11 +4,14 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.mob.HostileEntity;
+import net.minecraft.entity.effect.StatusEffectInstance;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ShieldItem;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.math.Vec3d;
 import net.minecraft.world.World;
+import net.spacegateir.dwarfadventuremod.effect.ModEffects;
 
 import java.util.Random;
 
@@ -51,8 +54,8 @@ public class DwarfShieldItem extends ShieldItem {
     private void applyKnockbackOnAttack(PlayerEntity player, World world) {
         // Check if the player is blocking and being attacked, and if knockback has not been applied already
         if (player.getAttackCooldownProgress(0.5F) > 0.9F && !hasKnockbackApplied) {  // Attack cooldown check (block or hit state)
-            // 1 in 5 chance to apply knockback when the player is hit
-            if (RANDOM.nextInt(2) == 0) {  // Random number between 0 and 4, 0 means 1 in 5 chance
+            // 2% chance to apply knockback when the player is hit
+            if (RANDOM.nextInt(50) == 0) {  // Random number between 0 and 49, 0 means 2% chance
                 // Check for the last entity that attacked the player
                 Entity target = player.getAttacker();  // Get the entity that last attacked the player
 
@@ -68,6 +71,12 @@ public class DwarfShieldItem extends ShieldItem {
                     // Play a sound when knockback is applied
                     world.playSound(null, hostileEntity.getX(), hostileEntity.getY(), hostileEntity.getZ(),
                             SoundEvents.ENTITY_PLAYER_ATTACK_SWEEP, player.getSoundCategory(), 1.0F, 1.0F); // Replace the sound event as needed
+
+                    // Apply the glowing effect
+                    hostileEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 200, 1, false, false));
+
+                    // Apply the custom Disorient effect from your mod
+                    hostileEntity.addStatusEffect(new StatusEffectInstance(ModEffects.DISORIENT, 100, 1, false, false));
 
                     // Set the flag to true to prevent knockback from being applied multiple times for this attack
                     hasKnockbackApplied = true;
