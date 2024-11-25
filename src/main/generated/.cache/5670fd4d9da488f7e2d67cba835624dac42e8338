@@ -1,4 +1,4 @@
-// 1.20.1	2024-11-25T23:01:17.9722771	Dwarf Adventure Mod/Block Loot Tables
+// 1.20.1	2024-11-25T23:23:32.2703132	Dwarf Adventure Mod/Block Loot Tables
 97884513609c7ea3a0f5ae113315a199c3176fd4 data\dwarfadventuremod\loot_tables\blocks\raw_orikalkum_pressure_plate.json
 46ab4d4f2f0a80b11b97e7d3fd7eed1b63674c9f data\dwarfadventuremod\loot_tables\blocks\raw_dwarf_steel_block.json
 d47cc390b5300c8327b807fa19262e673607b841 data\dwarfadventuremod\loot_tables\blocks\potted_ancient_hawthorn_flower.json
@@ -55,8 +55,8 @@ c1e804e237896c50d8d7f687e4383a93c0d20448 data\dwarfadventuremod\loot_tables\bloc
 76924feacde5edff92c6ce94bad0f1c6df9caff0 data\dwarfadventuremod\loot_tables\blocks\potted_corrupt_spiderlily_flower.json
 0b358897c90d5a372ea06a86e99020cb695930ae data\dwarfadventuremod\loot_tables\blocks\water_gem_stairs.json
 9a5d4175e975c60099fea7e7d3577da77a52afc9 data\dwarfadventuremod\loot_tables\blocks\orikalkum_pressure_plate.json
-6fd6233d9481dbbf1048271f208a78255f2899f4 data\dwarfadventuremod\loot_tables\blocks\raw_magirite_block.json
 5544289a8748b740c38c3e9b2117a01171a1c9a0 data\dwarfadventuremod\loot_tables\blocks\corrupt_violet_flower.json
+6fd6233d9481dbbf1048271f208a78255f2899f4 data\dwarfadventuremod\loot_tables\blocks\raw_magirite_block.json
 1f1c23291d5f495cc23a301a56e506b8354caa5b data\dwarfadventuremod\loot_tables\blocks\potted_ancient_iris_flower.json
 31cca52ffb490de13b746f16969fdac0ab3a3123 data\dwarfadventuremod\loot_tables\blocks\magirite_block.json
 6572e19efe27a8c72a4cfd8df5dcb980ad8e0246 data\dwarfadventuremod\loot_tables\blocks\dragon_bane_netherrack_ore.json

@@ -2,7 +2,6 @@ package net.spacegateir.dwarfadventuremod;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.ItemStack;
