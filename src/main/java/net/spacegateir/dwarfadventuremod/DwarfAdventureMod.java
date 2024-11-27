@@ -17,7 +17,6 @@ import net.spacegateir.dwarfadventuremod.event.handlers.PlantShrederEnchantmentH
 import net.spacegateir.dwarfadventuremod.event.player.EventHandlers;
 import net.spacegateir.dwarfadventuremod.item.ModItemGroups;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
-import net.spacegateir.dwarfadventuremod.recipe.ModRecipes;
 import net.spacegateir.dwarfadventuremod.util.*;
 import net.spacegateir.dwarfadventuremod.util.HammerEvents.*;
 import net.spacegateir.dwarfadventuremod.villager.ModLibarianTradeModifications;
@@ -70,8 +69,6 @@ public class DwarfAdventureMod implements ModInitializer {
 
 		ModEventHandlers.registerBlockInteractionEvent();
 		EventHandlers.registerEventHandlers();
-
-		ModRecipes.register();
 
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x2UsageEvent());
 		PlayerBlockBreakEvents.BEFORE.register(new Hammer1x3UsageEvent());
