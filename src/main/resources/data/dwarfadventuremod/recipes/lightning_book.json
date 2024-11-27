@@ -1,0 +1,19 @@
+{
+  "type": "dwarfadventuremod:lightning_book",
+  "pattern": [
+    "DB",
+    "  "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanted_book",
+    "nbt": "{StoredEnchantments:[{id:\"dwarfadventuremod:lightning_striker\",lvl:1}]}"
+  }
+}

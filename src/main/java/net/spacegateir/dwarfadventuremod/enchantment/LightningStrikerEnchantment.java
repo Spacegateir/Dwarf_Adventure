@@ -70,6 +70,16 @@ public class LightningStrikerEnchantment extends Enchantment {
     }
 
     @Override
+    public int getMinPower(int level) {
+        return 10 + (level - 1) * 10;
+    }
+
+    @Override
+    public int getMaxPower(int level) {
+        return super.getMinPower(level) + 50;
+    }
+
+    @Override
     public int getMaxLevel() {
         return 3; // Max level is 3
     }
