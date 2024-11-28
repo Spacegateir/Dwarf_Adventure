@@ -358,7 +358,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
                 .add(ModBlocks.CURSED_BLOCK)
                 .add(ModBlocks.SPEED_BOOSTER_BLOCK)
-                .add(ModBlocks.SPEED_DECELERANT_BLOCK);
+                .add(ModBlocks.SPEED_DECELERANT_BLOCK)
+                .add(ModBlocks.FLAREFORGE_BLOCK)
+                .add(ModBlocks.NETHER_STEAM_VENT);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -661,6 +663,8 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRAVEL_SINKSTONE)
                 .add(ModBlocks.MUD_SINKING_SLUDGE)
                 .add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND)
+                .add(ModBlocks.FLAREFORGE_BLOCK)
+                .add(ModBlocks.NETHER_STEAM_VENT)
 
                 .add(ModBlocks.DRAGON_BANE_STONE_ORE)
                 .add(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE)

@@ -56,6 +56,10 @@ public class ModBlocks {
             new SpeedBoosterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block SPEED_DECELERANT_BLOCK = registerBlock("speed_decelerant_block",
             new SpeedDecelerantBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block FLAREFORGE_BLOCK = registerBlock("flareforge_block",
+            new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block NETHER_STEAM_VENT = registerBlock("nether_steam_vent",
+            new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
 
 

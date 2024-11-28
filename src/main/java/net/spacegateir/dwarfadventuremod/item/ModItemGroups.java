@@ -700,6 +700,8 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.SPEED_BOOSTER_BLOCK);
                         entries.add(ModBlocks.SPEED_DECELERANT_BLOCK);
+                        entries.add(ModBlocks.FLAREFORGE_BLOCK);
+                        entries.add(ModBlocks.NETHER_STEAM_VENT);
 
 
 
