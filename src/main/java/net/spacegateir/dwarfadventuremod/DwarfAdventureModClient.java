@@ -15,8 +15,6 @@ public class DwarfAdventureModClient implements ClientModInitializer {
 
         ModModelPredicates.registerModelPredicates();
 
-
-
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SNOW_DROP_FLOWER_BLOCK, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_SNOW_DROP_FLOWER, RenderLayer.getCutout());
 
