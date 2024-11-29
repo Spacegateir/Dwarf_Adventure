@@ -271,6 +271,8 @@ public class ModItems {
     public static final Item DWARF_STEEL_BOOTS = registerItem("dwarf_steel_boots",
             new ArmorItem(ModArmorMaterials.DWARF_STEEL, ArmorItem.Type.BOOTS, new FabricItemSettings().fireproof()));
 
+
+
     public static final Item DWARF_GOLD_HELMET = registerItem("dwarf_gold_helmet",
             new ModArmorItem(ModArmorMaterials.DWARF_GOLD, ArmorItem.Type.HELMET, new FabricItemSettings().fireproof()));
     public static final Item DWARF_GOLD_CHESTPLATE = registerItem("dwarf_gold_chestplate",

@@ -1,17 +1,20 @@
 package net.spacegateir.dwarfadventuremod;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.client.render.RenderLayer;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.util.ModModelPredicates;
 
-
+@Environment(EnvType.CLIENT)
 public class DwarfAdventureModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
         ModModelPredicates.registerModelPredicates();
+
 
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SNOW_DROP_FLOWER_BLOCK, RenderLayer.getCutout());
@@ -213,6 +216,8 @@ public class DwarfAdventureModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COURSE_DIRT_TRAP_BLOCK_SPIKES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.STONE_TRAP_BLOCK_SPIKES, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DEEPSLATE_TRAP_BLOCK_SPIKES, RenderLayer.getCutout());
+
+
 
 
 
