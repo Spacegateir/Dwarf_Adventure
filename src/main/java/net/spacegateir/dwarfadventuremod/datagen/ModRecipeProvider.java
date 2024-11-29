@@ -19,6 +19,7 @@ import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
+import net.spacegateir.dwarfadventuremod.util.ModTags;
 
 import java.util.List;
 import java.util.function.Consumer;

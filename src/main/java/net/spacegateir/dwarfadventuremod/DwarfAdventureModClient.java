@@ -190,14 +190,18 @@ public class DwarfAdventureModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.AQUA_TRAPDOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TERA_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.TERA_TRAPDOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGIRITE_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGIRITE_TRAPDOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_TRAPDOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ADAMANTITE_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ADAMANTITE_TRAPDOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORIKALKUM_DOOR, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORIKALKUM_TRAPDOOR, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.QUINTESSENCE_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.QUINTESSENCE_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGIRITE_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MAGIRITE_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.MYTHRIL_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PUREFICATED_MYTHRIL_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.PUREFICATED_MYTHRIL_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ADAMANTITE_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ADAMANTITE_TRAPDOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORIKALKUM_DOOR, RenderLayer.getTranslucent());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.ORIKALKUM_TRAPDOOR, RenderLayer.getTranslucent());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DRAGON_BANE_DOOR, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.DRAGON_BANE_TRAPDOOR, RenderLayer.getCutout());
 
