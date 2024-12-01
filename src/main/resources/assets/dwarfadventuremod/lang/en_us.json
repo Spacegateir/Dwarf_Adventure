@@ -697,7 +697,7 @@
   "item.dwarfadventuremod.orikalkum_shield": "Orikalkum Shield",
   "item.dwarfadventuremod.dragon_bane_shield": "Dragon Bane Shield",
 
-  "effect.dwarfadventuremod.slimey": "Sticky Feat",
+  "effect.dwarfadventuremod.sticky_feat": "Sticky Feat",
   "effect.dwarfadventuremod.disorient": "Disorient",
 
   "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
@@ -721,7 +721,9 @@
   "block.dwarfadventuremod.speed_booster_block": "Speed Booster",
   "block.dwarfadventuremod.speed_decelerant_block": "Speed Decelerant",
   "block.dwarfadventuremod.flareforge_block": "Flareforge",
-  "block.dwarfadventuremod.nether_steam_vent": "Nether Steam Vent"
+  "block.dwarfadventuremod.nether_steam_vent": "Nether Steam Vent",
+  "block.dwarfadventuremod.absorbing_station_block": "Absorbing Station",
+  "block.dwarfadventuremod.starving_block": "Starving Block"
 
 
 }

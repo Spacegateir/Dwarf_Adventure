@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/trap_block",
+    "side": "dwarfadventuremod:block/heart_beat",
+    "front": "dwarfadventuremod:block/heart_beat",
+    "top": "dwarfadventuremod:block/standing_pulse_top"
+  }
+}

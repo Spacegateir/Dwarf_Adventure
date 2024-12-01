@@ -60,6 +60,11 @@ public class ModBlocks {
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block NETHER_STEAM_VENT = registerBlock("nether_steam_vent",
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block ABSORBING_STATION_BLOCK = registerBlock("absorbing_station_block",
+            new AbsoringStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STARVING_BLOCK = registerBlock("starving_block",
+            new StarvingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
 
 
 

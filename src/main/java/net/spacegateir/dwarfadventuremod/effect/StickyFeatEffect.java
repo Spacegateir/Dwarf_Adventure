@@ -5,8 +5,8 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.util.math.Vec3d;
 
-public class SlimeyEffect extends StatusEffect {
-    public SlimeyEffect(StatusEffectCategory category, int color) {
+public class StickyFeatEffect extends StatusEffect {
+    public StickyFeatEffect(StatusEffectCategory category, int color) {
         super(category, color);
     }
 

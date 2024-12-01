@@ -691,17 +691,17 @@ public class ModItemGroups {
                         entries.add(ModBlocks.COURSE_DIRT_TRAP_BLOCK);
                         entries.add(ModBlocks.STONE_TRAP_BLOCK);
                         entries.add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
-
                         entries.add(ModBlocks.SAND_QUICKSAND);
                         entries.add(ModBlocks.RED_SAND_QUICKSAND);
                         entries.add(ModBlocks.GRAVEL_SINKSTONE);
                         entries.add(ModBlocks.MUD_SINKING_SLUDGE);
                         entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
-
-                        entries.add(ModBlocks.SPEED_BOOSTER_BLOCK);
-                        entries.add(ModBlocks.SPEED_DECELERANT_BLOCK);
                         entries.add(ModBlocks.FLAREFORGE_BLOCK);
                         entries.add(ModBlocks.NETHER_STEAM_VENT);
+                        entries.add(ModBlocks.SPEED_BOOSTER_BLOCK);
+                        entries.add(ModBlocks.SPEED_DECELERANT_BLOCK);
+                        entries.add(ModBlocks.ABSORBING_STATION_BLOCK);
+                        entries.add(ModBlocks.STARVING_BLOCK);
 
 
 
