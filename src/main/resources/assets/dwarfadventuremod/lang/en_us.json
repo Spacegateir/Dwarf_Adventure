@@ -759,7 +759,12 @@
   "block.dwarfadventuremod.status_removal_block": "Status Removal Artifact",
   "block.dwarfadventuremod.status_removal_negative_block": "Status Removal Negative Artifact",
   "block.dwarfadventuremod.status_removal_positive_block": "Status Removal Positive Artifact",
-  "block.dwarfadventuremod.status_removal_neutral_block": "Status Removal Neutral Artifact"
+  "block.dwarfadventuremod.status_removal_neutral_block": "Status Removal Neutral Artifact",
+
+
+
+
+  "block.dwarfadventuremod.power_precision_block": "Power Precision Block"
 
 
 }

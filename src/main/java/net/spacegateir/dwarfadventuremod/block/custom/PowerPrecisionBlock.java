@@ -1,29 +1,27 @@
-package net.spacegateir.dwarfadventuremod.block;
+package net.spacegateir.dwarfadventuremod.block.custom;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.server.world.ServerWorld;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
+import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
+import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
 import net.minecraft.util.math.MathHelper;
-import net.minecraft.text.Text; // Correct import for Text
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
-public class TestBlock extends Block {
-    // Add a property to store the redstone power level
+public class PowerPrecisionBlock extends Block {
+
     public static final IntProperty POWER = IntProperty.of("power", 0, 15);
 
-    public TestBlock(Settings settings) {
+    public PowerPrecisionBlock(Settings settings) {
         super(settings);
-        // Set the default state with the power level of 0
-        this.setDefaultState(this.stateManager.getDefaultState().with(POWER, 0));
+        this.setDefaultState(this.stateManager.getDefaultState().with(POWER, 0)); // Default power level is 0
     }
 
     @Override
@@ -33,12 +31,21 @@ public class TestBlock extends Block {
 
     @Override
     public boolean emitsRedstonePower(BlockState state) {
-        return true; // Block emits redstone power
+        return true;
     }
 
     @Override
     public int getWeakRedstonePower(BlockState state, BlockView world, BlockPos pos, Direction direction) {
-        return state.get(POWER); // Output the power level
+        return state.get(POWER);
+    }
+
+    // Update block state when redstone power changes in the environment
+    @Override
+    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos neighborPos, boolean moved) {
+        int receivedPower = world.getReceivedRedstonePower(pos); // Get the current redstone signal strength
+        if (state.get(POWER) != receivedPower) {
+            world.setBlockState(pos, state.with(POWER, receivedPower), Block.NOTIFY_ALL); // Update block state with the received power
+        }
     }
 
     @Override
@@ -47,18 +54,16 @@ public class TestBlock extends Block {
             int currentPower = state.get(POWER);
             int newPower;
 
+            // Adjust power manually based on player interaction
             if (player.isSneaking()) {
-                // Decrease power level with shift-right-click
                 newPower = MathHelper.clamp(currentPower - 1, 0, 15);
             } else {
-                // Increase power level with right-click
                 newPower = MathHelper.clamp(currentPower + 1, 0, 15);
             }
 
-            // Update the block state with the new power level
             world.setBlockState(pos, state.with(POWER, newPower), Block.NOTIFY_ALL);
 
-            // Send feedback to the player
+            // Send feedback to the player about the new power level
             player.sendMessage(Text.literal("Redstone power level set to: " + newPower), true);
         }
 

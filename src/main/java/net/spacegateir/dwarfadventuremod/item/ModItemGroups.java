@@ -737,6 +737,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STATUS_REMOVAL_POSITIVE_BLOCK);
                         entries.add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK);
 
+                        entries.add(ModBlocks.POWER_PRECISION_BLOCK);
+
 
 
 
