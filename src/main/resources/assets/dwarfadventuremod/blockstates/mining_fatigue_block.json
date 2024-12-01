@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dwarfadventuremod:block/mining_fatigue_block"
+    }
+  }
+}

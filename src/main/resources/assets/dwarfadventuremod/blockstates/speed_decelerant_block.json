@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "dwarfadventuremod:block/speed_decelerant_block" },
-    "facing=east": { "model": "dwarfadventuremod:block/speed_decelerant_block", "y": 90  },
-    "facing=south": { "model": "dwarfadventuremod:block/speed_decelerant_block", "y": 180 },
-    "facing=west": { "model": "dwarfadventuremod:block/speed_decelerant_block", "y": 270 }
-  }
-}

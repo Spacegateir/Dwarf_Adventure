@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dwarfadventuremod:block/test_block"
+    }
+  }
+}

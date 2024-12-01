@@ -17,7 +17,17 @@ public class ModEffects {
                             EntityAttributeModifier.Operation.MULTIPLY_TOTAL));
 
     public static final StatusEffect DISORIENT = registerStatusEffect("disorient",
-            new DisorientEffect(StatusEffectCategory.NEUTRAL, 0x7140C5));
+            new DisorientEffect(StatusEffectCategory.HARMFUL, 0x7140C5));
+
+    public static final StatusEffect CLEAR_POSITIVE_EFFECT = registerStatusEffect("clear_positive_effect",
+            new ClearPositiveStatusEffect(StatusEffectCategory.HARMFUL, 0xA875F7));
+
+    public static final StatusEffect CLEAR_NEGATIVE_EFFECT = registerStatusEffect("clear_negative_effect",
+            new ClearNegativeStatusEffect(StatusEffectCategory.BENEFICIAL, 0x3A2065));
+
+    public static final StatusEffect CLEAR_NEUTRAL_EFFECT = registerStatusEffect("clear_neutral_effect",
+            new ClearNeutralStatusEffect(StatusEffectCategory.BENEFICIAL
+                    , 0x6E6A6A));
 
 
 

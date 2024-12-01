@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dwarfadventuremod:block/instant_damage_block"
+    }
+  }
+}

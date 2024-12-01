@@ -19,6 +19,8 @@ import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilClus
 import net.spacegateir.dwarfadventuremod.block.custom.*;
 import net.spacegateir.dwarfadventuremod.block.custom.GlassLikeBlock;
 import net.spacegateir.dwarfadventuremod.block.traps.*;
+import net.spacegateir.dwarfadventuremod.block.traps.EffectBlocks.*;
+import net.spacegateir.dwarfadventuremod.block.traps.notused.*;
 import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
@@ -52,20 +54,87 @@ public class ModBlocks {
     public static final Block SOUL_SAND_PHANTOM_QUICKSAND = registerBlock("soul_sand_phantom_quicksand",
             new QuickSandBlock(FabricBlockSettings.copyOf(Blocks.SOUL_SAND).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).noCollision().solid()));
 
-    public static final Block SPEED_BOOSTER_BLOCK = registerBlock("speed_booster_block",
-            new SpeedBoosterBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
-    public static final Block SPEED_DECELERANT_BLOCK = registerBlock("speed_decelerant_block",
-            new SpeedDecelerantBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block FLAREFORGE_BLOCK = registerBlock("flareforge_block",
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block NETHER_STEAM_VENT = registerBlock("nether_steam_vent",
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
-    public static final Block ABSORBING_STATION_BLOCK = registerBlock("absorbing_station_block",
-            new AbsoringStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
-    public static final Block STARVING_BLOCK = registerBlock("starving_block",
-            new StarvingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
-    public static final Block SATURATION_REGENERATION = registerBlock("saturation_regeneration",
-            new SaturationRegenerationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block TEST_BLOCK = registerBlock("test_block",
+            new TestBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block SPEED_BLOCK = registerBlock("speed_block",
+            new SpeedBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SLOWNESS_BLOCK = registerBlock("slowness_block",
+            new SlownessBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block ABSORBING_BLOCK = registerBlock("absorbing_block",
+            new AbsorptionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block HUNGER_BLOCK = registerBlock("hunger_block",
+            new HungerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SATURATION_BLOCK = registerBlock("saturation_block",
+            new SaturationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block BAD_OMEN_BLOCK = registerBlock("bad_omen_block",
+            new BadOmenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block BLINDNESS_BLOCK = registerBlock("blindness_block",
+            new BlindnessBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CONDUIT_POWER_BLOCK = registerBlock("conduit_power_block",
+            new ConduitPowerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block DARKNESS_BLOCK = registerBlock("darkness_block",
+            new DarknessBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block DOLPHINS_GRACE_BLOCK = registerBlock("dolphins_grace_block",
+            new DolphinsGraceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block FIRE_RESISTANCE_BLOCK = registerBlock("fire_resistance_block",
+            new FireResistanceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block GLOWING_BLOCK = registerBlock("glowing_block",
+            new GlowingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block HASTE_BLOCK = registerBlock("haste_block",
+            new HasteBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block HERO_OF_THE_VILLAGE_BLOCK = registerBlock("hero_of_the_village_block",
+            new HeroOfTheVillageBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block INSTANT_DAMAGE_BLOCK = registerBlock("instant_damage_block",
+            new InstantDamageBlcok(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block INVISIBILITY_BLOCK = registerBlock("invisibility_block",
+            new InvisibilityBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block JUMP_BOOST_BLOCK = registerBlock("jump_boost_block",
+            new JumpBoostBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block LEVEITATION_BLOCK = registerBlock("levitation_block",
+            new LevitationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block LUCK_BLOCK = registerBlock("luck_block",
+            new LuckBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block MINING_FATIGUE_BLOCK = registerBlock("mining_fatigue_block",
+            new MiningFatigueBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block NAUSEA_BLOCK = registerBlock("nausea_block",
+            new NauseaBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block NIGHT_VISION_BLOCK = registerBlock("night_vision_block",
+            new NightVisionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block POISON_BLOCK = registerBlock("poison_block",
+            new PoisonBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block REGENERATION_BLOCK = registerBlock("regeneration_block",
+            new RegenerationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block RESISTANCE_BLOCK = registerBlock("resistance_block",
+            new ResistanceBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SLOW_FALLING_BLOCK = registerBlock("slow_falling_block",
+            new SlowFallingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STRENGTH_BLOCK = registerBlock("strength_block",
+            new StrengthBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block UNLUCK_BLOCK = registerBlock("unluck_block",
+            new UnluckBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block WATER_BREATHING_BLOCK = registerBlock("water_breathing_block",
+            new WaterBreathingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block WEAKNESS_BLOCK = registerBlock("weakness_block",
+            new WeaknessBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block WITHER_BLOCK = registerBlock("wither_block",
+            new WitherBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+
+    public static final Block STATUS_REMOVAL_BLOCK = registerBlock("status_removal_block",
+            new StatusRemovalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STATUS_REMOVAL_POSITIVE_BLOCK = registerBlock("status_removal_positive_block",
+            new StatusRemovalPositiveBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STATUS_REMOVAL_NEGATIVE_BLOCK = registerBlock("status_removal_negative_block",
+            new StatusRemovalNegativeBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STATUS_REMOVAL_NEUTRAL_BLOCK = registerBlock("status_removal_neutral_block",
+            new StatusRemovalNeutralBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
 
 

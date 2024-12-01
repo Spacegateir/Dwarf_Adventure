@@ -357,10 +357,52 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DWARF_GOLD_GRANITE_ORE)
 
                 .add(ModBlocks.CURSED_BLOCK)
-                .add(ModBlocks.SPEED_BOOSTER_BLOCK)
-                .add(ModBlocks.SPEED_DECELERANT_BLOCK)
                 .add(ModBlocks.FLAREFORGE_BLOCK)
-                .add(ModBlocks.NETHER_STEAM_VENT);
+                .add(ModBlocks.NETHER_STEAM_VENT)
+
+                .add(ModBlocks.SPEED_BLOCK)
+                .add(ModBlocks.SLOWNESS_BLOCK)
+                .add(ModBlocks.HUNGER_BLOCK)
+                .add(ModBlocks.SATURATION_BLOCK)
+                .add(ModBlocks.ABSORBING_BLOCK)
+                .add(ModBlocks.BAD_OMEN_BLOCK)
+                .add(ModBlocks.BLINDNESS_BLOCK)
+                .add(ModBlocks.CONDUIT_POWER_BLOCK)
+                .add(ModBlocks.DARKNESS_BLOCK)
+                .add(ModBlocks.DOLPHINS_GRACE_BLOCK)
+                .add(ModBlocks.FIRE_RESISTANCE_BLOCK)
+                .add(ModBlocks.GLOWING_BLOCK)
+                .add(ModBlocks.HASTE_BLOCK)
+                .add(ModBlocks.HERO_OF_THE_VILLAGE_BLOCK)
+                .add(ModBlocks.INSTANT_DAMAGE_BLOCK)
+                .add(ModBlocks.INVISIBILITY_BLOCK)
+                .add(ModBlocks.JUMP_BOOST_BLOCK)
+                .add(ModBlocks.LEVEITATION_BLOCK)
+                .add(ModBlocks.LUCK_BLOCK)
+                .add(ModBlocks.MINING_FATIGUE_BLOCK)
+                .add(ModBlocks.NAUSEA_BLOCK)
+                .add(ModBlocks.NIGHT_VISION_BLOCK)
+                .add(ModBlocks.POISON_BLOCK)
+                .add(ModBlocks.REGENERATION_BLOCK)
+                .add(ModBlocks.RESISTANCE_BLOCK)
+                .add(ModBlocks.SLOW_FALLING_BLOCK)
+                .add(ModBlocks.STRENGTH_BLOCK)
+                .add(ModBlocks.UNLUCK_BLOCK)
+                .add(ModBlocks.WATER_BREATHING_BLOCK)
+                .add(ModBlocks.WEAKNESS_BLOCK)
+                .add(ModBlocks.WITHER_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_NEGATIVE_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_POSITIVE_BLOCK)
+
+
+
+
+
+
+
+                .add(ModBlocks.TEST_BLOCK);
 
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
@@ -656,8 +698,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
                 .add(ModBlocks.STONE_TRAP_BLOCK)
                 .add(ModBlocks.DEEPSLATE_TRAP_BLOCK)
-                .add(ModBlocks.SPEED_BOOSTER_BLOCK)
-                .add(ModBlocks.SPEED_DECELERANT_BLOCK)
                 .add(ModBlocks.SAND_QUICKSAND)
                 .add(ModBlocks.RED_SAND_QUICKSAND)
                 .add(ModBlocks.GRAVEL_SINKSTONE)
@@ -665,6 +705,50 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND)
                 .add(ModBlocks.FLAREFORGE_BLOCK)
                 .add(ModBlocks.NETHER_STEAM_VENT)
+
+                .add(ModBlocks.SPEED_BLOCK)
+                .add(ModBlocks.SLOWNESS_BLOCK)
+                .add(ModBlocks.HUNGER_BLOCK)
+                .add(ModBlocks.SATURATION_BLOCK)
+                .add(ModBlocks.ABSORBING_BLOCK)
+                .add(ModBlocks.BAD_OMEN_BLOCK)
+                .add(ModBlocks.BLINDNESS_BLOCK)
+                .add(ModBlocks.CONDUIT_POWER_BLOCK)
+                .add(ModBlocks.DARKNESS_BLOCK)
+                .add(ModBlocks.DOLPHINS_GRACE_BLOCK)
+                .add(ModBlocks.FIRE_RESISTANCE_BLOCK)
+                .add(ModBlocks.GLOWING_BLOCK)
+                .add(ModBlocks.HASTE_BLOCK)
+                .add(ModBlocks.HERO_OF_THE_VILLAGE_BLOCK)
+                .add(ModBlocks.INSTANT_DAMAGE_BLOCK)
+                .add(ModBlocks.INVISIBILITY_BLOCK)
+                .add(ModBlocks.JUMP_BOOST_BLOCK)
+                .add(ModBlocks.LEVEITATION_BLOCK)
+                .add(ModBlocks.LUCK_BLOCK)
+                .add(ModBlocks.MINING_FATIGUE_BLOCK)
+                .add(ModBlocks.NAUSEA_BLOCK)
+                .add(ModBlocks.NIGHT_VISION_BLOCK)
+                .add(ModBlocks.POISON_BLOCK)
+                .add(ModBlocks.REGENERATION_BLOCK)
+                .add(ModBlocks.RESISTANCE_BLOCK)
+                .add(ModBlocks.SLOW_FALLING_BLOCK)
+                .add(ModBlocks.STRENGTH_BLOCK)
+                .add(ModBlocks.UNLUCK_BLOCK)
+                .add(ModBlocks.WATER_BREATHING_BLOCK)
+                .add(ModBlocks.WEAKNESS_BLOCK)
+                .add(ModBlocks.WITHER_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_NEGATIVE_BLOCK)
+                .add(ModBlocks.STATUS_REMOVAL_POSITIVE_BLOCK)
+
+
+
+
+
+
+
+                .add(ModBlocks.TEST_BLOCK)
 
                 .add(ModBlocks.DRAGON_BANE_STONE_ORE)
                 .add(ModBlocks.DRAGON_BANE_DEEPSLATE_ORE)

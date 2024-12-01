@@ -698,16 +698,51 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
                         entries.add(ModBlocks.FLAREFORGE_BLOCK);
                         entries.add(ModBlocks.NETHER_STEAM_VENT);
-                        entries.add(ModBlocks.SPEED_BOOSTER_BLOCK);
-                        entries.add(ModBlocks.SPEED_DECELERANT_BLOCK);
-                        entries.add(ModBlocks.ABSORBING_STATION_BLOCK);
-                        entries.add(ModBlocks.STARVING_BLOCK);
-                        entries.add(ModBlocks.SATURATION_REGENERATION);
+
+                        entries.add(ModBlocks.SPEED_BLOCK);
+                        entries.add(ModBlocks.SLOWNESS_BLOCK);
+                        entries.add(ModBlocks.ABSORBING_BLOCK);
+                        entries.add(ModBlocks.HUNGER_BLOCK);
+                        entries.add(ModBlocks.SATURATION_BLOCK);
+
+                        entries.add(ModBlocks.BAD_OMEN_BLOCK);
+                        entries.add(ModBlocks.BLINDNESS_BLOCK);
+                        entries.add(ModBlocks.CONDUIT_POWER_BLOCK);
+                        entries.add(ModBlocks.DARKNESS_BLOCK);
+                        entries.add(ModBlocks.DOLPHINS_GRACE_BLOCK);
+                        entries.add(ModBlocks.GLOWING_BLOCK);
+                        entries.add(ModBlocks.HASTE_BLOCK);
+                        entries.add(ModBlocks.HERO_OF_THE_VILLAGE_BLOCK);
+                        entries.add(ModBlocks.INSTANT_DAMAGE_BLOCK);
+                        entries.add(ModBlocks.INVISIBILITY_BLOCK);
+                        entries.add(ModBlocks.JUMP_BOOST_BLOCK);
+                        entries.add(ModBlocks.LEVEITATION_BLOCK);
+                        entries.add(ModBlocks.LUCK_BLOCK);
+                        entries.add(ModBlocks.UNLUCK_BLOCK);
+                        entries.add(ModBlocks.MINING_FATIGUE_BLOCK);
+                        entries.add(ModBlocks.NAUSEA_BLOCK);
+                        entries.add(ModBlocks.NIGHT_VISION_BLOCK);
+                        entries.add(ModBlocks.POISON_BLOCK);
+                        entries.add(ModBlocks.REGENERATION_BLOCK);
+                        entries.add(ModBlocks.RESISTANCE_BLOCK);
+                        entries.add(ModBlocks.FIRE_RESISTANCE_BLOCK);
+                        entries.add(ModBlocks.SLOW_FALLING_BLOCK);
+                        entries.add(ModBlocks.STRENGTH_BLOCK);
+                        entries.add(ModBlocks.WATER_BREATHING_BLOCK);
+                        entries.add(ModBlocks.WEAKNESS_BLOCK);
+                        entries.add(ModBlocks.WITHER_BLOCK);
+
+                        entries.add(ModBlocks.STATUS_REMOVAL_BLOCK);
+                        entries.add(ModBlocks.STATUS_REMOVAL_NEGATIVE_BLOCK);
+                        entries.add(ModBlocks.STATUS_REMOVAL_POSITIVE_BLOCK);
+                        entries.add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK);
 
 
 
 
 
+
+                        entries.add(ModBlocks.TEST_BLOCK);
 
                     }).build());
 

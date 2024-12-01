@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "dwarfadventuremod:block/slow_falling_block"
+    }
+  }
+}

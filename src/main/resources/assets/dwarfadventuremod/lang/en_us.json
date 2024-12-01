@@ -1,6 +1,8 @@
 {
   "itemgroup.dwarf adventure": "Dwarf Adventure",
 
+  "block.dwarfadventuremod.test_block": "Test Block ",
+
   "item.dwarfadventuremod.mortar_and_pestle": "Mortar and Pestle",
   "item.dwarfadventuremod.wither_bone": "Wither Bone",
   "item.dwarfadventuremod.warden_hide": "Warden Hide",
@@ -699,6 +701,9 @@
 
   "effect.dwarfadventuremod.sticky_feat": "Sticky Feat",
   "effect.dwarfadventuremod.disorient": "Disorient",
+  "effect.dwarfadventuremod.clear_positive_effect": "Positive Clear",
+  "effect.dwarfadventuremod.clear_negative_effect": "Negative Clear",
+  "effect.dwarfadventuremod.clear_neutral_effect": "Neutral Clear",
 
   "enchantment.dwarfadventuremod.lightning_striker": "Lightning Striker",
   "enchantment.dwarfadventuremod.vein_miner": "Vein Miner",
@@ -715,13 +720,46 @@
   "block.dwarfadventuremod.gravel_sinkstone": "Sinkstone Gravel ",
   "block.dwarfadventuremod.mud_sinking_sludge": "Sinking Sludge Mud ",
   "block.dwarfadventuremod.soul_sand_phantom_quicksand": "Phantom Quicksand Soul Sand ",
-  "block.dwarfadventuremod.speed_booster_block": "Speed Booster Artifact",
-  "block.dwarfadventuremod.speed_decelerant_block": "Speed Decelerant Artifact",
   "block.dwarfadventuremod.flareforge_block": "Flareforge",
   "block.dwarfadventuremod.nether_steam_vent": "Nether Steam Vent",
-  "block.dwarfadventuremod.absorbing_station_block": "Absorbing Artifact",
-  "block.dwarfadventuremod.starving_block": "Starving Artifact",
-  "block.dwarfadventuremod.saturation_regeneration": "Saturation Artifact"
+
+  "block.dwarfadventuremod.speed_block": "Speed Artifact",
+  "block.dwarfadventuremod.slowness_block": "Slowness Artifact",
+  "block.dwarfadventuremod.absorbing_block": "Absorbing Artifact",
+  "block.dwarfadventuremod.hunger_block": "Hunger Artifact",
+  "block.dwarfadventuremod.saturation_block": "Saturation Artifact",
+
+  "block.dwarfadventuremod.bad_omen_block": "Bad Omen Artifact",
+  "block.dwarfadventuremod.blindness_block": "Blindness Artifact",
+  "block.dwarfadventuremod.conduit_power_block": "Conduit Power Artifact",
+  "block.dwarfadventuremod.darkness_block": "Darkness Artifact",
+  "block.dwarfadventuremod.dolphins_grace_block": "Dolphins Grace Artifact",
+  "block.dwarfadventuremod.fire_resistance_block": "Fire Resistance Artifact",
+  "block.dwarfadventuremod.glowing_block": "Glowing Artifact",
+  "block.dwarfadventuremod.haste_block": "Haste Artifact",
+  "block.dwarfadventuremod.hero_of_the_village_block": "Hero of the Village Artifact",
+  "block.dwarfadventuremod.instant_damage_block": "Instant Damage Artifact",
+  "block.dwarfadventuremod.invisibility_block": "Invisibility Artifact",
+  "block.dwarfadventuremod.jump_boost_block": "Jump Boost Artifact",
+  "block.dwarfadventuremod.levitation_block": "Levitation Artifact",
+  "block.dwarfadventuremod.luck_block": "Luck Artifact",
+  "block.dwarfadventuremod.mining_fatigue_block": "Mining Fatigue Artifact",
+  "block.dwarfadventuremod.nausea_block": "Nausea Artifact",
+  "block.dwarfadventuremod.night_vision_block": "Night Vision Artifact",
+  "block.dwarfadventuremod.poison_block": "Poison Artifact",
+  "block.dwarfadventuremod.regeneration_block": "Regeneration Artifact",
+  "block.dwarfadventuremod.resistance_block": "Resistance Artifact",
+  "block.dwarfadventuremod.slow_falling_block": "Slow Falling Artifact",
+  "block.dwarfadventuremod.strength_block": "Strength Artifact",
+  "block.dwarfadventuremod.unluck_block": "Unluck Artifact",
+  "block.dwarfadventuremod.water_breathing_block": "Water Breathing Artifact",
+  "block.dwarfadventuremod.weakness_block": "Weakness Artifact",
+  "block.dwarfadventuremod.wither_block": "Wither Artifact",
+
+  "block.dwarfadventuremod.status_removal_block": "Status Removal Artifact",
+  "block.dwarfadventuremod.status_removal_negative_block": "Status Removal Negative Artifact",
+  "block.dwarfadventuremod.status_removal_positive_block": "Status Removal Positive Artifact",
+  "block.dwarfadventuremod.status_removal_neutral_block": "Status Removal Neutral Artifact"
 
 
 }
