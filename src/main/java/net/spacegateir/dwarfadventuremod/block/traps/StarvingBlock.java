@@ -17,10 +17,24 @@ public class StarvingBlock extends Block {
     public void onSteppedOn(World world, BlockPos pos, BlockState state, net.minecraft.entity.Entity entity) {
         super.onSteppedOn(world, pos, state, entity);
 
-        // Check if the entity is a player and if the world is not client-side
         if (!world.isClient && entity instanceof PlayerEntity player) {
-            // Add Hunger effect for 5 seconds (100 ticks) at level 0
-            player.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 1500, 4, false, true));
+            // Set hunger to 0 (drain hunger completely)
+            player.getHungerManager().setFoodLevel(0);
+            player.getHungerManager().setSaturationLevel(0);
+
+            // Get the redstone signal strength at the block position
+            int signalStrength = world.getReceivedRedstonePower(pos);
+
+            // Set base values if no signal is present (signalStrength == 0)
+            int baseDuration = (signalStrength == 0) ? 1000 : 200;
+            int baseAmplifier = (signalStrength == 0) ? 4 : 0;
+
+            // Adjust duration and amplifier based on the redstone signal
+            int adjustedDuration = baseDuration + (signalStrength * 200);
+            int adjustedAmplifier = baseAmplifier + signalStrength;
+
+            // Add Hunger effect with adjusted duration and amplifier
+            player.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, adjustedDuration, adjustedAmplifier, false, false));
         }
     }
 }

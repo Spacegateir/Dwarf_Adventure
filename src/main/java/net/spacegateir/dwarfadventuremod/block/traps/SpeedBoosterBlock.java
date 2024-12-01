@@ -93,8 +93,19 @@ public class SpeedBoosterBlock extends Block {
     @Override
     public void onSteppedOn(World world, BlockPos pos, BlockState state, Entity entity) {
         if (!world.isClient && entity instanceof LivingEntity livingEntity) {
-            // Apply Speed effect (level 5, duration 200 ticks)
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, 100, 4));
+
+            // Get the redstone signal strength at the block position
+            int signalStrength = world.getReceivedRedstonePower(pos);
+
+            // Set base values if no signal is present (signalStrength == 0)
+            int baseDuration = (signalStrength == 0) ? 100 : 200;
+            int baseAmplifier = (signalStrength == 0) ? 4 : 0;
+
+            // Adjust duration and amplifier based on the redstone signal
+            int adjustedDuration = baseDuration + (signalStrength * 200);
+            int adjustedAmplifier = baseAmplifier + signalStrength;
+
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SPEED, adjustedDuration, adjustedAmplifier, false, false));
         }
         super.onSteppedOn(world, pos, state, entity);
     }

@@ -39,9 +39,9 @@ public class CourseDirtTrapBlock extends Block {
             } else if (state.isOf(ModBlocks.COURSE_DIRT_TRAP_BLOCK_SPIKES)) {
                 // Apply status effects to the entity
                 if (entity instanceof net.minecraft.entity.LivingEntity livingEntity) {
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 2));
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 1));
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 5, 0));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200, 2, false, false));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 200, 1, false, false));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 5, 0, false, false));
 
                     // Check if enough time has passed since the last sound was played
                     long currentTime = world.getTime();

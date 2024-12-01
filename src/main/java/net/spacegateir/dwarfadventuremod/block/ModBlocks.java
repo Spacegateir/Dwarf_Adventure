@@ -64,6 +64,8 @@ public class ModBlocks {
             new AbsoringStationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block STARVING_BLOCK = registerBlock("starving_block",
             new StarvingBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SATURATION_REGENERATION = registerBlock("saturation_regeneration",
+            new SaturationRegenerationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
 
 

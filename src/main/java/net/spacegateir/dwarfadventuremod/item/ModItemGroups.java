@@ -702,6 +702,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPEED_DECELERANT_BLOCK);
                         entries.add(ModBlocks.ABSORBING_STATION_BLOCK);
                         entries.add(ModBlocks.STARVING_BLOCK);
+                        entries.add(ModBlocks.SATURATION_REGENERATION);
 
 
 

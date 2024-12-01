@@ -39,9 +39,9 @@ public class DeepslateTrapBlock extends Block {
             } else if (state.isOf(ModBlocks.DEEPSLATE_TRAP_BLOCK_SPIKES)) {
                 // Apply status effects to the entity
                 if (entity instanceof net.minecraft.entity.LivingEntity livingEntity) {
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 200, 0));
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 200, 0));
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 5, 0));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 200, 0, false, false));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, 200, 0, false, false));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 5, 0, false, false));
 
                     // Check if enough time has passed since the last sound was played
                     long currentTime = world.getTime();

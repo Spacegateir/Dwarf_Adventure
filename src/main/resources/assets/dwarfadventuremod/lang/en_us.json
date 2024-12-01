@@ -708,22 +708,20 @@
 
   "block.dwarfadventuremod.cursed_block": "Cursed Sculk ",
   "block.dwarfadventuremod.course_dirt_trap_block": "Course Dirt Spike Trap ",
-  "block.dwarfadventuremod.course_dirt_trap_block_spikes": "Course Dirt Spike Trap ",
   "block.dwarfadventuremod.stone_trap_block": "Stone Spike Trap ",
-  "block.dwarfadventuremod.stone_trap_block_spikes": "Stone Spike Trap ",
   "block.dwarfadventuremod.deepslate_trap_block": "Deepslate Spike Trap ",
-  "block.dwarfadventuremod.deepslate_trap_block_spikes": "Deepslate Spike Trap ",
   "block.dwarfadventuremod.sand_quicksand": "Quicksand Sand",
   "block.dwarfadventuremod.red_sand_quicksand": "Quicksand Red sand ",
   "block.dwarfadventuremod.gravel_sinkstone": "Sinkstone Gravel ",
   "block.dwarfadventuremod.mud_sinking_sludge": "Sinking Sludge Mud ",
   "block.dwarfadventuremod.soul_sand_phantom_quicksand": "Phantom Quicksand Soul Sand ",
-  "block.dwarfadventuremod.speed_booster_block": "Speed Booster",
-  "block.dwarfadventuremod.speed_decelerant_block": "Speed Decelerant",
+  "block.dwarfadventuremod.speed_booster_block": "Speed Booster Artifact",
+  "block.dwarfadventuremod.speed_decelerant_block": "Speed Decelerant Artifact",
   "block.dwarfadventuremod.flareforge_block": "Flareforge",
   "block.dwarfadventuremod.nether_steam_vent": "Nether Steam Vent",
-  "block.dwarfadventuremod.absorbing_station_block": "Absorbing Station",
-  "block.dwarfadventuremod.starving_block": "Starving Block"
+  "block.dwarfadventuremod.absorbing_station_block": "Absorbing Artifact",
+  "block.dwarfadventuremod.starving_block": "Starving Artifact",
+  "block.dwarfadventuremod.saturation_regeneration": "Saturation Artifact"
 
 
 }

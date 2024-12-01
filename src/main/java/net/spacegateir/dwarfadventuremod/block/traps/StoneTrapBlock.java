@@ -39,8 +39,8 @@ public class StoneTrapBlock extends Block {
             } else if (state.isOf(ModBlocks.STONE_TRAP_BLOCK_SPIKES)) {
                 // Apply status effects to the entity
                 if (entity instanceof net.minecraft.entity.LivingEntity livingEntity) {
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 0));
-                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 5, 0));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 100, 0, false, false));
+                    livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, 5, 0, false, false));
 
                     // Check if enough time has passed since the last sound was played
                     long currentTime = world.getTime();

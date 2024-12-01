@@ -6,12 +6,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class AbsoringStationBlock extends Block {
-    public AbsoringStationBlock(Settings settings) {
+public class SaturationRegenerationBlock extends Block {
+    public SaturationRegenerationBlock(Settings settings) {
         super(settings);
     }
 
@@ -23,14 +22,14 @@ public class AbsoringStationBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 2000 : 200;
+            int baseDuration = (signalStrength == 0) ? 1500 : 200;
             int baseAmplifier = (signalStrength == 0) ? 4 : 0;
 
             // Adjust duration and amplifier based on the redstone signal
             int adjustedDuration = baseDuration + (signalStrength * 200);
             int adjustedAmplifier = baseAmplifier + signalStrength;
 
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, adjustedDuration, adjustedAmplifier, false, false));
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SATURATION, adjustedDuration, adjustedAmplifier, false, false));
         }
         super.onSteppedOn(world, pos, state, entity);
     }

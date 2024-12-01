@@ -33,32 +33,17 @@ public class CursedBlock extends Block {
                     .forEach(player -> {
                         // Apply Mining Fatigue effect
                         StatusEffectInstance miningFatigue = new StatusEffectInstance(
-                                StatusEffects.MINING_FATIGUE,
-                                20000,
-                                2,
-                                false,
-                                true
-                        );
+                                StatusEffects.MINING_FATIGUE, 20000, 2, false, false);
                         player.addStatusEffect(miningFatigue);
 
                         // Apply Weakness effect
                         StatusEffectInstance weakness = new StatusEffectInstance(
-                                StatusEffects.WEAKNESS,
-                                20000,
-                                1,
-                                false,
-                                true
-                        );
+                                StatusEffects.WEAKNESS, 20000, 1, false, false);
                         player.addStatusEffect(weakness);
 
                         // Apply Darkness effect (separate from Weakness)
                         StatusEffectInstance darkness = new StatusEffectInstance(
-                                StatusEffects.DARKNESS,
-                                200,
-                                1,
-                                false,
-                                true
-                        );
+                                StatusEffects.DARKNESS, 200, 1, false, false);
                         player.addStatusEffect(darkness);
 
                         // Send message to the player
