@@ -25,7 +25,7 @@ import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {
 
-    public static final Block POWER_PRECISION_BLOCK = registerBlock("power_precision_block",
+    public static final Block POWER_PRECISION_BLOCK = registerBlock("power_precision_block_0",
             new PowerPrecisionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F)));
 
 

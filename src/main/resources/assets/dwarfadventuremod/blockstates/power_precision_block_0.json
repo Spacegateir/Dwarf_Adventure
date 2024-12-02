@@ -15,7 +15,6 @@
     "power=12": { "model": "dwarfadventuremod:block/power_precision_block_12" },
     "power=13": { "model": "dwarfadventuremod:block/power_precision_block_13" },
     "power=14": { "model": "dwarfadventuremod:block/power_precision_block_14" },
-    "power=15": { "model": "dwarfadventuremod:block/power_precision_block_15" },
-    "power=16": { "model": "dwarfadventuremod:block/power_precision_block_16" }
+    "power=15": { "model": "dwarfadventuremod:block/power_precision_block_15" }
   }
 }

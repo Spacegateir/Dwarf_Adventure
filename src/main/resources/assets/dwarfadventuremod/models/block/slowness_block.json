@@ -1,50 +1,9 @@
 {
-	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/orientable",
 	"textures": {
-		"1": "dwarfadventuremod:block/speed_decelerant_block",
-		"2": "dwarfadventuremod:block/speed_decelerant",
-		"particle": "dwarfadventuremod:block/speed_decelerant"
-	},
-	"elements": [
-		{
-			"from": [0, 0, 0],
-			"to": [16, 16, 16],
-			"faces": {
-				"north": {"uv": [0, 0, 4, 4], "texture": "#1"},
-				"east": {"uv": [0, 0, 4, 4], "texture": "#1"},
-				"south": {"uv": [0, 0, 4, 4], "texture": "#1"},
-				"west": {"uv": [0, 0, 4, 4], "texture": "#1"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
-				"down": {"uv": [0, 0, 4, 4], "texture": "#1"}
-			}
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"scale": [0.33, 0.33, 0.33]
-		},
-		"thirdperson_lefthand": {
-			"scale": [0.33, 0.33, 0.33]
-		},
-		"firstperson_righthand": {
-			"scale": [0.33, 0.33, 0.33]
-		},
-		"firstperson_lefthand": {
-			"scale": [0.33, 0.33, 0.33]
-		},
-		"ground": {
-			"translation": [0, 3, 0],
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [31, 45, 0],
-			"scale": [0.62086, 0.62086, 0.62086]
-		},
-		"head": {
-			"scale": [0.5, 0.5, 0.5]
-		},
-		"fixed": {
-			"scale": [0.5, 0.5, 0.5]
-		}
+		"bottom": "dwarfadventuremod:block/trap_block",
+		"side": "dwarfadventuremod:block/slowness_artifact",
+		"front": "dwarfadventuremod:block/slowness_artifact",
+		"top": "dwarfadventuremod:block/speed_decelerant"
 	}
 }

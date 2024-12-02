@@ -162,6 +162,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        // Power Precision Block
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.POWER_PRECISION_BLOCK, 1)
+                .pattern("CIC")
+                .pattern("CRC")
+                .pattern("CCC")
+                .input('C', Items.COPPER_INGOT)
+                .input('I', Items.REPEATER)
+                .input('R', Items.REDSTONE_BLOCK)
+                .criterion(hasItem(Items.COPPER_INGOT), conditionsFromItem(Items.COPPER_INGOT))
+                .criterion(hasItem(Items.REPEATER), conditionsFromItem(Items.REPEATER))
+                .criterion(hasItem(Items.REDSTONE_BLOCK), conditionsFromItem(Items.REDSTONE_BLOCK))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POWER_PRECISION_BLOCK )));
+
         // Cash Register
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CASH_REGISTER, 1)
                 .pattern("III")

@@ -4,6 +4,6 @@
     "bottom": "dwarfadventuremod:block/trap_block",
     "side": "dwarfadventuremod:block/saturation_regeneration",
     "front": "dwarfadventuremod:block/saturation_regeneration",
-    "top": "dwarfadventuremod:block/standing_pulse_top"
+    "top": "dwarfadventuremod:block/positive_pulse"
   }
 }

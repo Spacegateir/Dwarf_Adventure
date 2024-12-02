@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "dwarfadventuremod:block/status_removal_block"
+      "model": "dwarfadventuremod:block/status_removal_positive_block"
     }
   }
 }

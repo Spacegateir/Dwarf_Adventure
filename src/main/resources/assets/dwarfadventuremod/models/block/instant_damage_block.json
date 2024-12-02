@@ -2,8 +2,8 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "bottom": "dwarfadventuremod:block/trap_block",
-    "side": "dwarfadventuremod:block/trap_block",
-    "front": "dwarfadventuremod:block/trap_block",
-    "top": "dwarfadventuremod:block/standing_pulse_top"
+    "side": "dwarfadventuremod:block/instant_damage_artifact",
+    "front": "dwarfadventuremod:block/instant_damage_artifact",
+    "top": "dwarfadventuremod:block/negative_pulse"
   }
 }

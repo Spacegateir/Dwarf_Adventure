@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "I": {
+      "item": "minecraft:repeater"
+    },
+    "R": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "pattern": [
+    "CIC",
+    "CRC",
+    "CCC"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:power_precision_block_0"
+  },
+  "show_notification": true
+}

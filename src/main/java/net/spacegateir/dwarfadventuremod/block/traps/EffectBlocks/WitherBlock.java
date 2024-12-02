@@ -1,4 +1,4 @@
-package net.spacegateir.dwarfadventuremod.block.traps.notused;
+package net.spacegateir.dwarfadventuremod.block.traps.EffectBlocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -9,8 +9,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class InstantDamageBlcok extends Block {
-    public InstantDamageBlcok(Settings settings) {
+public class WitherBlock extends Block {
+    public WitherBlock(Settings settings) {
         super(settings);
     }
 
@@ -29,7 +29,7 @@ public class InstantDamageBlcok extends Block {
             int adjustedDuration = baseDuration + (signalStrength * 200);
             int adjustedAmplifier = baseAmplifier + signalStrength;
 
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.INSTANT_DAMAGE, adjustedDuration, adjustedAmplifier, false, false));
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.WITHER, adjustedDuration, adjustedAmplifier, false, false));
         }
         super.onSteppedOn(world, pos, state, entity);
     }

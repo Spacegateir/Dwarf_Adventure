@@ -1,4 +1,4 @@
-package net.spacegateir.dwarfadventuremod.block.traps.notused;
+package net.spacegateir.dwarfadventuremod.block.traps.EffectBlocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -9,8 +9,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class DarknessBlock extends Block {
-    public DarknessBlock(Settings settings) {
+public class BlindnessBlock extends Block {
+    public BlindnessBlock(Settings settings) {
         super(settings);
     }
 
@@ -22,14 +22,14 @@ public class DarknessBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 2000 : 200;
+            int baseDuration = (signalStrength == 0) ? 6000 : 1200;
             int baseAmplifier = (signalStrength == 0) ? 4 : 0;
 
             // Adjust duration and amplifier based on the redstone signal
-            int adjustedDuration = baseDuration + (signalStrength * 200);
+            int adjustedDuration = baseDuration + (signalStrength * 1200);
             int adjustedAmplifier = baseAmplifier + signalStrength;
 
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, adjustedDuration, adjustedAmplifier, false, false));
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, adjustedDuration, adjustedAmplifier, false, false));
         }
         super.onSteppedOn(world, pos, state, entity);
     }
