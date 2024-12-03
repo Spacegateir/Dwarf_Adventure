@@ -1,4 +1,4 @@
-package net.spacegateir.dwarfadventuremod.block.traps.notused;
+package net.spacegateir.dwarfadventuremod.block.traps.EffectBlocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -9,8 +9,8 @@ import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class HasteBlock extends Block {
-    public HasteBlock(Settings settings) {
+public class LuckBlock extends Block {
+    public LuckBlock(Settings settings) {
         super(settings);
     }
 
@@ -22,14 +22,14 @@ public class HasteBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 2000 : 200;
-            int baseAmplifier = (signalStrength == 0) ? 4 : 0;
+            int baseDuration = (signalStrength == 0) ? 2400 : 2400;
+            int baseAmplifier = (signalStrength == 0) ? 0 : 0;
 
             // Adjust duration and amplifier based on the redstone signal
-            int adjustedDuration = baseDuration + (signalStrength * 200);
+            int adjustedDuration = baseDuration + (signalStrength * 2400);
             int adjustedAmplifier = baseAmplifier + signalStrength;
 
-            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.HASTE, adjustedDuration, adjustedAmplifier, false, false));
+            livingEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.LUCK, adjustedDuration, adjustedAmplifier, false, false));
         }
         super.onSteppedOn(world, pos, state, entity);
     }

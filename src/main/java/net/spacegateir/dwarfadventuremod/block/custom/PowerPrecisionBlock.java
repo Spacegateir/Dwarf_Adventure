@@ -39,15 +39,6 @@ public class PowerPrecisionBlock extends Block {
         return state.get(POWER);
     }
 
-    // Update block state when redstone power changes in the environment
-    @Override
-    public void neighborUpdate(BlockState state, World world, BlockPos pos, Block neighborBlock, BlockPos neighborPos, boolean moved) {
-        int receivedPower = world.getReceivedRedstonePower(pos); // Get the current redstone signal strength
-        if (state.get(POWER) != receivedPower) {
-            world.setBlockState(pos, state.with(POWER, receivedPower), Block.NOTIFY_ALL); // Update block state with the received power
-        }
-    }
-
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
         if (!world.isClient) {

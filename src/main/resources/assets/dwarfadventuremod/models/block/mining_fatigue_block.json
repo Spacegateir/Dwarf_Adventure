@@ -2,8 +2,8 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "bottom": "dwarfadventuremod:block/trap_block",
-    "side": "dwarfadventuremod:block/trap_block",
-    "front": "dwarfadventuremod:block/trap_block",
+    "side": "dwarfadventuremod:block/mining_fatigue_artifact",
+    "front": "dwarfadventuremod:block/mining_fatigue_artifact",
     "top": "dwarfadventuremod:block/negative_pulse"
   }
 }
