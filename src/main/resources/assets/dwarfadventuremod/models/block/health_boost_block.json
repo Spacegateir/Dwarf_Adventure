@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/trap_block",
+    "side": "dwarfadventuremod:block/health_boost_artifact",
+    "front": "dwarfadventuremod:block/health_boost_artifact",
+    "top": "dwarfadventuremod:block/positive_pulse"
+  }
+}

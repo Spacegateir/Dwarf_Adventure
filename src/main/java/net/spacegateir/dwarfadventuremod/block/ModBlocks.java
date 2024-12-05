@@ -128,6 +128,15 @@ public class ModBlocks {
             new WeaknessBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block WITHER_BLOCK = registerBlock("wither_block",
             new WitherBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block HEALTH_BOOST_BLOCK = registerBlock("health_boost_block",
+            new HealthBoostBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block INSTANT_HEALTH_BLOCK = registerBlock("instant_health_block",
+            new InstantHealthBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
+    public static final Block DISORIENT_BLOCK = registerBlock("disorient_block",
+            new DisorientBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block STICKY_FEAT_BLOCK = registerBlock("sticky_feat_block",
+            new StickyFeatBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
 
     public static final Block STATUS_REMOVAL_BLOCK = registerBlock("status_removal_block",

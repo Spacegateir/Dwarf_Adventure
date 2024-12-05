@@ -731,6 +731,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.WATER_BREATHING_BLOCK);
                         entries.add(ModBlocks.WEAKNESS_BLOCK);
                         entries.add(ModBlocks.WITHER_BLOCK);
+                        entries.add(ModBlocks.INSTANT_HEALTH_BLOCK);
+                        entries.add(ModBlocks.HEALTH_BOOST_BLOCK);
+
+                        entries.add(ModBlocks.DISORIENT_BLOCK);
+                        entries.add(ModBlocks.STICKY_FEAT_BLOCK);
 
                         entries.add(ModBlocks.STATUS_REMOVAL_BLOCK);
                         entries.add(ModBlocks.STATUS_REMOVAL_NEGATIVE_BLOCK);

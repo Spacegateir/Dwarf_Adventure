@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/trap_block",
+    "side": "dwarfadventuremod:block/sticky_feat_artifact",
+    "front": "dwarfadventuremod:block/sticky_feat_artifact",
+    "top": "dwarfadventuremod:block/neutral_pulse"
+  }
+}

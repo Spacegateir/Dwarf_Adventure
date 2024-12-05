@@ -755,6 +755,11 @@
   "block.dwarfadventuremod.water_breathing_block": "Water Breathing Artifact",
   "block.dwarfadventuremod.weakness_block": "Weakness Artifact",
   "block.dwarfadventuremod.wither_block": "Wither Artifact",
+  "block.dwarfadventuremod.instant_health_block": "Instant Health Artifact",
+  "block.dwarfadventuremod.health_boost_block": "Health Boost Artifact",
+
+  "block.dwarfadventuremod.disorient_block": "Disorient Artifact",
+  "block.dwarfadventuremod.sticky_feat_block": "Sticky Feat Artifact",
 
   "block.dwarfadventuremod.status_removal_block": "Status Removal Artifact",
   "block.dwarfadventuremod.status_removal_negative_block": "Status Removal Negative Artifact",
