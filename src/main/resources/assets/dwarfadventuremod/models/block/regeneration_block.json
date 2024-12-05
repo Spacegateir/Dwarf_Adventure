@@ -2,8 +2,8 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "bottom": "dwarfadventuremod:block/trap_block",
-    "side": "dwarfadventuremod:block/trap_block",
-    "front": "dwarfadventuremod:block/trap_block",
+    "side": "dwarfadventuremod:block/regeneration_artifact",
+    "front": "dwarfadventuremod:block/regeneration_artifact",
     "top": "dwarfadventuremod:block/positive_pulse"
   }
 }

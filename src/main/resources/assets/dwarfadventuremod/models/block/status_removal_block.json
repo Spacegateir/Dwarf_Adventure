@@ -2,8 +2,8 @@
   "parent": "minecraft:block/orientable",
   "textures": {
     "bottom": "dwarfadventuremod:block/trap_block",
-    "side": "dwarfadventuremod:block/trap_block",
-    "front": "dwarfadventuremod:block/trap_block",
+    "side": "dwarfadventuremod:block/status_effect_artifact",
+    "front": "dwarfadventuremod:block/status_effect_artifact",
     "top": "dwarfadventuremod:block/void_pulse"
   }
 }

@@ -22,7 +22,7 @@ public class LevitationBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 200 : 600;
+            int baseDuration = (signalStrength == 0) ? 600 : 600;
             int baseAmplifier = (signalStrength == 0) ? 0 : 0;
 
             // Adjust duration and amplifier based on the redstone signal

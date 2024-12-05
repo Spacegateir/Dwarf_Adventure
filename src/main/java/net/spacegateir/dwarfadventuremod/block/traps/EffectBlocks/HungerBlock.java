@@ -26,11 +26,11 @@ public class HungerBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 1000 : 200;
-            int baseAmplifier = (signalStrength == 0) ? 4 : 0;
+            int baseDuration = (signalStrength == 0) ? 2400 : 2400;
+            int baseAmplifier = (signalStrength == 0) ? 0 : 0;
 
             // Adjust duration and amplifier based on the redstone signal
-            int adjustedDuration = baseDuration + (signalStrength * 200);
+            int adjustedDuration = baseDuration + (signalStrength * 2400);
             int adjustedAmplifier = baseAmplifier + signalStrength;
 
             // Add Hunger effect with adjusted duration and amplifier

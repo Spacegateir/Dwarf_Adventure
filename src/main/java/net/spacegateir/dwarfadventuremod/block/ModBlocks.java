@@ -20,7 +20,6 @@ import net.spacegateir.dwarfadventuremod.block.custom.*;
 import net.spacegateir.dwarfadventuremod.block.custom.GlassLikeBlock;
 import net.spacegateir.dwarfadventuremod.block.traps.*;
 import net.spacegateir.dwarfadventuremod.block.traps.EffectBlocks.*;
-import net.spacegateir.dwarfadventuremod.block.traps.notused.*;
 import net.spacegateir.dwarfadventuremod.block.workstations.*;
 
 public class ModBlocks {

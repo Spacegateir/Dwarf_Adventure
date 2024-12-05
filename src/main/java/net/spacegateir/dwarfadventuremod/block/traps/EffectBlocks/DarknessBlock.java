@@ -22,8 +22,8 @@ public class DarknessBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 6000 : 1200;
-            int baseAmplifier = (signalStrength == 0) ? 4 : 0;
+            int baseDuration = (signalStrength == 0) ? 2400 : 1200;
+            int baseAmplifier = (signalStrength == 0) ? 0 : 0;
 
             // Adjust duration and amplifier based on the redstone signal
             int adjustedDuration = baseDuration + (signalStrength * 1200);

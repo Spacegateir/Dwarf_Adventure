@@ -99,8 +99,8 @@ public class SlownessBlock extends Block {
             int signalStrength = world.getReceivedRedstonePower(pos);
 
             // Set base values if no signal is present (signalStrength == 0)
-            int baseDuration = (signalStrength == 0) ? 100 : 200;
-            int baseAmplifier = (signalStrength == 0) ? 4 : 0;
+            int baseDuration = (signalStrength == 0) ? 200 : 200;
+            int baseAmplifier = (signalStrength == 0) ? 0 : 0;
 
             // Adjust duration and amplifier based on the redstone signal
             int adjustedDuration = baseDuration + (signalStrength * 200);
