@@ -77,7 +77,6 @@ public class ModBlocks {
             new HungerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block SATURATION_BLOCK = registerBlock("saturation_block",
             new SaturationBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
-
     public static final Block BAD_OMEN_BLOCK = registerBlock("bad_omen_block",
             new BadOmenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block BLINDNESS_BLOCK = registerBlock("blindness_block",
