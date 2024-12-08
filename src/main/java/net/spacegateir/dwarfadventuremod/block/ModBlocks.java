@@ -61,6 +61,8 @@ public class ModBlocks {
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block NETHER_STEAM_VENT = registerBlock("nether_steam_vent",
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block TELEPORT_TRAP_BLOCK = registerBlock("teleport_trap_block",
+            new TeleportTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
     public static final Block TEST_BLOCK = registerBlock("test_block",
             new TestBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
@@ -137,8 +139,6 @@ public class ModBlocks {
             new DisorientBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block STICKY_FEAT_BLOCK = registerBlock("sticky_feat_block",
             new StickyFeatBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
-
-
     public static final Block STATUS_REMOVAL_BLOCK = registerBlock("status_removal_block",
             new StatusRemovalBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block STATUS_REMOVAL_POSITIVE_BLOCK = registerBlock("status_removal_positive_block",

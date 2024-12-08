@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/teleport_bottom",
+    "side": "dwarfadventuremod:block/teleport_side",
+    "front": "dwarfadventuremod:block/teleport_side",
+    "top": "dwarfadventuremod:block/teleport_top"
+  }
+}

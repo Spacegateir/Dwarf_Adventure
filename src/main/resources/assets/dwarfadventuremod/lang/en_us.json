@@ -722,13 +722,13 @@
   "block.dwarfadventuremod.soul_sand_phantom_quicksand": "Phantom Quicksand Soul Sand ",
   "block.dwarfadventuremod.flareforge_block": "Flareforge",
   "block.dwarfadventuremod.nether_steam_vent": "Nether Steam Vent",
+  "block.dwarfadventuremod.teleport_trap_block": "Teleport Trap",
 
   "block.dwarfadventuremod.speed_block": "Speed Artifact",
   "block.dwarfadventuremod.slowness_block": "Slowness Artifact",
   "block.dwarfadventuremod.absorbing_block": "Absorbing Artifact",
   "block.dwarfadventuremod.hunger_block": "Hunger Artifact",
   "block.dwarfadventuremod.saturation_block": "Saturation Artifact",
-
   "block.dwarfadventuremod.bad_omen_block": "Bad Omen Artifact",
   "block.dwarfadventuremod.blindness_block": "Blindness Artifact",
   "block.dwarfadventuremod.conduit_power_block": "Conduit Power Artifact",

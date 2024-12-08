@@ -698,13 +698,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND);
                         entries.add(ModBlocks.FLAREFORGE_BLOCK);
                         entries.add(ModBlocks.NETHER_STEAM_VENT);
+                        entries.add(ModBlocks.TELEPORT_TRAP_BLOCK);
 
                         entries.add(ModBlocks.SPEED_BLOCK);
                         entries.add(ModBlocks.SLOWNESS_BLOCK);
                         entries.add(ModBlocks.ABSORBING_BLOCK);
                         entries.add(ModBlocks.HUNGER_BLOCK);
                         entries.add(ModBlocks.SATURATION_BLOCK);
-
                         entries.add(ModBlocks.BAD_OMEN_BLOCK);
                         entries.add(ModBlocks.BLINDNESS_BLOCK);
                         entries.add(ModBlocks.CONDUIT_POWER_BLOCK);
