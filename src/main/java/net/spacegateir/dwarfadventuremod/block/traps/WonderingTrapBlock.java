@@ -30,7 +30,7 @@ public class WonderingTrapBlock extends Block {
                         // Apply Blindness effect (duration: 1000 ticks, level: 2)
 
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 1200, 2, false, false));
-                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false));
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 20000, 2, false, false));
 
                     });
         }

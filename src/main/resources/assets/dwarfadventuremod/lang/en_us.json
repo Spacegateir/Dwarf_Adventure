@@ -725,6 +725,7 @@
   "block.dwarfadventuremod.teleport_trap_block": "Teleport Trap",
   "block.dwarfadventuremod.spirit_jump_trap": "Spirit Jump Trap",
   "block.dwarfadventuremod.spirit_jump_trap_block": "Spirit Jump Trap Extended",
+  "block.dwarfadventuremod.frost_bite_trap_block": "Frost Bite Trap",
 
   "block.dwarfadventuremod.speed_block": "Speed Artifact",
   "block.dwarfadventuremod.slowness_block": "Slowness Artifact",

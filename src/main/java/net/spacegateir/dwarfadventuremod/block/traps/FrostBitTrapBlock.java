@@ -31,7 +31,7 @@ public class FrostBitTrapBlock extends PowderSnowBlock {
             world.getEntitiesByClass(PlayerEntity.class, effectArea, entity -> entity.isAlive())
                     .forEach(playerEntity -> {
                         playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 1200, 2, false, false));
-                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false));
+                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 20000, 2, false, false));
                     });
         }
     }
