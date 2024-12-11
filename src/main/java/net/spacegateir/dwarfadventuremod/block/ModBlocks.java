@@ -64,6 +64,11 @@ public class ModBlocks {
     public static final Block TELEPORT_TRAP_BLOCK = registerBlock("teleport_trap_block",
             new TeleportTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
+    public static final Block SPIRIT_JUMP_TRAP = registerBlock("spirit_jump_trap",
+            new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block SPIRIT_JUMP_TRAP_BLOCK = registerBlock("spirit_jump_trap_block",
+            new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+
     public static final Block TEST_BLOCK = registerBlock("test_block",
             new TestBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).ticksRandomly()));
 

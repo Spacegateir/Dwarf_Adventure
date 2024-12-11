@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "bottom": "dwarfadventuremod:block/spirit_jump_trap_bottom",
+    "side": "dwarfadventuremod:block/spirit_jump_trap_side",
+    "front": "dwarfadventuremod:block/spirit_jump_trap_side",
+    "top": "dwarfadventuremod:block/spirit_jump_trap_top"
+  }
+}

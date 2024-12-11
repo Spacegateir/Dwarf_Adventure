@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dwarfadventuremod:block/spirit_jump_trap" },
+    "facing=east": { "model": "dwarfadventuremod:block/spirit_jump_trap", "y": 90  },
+    "facing=south": { "model": "dwarfadventuremod:block/spirit_jump_trap", "y": 180 },
+    "facing=west": { "model": "dwarfadventuremod:block/spirit_jump_trap", "y": 270 }
+  }
+}

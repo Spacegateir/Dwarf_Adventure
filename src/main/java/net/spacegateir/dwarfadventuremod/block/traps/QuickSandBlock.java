@@ -17,4 +17,6 @@ public class QuickSandBlock extends Block {
         entity.slowMovement(state, new Vec3d(0.5, 0.1F, 0.5));
     }
 
+
+
 }
