@@ -29,6 +29,7 @@ public class PoisonFogTrapBlock extends Block {
 
                         // Apply Nausea effect (duration: 1000 ticks, level: 0)
                         player.addStatusEffect(new StatusEffectInstance(StatusEffects.POISON, 1000, 0, false, false));
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false));
                     });
         }
     }

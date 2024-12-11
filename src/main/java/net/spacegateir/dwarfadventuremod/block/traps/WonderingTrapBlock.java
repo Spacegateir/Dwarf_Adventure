@@ -28,9 +28,10 @@ public class WonderingTrapBlock extends Block {
             world.getEntitiesByClass(PlayerEntity.class, effectArea, player -> player.isAlive())
                     .forEach(player -> {
                         // Apply Blindness effect (duration: 1000 ticks, level: 2)
-                        StatusEffectInstance blindness = new StatusEffectInstance(
-                                StatusEffects.BLINDNESS, 1000, 0, false, false);
-                        player.addStatusEffect(blindness);
+
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.BLINDNESS, 1200, 2, false, false));
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false));
+
                     });
         }
     }

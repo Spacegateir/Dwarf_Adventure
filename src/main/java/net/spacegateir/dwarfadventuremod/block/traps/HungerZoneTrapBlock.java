@@ -32,7 +32,8 @@ public class HungerZoneTrapBlock extends Block {
                         player.getHungerManager().setSaturationLevel(0);
 
                         // Apply Hunger effect (duration: 1000 ticks, level: 0)
-                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 1000, 0, false, false));
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.HUNGER, 1200, 0, false, false));
+                        player.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false));
 
                         // Play a "stomach growl" or similar sound to indicate hunger
                         world.playSound(null, player.getBlockPos(), SoundEvents.ENTITY_PLAYER_BURP, player.getSoundCategory(), 1.0F, 1.0F);

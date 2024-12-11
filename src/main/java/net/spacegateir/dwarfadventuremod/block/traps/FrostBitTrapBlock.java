@@ -1,16 +1,20 @@
 package net.spacegateir.dwarfadventuremod.block.traps;
 
-import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
+import net.minecraft.block.PowderSnowBlock;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.ItemStack;
 import net.minecraft.server.world.ServerWorld;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Box;
 import net.minecraft.util.math.random.Random;
+import net.minecraft.world.World;
 
-public class FrostBitTrapBlock extends Block {
+public class FrostBitTrapBlock extends PowderSnowBlock {
+
     public FrostBitTrapBlock(Settings settings) {
         super(settings);
     }
@@ -20,30 +24,49 @@ public class FrostBitTrapBlock extends Block {
         super.randomTick(state, world, pos, random);
 
         if (!world.isClient) {
-            int radius = 25; // Define the radius of effect
+            int radius = 25; // Radius for random tick effect
             Box effectArea = new Box(pos.add(-radius, -radius, -radius), pos.add(radius, radius, radius));
 
-            // Apply freezing effect (slowness + mining fatigue) only to PlayerEntities within radius
+            // Apply status effects to players within the radius
             world.getEntitiesByClass(PlayerEntity.class, effectArea, entity -> entity.isAlive())
-                    .forEach(entity -> {
-                        PlayerEntity playerEntity = (PlayerEntity) entity;
-
-                        // Apply slowness and mining fatigue effects to players only
-                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 1200, 4, false, false)); // Slowness Level 2
-                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false)); // Mining Fatigue Level 1
-
+                    .forEach(playerEntity -> {
+                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.SLOWNESS, 1200, 2, false, false));
+                        playerEntity.addStatusEffect(new StatusEffectInstance(StatusEffects.MINING_FATIGUE, 1200, 2, false, false));
                     });
         }
     }
 
     @Override
     public boolean hasRandomTicks(BlockState state) {
-        return true;  // Allow this block to have random ticks
+        return true;  // Enable random ticks
     }
 
     @Override
     public void scheduledTick(BlockState state, ServerWorld world, BlockPos pos, Random random) {
         super.scheduledTick(state, world, pos, random);
-        world.scheduleBlockTick(pos, this, 20); // Schedule next random tick in 20 game ticks (~1 second)
+
+        if (!world.isClient) {
+            int radius = 25; // Smaller radius for scheduled tick effect
+            Box effectArea = new Box(pos).expand(radius);
+
+            // Increment freezing ticks for nearby entities
+            world.getEntitiesByClass(LivingEntity.class, effectArea, entity -> entity.isAlive())
+                    .forEach(entity -> {
+                        int currentFrozenTicks = entity.getFrozenTicks();
+                        entity.setFrozenTicks(Math.min(currentFrozenTicks + 1200, 2400)); // Cap at 2400 ticks 2 minute
+                    });
+
+            // Schedule the next tick
+            world.scheduleBlockTick(pos, this, 20); // Every 1 second
+        }
+    }
+
+
+    @Override
+    public void onPlaced(World world, BlockPos pos, BlockState state, LivingEntity placer, ItemStack itemStack) {
+        super.onPlaced(world, pos, state, placer, itemStack);
+
+        // Start ticking immediately upon placement
+        world.scheduleBlockTick(pos, this, 20);
     }
 }
