@@ -70,7 +70,7 @@ public class ModBlocks {
             new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
     public static final Block TEST_BLOCK = registerBlock("test_block",
-            new TestBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).ticksRandomly()));
+            new FrostBitTrapBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F).ticksRandomly()));
 
     public static final Block SPEED_BLOCK = registerBlock("speed_block",
             new SpeedBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));

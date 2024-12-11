@@ -25,7 +25,7 @@ public class TeleportTrapBlock extends Block {
 
         if (entity instanceof LivingEntity) {
             // Search for blocks within a 50-block radius of the current position
-            BlockPos targetPos = findPriorityBlockWithinRadius(world, pos, 50);
+            BlockPos targetPos = findSafePriorityBlockWithinRadius(world, pos, 50);
 
             if (targetPos != null) {
                 // Calculate the center of the block and teleport the entity 1 block above
@@ -39,49 +39,54 @@ public class TeleportTrapBlock extends Block {
         }
     }
 
-    private BlockPos findPriorityBlockWithinRadius(World world, BlockPos pos, int radius) {
-        List<BlockPos> firstPositions = new ArrayList<>();
-        List<BlockPos> secondPositions = new ArrayList<>();
-        List<BlockPos> thirdPositions = new ArrayList<>();
+    private BlockPos findSafePriorityBlockWithinRadius(World world, BlockPos pos, int radius) {
+        List<BlockPos> firstPriority = new ArrayList<>();
+        List<BlockPos> secondPriority = new ArrayList<>();
+        List<BlockPos> thirdPriority = new ArrayList<>();
+        Random random = new Random();
 
         // Iterate through a 50-block radius around the teleport trap block
         for (int x = -radius; x <= radius; x++) {
             for (int z = -radius; z <= radius; z++) {
-                for (int y = 0; y <= 50; y++) { // Checking within 50 blocks vertically as well
+                for (int y = -radius; y <= radius; y++) {
                     BlockPos checkPos = pos.add(x, y, z);
                     BlockState blockState = world.getBlockState(checkPos);
 
-                    // Check if the block at the current position is Dwarf Gold Block (highest priority)
-                    if (blockState.isOf(ModBlocks.DWARF_GOLD_BLOCK)) {
-                        return checkPos; // Return immediately if Dwarf Gold Block is found
-                    }
-
-                    // Check if the block at the current position (second priority)
-                    if (blockState.isOf(ModBlocks.DISORIENT_BLOCK)) {
-                        secondPositions.add(checkPos);
-                    }
-
-                    // Check if the block at the current position is Stone (third priority)
-                    if (blockState.isOf(Blocks.STONE)) {
-                        thirdPositions.add(checkPos);
+                    // Ensure the block at the position is valid and safe for teleportation
+                    if (isSafeForTeleport(world, checkPos)) {
+                        // Add blocks to respective priority lists
+                        if (blockState.isOf(ModBlocks.DWARF_GOLD_BLOCK)) {
+                            firstPriority.add(checkPos);
+                        } else if (blockState.isOf(ModBlocks.DISORIENT_BLOCK)) {
+                            secondPriority.add(checkPos);
+                        } else if (blockState.isOf(Blocks.STONE)) {
+                            thirdPriority.add(checkPos);
+                        }
                     }
                 }
             }
         }
 
-        // If no Dwarf Gold Block was found, try quicksand
-        if (!secondPositions.isEmpty()) {
-            Random random = new Random();
-            return secondPositions.get(random.nextInt(secondPositions.size()));
+        // Choose randomly from the highest priority list that is not empty
+        if (!firstPriority.isEmpty()) {
+            return firstPriority.get(random.nextInt(firstPriority.size()));
+        } else if (!secondPriority.isEmpty()) {
+            return secondPriority.get(random.nextInt(secondPriority.size()));
+        } else if (!thirdPriority.isEmpty()) {
+            return thirdPriority.get(random.nextInt(thirdPriority.size()));
         }
 
-        // If no Dwarf Gold Block or Quicksand was found, try Stone
-        if (!thirdPositions.isEmpty()) {
-            Random random = new Random();
-            return thirdPositions.get(random.nextInt(thirdPositions.size()));
-        }
-
-        // Return null if no prioritized blocks are found within the radius
+        // Return null if no prioritized blocks are found
         return null;
+    }
+
+    private boolean isSafeForTeleport(World world, BlockPos pos) {
+        BlockPos abovePos = pos.up(); // Block above the target position
+        BlockPos twoAbovePos = pos.up(2); // Two blocks above the target position
+
+        // Check that the target block is solid for standing, and both blocks above it are non-solid
+        return world.getBlockState(pos).isSolidBlock(world, pos)
+                && world.getBlockState(abovePos).isAir()
+                && world.getBlockState(twoAbovePos).isAir();
     }
 }
