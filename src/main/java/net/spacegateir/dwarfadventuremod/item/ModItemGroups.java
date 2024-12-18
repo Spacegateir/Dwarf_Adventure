@@ -702,6 +702,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SPIRIT_JUMP_TRAP);
                         entries.add(ModBlocks.FROST_BITE_TRAP_BLOCK);
                         entries.add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK);
+                        entries.add(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK);
 
                         entries.add(ModBlocks.SPEED_BLOCK);
                         entries.add(ModBlocks.SLOWNESS_BLOCK);

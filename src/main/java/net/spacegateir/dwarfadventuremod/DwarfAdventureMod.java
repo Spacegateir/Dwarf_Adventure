@@ -38,6 +38,7 @@ public class DwarfAdventureMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+
 		ModCustomTrades.registerCustomTrades();
 		ModLibarianTradeModifications.registerLibarianModifications();
 		ModVillagers.registerVillagers();
