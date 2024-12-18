@@ -18,6 +18,9 @@ import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilBloc
 import net.spacegateir.dwarfadventuremod.block.MythrilBuddingCluster.MythrilClusterBlock;
 import net.spacegateir.dwarfadventuremod.block.custom.*;
 import net.spacegateir.dwarfadventuremod.block.custom.GlassLikeBlock;
+import net.spacegateir.dwarfadventuremod.block.custom.SkeletonParts.SkeletonBoneParts;
+import net.spacegateir.dwarfadventuremod.block.custom.SkeletonParts.SkeletonHalfParts;
+import net.spacegateir.dwarfadventuremod.block.custom.SkeletonParts.SkeletonParts;
 import net.spacegateir.dwarfadventuremod.block.traps.*;
 import net.spacegateir.dwarfadventuremod.block.traps.EffectBlocks.*;
 import net.spacegateir.dwarfadventuremod.block.workstations.*;
@@ -69,6 +72,8 @@ public class ModBlocks {
             new CursedNauseaTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block CURSED_POISON_SPORE_TRAP_BLOCK = registerBlock("cursed_poison_spore_trap_block",
             new CursedPoisonSporeTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).nonOpaque().allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CURSED_BRASIER_TRAP_BLOCK = registerBlock("cursed_brasier_trap_block",
+            new HungerZoneTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).nonOpaque().allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
 
     public static final Block SPIRIT_JUMP_TRAP = registerBlock("spirit_jump_trap",
             new SpiritJumpTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
@@ -162,6 +167,35 @@ public class ModBlocks {
 
 
 
+    public static final Block EMPTY_BRASIER = registerBlock("empty_brasier",
+            new BrasierBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque().luminance(15)));
+
+    public static final Block SKELETON_SITTING = registerBlock("skeleton_sitting",
+            new SkeletonParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_HEAD = registerBlock("skeleton_head",
+            new SkeletonHalfParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_CHEST = registerBlock("skeleton_chest",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_ARM = registerBlock("skeleton_arm",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_LEG = registerBlock("skeleton_leg",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_PELVIS = registerBlock("skeleton_pelvis",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_SPINE = registerBlock("skeleton_spine",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_TORSO = registerBlock("skeleton_torso",
+            new SkeletonParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_HALF_BODY = registerBlock("skeleton_half_body",
+            new SkeletonHalfParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_HEAD_STACK = registerBlock("skeleton_head_stack",
+            new SkeletonParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_ARMS_CROSS = registerBlock("skeleton_arms_cross",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_LEGS_CROSS = registerBlock("skeleton_legs_cross",
+            new SkeletonBoneParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
+    public static final Block SKELETON_LAYING = registerBlock("skeleton_laying",
+            new SkeletonHalfParts(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).allowsSpawning(Blocks::never).nonOpaque()));
 
 
 

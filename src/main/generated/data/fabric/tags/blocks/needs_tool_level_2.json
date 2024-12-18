@@ -48,6 +48,20 @@
     "dwarfadventuremod:dwarf_gold_end_stone_ore",
     "dwarfadventuremod:dwarf_gold_andesite_ore",
     "dwarfadventuremod:dwarf_gold_diorite_ore",
-    "dwarfadventuremod:dwarf_gold_granite_ore"
+    "dwarfadventuremod:dwarf_gold_granite_ore",
+    "dwarfadventuremod:skeleton_arm",
+    "dwarfadventuremod:skeleton_arms_cross",
+    "dwarfadventuremod:skeleton_leg",
+    "dwarfadventuremod:skeleton_legs_cross",
+    "dwarfadventuremod:skeleton_head",
+    "dwarfadventuremod:skeleton_half_body",
+    "dwarfadventuremod:skeleton_head_stack",
+    "dwarfadventuremod:skeleton_torso",
+    "dwarfadventuremod:skeleton_pelvis",
+    "dwarfadventuremod:skeleton_chest",
+    "dwarfadventuremod:skeleton_spine",
+    "dwarfadventuremod:skeleton_laying",
+    "dwarfadventuremod:skeleton_sitting",
+    "dwarfadventuremod:empty_brasier"
   ]
 }

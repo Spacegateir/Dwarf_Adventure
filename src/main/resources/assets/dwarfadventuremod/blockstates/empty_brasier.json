@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dwarfadventuremod:block/empty_brasier" },
+    "facing=east": { "model": "dwarfadventuremod:block/empty_brasier", "y": 90  },
+    "facing=south": { "model": "dwarfadventuremod:block/empty_brasier", "y": 180 },
+    "facing=west": { "model": "dwarfadventuremod:block/empty_brasier", "y": 270 }
+  }
+}

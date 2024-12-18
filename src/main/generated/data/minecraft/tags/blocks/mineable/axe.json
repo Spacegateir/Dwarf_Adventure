@@ -9,9 +9,6 @@
     "dwarfadventuremod:storage_create",
     "dwarfadventuremod:storage_create_small",
     "dwarfadventuremod:storage_create_large",
-    "dwarfadventuremod:storage_create_double",
-    "dwarfadventuremod:course_dirt_trap_block",
-    "dwarfadventuremod:stone_trap_block",
-    "dwarfadventuremod:deepslate_trap_block"
+    "dwarfadventuremod:storage_create_double"
   ]
 }

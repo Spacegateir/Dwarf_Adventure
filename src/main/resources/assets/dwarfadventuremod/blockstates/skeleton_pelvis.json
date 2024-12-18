@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "dwarfadventuremod:block/skeleton_pelvis" },
+    "facing=east": { "model": "dwarfadventuremod:block/skeleton_pelvis", "y": 90  },
+    "facing=south": { "model": "dwarfadventuremod:block/skeleton_pelvis", "y": 180 },
+    "facing=west": { "model": "dwarfadventuremod:block/skeleton_pelvis", "y": 270 }
+  }
+}

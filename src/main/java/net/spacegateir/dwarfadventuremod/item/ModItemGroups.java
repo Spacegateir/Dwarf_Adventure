@@ -687,6 +687,22 @@ public class ModItemGroups {
                         entries.add(ModBlocks.DWARF_GOLD_DOOR);
                         entries.add(ModBlocks.DWARF_GOLD_TRAPDOOR);
 
+                        entries.add(ModBlocks.EMPTY_BRASIER);
+
+                        entries.add(ModBlocks.SKELETON_SITTING);
+                        entries.add(ModBlocks.SKELETON_LAYING);
+                        entries.add(ModBlocks.SKELETON_HEAD);
+                        entries.add(ModBlocks.SKELETON_TORSO);
+                        entries.add(ModBlocks.SKELETON_ARM);
+                        entries.add(ModBlocks.SKELETON_ARMS_CROSS);
+                        entries.add(ModBlocks.SKELETON_LEG);
+                        entries.add(ModBlocks.SKELETON_LEGS_CROSS);
+                        entries.add(ModBlocks.SKELETON_HEAD_STACK);
+                        entries.add(ModBlocks.SKELETON_HALF_BODY);
+                        entries.add(ModBlocks.SKELETON_CHEST);
+                        entries.add(ModBlocks.SKELETON_PELVIS);
+                        entries.add(ModBlocks.SKELETON_SPINE);
+
                         entries.add(ModBlocks.CURSED_BLOCK);
                         entries.add(ModBlocks.COURSE_DIRT_TRAP_BLOCK);
                         entries.add(ModBlocks.STONE_TRAP_BLOCK);
@@ -703,6 +719,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.FROST_BITE_TRAP_BLOCK);
                         entries.add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK);
                         entries.add(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK);
+                        entries.add(ModBlocks.CURSED_BRASIER_TRAP_BLOCK);
 
                         entries.add(ModBlocks.SPEED_BLOCK);
                         entries.add(ModBlocks.SLOWNESS_BLOCK);

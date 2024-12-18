@@ -357,8 +357,20 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DWARF_GOLD_GRANITE_ORE)
 
                 .add(ModBlocks.CURSED_BLOCK)
+                .add(ModBlocks.CURSED_BRASIER_TRAP_BLOCK)
+                .add(ModBlocks.FROST_BITE_TRAP_BLOCK)
+                .add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK)
+                .add(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK)
                 .add(ModBlocks.FLAREFORGE_BLOCK)
                 .add(ModBlocks.NETHER_STEAM_VENT)
+                .add(ModBlocks.SPIRIT_JUMP_TRAP)
+                .add(ModBlocks.STONE_TRAP_BLOCK)
+                .add(ModBlocks.STONE_TRAP_BLOCK_SPIKES)
+                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
+                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK_SPIKES)
+                .add(ModBlocks.DEEPSLATE_TRAP_BLOCK)
+                .add(ModBlocks.DEEPSLATE_TRAP_BLOCK_SPIKES)
+                .add(ModBlocks.TELEPORT_TRAP_BLOCK)
 
                 .add(ModBlocks.SPEED_BLOCK)
                 .add(ModBlocks.SLOWNESS_BLOCK)
@@ -391,11 +403,31 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WATER_BREATHING_BLOCK)
                 .add(ModBlocks.WEAKNESS_BLOCK)
                 .add(ModBlocks.WITHER_BLOCK)
+                .add(ModBlocks.HEALTH_BOOST_BLOCK)
+                .add(ModBlocks.INSTANT_HEALTH_BLOCK)
+
                 .add(ModBlocks.STATUS_REMOVAL_BLOCK)
                 .add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK)
                 .add(ModBlocks.STATUS_REMOVAL_NEGATIVE_BLOCK)
                 .add(ModBlocks.STATUS_REMOVAL_POSITIVE_BLOCK)
+                .add(ModBlocks.DISORIENT_BLOCK)
+                .add(ModBlocks.STICKY_FEAT_BLOCK)
 
+                .add(ModBlocks.SKELETON_ARM)
+                .add(ModBlocks.SKELETON_ARMS_CROSS)
+                .add(ModBlocks.SKELETON_LEG)
+                .add(ModBlocks.SKELETON_LEGS_CROSS)
+                .add(ModBlocks.SKELETON_HEAD)
+                .add(ModBlocks.SKELETON_HALF_BODY)
+                .add(ModBlocks.SKELETON_HEAD_STACK)
+                .add(ModBlocks.SKELETON_TORSO)
+                .add(ModBlocks.SKELETON_PELVIS)
+                .add(ModBlocks.SKELETON_CHEST)
+                .add(ModBlocks.SKELETON_SPINE)
+                .add(ModBlocks.SKELETON_LAYING)
+                .add(ModBlocks.SKELETON_SITTING)
+
+                .add(ModBlocks.EMPTY_BRASIER)
 
 
 
@@ -414,11 +446,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.STORAGE_CREATE)
                 .add(ModBlocks.STORAGE_CREATE_SMALL)
                 .add(ModBlocks.STORAGE_CREATE_LARGE)
-                .add(ModBlocks.STORAGE_CREATE_DOUBLE)
-
-                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
-                .add(ModBlocks.STONE_TRAP_BLOCK)
-                .add(ModBlocks.DEEPSLATE_TRAP_BLOCK);
+                .add(ModBlocks.STORAGE_CREATE_DOUBLE);
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
 
@@ -486,7 +514,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DWARF_GOLD_END_STONE_ORE)
                 .add(ModBlocks.DWARF_GOLD_ANDESITE_ORE)
                 .add(ModBlocks.DWARF_GOLD_DIORITE_ORE)
-                .add(ModBlocks.DWARF_GOLD_GRANITE_ORE);
+                .add(ModBlocks.DWARF_GOLD_GRANITE_ORE)
+
+                .add(ModBlocks.SKELETON_ARM)
+                .add(ModBlocks.SKELETON_ARMS_CROSS)
+                .add(ModBlocks.SKELETON_LEG)
+                .add(ModBlocks.SKELETON_LEGS_CROSS)
+                .add(ModBlocks.SKELETON_HEAD)
+                .add(ModBlocks.SKELETON_HALF_BODY)
+                .add(ModBlocks.SKELETON_HEAD_STACK)
+                .add(ModBlocks.SKELETON_TORSO)
+                .add(ModBlocks.SKELETON_PELVIS)
+                .add(ModBlocks.SKELETON_CHEST)
+                .add(ModBlocks.SKELETON_SPINE)
+                .add(ModBlocks.SKELETON_LAYING)
+                .add(ModBlocks.SKELETON_SITTING)
+
+                .add(ModBlocks.EMPTY_BRASIER);
 
 
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric","needs_tool_level_3")))
@@ -695,16 +739,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.ORIKALKUM_WALL)
 
                 .add(ModBlocks.CURSED_BLOCK)
-                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
+                .add(ModBlocks.CURSED_BRASIER_TRAP_BLOCK)
+                .add(ModBlocks.FROST_BITE_TRAP_BLOCK)
+                .add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK)
+                .add(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK)
+                .add(ModBlocks.FLAREFORGE_BLOCK)
+                .add(ModBlocks.NETHER_STEAM_VENT)
+                .add(ModBlocks.SPIRIT_JUMP_TRAP)
                 .add(ModBlocks.STONE_TRAP_BLOCK)
+                .add(ModBlocks.STONE_TRAP_BLOCK_SPIKES)
+                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK)
+                .add(ModBlocks.COURSE_DIRT_TRAP_BLOCK_SPIKES)
                 .add(ModBlocks.DEEPSLATE_TRAP_BLOCK)
+                .add(ModBlocks.DEEPSLATE_TRAP_BLOCK_SPIKES)
+                .add(ModBlocks.TELEPORT_TRAP_BLOCK)
                 .add(ModBlocks.SAND_QUICKSAND)
                 .add(ModBlocks.RED_SAND_QUICKSAND)
                 .add(ModBlocks.GRAVEL_SINKSTONE)
                 .add(ModBlocks.MUD_SINKING_SLUDGE)
                 .add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND)
-                .add(ModBlocks.FLAREFORGE_BLOCK)
-                .add(ModBlocks.NETHER_STEAM_VENT)
 
                 .add(ModBlocks.SPEED_BLOCK)
                 .add(ModBlocks.SLOWNESS_BLOCK)
@@ -737,10 +790,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.WATER_BREATHING_BLOCK)
                 .add(ModBlocks.WEAKNESS_BLOCK)
                 .add(ModBlocks.WITHER_BLOCK)
+                .add(ModBlocks.HEALTH_BOOST_BLOCK)
+                .add(ModBlocks.INSTANT_HEALTH_BLOCK)
+
                 .add(ModBlocks.STATUS_REMOVAL_BLOCK)
                 .add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK)
                 .add(ModBlocks.STATUS_REMOVAL_NEGATIVE_BLOCK)
                 .add(ModBlocks.STATUS_REMOVAL_POSITIVE_BLOCK)
+                .add(ModBlocks.DISORIENT_BLOCK)
+                .add(ModBlocks.STICKY_FEAT_BLOCK)
 
 
 

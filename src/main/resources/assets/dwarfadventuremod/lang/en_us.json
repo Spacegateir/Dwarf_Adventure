@@ -728,6 +728,7 @@
   "block.dwarfadventuremod.frost_bite_trap_block": "Cursed Bifrost",
   "block.dwarfadventuremod.cursed_nausea_trap_block": "Cursed Fountain",
   "block.dwarfadventuremod.cursed_poison_spore_trap_block": "Cursed Poison Spore Trap",
+  "block.dwarfadventuremod.cursed_brasier_trap_block": "Cursed Brasier Trap",
 
   "block.dwarfadventuremod.speed_block": "Speed Artifact",
   "block.dwarfadventuremod.slowness_block": "Slowness Artifact",
@@ -771,6 +772,24 @@
   "block.dwarfadventuremod.status_removal_positive_block": "Status Removal Positive Artifact",
   "block.dwarfadventuremod.status_removal_neutral_block": "Status Removal Neutral Artifact",
 
+
+
+
+  "block.dwarfadventuremod.empty_brasier": "Brasier",
+
+  "block.dwarfadventuremod.skeleton_sitting": "Skeleton Sitting",
+  "block.dwarfadventuremod.skeleton_laying": "Skeleton Laying",
+  "block.dwarfadventuremod.skeleton_arm": "Skeleton Arm",
+  "block.dwarfadventuremod.skeleton_arms_cross": "Skeleton Arms",
+  "block.dwarfadventuremod.skeleton_leg": "Skeleton Leg",
+  "block.dwarfadventuremod.skeleton_legs_cross": "Skeleton Legs",
+  "block.dwarfadventuremod.skeleton_head": "Skeleton Head",
+  "block.dwarfadventuremod.skeleton_head_stack": "Skeleton Stack of Heads",
+  "block.dwarfadventuremod.skeleton_chest": "Skeleton Chest",
+  "block.dwarfadventuremod.skeleton_pelvis": "Skeleton Pelvis",
+  "block.dwarfadventuremod.skeleton_spine": "Skeleton spine",
+  "block.dwarfadventuremod.skeleton_torso": "Skeleton Torso",
+  "block.dwarfadventuremod.skeleton_half_body": "Skeleton Half Body",
 
 
 
