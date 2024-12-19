@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "dwarfadventuremod:ancestral_forge_coal"
+    },
+    "G": {
+      "item": "dwarfadventuremod:raw_dwarf_gold"
+    },
+    "S": {
+      "item": "dwarfadventuremod:dwarf_steel_ingot"
+    }
+  },
+  "pattern": [
+    "SCS",
+    "SSS",
+    "G G"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:empty_brasier"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "H": {
+      "item": "dwarfadventuremod:skeleton_head"
+    }
+  },
+  "pattern": [
+    "HHH"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:skeleton_head_stack"
+  },
+  "show_notification": true
+}

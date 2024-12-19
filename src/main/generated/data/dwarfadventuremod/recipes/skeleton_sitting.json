@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:skeleton_arm"
+    },
+    "H": {
+      "item": "dwarfadventuremod:skeleton_head"
+    },
+    "L": {
+      "item": "dwarfadventuremod:skeleton_leg"
+    },
+    "T": {
+      "item": "dwarfadventuremod:skeleton_torso"
+    }
+  },
+  "pattern": [
+    " H ",
+    "ATA",
+    "L L"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:skeleton_sitting"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "dwarfadventuremod:skeleton_chest"
+    },
+    "P": {
+      "item": "dwarfadventuremod:skeleton_pelvis"
+    },
+    "S": {
+      "item": "dwarfadventuremod:skeleton_spine"
+    }
+  },
+  "pattern": [
+    " C ",
+    " S ",
+    " P "
+  ],
+  "result": {
+    "item": "dwarfadventuremod:skeleton_torso"
+  },
+  "show_notification": true
+}

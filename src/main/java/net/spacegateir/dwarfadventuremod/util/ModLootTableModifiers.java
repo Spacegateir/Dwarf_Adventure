@@ -22,6 +22,8 @@ public class ModLootTableModifiers {
             new Identifier("minecraft","chests/buried_treasure");
     private static final Identifier ZOMBIE_ID =
             new Identifier("minecraft","entities/zombie");
+    private static final Identifier SKELETON_ID =
+            new Identifier("minecraft","entities/skeleton");
     private static final Identifier ZOMBIE_VILLAGER_ID =
             new Identifier("minecraft","entities/zombie_villager");
     private static final Identifier IRON_GOLEM_ID =
@@ -75,6 +77,35 @@ public class ModLootTableModifiers {
                         .conditionally(RandomChanceLootCondition.builder(0.025f)) // Drops 2.5% of the time
                         .conditionally(KilledByPlayerLootCondition.builder().build()) // Only drops when killed by player
                         .with(ItemEntry.builder(ModItems.CORRUPT_GEM))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (SKELETON_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.1f)) // Drops 10% of the time
+                        .conditionally(KilledByPlayerLootCondition.builder().build()) // Only drops when killed by player
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_HEAD))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_ARM))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_LEG))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_SPINE))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_PELVIS))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_CHEST))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+            }
+
+            if (SKELETON_ID.equals(id)) {
+                LootPool.Builder poolBuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.01f)) // Drops 1% of the time
+                        .conditionally(KilledByPlayerLootCondition.builder().build()) // Only drops when killed by player
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_TORSO))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_ARMS_CROSS))
+                        .with(ItemEntry.builder(ModBlocks.SKELETON_LEGS_CROSS))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());

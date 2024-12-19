@@ -64,6 +64,8 @@ public class ModBlocks {
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.BRICKS).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block NETHER_STEAM_VENT = registerBlock("nether_steam_vent",
             new FlareforgeBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
+    public static final Block CURSED_TOTEM_BLOCK = registerBlock("cursed_totem_block",
+            new WonderingTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).nonOpaque().resistance(50.0F).hardness(50.0F)));
     public static final Block TELEPORT_TRAP_BLOCK = registerBlock("teleport_trap_block",
             new TeleportTrapBlock(FabricBlockSettings.copyOf(Blocks.NETHERRACK).allowsSpawning(Blocks::never).resistance(50.0F).hardness(50.0F)));
     public static final Block FROST_BITE_TRAP_BLOCK = registerBlock("frost_bite_trap_block",

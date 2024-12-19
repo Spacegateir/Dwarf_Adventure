@@ -720,6 +720,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK);
                         entries.add(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK);
                         entries.add(ModBlocks.CURSED_BRASIER_TRAP_BLOCK);
+                        entries.add(ModBlocks.CURSED_TOTEM_BLOCK);
 
                         entries.add(ModBlocks.SPEED_BLOCK);
                         entries.add(ModBlocks.SLOWNESS_BLOCK);

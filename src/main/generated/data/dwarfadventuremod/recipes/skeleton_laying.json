@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:skeleton_arms_cross"
+    },
+    "H": {
+      "item": "dwarfadventuremod:skeleton_head"
+    },
+    "L": {
+      "item": "dwarfadventuremod:skeleton_legs_cross"
+    },
+    "T": {
+      "item": "dwarfadventuremod:skeleton_torso"
+    }
+  },
+  "pattern": [
+    " A ",
+    "HTL"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:skeleton_laying"
+  },
+  "show_notification": true
+}

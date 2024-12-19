@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:skeleton_leg"
+    }
+  },
+  "pattern": [
+    "AA"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:skeleton_legs_cross"
+  },
+  "show_notification": true
+}

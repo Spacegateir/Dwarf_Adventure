@@ -371,6 +371,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.DEEPSLATE_TRAP_BLOCK)
                 .add(ModBlocks.DEEPSLATE_TRAP_BLOCK_SPIKES)
                 .add(ModBlocks.TELEPORT_TRAP_BLOCK)
+                .add(ModBlocks.CURSED_TOTEM_BLOCK)
 
                 .add(ModBlocks.SPEED_BLOCK)
                 .add(ModBlocks.SLOWNESS_BLOCK)
@@ -758,6 +759,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.GRAVEL_SINKSTONE)
                 .add(ModBlocks.MUD_SINKING_SLUDGE)
                 .add(ModBlocks.SOUL_SAND_PHANTOM_QUICKSAND)
+                .add(ModBlocks.CURSED_TOTEM_BLOCK)
 
                 .add(ModBlocks.SPEED_BLOCK)
                 .add(ModBlocks.SLOWNESS_BLOCK)

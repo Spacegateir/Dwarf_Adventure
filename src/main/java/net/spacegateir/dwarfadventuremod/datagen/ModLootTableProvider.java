@@ -52,7 +52,8 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.CURSED_POISON_SPORE_TRAP_BLOCK);
         addDrop(ModBlocks.CURSED_NAUSEA_TRAP_BLOCK);
         addDrop(ModBlocks.SPIRIT_JUMP_TRAP);
-        addDrop(ModBlocks.SPIRIT_JUMP_TRAP);
+        addDrop(ModBlocks.SPIRIT_JUMP_TRAP_BLOCK);
+        addDrop(ModBlocks.CURSED_TOTEM_BLOCK);
 
 
         addDrop(ModBlocks.SPEED_BLOCK);

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "dwarfadventuremod:skeleton_arm"
+    },
+    "H": {
+      "item": "dwarfadventuremod:skeleton_head"
+    },
+    "L": {
+      "item": "dwarfadventuremod:skeleton_leg"
+    }
+  },
+  "pattern": [
+    "HAL"
+  ],
+  "result": {
+    "item": "dwarfadventuremod:skeleton_half_body"
+  },
+  "show_notification": true
+}
