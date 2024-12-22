@@ -6,7 +6,5 @@ public class TestBlock extends Block {
 
     public TestBlock(Settings settings) {
         super(settings);
-
-
     }
 }

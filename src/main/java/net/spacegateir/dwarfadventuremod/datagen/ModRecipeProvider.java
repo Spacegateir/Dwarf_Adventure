@@ -16,6 +16,7 @@ import net.minecraft.recipe.ShapedRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.item.ModItems;
@@ -5671,6 +5672,8 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('L', ModBlocks.SKELETON_LEG)
                 .criterion("has_skeleton_head", conditionsFromItem(ModBlocks.SKELETON_HEAD))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SKELETON_HALF_BODY)));
+
+
 
 
 
