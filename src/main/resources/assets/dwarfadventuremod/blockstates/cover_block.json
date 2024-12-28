@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=north": { "model": "dwarfadventuremod:block/cover_block_n", "x": 0,"y": 0,"z": 0 },
+    "facing=south": { "model": "dwarfadventuremod:block/cover_block_s", "x": 0,"y": 0,"z": 0 },
+    "facing=east": { "model": "dwarfadventuremod:block/cover_block_e", "x": 0,"y": 0,"z": 0 },
+    "facing=west": { "model": "dwarfadventuremod:block/cover_block_w", "x": 0,"y": 0,"z": 0 },
+    "facing=up": { "model": "dwarfadventuremod:block/cover_block_t", "x": 0,"y": 0,"z": 0 },
+    "facing=down": { "model": "dwarfadventuremod:block/cover_block_b", "x": 0,"y": 0,"z": 0 }
+  }
+}

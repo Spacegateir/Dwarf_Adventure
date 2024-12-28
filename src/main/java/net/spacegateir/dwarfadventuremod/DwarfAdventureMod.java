@@ -7,6 +7,7 @@ import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.item.ItemStack;
 import net.spacegateir.dwarfadventuremod.AncientFlowerConversions.*;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
+import net.spacegateir.dwarfadventuremod.block.entity.ModBlockEntities;
 import net.spacegateir.dwarfadventuremod.effect.ModEffects;
 import net.spacegateir.dwarfadventuremod.enchantment.ModEnchantments;
 import net.spacegateir.dwarfadventuremod.enchantment.VeinMinerEnchantment;
@@ -38,6 +39,7 @@ public class DwarfAdventureMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
+		ModBlockEntities.registerBlockEntities();
 
 		ModCustomTrades.registerCustomTrades();
 		ModLibarianTradeModifications.registerLibarianModifications();

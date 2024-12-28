@@ -765,6 +765,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.STATUS_REMOVAL_NEUTRAL_BLOCK);
 
                         entries.add(ModBlocks.POWER_PRECISION_BLOCK);
+                        entries.add(ModBlocks.COVER_BLOCK);
 
 
 
