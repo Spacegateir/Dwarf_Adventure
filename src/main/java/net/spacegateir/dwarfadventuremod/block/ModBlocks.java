@@ -30,8 +30,6 @@ public class ModBlocks {
     public static final Block POWER_PRECISION_BLOCK = registerBlock("power_precision_block_0",
             new PowerPrecisionBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(50.0F).hardness(50.0F)));
 
-    public static final Block COVER_BLOCK = registerBlock("cover_block",
-            new CoverBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).resistance(0.0F).hardness(0.0F).nonOpaque()));
 
 
     public static final Block CURSED_BLOCK = registerBlock("cursed_block",

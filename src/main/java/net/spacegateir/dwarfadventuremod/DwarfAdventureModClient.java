@@ -4,13 +4,9 @@ import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
-import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
 import net.minecraft.client.render.RenderLayer;
 import net.spacegateir.dwarfadventuremod.block.ModBlocks;
 import net.spacegateir.dwarfadventuremod.util.ModModelPredicates;
-import net.spacegateir.dwarfadventuremod.util.renderer.CoverBlockEntityRenderer;
-
-import static net.spacegateir.dwarfadventuremod.block.entity.ModBlockEntities.COVER_BLOCK_BE;
 
 @Environment(EnvType.CLIENT)
 public class DwarfAdventureModClient implements ClientModInitializer {
@@ -18,7 +14,6 @@ public class DwarfAdventureModClient implements ClientModInitializer {
     public void onInitializeClient() {
 
         ModModelPredicates.registerModelPredicates();
-        BlockEntityRendererRegistry.register(COVER_BLOCK_BE, CoverBlockEntityRenderer::new);
 
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SNOW_DROP_FLOWER_BLOCK, RenderLayer.getCutout());
@@ -240,7 +235,6 @@ public class DwarfAdventureModClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKELETON_HALF_BODY, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SKELETON_TORSO, RenderLayer.getCutout());
 
-        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.COVER_BLOCK, RenderLayer.getCutout());
 
 
 
